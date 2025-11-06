@@ -5,3 +5,8 @@
 # Yahoo OAuth tokens
 oauth2.json
 oauth2.json.bak
+
+# Python cache
+__pycache__/
+*/__pycache__/
+**/__pycache__/
