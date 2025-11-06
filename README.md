@@ -4,7 +4,7 @@ An advanced machine learning system for fantasy baseball optimization that combi
 
 ## Project Overview
 
-This project uses MLB's official Stats API, machine learning models (XGBoost), weather prediction, and multi-factor analysis to help you make informed decisions about your fantasy baseball lineup. The system analyzes twelve key factors to determine optimal start/sit decisions:
+This project uses MLB's official Stats API, machine learning models (XGBoost), weather prediction, and multi-factor analysis to help you make informed decisions about your fantasy baseball lineup. The system analyzes thirteen key factors to determine optimal start/sit decisions:
 
 1. **Wind Analysis** - How weather conditions affect pitcher/hitter performance
 2. **Historical Matchup Performance** - Player vs. opponent track record
@@ -18,8 +18,9 @@ This project uses MLB's official Stats API, machine learning models (XGBoost), w
 10. **Park Factors** - How ballpark characteristics affect offensive/pitching stats
 11. **Lineup Position** - Impact of batting order position on fantasy opportunities
 12. **Time of Day** - How day/night/twilight games affect player performance
+13. **Defensive Positions** - Team defensive quality and matchups
 
-**More analysis factors coming soon!**
+**🆕 Automated Weight Tuning:** The system backtests predictions against 3+ years of historical data to optimize factor weights for each player on your roster!
 
 ## Installation
 
@@ -129,24 +130,33 @@ Shows:
 
 ---
 
-## 🎯 Twelve-Factor Analysis System
+## 🎯 Thirteen-Factor Analysis System
 
 The heart of this project is a sophisticated multi-factor analysis that evaluates every player on your roster for optimal start/sit decisions. Each factor is weighted and combined to produce actionable recommendations.
 
-For detailed documentation on each factor analysis module, see [src/scripts/fa/README.md](src/scripts/fa/README.md)
+**🆕 NEW: Automated Weight Tuning** - The system can now analyze 3+ years of historical data to optimize factor weights for each player on your roster!
+
+For detailed documentation on each factor analysis module, see [docs/FACTOR_ANALYSIS_FA.md](docs/FACTOR_ANALYSIS_FA.md)
 
 ### Quick Overview
 
-| Factor | Weight | What It Measures |
-|--------|--------|------------------|
-| **🌪️ Wind Analysis** | 15% | How weather conditions affect pitcher/hitter performance |
-| **📊 Historical Matchup** | 20% | Player vs. opponent track record |
-| **🏠 Home/Away Venue** | 15% | Player performance by location |
-| **😴 Rest Day Impacts** | 13% | How days of rest affect performance |
-| **🩹 Injury/Recovery** | 13% | Post-injury performance monitoring |
-| **⚾ Umpire Strike Zone** | 12% | How home plate umpire affects success |
-| **↔️ Platoon Advantages** | 12% | Left-handed vs. right-handed matchup optimization |
-| **🏟️ Park Factors** | 10% | How ballpark characteristics affect stats |
+| Factor | Default Weight | What It Measures |
+|--------|----------------|------------------|
+| **🌪️ Wind Analysis** | 10% | How weather conditions affect pitcher/hitter performance |
+| **📊 Historical Matchup** | 15% | Player vs. opponent track record |
+| **🏠 Home/Away Venue** | 12% | Player performance by location |
+| **😴 Rest Day Impacts** | 8% | How days of rest affect performance |
+| **🩹 Injury/Recovery** | 12% | Post-injury performance monitoring |
+| **⚾ Umpire Strike Zone** | 5% | How home plate umpire affects success |
+| **↔️ Platoon Advantages** | 10% | Left-handed vs. right-handed matchup optimization |
+| **🌡️ Temperature** | 5% | Temperature effects on ball flight and player performance |
+| **🎯 Pitch Mix** | 5% | Pitcher types vs. batter strengths |
+| **🏟️ Park Factors** | 8% | How ballpark characteristics affect stats |
+| **📋 Lineup Position** | 5% | Impact of batting order on opportunities |
+| **🕐 Time of Day** | 3% | Day/night/twilight game performance |
+| **🛡️ Defensive Positions** | 2% | Team defensive quality and matchups |
+
+**Note:** Weights can be customized per player using the automated weight tuning system!
 
 ### Combined Scoring Formula
 
@@ -190,6 +200,87 @@ FINAL_SCORE = (
 
 - **Pitcher Quality:** Facing ace vs. rookie starter
 - **Recent Form:** Last 7/14/30 day performance trends
+
+---
+
+## 🎛️ Automated Weight Tuning System
+
+The Fantasy Baseball AI includes an advanced **backtesting and weight optimization** system that analyzes historical game data from 2022 onwards to find the optimal factor weights for each player on your roster.
+
+### Why Tune Weights?
+
+Not all players respond the same way to different factors. For example:
+- **Power hitters** may be more affected by wind (20% vs. 10% default)
+- **Contact hitters** may rely more on matchup history (18% vs. 15% default)
+- **Streaky players** may weight temperature higher (8% vs. 5% default)
+
+### Quick Start
+
+**Backtest your entire roster:**
+```bash
+python src/scripts/backtest_weights.py
+```
+
+**Optimize weights for best performance:**
+```bash
+python src/scripts/backtest_weights.py --optimize --save
+```
+
+**Optimize a specific player:**
+```bash
+python src/scripts/backtest_weights.py --player "Shohei Ohtani" --optimize --save
+```
+
+### How It Works
+
+1. **Loads Historical Data:** Analyzes 3+ years of game data (2022-present)
+2. **Calculates Predictions:** For each historical game, computes factor scores using current weights
+3. **Compares to Actual Performance:** Matches predictions against actual fantasy points scored
+4. **Optimizes Weights:** Uses differential evolution to find weight combination with highest accuracy
+5. **Saves Configuration:** Stores player-specific weights in `config/player_weights.json`
+
+### Performance Metrics
+
+The system measures prediction accuracy using:
+- **Correlation:** How well predictions match actual performance (-1 to +1, higher is better)
+- **MAE (Mean Absolute Error):** Average prediction error (lower is better)
+- **RMSE (Root Mean Square Error):** Weighted prediction error (lower is better)
+
+**Good Performance:**
+- Correlation > 0.5 (Good predictive power)
+- Correlation > 0.7 (Excellent predictions)
+- MAE < 0.5 (Low average error)
+
+### Managing Weights
+
+**View current weights:**
+```bash
+python src/scripts/weight_config.py --show                    # Global defaults
+python src/scripts/weight_config.py --show --player "Ohtani"  # Player-specific
+python src/scripts/weight_config.py --list                    # All custom weights
+```
+
+**Reset weights:**
+```bash
+python src/scripts/weight_config.py --reset --player "Ohtani"  # Reset one player
+```
+
+### When to Retune
+
+Re-run optimization when:
+- **New season starts** (player tendencies change)
+- **Player changes teams** (different park, lineup)
+- **After 20+ games** into season (more data available)
+- **Player coming off injury** (performance patterns shift)
+
+### Integration
+
+The system automatically loads appropriate weights when running analysis:
+1. Checks for player-specific weights in `config/player_weights.json`
+2. Falls back to global weights in `config/factor_weights.json`
+3. Uses default weights if no config exists
+
+For detailed documentation, see [docs/FACTOR_ANALYSIS_FA.md](docs/FACTOR_ANALYSIS_FA.md#weight-tuning--backtesting)
 
 ---
 
@@ -251,7 +342,8 @@ data/
 
 For detailed technical documentation:
 - **Scrapers:** See [src/scripts/scrape/README.md](src/scripts/scrape/README.md)
-- **Factor Analysis:** See [src/scripts/fa/README.md](src/scripts/fa/README.md)
+- **Factor Analysis:** See [docs/FACTOR_ANALYSIS_FA.md](docs/FACTOR_ANALYSIS_FA.md)
+- **Weight Tuning:** See [docs/FACTOR_ANALYSIS_FA.md#weight-tuning--backtesting](docs/FACTOR_ANALYSIS_FA.md#weight-tuning--backtesting)
 
 ### Quick Overview
 

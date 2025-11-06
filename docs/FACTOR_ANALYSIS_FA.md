@@ -925,6 +925,204 @@ Impact: More hits expected vs poor defensive team
 
 ---
 
+## Weight Tuning & Backtesting
+
+The Fantasy Baseball AI system includes an advanced **weight tuning system** that optimizes factor analysis weights based on historical performance data. This allows you to customize recommendations for each player on your roster.
+
+### Overview
+
+Each factor analysis has a **weight** (e.g., wind = 10%, matchup = 15%) that determines its influence on the final sit/start recommendation. The weight tuning system:
+
+1. **Backtests** predictions against actual game results from 2022 onwards
+2. **Optimizes** weights using differential evolution algorithm
+3. **Personalizes** weights for each player on your roster
+4. **Validates** using correlation, MAE, and RMSE metrics
+
+### Default Weights
+
+```python
+DEFAULT_WEIGHTS = {
+    'wind': 0.10,                    # 10%
+    'matchup': 0.15,                 # 15%
+    'home_away': 0.12,               # 12%
+    'platoon': 0.10,                 # 10%
+    'park_factors': 0.08,            # 8%
+    'rest_day': 0.08,                # 8%
+    'injury': 0.12,                  # 12%
+    'umpire': 0.05,                  # 5%
+    'temperature': 0.05,             # 5%
+    'pitch_mix': 0.05,               # 5%
+    'lineup_position': 0.05,         # 5%
+    'time_of_day': 0.03,             # 3%
+    'defensive_positions': 0.02      # 2%
+}
+# Total: 100%
+```
+
+### Running Backtests
+
+**Backtest entire roster:**
+```bash
+python src/scripts/backtest_weights.py
+```
+
+**Backtest specific player:**
+```bash
+python src/scripts/backtest_weights.py --player "Shohei Ohtani"
+```
+
+**Optimize weights (uses historical data to find best weights):**
+```bash
+python src/scripts/backtest_weights.py --optimize
+```
+
+**Optimize and save to config:**
+```bash
+python src/scripts/backtest_weights.py --optimize --save
+```
+
+### How Backtesting Works
+
+1. **Load Historical Data:** Pulls all game data from 2022 to present (3+ years)
+2. **Calculate Predictions:** For each historical game, calculates composite score using current weights
+3. **Compare to Actuals:** Compares predictions to actual fantasy points scored
+4. **Measure Accuracy:** 
+   - **Correlation:** How well predictions match actual performance (-1 to +1)
+   - **MAE (Mean Absolute Error):** Average prediction error
+   - **RMSE (Root Mean Square Error):** Weighted prediction error
+
+### Weight Optimization
+
+The optimization process uses **Differential Evolution**, a genetic algorithm that:
+
+1. Tests thousands of weight combinations
+2. Finds the combination that maximizes prediction accuracy
+3. Normalizes weights to sum to 100%
+4. Saves player-specific configurations
+
+**Optimization takes 2-5 minutes per player** depending on game history.
+
+### Managing Weights
+
+**View global weights:**
+```bash
+python src/scripts/weight_config.py --show
+```
+
+**View player-specific weights:**
+```bash
+python src/scripts/weight_config.py --show --player "Mike Trout"
+```
+
+**List players with custom weights:**
+```bash
+python src/scripts/weight_config.py --list
+```
+
+**Reset player to default weights:**
+```bash
+python src/scripts/weight_config.py --reset --player "Mike Trout"
+```
+
+### Weight Storage
+
+Weights are stored in JSON configuration files:
+
+- **Global weights:** `config/factor_weights.json`
+- **Player-specific weights:** `config/player_weights.json`
+
+### Example Output
+
+```
+=======================================================================
+Backtesting: Shohei Ohtani
+=======================================================================
+Found 143 games for Shohei Ohtani
+
+✓ Analyzed 143 games
+  Accuracy (correlation): 0.723
+  MAE: 0.342
+  RMSE: 0.456
+
+=======================================================================
+OPTIMIZED WEIGHTS
+=======================================================================
+
+Shohei Ohtani:
+  matchup                  : 0.1842
+  platoon                  : 0.1523
+  wind                     : 0.1201
+  home_away                : 0.1145
+  injury                   : 0.0987
+  park_factors             : 0.0876
+  rest_day                 : 0.0765
+  temperature              : 0.0543
+  lineup_position          : 0.0421
+  pitch_mix                : 0.0389
+  umpire                   : 0.0198
+  time_of_day              : 0.0087
+  defensive_positions      : 0.0023
+```
+
+### When to Retune Weights
+
+Re-run optimization when:
+
+- **New season starts** (player tendencies change)
+- **Player changes teams** (different park, lineup)
+- **After 20+ games** into season (more data available)
+- **Player coming off injury** (performance patterns shift)
+- **New factors added** to the system
+
+### Integration with fb_ai.py
+
+The main system automatically loads appropriate weights:
+
+1. Checks for player-specific weights in `config/player_weights.json`
+2. Falls back to global weights in `config/factor_weights.json`
+3. Uses default weights if no config exists
+
+No manual configuration needed—just run the backtest with `--save` flag!
+
+### Best Practices
+
+✅ **DO:**
+- Run full backtest early in season (Week 2-3)
+- Optimize weights mid-season after ~40 games
+- Use player-specific weights for your core roster
+- Re-optimize after major roster changes
+
+❌ **DON'T:**
+- Over-optimize with limited data (need 30+ games minimum)
+- Tune weights daily (weekly or bi-weekly is sufficient)
+- Ignore poor accuracy scores (< 0.3 correlation means factor doesn't work for that player)
+- Use another player's weights without testing
+
+### Technical Details
+
+**Objective Function:**
+```python
+def objective(weights):
+    predictions = calculate_predictions(games, weights)
+    actuals = get_actual_fantasy_points(games)
+    return -correlation(predictions, actuals)  # Minimize negative correlation
+```
+
+**Optimization Constraints:**
+- Each weight: 0.0 to 0.3 (0% to 30%)
+- Weights normalized to sum to 1.0
+- Differential evolution population: 10
+- Max iterations: 20 (adjustable)
+
+**Performance Metrics:**
+- **Correlation > 0.5:** Good predictive power
+- **Correlation > 0.7:** Excellent predictions
+- **Correlation < 0.3:** Factor not useful for this player
+- **MAE < 0.5:** Low average error
+- **RMSE < 0.6:** Consistent predictions
+
+---
+
 ## Development Guidelines
 
 ### Adding a New Factor
