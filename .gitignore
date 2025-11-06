@@ -1,0 +1,7 @@
+
+# Environment variables
+.env
+
+# Yahoo OAuth tokens
+oauth2.json
+oauth2.json.bak

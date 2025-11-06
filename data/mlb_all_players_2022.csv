@@ -1,0 +1,1678 @@
+player_id,player_name,team_id,team_name,season,jersey_number,position,position_type,status
+642758,Domingo Acevedo,133,Athletics,2022,68,Pitcher,Pitcher,Active
+664119,Austin Allen,133,Athletics,2022,30,Catcher,Catcher,Traded
+669397,Nick Allen,133,Athletics,2022,2,Shortstop,Infielder,Active
+462101,Elvis Andrus,133,Athletics,2022,17,Shortstop,Infielder,Released
+642456,Luis Barrera,133,Athletics,2022,13,Outfielder,Outfielder,Minor League Contract
+542194,Christian Bethancourt,133,Athletics,2022,23,First Base,Infielder,Traded
+621112,Paul Blackburn,133,Athletics,2022,58,Pitcher,Pitcher,Injured 60-Day
+621450,Skye Bolt,133,Athletics,2022,11,Outfielder,Outfielder,Minor League Contract
+681146,Jonah Bride,133,Athletics,2022,77,Second Base,Infielder,Active
+664913,Seth Brown,133,Athletics,2022,15,Outfielder,Outfielder,Active
+668843,Conner Capel,133,Athletics,2022,,Outfielder,Outfielder,Reassigned to Minors
+624418,Ryan Castellani,133,Athletics,2022,38,Pitcher,Pitcher,Minor League Contract
+676391,Ernie Clement,133,Athletics,2022,44,Third Base,Infielder,Active
+664202,Tyler Cyr,133,Athletics,2022,57,Pitcher,Pitcher,Active
+571602,Matt Davidson,133,Athletics,2022,4,Third Base,Infielder,Minor League Contract
+672478,Jordan Diaz,133,Athletics,2022,75,Third Base,Infielder,Reassigned to Minors
+660650,Dérmis Garcia,133,Athletics,2022,76,First Base,Infielder,Reassigned to Minors
+518748,Justin Grimm,133,Athletics,2022,46,Pitcher,Pitcher,Released
+608344,Cole Irvin,133,Athletics,2022,19,Pitcher,Pitcher,Active
+623515,Drew Jackson,133,Athletics,2022,37,Second Base,Infielder,Minor League Contract
+667427,Zach Jackson,133,Athletics,2022,61,Pitcher,Pitcher,Active
+641726,Daulton Jefferies,133,Athletics,2022,66,Pitcher,Pitcher,Injured 60-Day
+666204,Dany Jiménez,133,Athletics,2022,56,Pitcher,Pitcher,Injured 60-Day
+621076,James Kaprielian,133,Athletics,2022,32,Pitcher,Pitcher,Active
+643393,Tony Kemp,133,Athletics,2022,5,Second Base,Infielder,Active
+657649,Jared Koenig,133,Athletics,2022,46,Pitcher,Pitcher,Active
+592473,Adam Kolarek,133,Athletics,2022,57,Pitcher,Pitcher,Designated for Assignment
+669127,Shea Langeliers,133,Athletics,2022,23,Catcher,Catcher,Active
+657656,Ramón Laureano,133,Athletics,2022,22,Outfielder,Outfielder,Active
+621082,Jacob Lemoine,133,Athletics,2022,71,Pitcher,Pitcher,Assigned to New Team/Level
+656657,Zach Logue,133,Athletics,2022,67,Pitcher,Pitcher,Active
+547173,Christian Lopes,133,Athletics,2022,49,Second Base,Infielder,Minor League Contract
+476704,Jed Lowrie,133,Athletics,2022,8,Second Base,Infielder,Released
+676950,David MacKinnon,133,Athletics,2022,49,First Base,Infielder,Active
+605353,Vimael Machín,133,Athletics,2022,31,Second Base,Infielder,Active
+571917,Parker Markel,133,Athletics,2022,44,Pitcher,Pitcher,Claimed
+661309,Adrián Martínez,133,Athletics,2022,55,Pitcher,Pitcher,Active
+676782,Mickey McDonald,133,Athletics,2022,79,Outfielder,Outfielder,Minor League Contract
+641853,David McKay,133,Athletics,2022,44,Pitcher,Pitcher,Released
+641856,Billy McKinney,133,Athletics,2022,28,Outfield,Outfielder,Minor League Contract
+594580,Sam Moll,133,Athletics,2022,60,Pitcher,Pitcher,Active
+670148,Nate Mondou,133,Athletics,2022,53,Second Base,Infielder,Minor League Contract
+593423,Frankie Montas,133,Athletics,2022,47,Pitcher,Pitcher,Traded
+669221,Sean Murphy,133,Athletics,2022,12,Catcher,Catcher,Active
+641914,Sheldon Neuse,133,Athletics,2022,26,Third Base,Infielder,Minor League Contract
+670124,Adam Oller,133,Athletics,2022,36,Pitcher,Pitcher,Active
+665506,Cristian Pache,133,Athletics,2022,20,Outfielder,Outfielder,Active
+606303,Joel Payamps,133,Athletics,2022,30,Pitcher,Pitcher,Active
+640461,Chad Pinder,133,Athletics,2022,10,Outfielder,Outfielder,Active
+572039,Stephen Piscotty,133,Athletics,2022,25,Outfielder,Outfielder,Released
+643493,Austin Pruitt,133,Athletics,2022,29,Pitcher,Pitcher,Minor League Contract
+640462,A.J. Puk,133,Athletics,2022,33,Pitcher,Pitcher,Active
+650204,Norge Ruiz,133,Athletics,2022,63,Pitcher,Pitcher,Minor League Contract
+676664,JP Sears,133,Athletics,2022,38,Pitcher,Pitcher,Active
+572125,Sam Selman,133,Athletics,2022,40,Pitcher,Pitcher,Minor League Contract
+675656,Kevin Smith,133,Athletics,2022,4,Third Base,Infielder,Active
+669912,Kirby Snead,133,Athletics,2022,54,Pitcher,Pitcher,Active
+670276,Cal Stevenson,133,Athletics,2022,37,Outfielder,Outfielder,Active
+593619,Domingo Tapia,133,Athletics,2022,50,Pitcher,Pitcher,Minor League Contract
+642137,Cody Thomas,133,Athletics,2022,48,Outfielder,Outfielder,Active
+642152,Lou Trivino,133,Athletics,2022,62,Pitcher,Pitcher,Traded
+519390,Stephen Vogt,133,Athletics,2022,21,Designated Hitter,Hitter,Active
+686610,Ken Waldichuk,133,Athletics,2022,,Pitcher,Pitcher,Minor League Contract
+621079,Collin Wiles,133,Athletics,2022,39,Pitcher,Pitcher,Minor League Contract
+546990,Anthony Alford,134,Pittsburgh Pirates,2022,6,Outfielder,Outfielder,Minor League Contract
+682027,Cam Alldred,134,Pittsburgh Pirates,2022,63,Pitcher,Pitcher,Minor League Contract
+656185,Greg Allen,134,Pittsburgh Pirates,2022,24,Outfielder,Outfielder,Minor League Contract
+609280,Miguel Andujar,134,Pittsburgh Pirates,2022,26,Outfielder,Outfielder,Active
+607455,Anthony Banda,134,Pittsburgh Pirates,2022,52,Pitcher,Pitcher,Traded
+544365,Manny Bañuelos,134,Pittsburgh Pirates,2022,53,Pitcher,Pitcher,Active
+670280,David Bednar,134,Pittsburgh Pirates,2022,51,Pitcher,Pitcher,Active
+595881,Tyler Beede,134,Pittsburgh Pirates,2022,48,Pitcher,Pitcher,Minor League Contract
+592169,Austin Brice,134,Pittsburgh Pirates,2022,72,Pitcher,Pitcher,Minor League Contract
+664141,JT Brubaker,134,Pittsburgh Pirates,2022,34,Pitcher,Pitcher,Active
+660636,Diego Castillo,134,Pittsburgh Pirates,2022,64,Shortstop,Infielder,Active
+666801,Rodolfo Castro,134,Pittsburgh Pirates,2022,14,Shortstop,Infielder,Active
+644374,Yu Chang,134,Pittsburgh Pirates,2022,6,Second Base,Infielder,Claimed
+656308,Michael Chavis,134,Pittsburgh Pirates,2022,2,First Base,Infielder,Minor League Contract
+641470,Zack Collins,134,Pittsburgh Pirates,2022,6,Catcher,Catcher,Active
+672710,Roansy Contreras,134,Pittsburgh Pirates,2022,59,Pitcher,Pitcher,Active
+640444,Wil Crowe,134,Pittsburgh Pirates,2022,29,Pitcher,Pitcher,Active
+665833,Oneil Cruz,134,Pittsburgh Pirates,2022,15,Shortstop,Infielder,Active
+608328,Chase De Jong,134,Pittsburgh Pirates,2022,37,Pitcher,Pitcher,Active
+660787,Yerry De los Santos,134,Pittsburgh Pirates,2022,57,Pitcher,Pitcher,Injured 60-Day
+641511,Jason Delay,134,Pittsburgh Pirates,2022,61,Catcher,Catcher,Active
+595191,Jerad Eickhoff,134,Pittsburgh Pirates,2022,43,Pitcher,Pitcher,Minor League Contract
+658551,Junior Fernández,134,Pittsburgh Pirates,2022,43,Pitcher,Pitcher,Active
+667465,Aaron Fletcher,134,Pittsburgh Pirates,2022,35,Pitcher,Pitcher,Claimed
+592325,Ben Gamel,134,Pittsburgh Pirates,2022,18,Outfielder,Outfielder,Active
+608422,José Godoy,134,Pittsburgh Pirates,2022,70,Catcher,Catcher,Minor League Contract
+663647,Ke'Bryan Hayes,134,Pittsburgh Pirates,2022,13,Third Base,Infielder,Active
+623168,Tyler Heineman,134,Pittsburgh Pirates,2022,54,Catcher,Catcher,Active
+592390,Heath Hembree,134,Pittsburgh Pirates,2022,53,Pitcher,Pitcher,Released
+670059,Colin Holderman,134,Pittsburgh Pirates,2022,35,Pitcher,Pitcher,Injured 60-Day
+607572,Sam Howard,134,Pittsburgh Pirates,2022,54,Pitcher,Pitcher,Claimed
+656605,Mitch Keller,134,Pittsburgh Pirates,2022,23,Pitcher,Pitcher,Active
+595284,Andrew Knapp,134,Pittsburgh Pirates,2022,31,Catcher,Catcher,Free Agent
+668820,Max Kranick,134,Pittsburgh Pirates,2022,45,Pitcher,Pitcher,Injured 60-Day
+676632,Bligh Madris,134,Pittsburgh Pirates,2022,66,Outfielder,Outfielder,Claimed
+672779,Tucupita Marcano,134,Pittsburgh Pirates,2022,30,Shortstop,Infielder,Active
+545350,Jake Marisnick,134,Pittsburgh Pirates,2022,41,Outfielder,Outfielder,Released
+683232,Nick Mears,134,Pittsburgh Pirates,2022,36,Pitcher,Pitcher,Active
+668751,Cal Mitchell,134,Pittsburgh Pirates,2022,31,Outfielder,Outfielder,Active
+621028,Kevin Newman,134,Pittsburgh Pirates,2022,27,Second Base,Infielder,Active
+682847,Luis L. Ortiz,134,Pittsburgh Pirates,2022,48,Pitcher,Pitcher,Active
+670912,Johan Oviedo,134,Pittsburgh Pirates,2022,24,Pitcher,Pitcher,Active
+656821,Kevin Padlo,134,Pittsburgh Pirates,2022,5,Third Base,Infielder,Minor League Contract
+660829,Hoy Park,134,Pittsburgh Pirates,2022,44,Second Base,Infielder,Active
+678894,Liover Peguero,134,Pittsburgh Pirates,2022,60,Shortstop,Infielder,Active
+605421,Michael Pérez,134,Pittsburgh Pirates,2022,5,Catcher,Catcher,Designated for Assignment
+547379,Roberto Pérez,134,Pittsburgh Pirates,2022,55,Catcher,Catcher,Injured 60-Day
+596071,Dillon Peters,134,Pittsburgh Pirates,2022,38,Pitcher,Pitcher,Minor League Contract
+500779,Jose Quintana,134,Pittsburgh Pirates,2022,62,Pitcher,Pitcher,Traded
+670990,Yohan Ramírez,134,Pittsburgh Pirates,2022,46,Pitcher,Pitcher,Active
+668804,Bryan Reynolds,134,Pittsburgh Pirates,2022,10,Outfielder,Outfielder,Active
+675986,Canaan Smith-Njigba,134,Pittsburgh Pirates,2022,28,Outfielder,Outfielder,Injured 60-Day
+596112,Robert Stephenson,134,Pittsburgh Pirates,2022,41,Pitcher,Pitcher,Reassigned to Minors
+657770,Eric Stout,134,Pittsburgh Pirates,2022,52,Pitcher,Pitcher,Active
+608717,Chris Stratton,134,Pittsburgh Pirates,2022,46,Pitcher,Pitcher,Traded
+676641,Beau Sulser,134,Pittsburgh Pirates,2022,,Pitcher,Pitcher,Reassigned to Minors
+669261,Jack Suwinski,134,Pittsburgh Pirates,2022,65,Outfielder,Outfielder,Active
+680552,Travis Swaggerty,134,Pittsburgh Pirates,2022,5,Outfielder,Outfielder,Active
+605507,Zach Thompson,134,Pittsburgh Pirates,2022,39,Pitcher,Pitcher,Active
+660294,Yoshi Tsutsugo,134,Pittsburgh Pirates,2022,25,First Base,Infielder,Released
+657061,Cole Tucker,134,Pittsburgh Pirates,2022,3,Shortstop,Infielder,Claimed
+621249,Duane Underwood Jr.,134,Pittsburgh Pirates,2022,56,Pitcher,Pitcher,Active
+642165,Josh VanMeter,134,Pittsburgh Pirates,2022,26,Second Base,Infielder,Minor League Contract
+664944,Cam Vieaux,134,Pittsburgh Pirates,2022,68,Pitcher,Pitcher,Minor League Contract
+596129,Daniel Vogelbach,134,Pittsburgh Pirates,2022,19,First Base,Infielder,Traded
+669060,Bryse Wilson,134,Pittsburgh Pirates,2022,32,Pitcher,Pitcher,Active
+664337,Miguel Yajure,134,Pittsburgh Pirates,2022,89,Pitcher,Pitcher,Active
+682928,CJ Abrams,135,San Diego Padres,2022,77,Shortstop,Infielder,Traded
+613534,Austin Adams,135,San Diego Padres,2022,54,Pitcher,Pitcher,Injured 60-Day
+642727,Sergio Alcántara,135,San Diego Padres,2022,41,Third Base,Infielder,Claimed
+595751,Jorge Alfaro,135,San Diego Padres,2022,38,Catcher,Catcher,Active
+658648,Pedro Avila,135,San Diego Padres,2022,60,Pitcher,Pitcher,Minor League Contract
+640492,José Azocar,135,San Diego Padres,2022,28,Outfielder,Outfielder,Active
+673258,Michel Baez,135,San Diego Padres,2022,49,Pitcher,Pitcher,Active
+676946,Matthew Batten,135,San Diego Padres,2022,37,Third Base,Infielder,Active
+607461,Matt Beaty,135,San Diego Padres,2022,27,Outfielder,Outfielder,Minor League Contract
+605137,Josh Bell,135,San Diego Padres,2022,24,First Base,Infielder,Active
+669134,Luis Campusano,135,San Diego Padres,2022,12,Catcher,Catcher,Active
+429664,Robinson Canó,135,San Diego Padres,2022,,Second Base,Infielder,Traded
+620454,José Castillo,135,San Diego Padres,2022,65,Pitcher,Pitcher,Active
+605182,Mike Clevinger,135,San Diego Padres,2022,52,Pitcher,Pitcher,Active
+622503,Nabil Crismatt,135,San Diego Padres,2022,74,Pitcher,Pitcher,Active
+630105,Jake Cronenworth,135,San Diego Padres,2022,9,First Base,Infielder,Active
+506433,Yu Darvish,135,San Diego Padres,2022,11,Pitcher,Pitcher,Injured 15-Day
+641525,Brandon Dixon,135,San Diego Padres,2022,16,Third Base,Infielder,Active
+592273,Brandon Drury,135,San Diego Padres,2022,17,First Base,Infielder,Active
+472610,Luis García,135,San Diego Padres,2022,66,Pitcher,Pitcher,Active
+669022,MacKenzie Gore,135,San Diego Padres,2022,1,Pitcher,Pitcher,Traded
+663757,Trent Grisham,135,San Diego Padres,2022,2,Outfielder,Outfielder,Active
+642770,Javy Guerra,135,San Diego Padres,2022,8,Pitcher,Pitcher,Traded
+623352,Josh Hader,135,San Diego Padres,2022,71,Pitcher,Pitcher,Active
+657612,Tim Hill,135,San Diego Padres,2022,25,Pitcher,Pitcher,Active
+543333,Eric Hosmer,135,San Diego Padres,2022,30,First Base,Infielder,Traded
+572955,Pierce Johnson,135,San Diego Padres,2022,36,Pitcher,Pitcher,Active
+678061,Ray Kerr,135,San Diego Padres,2022,56,Pitcher,Pitcher,Active
+673490,Ha-Seong Kim,135,San Diego Padres,2022,7,Shortstop,Infielder,Active
+663753,Reiss Knehr,135,San Diego Padres,2022,33,Pitcher,Pitcher,Active
+659275,Dinelson Lamet,135,San Diego Padres,2022,29,Pitcher,Pitcher,Traded
+642451,Luis Liberato,135,San Diego Padres,2022,1,Outfield,Outfielder,Minor League Contract
+592518,Manny Machado,135,San Diego Padres,2022,13,Third Base,Infielder,Active
+640455,Sean Manaea,135,San Diego Padres,2022,55,Pitcher,Pitcher,Active
+607259,Nick Martinez,135,San Diego Padres,2022,21,Pitcher,Pitcher,Active
+608577,Nomar Mazara,135,San Diego Padres,2022,16,Outfielder,Outfielder,Released
+670970,Adrian Morejon,135,San Diego Padres,2022,50,Pitcher,Pitcher,Active
+605397,Joe Musgrove,135,San Diego Padres,2022,44,Pitcher,Pitcher,Active
+571976,Wil Myers,135,San Diego Padres,2022,5,Outfielder,Outfielder,Active
+543592,Austin Nola,135,San Diego Padres,2022,26,Catcher,Catcher,Active
+595777,Jurickson Profar,135,San Diego Padres,2022,10,Outfielder,Outfielder,Active
+573124,Taylor Rogers,135,San Diego Padres,2022,17,Pitcher,Pitcher,Traded
+667670,Brent Rooker,135,San Diego Padres,2022,12,Outfielder,Outfielder,Traded
+666703,Eguy Rosario,135,San Diego Padres,2022,32,Third Base,Infielder,Active
+665923,Esteury Ruiz,135,San Diego Padres,2022,43,Outfielder,Outfielder,Traded
+605463,Tayler Scott,135,San Diego Padres,2022,62,Pitcher,Pitcher,Claimed
+605483,Blake Snell,135,San Diego Padres,2022,4,Pitcher,Pitcher,Active
+665742,Juan Soto,135,San Diego Padres,2022,22,Outfielder,Outfielder,Active
+489334,Craig Stammen,135,San Diego Padres,2022,34,Pitcher,Pitcher,Active
+663158,Robert Suarez,135,San Diego Padres,2022,75,Pitcher,Pitcher,Active
+572204,Trayce Thompson,135,San Diego Padres,2022,43,Outfield,Outfielder,Free Agent
+667725,Kyle Tyler,135,San Diego Padres,2022,63,Pitcher,Pitcher,Minor League Contract
+572228,Luke Voit,135,San Diego Padres,2022,45,First Base,Infielder,Traded
+677960,Ryan Weathers,135,San Diego Padres,2022,40,Pitcher,Pitcher,Active
+621051,Steven Wilson,135,San Diego Padres,2022,48,Pitcher,Pitcher,Active
+657514,Brennan Bernardino,136,Seattle Mariners,2022,70,Pitcher,Pitcher,Active
+621366,Ryan Borucki,136,Seattle Mariners,2022,30,Pitcher,Pitcher,Active
+571510,Matthew Boyd,136,Seattle Mariners,2022,48,Pitcher,Pitcher,Active
+666374,Matt Brash,136,Seattle Mariners,2022,47,Pitcher,Pitcher,Active
+592200,Curt Casali,136,Seattle Mariners,2022,5,Catcher,Catcher,Active
+650895,Diego Castillo,136,Seattle Mariners,2022,63,Pitcher,Pitcher,Active
+622491,Luis Castillo,136,Seattle Mariners,2022,58,Pitcher,Pitcher,Active
+641487,J.P. Crawford,136,Seattle Mariners,2022,3,Shortstop,Infielder,Active
+606273,Roenis Elías,136,Seattle Mariners,2022,55,Pitcher,Pitcher,Minor League Contract
+656403,Drew Ellis,136,Seattle Mariners,2022,31,Third Base,Infielder,Minor League Contract
+656413,Stuart Fairchild,136,Seattle Mariners,2022,30,Outfielder,Outfielder,Traded
+670036,Matt Festa,136,Seattle Mariners,2022,67,Pitcher,Pitcher,Active
+623167,Chris Flexen,136,Seattle Mariners,2022,77,Pitcher,Pitcher,Active
+645801,Mike Ford,136,Seattle Mariners,2022,70,First Base,Infielder,Claimed
+664034,Ty France,136,Seattle Mariners,2022,23,First Base,Infielder,Active
+624428,Adam Frazier,136,Seattle Mariners,2022,26,Second Base,Infielder,Active
+669302,Logan Gilbert,136,Seattle Mariners,2022,36,Pitcher,Pitcher,Active
+571704,Ken Giles,136,Seattle Mariners,2022,58,Pitcher,Pitcher,Released
+594835,Marco Gonzales,136,Seattle Mariners,2022,7,Pitcher,Pitcher,Active
+664059,Sam Haggerty,136,Seattle Mariners,2022,0,Outfielder,Outfielder,Active
+571745,Mitch Haniger,136,Seattle Mariners,2022,17,Outfielder,Outfielder,Active
+608671,Travis Jankowski,136,Seattle Mariners,2022,8,Outfielder,Outfielder,Released
+672284,Jarred Kelenic,136,Seattle Mariners,2022,10,Outfielder,Outfielder,Active
+669923,George Kirby,136,Seattle Mariners,2022,68,Pitcher,Pitcher,Active
+595284,Andrew Knapp,136,Seattle Mariners,2022,40,Catcher,Catcher,Free Agent
+571863,Matt Koch,136,Seattle Mariners,2022,41,Pitcher,Pitcher,Minor League Contract
+571875,Jake Lamb,136,Seattle Mariners,2022,18,Outfielder,Outfielder,Released
+677223,Jack Larsen,136,Seattle Mariners,2022,74,Outfielder,Outfielder,Minor League Contract
+641786,Kyle Lewis,136,Seattle Mariners,2022,1,Outfield,Outfielder,Active
+670090,Wyatt Mills,136,Seattle Mariners,2022,40,Pitcher,Pitcher,Traded
+543548,Tommy Milone,136,Seattle Mariners,2022,,Pitcher,Pitcher,Minor League Contract
+664948,Anthony Misiewicz,136,Seattle Mariners,2022,18,Pitcher,Pitcher,Designated for Assignment
+664238,Dylan Moore,136,Seattle Mariners,2022,25,Outfielder,Outfielder,Active
+662253,Andrés Muñoz,136,Seattle Mariners,2022,75,Pitcher,Pitcher,Injured 15-Day
+682171,Penn Murfee,136,Seattle Mariners,2022,56,Pitcher,Pitcher,Active
+608596,Tom Murphy,136,Seattle Mariners,2022,2,Catcher,Catcher,Injured 60-Day
+676617,Riley O'Brien,136,Seattle Mariners,2022,61,Pitcher,Pitcher,Minor League Contract
+657247,Brian O'Keefe,136,Seattle Mariners,2022,64,Catcher,Catcher,Active
+656821,Kevin Padlo,136,Seattle Mariners,2022,35,Third Base,Infielder,Claimed
+663728,Cal Raleigh,136,Seattle Mariners,2022,29,Catcher,Catcher,Active
+670990,Yohan Ramírez,136,Seattle Mariners,2022,55,Pitcher,Pitcher,Traded
+592662,Robbie Ray,136,Seattle Mariners,2022,38,Pitcher,Pitcher,Active
+677594,Julio Rodríguez,136,Seattle Mariners,2022,44,Outfielder,Outfielder,Active
+489265,Sergio Romo,136,Seattle Mariners,2022,54,Pitcher,Pitcher,Released
+467793,Carlos Santana,136,Seattle Mariners,2022,41,First Base,Infielder,Active
+623149,Paul Sewald,136,Seattle Mariners,2022,37,Pitcher,Pitcher,Active
+656954,Justus Sheffield,136,Seattle Mariners,2022,33,Pitcher,Pitcher,Active
+519306,Steven Souza Jr.,136,Seattle Mariners,2022,21,Outfielder,Outfielder,Released
+608716,Drew Steckenrider,136,Seattle Mariners,2022,16,Pitcher,Pitcher,Minor League Contract
+553993,Eugenio Suárez,136,Seattle Mariners,2022,28,Third Base,Infielder,Active
+657024,Erik Swanson,136,Seattle Mariners,2022,50,Pitcher,Pitcher,Active
+647351,Abraham Toro,136,Seattle Mariners,2022,13,Second Base,Infielder,Active
+620443,Luis Torrens,136,Seattle Mariners,2022,22,Catcher,Catcher,Active
+666211,Taylor Trammell,136,Seattle Mariners,2022,20,Outfielder,Outfielder,Active
+457708,Justin Upton,136,Seattle Mariners,2022,8,Outfielder,Outfielder,Free Agent
+622268,Donovan Walton,136,Seattle Mariners,2022,8,Second Base,Infielder,Traded
+657129,Marcus Wilson,136,Seattle Mariners,2022,60,Outfielder,Outfielder,Minor League Contract
+608385,Jesse Winker,136,Seattle Mariners,2022,27,Outfielder,Outfielder,Active
+664849,Danny Young,136,Seattle Mariners,2022,81,Pitcher,Pitcher,Claimed
+518397,Scott Alexander,137,San Francisco Giants,2022,54,Pitcher,Pitcher,Active
+501625,Jose Alvarez,137,San Francisco Giants,2022,48,Pitcher,Pitcher,Injured 60-Day
+663698,Joey Bart,137,San Francisco Giants,2022,21,Catcher,Catcher,Active
+595881,Tyler Beede,137,San Francisco Giants,2022,14,Pitcher,Pitcher,Claimed
+474832,Brandon Belt,137,San Francisco Giants,2022,9,First Base,Infielder,Injured 60-Day
+605154,John Brebbia,137,San Francisco Giants,2022,59,Pitcher,Pitcher,Active
+621446,Lewis Brinson,137,San Francisco Giants,2022,29,Outfielder,Outfielder,Minor League Contract
+641432,Willie Calhoun,137,San Francisco Giants,2022,2,Outfield,Outfielder,Minor League Contract
+592200,Curt Casali,137,San Francisco Giants,2022,2,Catcher,Catcher,Traded
+665645,Kervin Castro,137,San Francisco Giants,2022,76,Pitcher,Pitcher,Claimed
+502171,Alex Cobb,137,San Francisco Giants,2022,38,Pitcher,Pitcher,Active
+605194,Jharel Cotton,137,San Francisco Giants,2022,47,Pitcher,Pitcher,Minor League Contract
+543063,Brandon Crawford,137,San Francisco Giants,2022,35,Shortstop,Infielder,Active
+605204,J.D. Davis,137,San Francisco Giants,2022,7,Third Base,Infielder,Active
+543101,Anthony DeSclafani,137,San Francisco Giants,2022,26,Pitcher,Pitcher,Injured 60-Day
+621573,Austin Dean,137,San Francisco Giants,2022,1,Outfielder,Outfielder,Active
+666808,Camilo Doval,137,San Francisco Giants,2022,75,Pitcher,Pitcher,Active
+643289,Mauricio Dubón,137,San Francisco Giants,2022,1,Shortstop,Infielder,Traded
+621453,Steven Duggar,137,San Francisco Giants,2022,6,Outfielder,Outfielder,Traded
+642731,Thairo Estrada,137,San Francisco Giants,2022,39,Second Base,Infielder,Active
+656413,Stuart Fairchild,137,San Francisco Giants,2022,61,Outfielder,Outfielder,Claimed
+527038,Wilmer Flores,137,San Francisco Giants,2022,41,First Base,Infielder,Active
+645801,Mike Ford,137,San Francisco Giants,2022,70,First Base,Infielder,Traded
+606424,Jarlín García,137,San Francisco Giants,2022,66,Pitcher,Pitcher,Active
+670768,Luis González,137,San Francisco Giants,2022,51,Outfielder,Outfielder,Active
+663546,Sean Hjelle,137,San Francisco Giants,2022,64,Pitcher,Pitcher,Active
+669369,Bryce Johnson,137,San Francisco Giants,2022,58,Outfielder,Outfielder,Active
+596001,Jakob Junis,137,San Francisco Giants,2022,34,Pitcher,Pitcher,Active
+595284,Andrew Knapp,137,San Francisco Giants,2022,33,Catcher,Catcher,Minor League Contract
+607249,Jason Krizan,137,San Francisco Giants,2022,56,Second Base,Infielder,Minor League Contract
+600303,Tommy La Stella,137,San Francisco Giants,2022,8,Designated Hitter,Hitter,Active
+608678,Dominic Leone,137,San Francisco Giants,2022,52,Pitcher,Pitcher,Released
+641793,Zack Littell,137,San Francisco Giants,2022,46,Pitcher,Pitcher,Active
+661440,Mauricio Llovera,137,San Francisco Giants,2022,63,Pitcher,Pitcher,Injured 60-Day
+669674,Sam Long,137,San Francisco Giants,2022,73,Pitcher,Pitcher,Injured 60-Day
+446334,Evan Longoria,137,San Francisco Giants,2022,10,Third Base,Infielder,Active
+553988,Dixon Machado,137,San Francisco Giants,2022,49,Shortstop,Infielder,Minor League Contract
+628708,Yunior Marte,137,San Francisco Giants,2022,74,Pitcher,Pitcher,Active
+459429,Jake McGee,137,San Francisco Giants,2022,17,Pitcher,Pitcher,Released
+606213,Yermín Mercedes,137,San Francisco Giants,2022,6,Designated Hitter,Hitter,Minor League Contract
+571946,Shelby Miller,137,San Francisco Giants,2022,18,Pitcher,Pitcher,Active
+656814,Luis F. Ortiz,137,San Francisco Giants,2022,60,Pitcher,Pitcher,Active
+656821,Kevin Padlo,137,San Francisco Giants,2022,49,Third Base,Infielder,Claimed
+657709,Michael Papierski,137,San Francisco Giants,2022,70,Catcher,Catcher,Claimed
+592626,Joc Pederson,137,San Francisco Giants,2022,23,Outfielder,Outfielder,Active
+665154,Ford Proctor,137,San Francisco Giants,2022,65,Catcher,Catcher,Active
+671218,Heliot Ramos,137,San Francisco Giants,2022,12,Outfielder,Outfielder,Active
+607074,Carlos Rodón,137,San Francisco Giants,2022,16,Pitcher,Pitcher,Active
+643511,Tyler Rogers,137,San Francisco Giants,2022,71,Pitcher,Pitcher,Active
+573131,Darin Ruf,137,San Francisco Giants,2022,33,First Base,Infielder,Traded
+666619,Gregory Santos,137,San Francisco Giants,2022,78,Pitcher,Pitcher,Injured 60-Day
+596103,Austin Slater,137,San Francisco Giants,2022,13,Outfielder,Outfielder,Active
+663378,Thomas Szapucki,137,San Francisco Giants,2022,61,Pitcher,Pitcher,Active
+664789,Ka'ai Tom,137,San Francisco Giants,2022,60,Outfield,Outfielder,Minor League Contract
+607755,Andrew Vasquez,137,San Francisco Giants,2022,67,Pitcher,Pitcher,Active
+681584,David Villar,137,San Francisco Giants,2022,70,Third Base,Infielder,Active
+613564,Jason Vosler,137,San Francisco Giants,2022,32,Third Base,Infielder,Active
+664774,LaMonte Wade Jr.,137,San Francisco Giants,2022,31,First Base,Infielder,Active
+686972,Cole Waites,137,San Francisco Giants,2022,56,Pitcher,Pitcher,Active
+622268,Donovan Walton,137,San Francisco Giants,2022,37,Second Base,Infielder,Injured 60-Day
+657277,Logan Webb,137,San Francisco Giants,2022,62,Pitcher,Pitcher,Active
+663897,Luke Williams,137,San Francisco Giants,2022,45,Second Base,Infielder,Traded
+622072,Alex Wood,137,San Francisco Giants,2022,57,Pitcher,Pitcher,Injured 60-Day
+642851,Austin Wynns,137,San Francisco Giants,2022,14,Catcher,Catcher,Active
+573262,Mike Yastrzemski,137,San Francisco Giants,2022,5,Outfielder,Outfielder,Active
+622065,Alex Young,137,San Francisco Giants,2022,45,Pitcher,Pitcher,Active
+571448,Nolan Arenado,138,St. Louis Cardinals,2022,28,Third Base,Infielder,Active
+664056,Harrison Bader,138,St. Louis Cardinals,2022,48,Outfielder,Outfielder,Traded
+605156,Aaron Brooks,138,St. Louis Cardinals,2022,67,Pitcher,Pitcher,Minor League Contract
+676475,Alec Burleson,138,St. Louis Cardinals,2022,41,Outfielder,Outfielder,Active
+650893,Génesis Cabrera,138,St. Louis Cardinals,2022,92,Pitcher,Pitcher,Active
+668843,Conner Capel,138,St. Louis Cardinals,2022,71,Outfielder,Outfielder,Claimed
+666185,Dylan Carlson,138,St. Louis Cardinals,2022,3,Outfielder,Outfielder,Active
+657557,Paul DeJong,138,St. Louis Cardinals,2022,11,Shortstop,Infielder,Active
+641512,Ben DeLuzio,138,St. Louis Cardinals,2022,26,Outfielder,Outfielder,Active
+572816,Corey Dickerson,138,St. Louis Cardinals,2022,25,Outfielder,Outfielder,Active
+680977,Brendan Donovan,138,St. Louis Cardinals,2022,33,Second Base,Infielder,Active
+669242,Tommy Edman,138,St. Louis Cardinals,2022,19,Shortstop,Infielder,Active
+658551,Junior Fernández,138,St. Louis Cardinals,2022,44,Pitcher,Pitcher,Claimed
+656427,Jack Flaherty,138,St. Louis Cardinals,2022,22,Pitcher,Pitcher,Active
+606149,Giovanny Gallegos,138,St. Louis Cardinals,2022,65,Pitcher,Pitcher,Active
+502671,Paul Goldschmidt,138,St. Louis Cardinals,2022,46,First Base,Infielder,Active
+669357,Nolan Gorman,138,St. Louis Cardinals,2022,16,Second Base,Infielder,Active
+664854,Ryan Helsley,138,St. Louis Cardinals,2022,56,Pitcher,Pitcher,Active
+671056,Iván Herrera,138,St. Louis Cardinals,2022,48,Catcher,Catcher,Active
+663855,Jordan Hicks,138,St. Louis Cardinals,2022,12,Pitcher,Pitcher,Active
+641712,Dakota Hudson,138,St. Louis Cardinals,2022,43,Pitcher,Pitcher,Active
+668800,Andrew Knizner,138,St. Louis Cardinals,2022,7,Catcher,Catcher,Active
+669461,Matthew Liberatore,138,St. Louis Cardinals,2022,52,Pitcher,Pitcher,Active
+571927,Steven Matz,138,St. Louis Cardinals,2022,32,Pitcher,Pitcher,Active
+519008,T.J. McFarland,138,St. Louis Cardinals,2022,,Pitcher,Pitcher,Minor League Contract
+571945,Miles Mikolas,138,St. Louis Cardinals,2022,39,Pitcher,Pitcher,Active
+425877,Yadier Molina,138,St. Louis Cardinals,2022,4,Catcher,Catcher,Voluntarily Retired List
+656756,Jordan Montgomery,138,St. Louis Cardinals,2022,48,Pitcher,Pitcher,Active
+664942,James Naile,138,St. Louis Cardinals,2022,68,Pitcher,Pitcher,Active
+676050,Packy Naughton,138,St. Louis Cardinals,2022,70,Pitcher,Pitcher,Active
+663457,Lars Nootbaar,138,St. Louis Cardinals,2022,21,Outfielder,Outfielder,Active
+641933,Tyler O'Neill,138,St. Louis Cardinals,2022,27,Outfielder,Outfielder,Active
+670912,Johan Oviedo,138,St. Louis Cardinals,2022,59,Pitcher,Pitcher,Traded
+669467,Andre Pallante,138,St. Louis Cardinals,2022,53,Pitcher,Pitcher,Active
+405395,Albert Pujols,138,St. Louis Cardinals,2022,5,Designated Hitter,Hitter,Voluntarily Retired List
+500779,Jose Quintana,138,St. Louis Cardinals,2022,62,Pitcher,Pitcher,Active
+670298,Kramer Robertson,138,St. Louis Cardinals,2022,71,Shortstop,Infielder,Non-Roster Invitee
+668941,JoJo Romero,138,St. Louis Cardinals,2022,59,Pitcher,Pitcher,Active
+519222,Austin Romine,138,St. Louis Cardinals,2022,35,Catcher,Catcher,Traded
+667373,Angel Rondón,138,St. Louis Cardinals,2022,60,Pitcher,Pitcher,Claimed
+624641,Edmundo Sosa,138,St. Louis Cardinals,2022,63,Shortstop,Infielder,Traded
+605486,Cory Spangenberg,138,St. Louis Cardinals,2022,18,Third Base,Infielder,Minor League Contract
+608717,Chris Stratton,138,St. Louis Cardinals,2022,30,Pitcher,Pitcher,Active
+668868,Zack Thompson,138,St. Louis Cardinals,2022,57,Pitcher,Pitcher,Active
+572403,Drew VerHagen,138,St. Louis Cardinals,2022,34,Pitcher,Pitcher,Injured 60-Day
+425794,Adam Wainwright,138,St. Louis Cardinals,2022,50,Pitcher,Pitcher,Active
+673904,Jake Walsh,138,St. Louis Cardinals,2022,61,Pitcher,Pitcher,Active
+676831,Kodi Whitley,138,St. Louis Cardinals,2022,38,Pitcher,Pitcher,Non-Roster Invitee
+621295,Nick Wittgren,138,St. Louis Cardinals,2022,30,Pitcher,Pitcher,Released
+663765,Jake Woodford,138,St. Louis Cardinals,2022,40,Pitcher,Pitcher,Active
+660766,Juan Yepez,138,St. Louis Cardinals,2022,36,Outfielder,Outfielder,Active
+592094,Jason Adam,139,Tampa Bay Rays,2022,47,Pitcher,Pitcher,Active
+666018,Jonathan Aranda,139,Tampa Bay Rays,2022,62,Second Base,Infielder,Active
+542888,Shawn Armstrong,139,Tampa Bay Rays,2022,64,Pitcher,Pitcher,Active
+668227,Randy Arozarena,139,Tampa Bay Rays,2022,56,Outfielder,Outfielder,Active
+572703,Luke Bard,139,Tampa Bay Rays,2022,46,Pitcher,Pitcher,Claimed
+669358,Shane Baz,139,Tampa Bay Rays,2022,11,Pitcher,Pitcher,Injured 60-Day
+656222,Jalen Beeks,139,Tampa Bay Rays,2022,68,Pitcher,Pitcher,Active
+542194,Christian Bethancourt,139,Tampa Bay Rays,2022,14,Catcher,Catcher,Active
+660644,Vidal Bruján,139,Tampa Bay Rays,2022,7,Second Base,Infielder,Active
+644374,Yu Chang,139,Tampa Bay Rays,2022,9,Second Base,Infielder,Claimed
+608638,JT Chargois,139,Tampa Bay Rays,2022,84,Pitcher,Pitcher,Active
+630023,Yonny Chirinos,139,Tampa Bay Rays,2022,72,Pitcher,Pitcher,Active
+596847,Ji Man Choi,139,Tampa Bay Rays,2022,26,First Base,Infielder,Active
+664076,Garrett Cleavinger,139,Tampa Bay Rays,2022,60,Pitcher,Pitcher,Active
+681867,Cooper Criswell,139,Tampa Bay Rays,2022,71,Pitcher,Pitcher,Minor League Contract
+650490,Yandy Díaz,139,Tampa Bay Rays,2022,2,First Base,Infielder,Active
+667498,Robert Dugger,139,Tampa Bay Rays,2022,44,Pitcher,Pitcher,Claimed
+664126,Pete Fairbanks,139,Tampa Bay Rays,2022,29,Pitcher,Pitcher,Active
+676534,Calvin Faucher,139,Tampa Bay Rays,2022,58,Pitcher,Pitcher,Active
+656420,J.P. Feyereisen,139,Tampa Bay Rays,2022,34,Pitcher,Pitcher,Injured 60-Day
+676596,Josh Fleming,139,Tampa Bay Rays,2022,19,Pitcher,Pitcher,Active
+677551,Wander Franco,139,Tampa Bay Rays,2022,5,Shortstop,Infielder,Active
+621248,Ralph Garza Jr.,139,Tampa Bay Rays,2022,61,Pitcher,Pitcher,Minor League Contract
+607192,Tyler Glasnow,139,Tampa Bay Rays,2022,20,Pitcher,Pitcher,Active
+642770,Javy Guerra,139,Tampa Bay Rays,2022,65,Pitcher,Pitcher,Active
+643361,Kevin Herget,139,Tampa Bay Rays,2022,44,Pitcher,Pitcher,Minor League Contract
+595281,Kevin Kiermaier,139,Tampa Bay Rays,2022,39,Outfielder,Outfielder,Injured 60-Day
+552640,Andrew Kittredge,139,Tampa Bay Rays,2022,36,Pitcher,Pitcher,Injured 60-Day
+446372,Corey Kluber,139,Tampa Bay Rays,2022,28,Pitcher,Pitcher,Active
+643400,Dusten Knight,139,Tampa Bay Rays,2022,76,Pitcher,Pitcher,Minor League Contract
+664040,Brandon Lowe,139,Tampa Bay Rays,2022,8,Second Base,Infielder,Injured 60-Day
+666139,Josh Lowe,139,Tampa Bay Rays,2022,15,Outfielder,Outfielder,Active
+622534,Manuel Margot,139,Tampa Bay Rays,2022,13,Outfielder,Outfielder,Active
+670156,Miles Mastrobuoni,139,Tampa Bay Rays,2022,78,Second Base,Infielder,Active
+607391,Chris Mazza,139,Tampa Bay Rays,2022,22,Pitcher,Pitcher,Minor League Contract
+663556,Shane McClanahan,139,Tampa Bay Rays,2022,18,Pitcher,Pitcher,Active
+668834,Easton McGee,139,Tampa Bay Rays,2022,73,Pitcher,Pitcher,Claimed
+641853,David McKay,139,Tampa Bay Rays,2022,74,Pitcher,Pitcher,Claimed
+642336,Francisco Mejía,139,Tampa Bay Rays,2022,21,Catcher,Catcher,Active
+642657,Cristofer Ogando,139,Tampa Bay Rays,2022,75,Pitcher,Pitcher,Minor League Contract
+670623,Isaac Paredes,139,Tampa Bay Rays,2022,17,Third Base,Infielder,Active
+672715,Luis Patiño,139,Tampa Bay Rays,2022,1,Pitcher,Pitcher,Active
+444482,David Peralta,139,Tampa Bay Rays,2022,6,Outfielder,Outfielder,Active
+621433,Brett Phillips,139,Tampa Bay Rays,2022,35,Outfielder,Outfielder,Designated for Assignment
+650907,René Pinto,139,Tampa Bay Rays,2022,50,Catcher,Catcher,Active
+621363,Colin Poche,139,Tampa Bay Rays,2022,38,Pitcher,Pitcher,Active
+596451,Roman Quinn,139,Tampa Bay Rays,2022,25,Outfielder,Outfielder,Active
+548384,Brooks Raley,139,Tampa Bay Rays,2022,30,Pitcher,Pitcher,Active
+670042,Luke Raley,139,Tampa Bay Rays,2022,55,First Base,Infielder,Active
+623912,Harold Ramírez,139,Tampa Bay Rays,2022,87,Designated Hitter,Hitter,Active
+656876,Drew Rasmussen,139,Tampa Bay Rays,2022,57,Pitcher,Pitcher,Active
+676720,Tommy Romero,139,Tampa Bay Rays,2022,52,Pitcher,Pitcher,Claimed
+676637,Phoenix Sanders,139,Tampa Bay Rays,2022,80,Pitcher,Pitcher,Claimed
+642350,Jose Siri,139,Tampa Bay Rays,2022,22,Outfielder,Outfielder,Active
+605488,Jeffrey Springs,139,Tampa Bay Rays,2022,59,Pitcher,Pitcher,Active
+657044,Ryan Thompson,139,Tampa Bay Rays,2022,81,Pitcher,Pitcher,Injured 60-Day
+670764,Taylor Walls,139,Tampa Bay Rays,2022,0,Shortstop,Infielder,Active
+605538,Matt Wisler,139,Tampa Bay Rays,2022,37,Pitcher,Pitcher,Released
+642231,Jimmy Yacabonis,139,Tampa Bay Rays,2022,46,Pitcher,Pitcher,Active
+642232,Ryan Yarbrough,139,Tampa Bay Rays,2022,48,Pitcher,Pitcher,Active
+572287,Mike Zunino,139,Tampa Bay Rays,2022,10,Catcher,Catcher,Injured 60-Day
+656061,Albert Abreu,140,Texas Rangers,2022,36,Pitcher,Pitcher,Traded
+669935,A.J. Alexy,140,Texas Rangers,2022,62,Pitcher,Pitcher,Active
+663465,Kolby Allard,140,Texas Rangers,2022,39,Pitcher,Pitcher,Active
+685503,Kohei Arihara,140,Texas Rangers,2022,35,Pitcher,Pitcher,Minor League Contract
+669618,Joe Barlow,140,Texas Rangers,2022,68,Pitcher,Pitcher,Active
+656271,Brock Burke,140,Texas Rangers,2022,46,Pitcher,Pitcher,Active
+456713,Matt Bush,140,Texas Rangers,2022,51,Pitcher,Pitcher,Traded
+594777,Kole Calhoun,140,Texas Rangers,2022,56,Outfielder,Outfielder,Active
+641432,Willie Calhoun,140,Texas Rangers,2022,4,Outfielder,Outfielder,Traded
+518586,Charlie Culberson,140,Texas Rangers,2022,11,Third Base,Infielder,Active
+621453,Steven Duggar,140,Texas Rangers,2022,9,Outfielder,Outfielder,Claimed
+641540,Dane Dunning,140,Texas Rangers,2022,33,Pitcher,Pitcher,Active
+677649,Ezequiel Duran,140,Texas Rangers,2022,70,Third Base,Infielder,Active
+666969,Adolis García,140,Texas Rangers,2022,53,Outfielder,Outfielder,Active
+641598,Mitch Garver,140,Texas Rangers,2022,18,Designated Hitter,Hitter,Injured 60-Day
+592351,Jon Gray,140,Texas Rangers,2022,22,Pitcher,Pitcher,Active
+621368,Taylor Hearn,140,Texas Rangers,2022,52,Pitcher,Pitcher,Active
+641680,Jonah Heim,140,Texas Rangers,2022,28,Catcher,Catcher,Active
+609274,Elier Hernandez,140,Texas Rangers,2022,38,Outfield,Outfielder,Minor League Contract
+642546,Jonathan Hernández,140,Texas Rangers,2022,72,Pitcher,Pitcher,Active
+518813,Greg Holland,140,Texas Rangers,2022,40,Pitcher,Pitcher,Minor League Contract
+675921,Spencer Howard,140,Texas Rangers,2022,36,Pitcher,Pitcher,Active
+669087,Sam Huff,140,Texas Rangers,2022,55,Catcher,Catcher,Active
+628451,Andy Ibáñez,140,Texas Rangers,2022,77,Third Base,Infielder,Active
+673962,Josh Jung,140,Texas Rangers,2022,6,Third Base,Infielder,Active
+572971,Dallas Keuchel,140,Texas Rangers,2022,60,Pitcher,Pitcher,Released
+667463,John King,140,Texas Rangers,2022,32,Pitcher,Pitcher,Active
+600917,José Leclerc,140,Texas Rangers,2022,25,Pitcher,Pitcher,Active
+663993,Nathaniel Lowe,140,Texas Rangers,2022,30,First Base,Infielder,Active
+656685,Brett Martin,140,Texas Rangers,2022,59,Pitcher,Pitcher,Active
+664029,Mark Mathias,140,Texas Rangers,2022,9,Second Base,Infielder,Active
+543543,Brad Miller,140,Texas Rangers,2022,13,Outfielder,Outfielder,Injured 60-Day
+668338,Tyson Miller,140,Texas Rangers,2022,76,Pitcher,Pitcher,Active
+519043,Matt Moore,140,Texas Rangers,2022,45,Pitcher,Pitcher,Active
+657248,Glenn Otto,140,Texas Rangers,2022,49,Pitcher,Pitcher,Active
+607359,Spencer Patton,140,Texas Rangers,2022,61,Pitcher,Pitcher,Minor League Contract
+527048,Martín Pérez,140,Texas Rangers,2022,54,Pitcher,Pitcher,Active
+608700,Kevin Plawecki,140,Texas Rangers,2022,23,Catcher,Catcher,Active
+666142,Cole Ragans,140,Texas Rangers,2022,50,Pitcher,Pitcher,Active
+676646,Zach Reks,140,Texas Rangers,2022,65,Outfielder,Outfielder,Released
+572070,Garrett Richards,140,Texas Rangers,2022,43,Pitcher,Pitcher,Released
+666720,Yerry Rodríguez,140,Texas Rangers,2022,51,Pitcher,Pitcher,Active
+642701,Dennis Santana,140,Texas Rangers,2022,19,Pitcher,Pitcher,Active
+622250,Josh Sborz,140,Texas Rangers,2022,66,Pitcher,Pitcher,Injured 60-Day
+608369,Corey Seager,140,Texas Rangers,2022,5,Shortstop,Infielder,Active
+543760,Marcus Semien,140,Texas Rangers,2022,2,Second Base,Infielder,Active
+669701,Josh Smith,140,Texas Rangers,2022,47,Shortstop,Infielder,Active
+676766,Nick Snyder,140,Texas Rangers,2022,57,Pitcher,Pitcher,Active
+669256,Nick Solak,140,Texas Rangers,2022,15,Outfielder,Outfielder,Injured 60-Day
+665750,Leody Taveras,140,Texas Rangers,2022,3,Outfielder,Outfielder,Active
+669352,Bubba Thompson,140,Texas Rangers,2022,65,Outfielder,Outfielder,Active
+622786,Jesus Tinoco,140,Texas Rangers,2022,63,Pitcher,Pitcher,Active
+650619,Meibrys Viloria,140,Texas Rangers,2022,20,Catcher,Catcher,Active
+667727,Steele Walker,140,Texas Rangers,2022,40,Outfielder,Outfielder,Claimed
+642201,Eli White,140,Texas Rangers,2022,41,Outfielder,Outfielder,Injured 60-Day
+641312,Shaun Anderson,141,Toronto Blue Jays,2022,64,Pitcher,Pitcher,Minor League Contract
+607455,Anthony Banda,141,Toronto Blue Jays,2022,43,Pitcher,Pitcher,Minor League Contract
+542914,Anthony Bass,141,Toronto Blue Jays,2022,52,Pitcher,Pitcher,Active
+676886,Jeremy Beasley,141,Toronto Blue Jays,2022,38,Pitcher,Pitcher,Traded
+621244,José Berríos,141,Toronto Blue Jays,2022,17,Pitcher,Pitcher,Active
+666182,Bo Bichette,141,Toronto Blue Jays,2022,11,Shortstop,Infielder,Active
+624415,Cavan Biggio,141,Toronto Blue Jays,2022,8,Second Base,Infielder,Active
+621366,Ryan Borucki,141,Toronto Blue Jays,2022,56,Pitcher,Pitcher,Traded
+598265,Jackie Bradley Jr.,141,Toronto Blue Jays,2022,25,Outfielder,Outfielder,Active
+681962,Vinny Capra,141,Toronto Blue Jays,2022,44,Third Base,Infielder,Injured 60-Day
+666721,Max Castillo,141,Toronto Blue Jays,2022,60,Pitcher,Pitcher,Traded
+656305,Matt Chapman,141,Toronto Blue Jays,2022,26,Third Base,Infielder,Active
+643256,Adam Cimber,141,Toronto Blue Jays,2022,90,Pitcher,Pitcher,Active
+641470,Zack Collins,141,Toronto Blue Jays,2022,21,Catcher,Catcher,Claimed
+669289,Santiago Espinal,141,Toronto Blue Jays,2022,5,Second Base,Infielder,Active
+670102,Bowden Francis,141,Toronto Blue Jays,2022,59,Pitcher,Pitcher,Minor League Contract
+657424,Matt Gage,141,Toronto Blue Jays,2022,91,Pitcher,Pitcher,Reassigned to Minors
+554340,Yimi García,141,Toronto Blue Jays,2022,93,Pitcher,Pitcher,Active
+592332,Kevin Gausman,141,Toronto Blue Jays,2022,34,Pitcher,Pitcher,Active
+656492,Foster Griffin,141,Toronto Blue Jays,2022,60,Pitcher,Pitcher,Active
+665489,Vladimir Guerrero Jr.,141,Toronto Blue Jays,2022,27,First Base,Infielder,Active
+666971,Lourdes Gurriel Jr.,141,Toronto Blue Jays,2022,13,Outfielder,Outfielder,Active
+641672,Thomas Hatch,141,Toronto Blue Jays,2022,31,Pitcher,Pitcher,Active
+623168,Tyler Heineman,141,Toronto Blue Jays,2022,22,Catcher,Catcher,Claimed
+606192,Teoscar Hernández,141,Toronto Blue Jays,2022,37,Outfielder,Outfielder,Active
+643376,Danny Jansen,141,Toronto Blue Jays,2022,9,Catcher,Catcher,Active
+641741,Gosuke Katoh,141,Toronto Blue Jays,2022,29,Second Base,Infielder,Claimed
+641743,Anthony Kay,141,Toronto Blue Jays,2022,47,Pitcher,Pitcher,Active
+579328,Yusei Kikuchi,141,Toronto Blue Jays,2022,16,Pitcher,Pitcher,Injured 15-Day
+672386,Alejandro Kirk,141,Toronto Blue Jays,2022,30,Catcher,Catcher,Active
+596271,Casey Lawrence,141,Toronto Blue Jays,2022,62,Pitcher,Pitcher,Active
+672640,Otto Lopez,141,Toronto Blue Jays,2022,51,Shortstop,Infielder,Active
+666201,Alek Manoah,141,Toronto Blue Jays,2022,6,Pitcher,Pitcher,Active
+641835,Tim Mayza,141,Toronto Blue Jays,2022,58,Pitcher,Pitcher,Active
+593160,Whit Merrifield,141,Toronto Blue Jays,2022,1,Outfielder,Outfielder,Active
+657240,Julian Merryweather,141,Toronto Blue Jays,2022,67,Pitcher,Pitcher,Active
+672515,Gabriel Moreno,141,Toronto Blue Jays,2022,55,Catcher,Catcher,Active
+475479,David Phelps,141,Toronto Blue Jays,2022,35,Pitcher,Pitcher,Active
+647315,Zach Pop,141,Toronto Blue Jays,2022,56,Pitcher,Pitcher,Active
+670950,Trevor Richards,141,Toronto Blue Jays,2022,33,Pitcher,Pitcher,Active
+605447,Jordan Romano,141,Toronto Blue Jays,2022,68,Pitcher,Pitcher,Active
+489265,Sergio Romo,141,Toronto Blue Jays,2022,54,Pitcher,Pitcher,Minor League Contract
+547943,Hyun Jin Ryu,141,Toronto Blue Jays,2022,99,Pitcher,Pitcher,Injured 60-Day
+642048,Tayler Saucedo,141,Toronto Blue Jays,2022,46,Pitcher,Pitcher,Injured 60-Day
+543807,George Springer,141,Toronto Blue Jays,2022,4,Outfielder,Outfielder,Active
+548389,Ross Stripling,141,Toronto Blue Jays,2022,48,Pitcher,Pitcher,Active
+606132,Raimel Tapia,141,Toronto Blue Jays,2022,15,Outfielder,Outfielder,Active
+663423,Trent Thornton,141,Toronto Blue Jays,2022,57,Pitcher,Pitcher,Active
+607755,Andrew Vasquez,141,Toronto Blue Jays,2022,50,Pitcher,Pitcher,Claimed
+669952,Mitch White,141,Toronto Blue Jays,2022,45,Pitcher,Pitcher,Active
+605548,Bradley Zimmer,141,Toronto Blue Jays,2022,7,Outfielder,Outfielder,Active
+660896,Jorge Alcala,142,Minnesota Twins,2022,66,Pitcher,Pitcher,Injured 60-Day
+502042,Chris Archer,142,Minnesota Twins,2022,17,Pitcher,Pitcher,Active
+650333,Luis Arraez,142,Minnesota Twins,2022,2,First Base,Infielder,Active
+542921,Tim Beckham,142,Minnesota Twins,2022,9,Shortstop,Infielder,Minor League Contract
+605164,Dylan Bundy,142,Minnesota Twins,2022,37,Pitcher,Pitcher,Active
+621439,Byron Buxton,142,Minnesota Twins,2022,25,Designated Hitter,Hitter,Active
+666974,Yennier Cano,142,Minnesota Twins,2022,99,Pitcher,Pitcher,Traded
+595909,Jake Cave,142,Minnesota Twins,2022,8,Outfielder,Outfielder,Claimed
+665482,Gilberto Celestino,142,Minnesota Twins,2022,67,Outfielder,Outfielder,Active
+676628,Mark Contreras,142,Minnesota Twins,2022,55,Outfielder,Outfielder,Active
+621043,Carlos Correa,142,Minnesota Twins,2022,4,Shortstop,Infielder,Active
+605194,Jharel Cotton,142,Minnesota Twins,2022,45,Pitcher,Pitcher,Claimed
+543056,Danny Coulombe,142,Minnesota Twins,2022,53,Pitcher,Pitcher,Active
+656354,Austin Davis,142,Minnesota Twins,2022,21,Pitcher,Pitcher,Minor League Contract
+608648,Tyler Duffey,142,Minnesota Twins,2022,21,Pitcher,Pitcher,Released
+661395,Jhoan Duran,142,Minnesota Twins,2022,59,Pitcher,Pitcher,Active
+605242,Michael Fulmer,142,Minnesota Twins,2022,52,Pitcher,Pitcher,Active
+664247,Kyle Garlick,142,Minnesota Twins,2022,30,Outfielder,Outfielder,Injured 10-Day
+608422,José Godoy,142,Minnesota Twins,2022,60,Catcher,Catcher,Claimed
+592346,Chi Chi González,142,Minnesota Twins,2022,51,Pitcher,Pitcher,Claimed
+624503,Nick Gordon,142,Minnesota Twins,2022,1,Second Base,Infielder,Active
+543243,Sonny Gray,142,Minnesota Twins,2022,54,Pitcher,Pitcher,Active
+571740,Billy Hamilton,142,Minnesota Twins,2022,0,Designated Hitter,Hitter,Active
+643348,Caleb Hamilton,142,Minnesota Twins,2022,90,Catcher,Catcher,Claimed
+641656,Ian Hamilton,142,Minnesota Twins,2022,44,Pitcher,Pitcher,Traded
+678692,Ronny Henriquez,142,Minnesota Twins,2022,70,Pitcher,Pitcher,Active
+643377,Griffin Jax,142,Minnesota Twins,2022,65,Pitcher,Pitcher,Active
+680777,Ryan Jeffers,142,Minnesota Twins,2022,27,Catcher,Catcher,Active
+596146,Max Kepler,142,Minnesota Twins,2022,26,Outfielder,Outfielder,Active
+666135,Alex Kirilloff,142,Minnesota Twins,2022,19,Outfielder,Outfielder,Injured 60-Day
+663616,Trevor Larnach,142,Minnesota Twins,2022,13,Outfielder,Outfielder,Injured 60-Day
+506702,Sandy León,142,Minnesota Twins,2022,39,Catcher,Catcher,Injured 60-Day
+668904,Royce Lewis,142,Minnesota Twins,2022,23,Shortstop,Infielder,Injured 60-Day
+605347,Jorge López,142,Minnesota Twins,2022,48,Pitcher,Pitcher,Active
+641816,Tyler Mahle,142,Minnesota Twins,2022,51,Pitcher,Pitcher,Active
+656730,Trevor Megill,142,Minnesota Twins,2022,58,Pitcher,Pitcher,Active
+573668,Juan Minaya,142,Minnesota Twins,2022,49,Pitcher,Pitcher,Minor League Contract
+669304,Jose Miranda,142,Minnesota Twins,2022,64,Third Base,Infielder,Active
+663558,Jovani Morán,142,Minnesota Twins,2022,71,Pitcher,Pitcher,Active
+641927,Bailey Ober,142,Minnesota Twins,2022,16,Pitcher,Pitcher,Active
+663978,Chris Paddack,142,Minnesota Twins,2022,20,Pitcher,Pitcher,Injured 60-Day
+641941,Emilio Pagán,142,Minnesota Twins,2022,12,Pitcher,Pitcher,Active
+650339,Jermaine Palacios,142,Minnesota Twins,2022,87,Shortstop,Infielder,Claimed
+593871,Jorge Polanco,142,Minnesota Twins,2022,11,Second Base,Infielder,Active
+605446,Dereck Rodríguez,142,Minnesota Twins,2022,32,Pitcher,Pitcher,Minor League Contract
+664584,Jhon Romero,142,Minnesota Twins,2022,50,Pitcher,Pitcher,Minor League Contract
+657746,Joe Ryan,142,Minnesota Twins,2022,41,Pitcher,Pitcher,Active
+592717,Aaron Sanchez,142,Minnesota Twins,2022,43,Pitcher,Pitcher,Active
+596142,Gary Sánchez,142,Minnesota Twins,2022,24,Catcher,Catcher,Active
+663485,Cole Sands,142,Minnesota Twins,2022,77,Pitcher,Pitcher,Active
+593934,Miguel Sanó,142,Minnesota Twins,2022,22,First Base,Infielder,Injured 60-Day
+656970,Devin Smeltzer,142,Minnesota Twins,2022,31,Pitcher,Pitcher,Minor League Contract
+501925,Joe Smith,142,Minnesota Twins,2022,38,Pitcher,Pitcher,Released
+664054,Cody Stashak,142,Minnesota Twins,2022,61,Pitcher,Pitcher,Injured 60-Day
+573204,Caleb Thielbar,142,Minnesota Twins,2022,56,Pitcher,Pitcher,Active
+592804,Tyler Thornburg,142,Minnesota Twins,2022,48,Pitcher,Pitcher,Minor League Contract
+570482,Gio Urshela,142,Minnesota Twins,2022,15,Third Base,Infielder,Active
+686973,Louis Varland,142,Minnesota Twins,2022,49,Pitcher,Pitcher,Active
+670242,Matt Wallner,142,Minnesota Twins,2022,38,Outfielder,Outfielder,Active
+680739,Josh Winder,142,Minnesota Twins,2022,74,Pitcher,Pitcher,Active
+680573,Simeon Woods Richardson,142,Minnesota Twins,2022,78,Pitcher,Pitcher,Active
+621237,José Alvarado,143,Philadelphia Phillies,2022,46,Pitcher,Pitcher,Active
+571446,Mark Appel,143,Philadelphia Phillies,2022,22,Pitcher,Pitcher,Injured 60-Day
+571479,Andrew Bellatti,143,Philadelphia Phillies,2022,64,Pitcher,Pitcher,Active
+664761,Alec Bohm,143,Philadelphia Phillies,2022,28,First Base,Infielder,Active
+641401,Connor Brogdon,143,Philadelphia Phillies,2022,75,Pitcher,Pitcher,Active
+622666,Johan Camargo,143,Philadelphia Phillies,2022,7,Shortstop,Infielder,Minor League Contract
+592206,Nick Castellanos,143,Philadelphia Phillies,2022,8,Outfielder,Outfielder,Active
+656322,Sam Coonrod,143,Philadelphia Phillies,2022,54,Pitcher,Pitcher,Reassigned to Minors
+664202,Tyler Cyr,143,Philadelphia Phillies,2022,63,Pitcher,Pitcher,Claimed
+606965,Chris Devenski,143,Philadelphia Phillies,2022,47,Pitcher,Pitcher,Reassigned to Minors
+622554,Seranthony Domínguez,143,Philadelphia Phillies,2022,58,Pitcher,Pitcher,Active
+663975,Nick Duron,143,Philadelphia Phillies,2022,71,Pitcher,Pitcher,Traded
+621107,Zach Eflin,143,Philadelphia Phillies,2022,56,Pitcher,Pitcher,Active
+663559,Bailey Falter,143,Philadelphia Phillies,2022,70,Pitcher,Pitcher,Reassigned to Minors
+544727,Jeurys Familia,143,Philadelphia Phillies,2022,31,Pitcher,Pitcher,Released
+502043,Kyle Gibson,143,Philadelphia Phillies,2022,44,Pitcher,Pitcher,Active
+544369,Didi Gregorius,143,Philadelphia Phillies,2022,18,Shortstop,Infielder,Released
+656495,Dalton Guthrie,143,Philadelphia Phillies,2022,18,Third Base,Infielder,Reassigned to Minors
+669742,Darick Hall,143,Philadelphia Phillies,2022,25,First Base,Infielder,Reassigned to Minors
+543272,Brad Hand,143,Philadelphia Phillies,2022,52,Pitcher,Pitcher,Active
+547180,Bryce Harper,143,Philadelphia Phillies,2022,3,Designated Hitter,Hitter,Active
+546318,Odúbel Herrera,143,Philadelphia Phillies,2022,37,Outfielder,Outfielder,Released
+656555,Rhys Hoskins,143,Philadelphia Phillies,2022,17,First Base,Infielder,Active
+676103,Damon Jones,143,Philadelphia Phillies,2022,68,Pitcher,Pitcher,Injured 60-Day
+547184,Michael Kelly,143,Philadelphia Phillies,2022,67,Pitcher,Pitcher,Minor League Contract
+664068,Scott Kingery,143,Philadelphia Phillies,2022,4,Outfield,Outfielder,Minor League Contract
+608349,Corey Knebel,143,Philadelphia Phillies,2022,23,Pitcher,Pitcher,Injured 60-Day
+669016,Brandon Marsh,143,Philadelphia Phillies,2022,16,Outfielder,Outfielder,Active
+665155,Nick Maton,143,Philadelphia Phillies,2022,29,Outfielder,Outfielder,Active
+640458,Óscar Mercado,143,Philadelphia Phillies,2022,35,Outfielder,Outfielder,Claimed
+666160,Mickey Moniak,143,Philadelphia Phillies,2022,16,Outfielder,Outfielder,Traded
+672839,Francisco Morales,143,Philadelphia Phillies,2022,69,Pitcher,Pitcher,Reassigned to Minors
+622168,Yairo Muñoz,143,Philadelphia Phillies,2022,41,Second Base,Infielder,Reassigned to Minors
+665922,Símon Muzziotti,143,Philadelphia Phillies,2022,40,Outfielder,Outfielder,Injured 60-Day
+656793,Nick Nelson,143,Philadelphia Phillies,2022,57,Pitcher,Pitcher,Active
+657697,Vinny Nittoli,143,Philadelphia Phillies,2022,48,Pitcher,Pitcher,Reassigned to Minors
+605400,Aaron Nola,143,Philadelphia Phillies,2022,27,Pitcher,Pitcher,Active
+656803,James Norwood,143,Philadelphia Phillies,2022,49,Pitcher,Pitcher,Traded
+674681,Michael Plassmeyer,143,Philadelphia Phillies,2022,49,Pitcher,Pitcher,Reassigned to Minors
+596451,Roman Quinn,143,Philadelphia Phillies,2022,24,Outfield,Outfielder,Minor League Contract
+592663,J.T. Realmuto,143,Philadelphia Phillies,2022,10,Catcher,Catcher,Active
+502085,David Robertson,143,Philadelphia Phillies,2022,30,Pitcher,Pitcher,Active
+668941,JoJo Romero,143,Philadelphia Phillies,2022,79,Pitcher,Pitcher,Traded
+657745,Bubby Rossman,143,Philadelphia Phillies,2022,77,Pitcher,Pitcher,Traded
+650911,Cristopher Sánchez,143,Philadelphia Phillies,2022,61,Pitcher,Pitcher,Reassigned to Minors
+664848,Donny Sands,143,Philadelphia Phillies,2022,39,Catcher,Catcher,Reassigned to Minors
+656941,Kyle Schwarber,143,Philadelphia Phillies,2022,12,Designated Hitter,Hitter,Active
+516416,Jean Segura,143,Philadelphia Phillies,2022,2,Second Base,Infielder,Active
+624641,Edmundo Sosa,143,Philadelphia Phillies,2022,33,Shortstop,Infielder,Active
+681082,Bryson Stott,143,Philadelphia Phillies,2022,5,Second Base,Infielder,Active
+596117,Garrett Stubbs,143,Philadelphia Phillies,2022,21,Catcher,Catcher,Active
+624133,Ranger Suárez,143,Philadelphia Phillies,2022,55,Pitcher,Pitcher,Active
+592789,Noah Syndergaard,143,Philadelphia Phillies,2022,43,Pitcher,Pitcher,Active
+663837,Matt Vierling,143,Philadelphia Phillies,2022,19,Outfielder,Outfielder,Active
+554430,Zack Wheeler,143,Philadelphia Phillies,2022,45,Pitcher,Pitcher,Active
+605548,Bradley Zimmer,143,Philadelphia Phillies,2022,18,Outfielder,Outfielder,Claimed
+660670,Ronald Acuña Jr.,144,Atlanta Braves,2022,13,Outfielder,Outfielder,Active
+501303,Ehire Adrianza,144,Atlanta Braves,2022,17,Second Base,Infielder,Active
+645277,Ozzie Albies,144,Atlanta Braves,2022,1,Second Base,Infielder,Active
+666120,Ian Anderson,144,Atlanta Braves,2022,36,Pitcher,Pitcher,Active
+606115,Orlando Arcia,144,Atlanta Braves,2022,11,Shortstop,Infielder,Active
+676625,Rylan Bannon,144,Atlanta Braves,2022,46,Third Base,Infielder,Active
+611093,Silvino Bracho,144,Atlanta Braves,2022,61,Pitcher,Pitcher,Active
+429664,Robinson Canó,144,Atlanta Braves,2022,22,Second Base,Infielder,Minor League Contract
+445926,Jesse Chavez,144,Atlanta Braves,2022,60,Pitcher,Pitcher,Active
+661388,William Contreras,144,Atlanta Braves,2022,24,Catcher,Catcher,Active
+672911,Jesus Cruz,144,Atlanta Braves,2022,49,Pitcher,Pitcher,Minor League Contract
+656353,Tucker Davidson,144,Atlanta Braves,2022,64,Pitcher,Pitcher,Traded
+641513,Travis Demeritte,144,Atlanta Braves,2022,48,Outfielder,Outfielder,Minor League Contract
+543105,Alex Dickerson,144,Atlanta Braves,2022,25,Outfielder,Outfielder,Minor League Contract
+594807,Adam Duvall,144,Atlanta Braves,2022,14,Outfielder,Outfielder,Injured 60-Day
+693821,Bryce Elder,144,Atlanta Braves,2022,55,Pitcher,Pitcher,Active
+645801,Mike Ford,144,Atlanta Braves,2022,34,First Base,Infielder,Released
+608331,Max Fried,144,Atlanta Braves,2022,54,Pitcher,Pitcher,Active
+594838,Phil Gosselin,144,Atlanta Braves,2022,15,Second Base,Infielder,Claimed
+687093,Vaughn Grissom,144,Atlanta Braves,2022,18,Second Base,Infielder,Active
+543257,Robbie Grossman,144,Atlanta Braves,2022,15,Outfielder,Outfielder,Active
+671739,Michael Harris II,144,Atlanta Braves,2022,23,Outfielder,Outfielder,Active
+628338,Guillermo Heredia,144,Atlanta Braves,2022,38,Outfielder,Outfielder,Active
+628452,Raisel Iglesias,144,Atlanta Braves,2022,26,Pitcher,Pitcher,Active
+543351,Jay Jackson,144,Atlanta Braves,2022,45,Pitcher,Pitcher,Minor League Contract
+445276,Kenley Jansen,144,Atlanta Braves,2022,74,Pitcher,Pitcher,Active
+669276,Dylan Lee,144,Atlanta Braves,2022,52,Pitcher,Pitcher,Active
+554431,Tyler Matzek,144,Atlanta Braves,2022,68,Pitcher,Pitcher,Active
+543521,Collin McHugh,144,Atlanta Braves,2022,32,Pitcher,Pitcher,Active
+621345,A.J. Minter,144,Atlanta Braves,2022,33,Pitcher,Pitcher,Active
+450203,Charlie Morton,144,Atlanta Braves,2022,50,Pitcher,Pitcher,Active
+666205,Kyle Muller,144,Atlanta Braves,2022,66,Pitcher,Pitcher,Active
+656794,Sean Newcomb,144,Atlanta Braves,2022,15,Pitcher,Pitcher,Traded
+503285,Darren O'Day,144,Atlanta Braves,2022,56,Pitcher,Pitcher,Injured 60-Day
+543606,Jake Odorizzi,144,Atlanta Braves,2022,12,Pitcher,Pitcher,Active
+621566,Matt Olson,144,Atlanta Braves,2022,28,First Base,Infielder,Active
+542303,Marcell Ozuna,144,Atlanta Braves,2022,20,Designated Hitter,Hitter,Active
+444489,Manny Piña,144,Atlanta Braves,2022,9,Catcher,Catcher,Injured 60-Day
+663586,Austin Riley,144,Atlanta Braves,2022,27,Third Base,Infielder,Active
+592696,Eddie Rosario,144,Atlanta Braves,2022,8,Outfielder,Outfielder,Active
+519293,Will Smith,144,Atlanta Braves,2022,51,Pitcher,Pitcher,Traded
+623451,Jackson Stephens,144,Atlanta Braves,2022,53,Pitcher,Pitcher,Active
+675911,Spencer Strider,144,Atlanta Braves,2022,65,Pitcher,Pitcher,Active
+621020,Dansby Swanson,144,Atlanta Braves,2022,7,Shortstop,Infielder,Active
+676206,Freddy Tarnok,144,Atlanta Braves,2022,67,Pitcher,Pitcher,Active
+592804,Tyler Thornburg,144,Atlanta Braves,2022,63,Pitcher,Pitcher,Released
+644433,Chadwick Tromp,144,Atlanta Braves,2022,48,Catcher,Catcher,Active
+682016,William Woods,144,Atlanta Braves,2022,78,Pitcher,Pitcher,Active
+657140,Kyle Wright,144,Atlanta Braves,2022,30,Pitcher,Pitcher,Active
+489446,Kirby Yates,144,Atlanta Braves,2022,22,Pitcher,Pitcher,Active
+660623,Huascar Ynoa,144,Atlanta Braves,2022,19,Pitcher,Pitcher,Injured 60-Day
+664849,Danny Young,144,Atlanta Braves,2022,63,Pitcher,Pitcher,Minor League Contract
+518595,Travis d'Arnaud,144,Atlanta Braves,2022,16,Catcher,Catcher,Active
+547989,José Abreu,145,Chicago White Sox,2022,79,First Base,Infielder,Active
+641313,Tim Anderson,145,Chicago White Sox,2022,7,Shortstop,Infielder,Active
+462101,Elvis Andrus,145,Chicago White Sox,2022,1,Shortstop,Infielder,Active
+621383,Tanner Banks,145,Chicago White Sox,2022,57,Pitcher,Pitcher,Active
+607481,Aaron Bummer,145,Chicago White Sox,2022,39,Pitcher,Pitcher,Active
+669394,Jake Burger,145,Chicago White Sox,2022,30,First Base,Infielder,Active
+621114,Ryan Burr,145,Chicago White Sox,2022,61,Pitcher,Pitcher,Released
+656302,Dylan Cease,145,Chicago White Sox,2022,84,Pitcher,Pitcher,Active
+605195,Kyle Crick,145,Chicago White Sox,2022,59,Pitcher,Pitcher,Active
+456501,Johnny Cueto,145,Chicago White Sox,2022,47,Pitcher,Pitcher,Active
+518617,Jake Diekman,145,Chicago White Sox,2022,55,Pitcher,Pitcher,Active
+641553,Adam Engel,145,Chicago White Sox,2022,15,Outfielder,Outfielder,Active
+641582,Matt Foster,145,Chicago White Sox,2022,63,Pitcher,Pitcher,Active
+544725,Leury García,145,Chicago White Sox,2022,28,Shortstop,Infielder,Active
+608337,Lucas Giolito,145,Chicago White Sox,2022,27,Pitcher,Pitcher,Active
+663853,Romy Gonzalez,145,Chicago White Sox,2022,12,Outfielder,Outfielder,Active
+518735,Yasmani Grandal,145,Chicago White Sox,2022,24,Catcher,Catcher,Active
+608665,Kendall Graveman,145,Chicago White Sox,2022,49,Pitcher,Pitcher,Active
+656514,Adam Haseley,145,Chicago White Sox,2022,51,Outfielder,Outfielder,Non-Roster Invitee
+521230,Liam Hendriks,145,Chicago White Sox,2022,31,Pitcher,Pitcher,Active
+650391,Eloy Jiménez,145,Chicago White Sox,2022,74,Outfielder,Outfielder,Injured 10-Day
+523260,Joe Kelly,145,Chicago White Sox,2022,17,Pitcher,Pitcher,Active
+572971,Dallas Keuchel,145,Chicago White Sox,2022,60,Pitcher,Pitcher,Released
+656629,Michael Kopech,145,Chicago White Sox,2022,34,Pitcher,Pitcher,Active
+669424,Jimmy Lambert,145,Chicago White Sox,2022,58,Pitcher,Pitcher,Active
+625643,Reynaldo López,145,Chicago White Sox,2022,40,Pitcher,Pitcher,Active
+458681,Lance Lynn,145,Chicago White Sox,2022,33,Pitcher,Pitcher,Active
+663436,Davis Martin,145,Chicago White Sox,2022,65,Pitcher,Pitcher,Active
+624512,Reese McGuire,145,Chicago White Sox,2022,21,Catcher,Catcher,Traded
+664901,Danny Mendick,145,Chicago White Sox,2022,20,Shortstop,Infielder,Injured 60-Day
+660162,Yoán Moncada,145,Chicago White Sox,2022,10,Third Base,Infielder,Active
+592622,Mark Payton,145,Chicago White Sox,2022,46,Outfielder,Outfielder,Active
+656024,Carlos Pérez,145,Chicago White Sox,2022,36,Catcher,Catcher,Active
+572041,AJ Pollock,145,Chicago White Sox,2022,18,Outfielder,Outfielder,Active
+673357,Luis Robert Jr.,145,Chicago White Sox,2022,88,Outfielder,Outfielder,Active
+614179,José Ruiz,145,Chicago White Sox,2022,66,Pitcher,Pitcher,Active
+644429,Anderson Severino,145,Chicago White Sox,2022,62,Pitcher,Pitcher,Minor League Contract
+657757,Gavin Sheets,145,Chicago White Sox,2022,32,First Base,Infielder,Active
+672820,Lenyn Sosa,145,Chicago White Sox,2022,50,Shortstop,Infielder,Active
+656986,Bennett Sousa,145,Chicago White Sox,2022,67,Pitcher,Pitcher,Active
+683734,Andrew Vaughn,145,Chicago White Sox,2022,25,First Base,Infielder,Active
+592826,Vince Velasquez,145,Chicago White Sox,2022,23,Pitcher,Pitcher,Active
+664874,Seby Zavala,145,Chicago White Sox,2022,44,Catcher,Catcher,Active
+542583,Jesús Aguilar,146,Miami Marlins,2022,99,First Base,Infielder,Released
+645261,Sandy Alcantara,146,Miami Marlins,2022,22,Pitcher,Pitcher,Active
+605119,Brian Anderson,146,Miami Marlins,2022,15,Third Base,Infielder,Active
+542888,Shawn Armstrong,146,Miami Marlins,2022,43,Pitcher,Pitcher,Minor League Contract
+553902,Willians Astudillo,146,Miami Marlins,2022,37,Third Base,Infielder,Minor League Contract
+542914,Anthony Bass,146,Miami Marlins,2022,52,Pitcher,Pitcher,Traded
+669622,Anthony Bender,146,Miami Marlins,2022,55,Pitcher,Pitcher,Injured 60-Day
+542932,Jon Berti,146,Miami Marlins,2022,5,Shortstop,Infielder,Active
+668709,JJ Bleday,146,Miami Marlins,2022,67,Outfielder,Outfielder,Active
+542947,Richard Bleier,146,Miami Marlins,2022,35,Pitcher,Pitcher,Active
+623211,Huascar Brazobán,146,Miami Marlins,2022,81,Pitcher,Pitcher,Active
+656257,Jeff Brigham,146,Miami Marlins,2022,43,Pitcher,Pitcher,Active
+680814,Peyton Burdick,146,Miami Marlins,2022,86,Outfielder,Outfielder,Active
+665795,Edward Cabrera,146,Miami Marlins,2022,27,Pitcher,Pitcher,Active
+641447,Daniel Castano,146,Miami Marlins,2022,20,Pitcher,Pitcher,Active
+665862,Jazz Chisholm Jr.,146,Miami Marlins,2022,2,Outfielder,Outfielder,Injured 60-Day
+643265,Garrett Cooper,146,Miami Marlins,2022,26,First Base,Infielder,Active
+650559,Bryan De La Cruz,146,Miami Marlins,2022,14,Outfielder,Outfielder,Active
+650331,Lewin Díaz,146,Miami Marlins,2022,34,First Base,Infielder,Active
+656388,Joe Dunand,146,Miami Marlins,2022,62,Third Base,Infielder,Claimed
+666464,Jerar Encarnacion,146,Miami Marlins,2022,64,Outfielder,Outfielder,Active
+670288,Jake Fishman,146,Miami Marlins,2022,94,Pitcher,Pitcher,Minor League Contract
+571670,Dylan Floro,146,Miami Marlins,2022,36,Pitcher,Pitcher,Active
+663743,Nick Fortes,146,Miami Marlins,2022,54,Catcher,Catcher,Active
+541645,Avisaíl García,146,Miami Marlins,2022,24,Outfielder,Outfielder,Active
+666129,Braxton Garrett,146,Miami Marlins,2022,60,Pitcher,Pitcher,Active
+570481,Erik González,146,Miami Marlins,2022,9,Third Base,Infielder,Minor League Contract
+677954,Jordan Groshans,146,Miami Marlins,2022,65,Shortstop,Infielder,Active
+571740,Billy Hamilton,146,Miami Marlins,2022,6,Shortstop,Infielder,Minor League Contract
+545343,Louis Head,146,Miami Marlins,2022,38,Pitcher,Pitcher,Claimed
+668721,Payton Henry,146,Miami Marlins,2022,59,Catcher,Catcher,Active
+622694,Elieser Hernández,146,Miami Marlins,2022,57,Pitcher,Pitcher,Active
+663773,Bryan Hoeing,146,Miami Marlins,2022,93,Pitcher,Pitcher,Active
+656548,Jordan Holloway,146,Miami Marlins,2022,25,Pitcher,Pitcher,Injured 60-Day
+607609,A.J. Ladwig,146,Miami Marlins,2022,70,Pitcher,Pitcher,Minor League Contract
+641779,Charles Leblanc,146,Miami Marlins,2022,83,Third Base,Infielder,Active
+641154,Pablo López,146,Miami Marlins,2022,49,Pitcher,Pitcher,Active
+666200,Jesús Luzardo,146,Miami Marlins,2022,44,Pitcher,Pitcher,Active
+676974,Max Meyer,146,Miami Marlins,2022,23,Pitcher,Pitcher,Injured 60-Day
+667297,Tommy Nance,146,Miami Marlins,2022,51,Pitcher,Pitcher,Active
+677053,Andrew Nardi,146,Miami Marlins,2022,90,Pitcher,Pitcher,Active
+663734,Nick Neidert,146,Miami Marlins,2022,29,Pitcher,Pitcher,Active
+595345,Steven Okert,146,Miami Marlins,2022,48,Pitcher,Pitcher,Active
+647315,Zach Pop,146,Miami Marlins,2022,56,Pitcher,Pitcher,Traded
+547001,Cody Poteet,146,Miami Marlins,2022,72,Pitcher,Pitcher,Injured 60-Day
+669432,Trevor Rogers,146,Miami Marlins,2022,28,Pitcher,Pitcher,Active
+500743,Miguel Rojas,146,Miami Marlins,2022,11,Shortstop,Infielder,Active
+660821,Jesús Sánchez,146,Miami Marlins,2022,7,Outfielder,Outfielder,Active
+656945,Tanner Scott,146,Miami Marlins,2022,66,Pitcher,Pitcher,Active
+624585,Jorge Soler,146,Miami Marlins,2022,12,Outfielder,Outfielder,Injured 60-Day
+607732,Jacob Stallings,146,Miami Marlins,2022,58,Catcher,Catcher,Active
+642121,Cole Sulser,146,Miami Marlins,2022,31,Pitcher,Pitcher,Active
+621563,Joey Wendle,146,Miami Marlins,2022,18,Shortstop,Infielder,Active
+663897,Luke Williams,146,Miami Marlins,2022,46,Outfielder,Outfielder,Active
+642231,Jimmy Yacabonis,146,Miami Marlins,2022,47,Pitcher,Pitcher,Claimed
+656008,Aneurys Zabala,146,Miami Marlins,2022,80,Pitcher,Pitcher,Minor League Contract
+656061,Albert Abreu,147,New York Yankees,2022,84,Pitcher,Pitcher,Active
+609280,Miguel Andujar,147,New York Yankees,2022,41,Outfielder,Outfielder,Claimed
+664056,Harrison Bader,147,New York Yankees,2022,22,Outfielder,Outfielder,Active
+607455,Anthony Banda,147,New York Yankees,2022,61,Pitcher,Pitcher,Minor League Contract
+544365,Manny Bañuelos,147,New York Yankees,2022,68,Pitcher,Pitcher,Traded
+572703,Luke Bard,147,New York Yankees,2022,68,Pitcher,Pitcher,Minor League Contract
+606930,Jacob Barnes,147,New York Yankees,2022,68,Pitcher,Pitcher,Minor League Contract
+643217,Andrew Benintendi,147,New York Yankees,2022,18,Outfielder,Outfielder,Active
+542963,Rob Brantly,147,New York Yankees,2022,,Catcher,Catcher,Minor League Contract
+502154,Zack Britton,147,New York Yankees,2022,53,Pitcher,Pitcher,Injured 60-Day
+665828,Oswaldo Cabrera,147,New York Yankees,2022,95,Outfielder,Outfielder,Active
+572761,Matt Carpenter,147,New York Yankees,2022,24,Designated Hitter,Hitter,Active
+612434,Miguel Castro,147,New York Yankees,2022,30,Pitcher,Pitcher,Active
+547973,Aroldis Chapman,147,New York Yankees,2022,54,Pitcher,Pitcher,Active
+543037,Gerrit Cole,147,New York Yankees,2022,45,Pitcher,Pitcher,Active
+641482,Nestor Cortes,147,New York Yankees,2022,65,Pitcher,Pitcher,Active
+518626,Josh Donaldson,147,New York Yankees,2022,28,Third Base,Infielder,Active
+664123,Scott Effross,147,New York Yankees,2022,59,Pitcher,Pitcher,Active
+664314,Estevan Florial,147,New York Yankees,2022,90,Outfielder,Outfielder,Active
+608336,Joey Gallo,147,New York Yankees,2022,13,Outfielder,Outfielder,Traded
+593334,Domingo Germán,147,New York Yankees,2022,55,Pitcher,Pitcher,Active
+661563,Luis Gil,147,New York Yankees,2022,81,Pitcher,Pitcher,Injured 60-Day
+592346,Chi Chi González,147,New York Yankees,2022,70,Pitcher,Pitcher,Minor League Contract
+503556,Marwin Gonzalez,147,New York Yankees,2022,14,Shortstop,Infielder,Active
+643338,Chad Green,147,New York Yankees,2022,57,Pitcher,Pitcher,Injured 60-Day
+572888,Shane Greene,147,New York Yankees,2022,,Pitcher,Pitcher,Minor League Contract
+608597,Ronald Guzmán,147,New York Yankees,2022,29,First Base,Infielder,Minor League Contract
+543305,Aaron Hicks,147,New York Yankees,2022,31,Outfielder,Outfielder,Active
+543309,Kyle Higashioka,147,New York Yankees,2022,66,Catcher,Catcher,Active
+605280,Clay Holmes,147,New York Yankees,2022,35,Pitcher,Pitcher,Active
+592450,Aaron Judge,147,New York Yankees,2022,99,Outfielder,Outfielder,Active
+643396,Isiah Kiner-Falefa,147,New York Yankees,2022,12,Outfielder,Outfielder,Active
+650633,Michael King,147,New York Yankees,2022,34,Pitcher,Pitcher,Injured 60-Day
+518934,DJ LeMahieu,147,New York Yankees,2022,26,Third Base,Infielder,Active
+642528,Jonathan Loáisiga,147,New York Yankees,2022,43,Pitcher,Pitcher,Active
+641796,Tim Locastro,147,New York Yankees,2022,33,Outfielder,Outfielder,Active
+476595,Lucas Luetge,147,New York Yankees,2022,63,Pitcher,Pitcher,Reassigned to Minors
+676760,Ron Marinaccio,147,New York Yankees,2022,97,Pitcher,Pitcher,Active
+641853,David McKay,147,New York Yankees,2022,71,Pitcher,Pitcher,Traded
+593423,Frankie Montas,147,New York Yankees,2022,47,Pitcher,Pitcher,Active
+656756,Jordan Montgomery,147,New York Yankees,2022,47,Pitcher,Pitcher,Traded
+593974,Wandy Peralta,147,New York Yankees,2022,58,Pitcher,Pitcher,Active
+672724,Oswald Peraza,147,New York Yankees,2022,91,Shortstop,Infielder,Active
+519203,Anthony Rizzo,147,New York Yankees,2022,48,First Base,Infielder,Active
+657376,Clarke Schmidt,147,New York Yankees,2022,86,Pitcher,Pitcher,Active
+676664,JP Sears,147,New York Yankees,2022,92,Pitcher,Pitcher,Traded
+622663,Luis Severino,147,New York Yankees,2022,40,Pitcher,Pitcher,Active
+519317,Giancarlo Stanton,147,New York Yankees,2022,27,Outfielder,Outfielder,Active
+592791,Jameson Taillon,147,New York Yankees,2022,50,Pitcher,Pitcher,Active
+650402,Gleyber Torres,147,New York Yankees,2022,25,Second Base,Infielder,Active
+624431,Jose Trevino,147,New York Yankees,2022,39,Catcher,Catcher,Active
+642152,Lou Trivino,147,New York Yankees,2022,56,Pitcher,Pitcher,Active
+543901,Ryan Weber,147,New York Yankees,2022,92,Pitcher,Pitcher,Minor League Contract
+669711,Greg Weissert,147,New York Yankees,2022,68,Pitcher,Pitcher,Active
+642715,Willy Adames,158,Milwaukee Brewers,2022,27,Shortstop,Infielder,Active
+669920,Jason Alexander,158,Milwaukee Brewers,2022,41,Pitcher,Pitcher,Active
+676879,Aaron Ashby,158,Milwaukee Brewers,2022,26,Pitcher,Pitcher,Active
+673316,Luke Barker,158,Milwaukee Brewers,2022,49,Pitcher,Pitcher,Released
+502202,Brad Boxberger,158,Milwaukee Brewers,2022,45,Pitcher,Pitcher,Active
+670712,Mike Brosseau,158,Milwaukee Brewers,2022,20,Third Base,Infielder,Active
+669203,Corbin Burnes,158,Milwaukee Brewers,2022,39,Pitcher,Pitcher,Active
+456713,Matt Bush,158,Milwaukee Brewers,2022,50,Pitcher,Pitcher,Active
+456715,Lorenzo Cain,158,Milwaukee Brewers,2022,6,Outfielder,Outfielder,Released
+605170,Victor Caratini,158,Milwaukee Brewers,2022,7,Catcher,Catcher,Active
+664776,Jake Cousins,158,Milwaukee Brewers,2022,54,Pitcher,Pitcher,Active
+641505,Jonathan Davis,158,Milwaukee Brewers,2022,3,Outfielder,Outfielder,Minor League Contract
+666128,Mario Feliciano,158,Milwaukee Brewers,2022,0,Catcher,Catcher,Active
+592346,Chi Chi González,158,Milwaukee Brewers,2022,21,Pitcher,Pitcher,Minor League Contract
+641627,Trevor Gott,158,Milwaukee Brewers,2022,48,Pitcher,Pitcher,Active
+594311,Jandel Gustave,158,Milwaukee Brewers,2022,31,Pitcher,Pitcher,Active
+623352,Josh Hader,158,Milwaukee Brewers,2022,71,Pitcher,Pitcher,Traded
+669374,Keston Hiura,158,Milwaukee Brewers,2022,18,First Base,Infielder,Active
+605288,Adrian Houser,158,Milwaukee Brewers,2022,37,Pitcher,Pitcher,Active
+656577,Alex Jackson,158,Milwaukee Brewers,2022,5,Catcher,Catcher,Injured 60-Day
+665001,Trevor Kelley,158,Milwaukee Brewers,2022,43,Pitcher,Pitcher,Active
+641778,Eric Lauer,158,Milwaukee Brewers,2022,52,Pitcher,Pitcher,Active
+664029,Mark Mathias,158,Milwaukee Brewers,2022,13,Second Base,Infielder,Traded
+457705,Andrew McCutchen,158,Milwaukee Brewers,2022,24,Designated Hitter,Hitter,Active
+459429,Jake McGee,158,Milwaukee Brewers,2022,21,Pitcher,Pitcher,Claimed
+650496,J.C. Mejía,158,Milwaukee Brewers,2022,36,Pitcher,Pitcher,Minor League Contract
+571948,Hoby Milner,158,Milwaukee Brewers,2022,55,Pitcher,Pitcher,Active
+669003,Garrett Mitchell,158,Milwaukee Brewers,2022,5,Outfielder,Outfielder,Active
+553882,Omar Narváez,158,Milwaukee Brewers,2022,10,Catcher,Catcher,Active
+642547,Freddy Peralta,158,Milwaukee Brewers,2022,51,Pitcher,Pitcher,Active
+606131,Luis Perdomo,158,Milwaukee Brewers,2022,46,Pitcher,Pitcher,Active
+607054,Jace Peterson,158,Milwaukee Brewers,2022,14,Third Base,Infielder,Active
+592669,Hunter Renfroe,158,Milwaukee Brewers,2022,12,Outfielder,Outfielder,Active
+622569,Pablo Reyes,158,Milwaukee Brewers,2022,33,Third Base,Infielder,Minor League Contract
+573124,Taylor Rogers,158,Milwaukee Brewers,2022,25,Pitcher,Pitcher,Active
+665923,Esteury Ruiz,158,Milwaukee Brewers,2022,13,Outfielder,Outfielder,Active
+592712,Connor Sadzeck,158,Milwaukee Brewers,2022,59,Pitcher,Pitcher,Minor League Contract
+667376,Miguel Sánchez,158,Milwaukee Brewers,2022,58,Pitcher,Pitcher,Minor League Contract
+600474,Pedro Severino,158,Milwaukee Brewers,2022,28,Catcher,Catcher,Minor League Contract
+663629,Ethan Small,158,Milwaukee Brewers,2022,43,Pitcher,Pitcher,Active
+657265,Peter Strzelecki,158,Milwaukee Brewers,2022,32,Pitcher,Pitcher,Active
+608718,Brent Suter,158,Milwaukee Brewers,2022,35,Pitcher,Pitcher,Active
+621438,Tyrone Taylor,158,Milwaukee Brewers,2022,15,Outfielder,Outfielder,Active
+642133,Rowdy Tellez,158,Milwaukee Brewers,2022,11,First Base,Infielder,Active
+623437,Justin Topa,158,Milwaukee Brewers,2022,56,Pitcher,Pitcher,Active
+570632,José Ureña,158,Milwaukee Brewers,2022,32,Pitcher,Pitcher,Minor League Contract
+649966,Luis Urías,158,Milwaukee Brewers,2022,2,Second Base,Infielder,Active
+642207,Devin Williams,158,Milwaukee Brewers,2022,38,Pitcher,Pitcher,Active
+543939,Kolten Wong,158,Milwaukee Brewers,2022,16,Second Base,Infielder,Active
+605540,Brandon Woodruff,158,Milwaukee Brewers,2022,53,Pitcher,Pitcher,Active
+592885,Christian Yelich,158,Milwaukee Brewers,2022,22,Outfielder,Outfielder,Active
+666176,Jo Adell,108,Los Angeles Angels,2022,7,Outfielder,Outfielder,Active
+666922,Ryan Aguilar,108,Los Angeles Angels,2022,39,Outfielder,Outfielder,Minor League Contract
+607457,Kyle Barraclough,108,Los Angeles Angels,2022,49,Pitcher,Pitcher,Minor League Contract
+642545,Jaime Barria,108,Los Angeles Angels,2022,51,Pitcher,Pitcher,Active
+605151,Archie Bradley,108,Los Angeles Angels,2022,23,Pitcher,Pitcher,Active
+445926,Jesse Chavez,108,Los Angeles Angels,2022,40,Pitcher,Pitcher,Released
+656353,Tucker Davidson,108,Los Angeles Angels,2022,32,Pitcher,Pitcher,Active
+672282,Reid Detmers,108,Los Angeles Angels,2022,48,Pitcher,Pitcher,Active
+646242,Jhonathan Díaz,108,Los Angeles Angels,2022,74,Pitcher,Pitcher,Injured 60-Day
+622110,Matt Duffy,108,Los Angeles Angels,2022,5,Third Base,Infielder,Active
+621453,Steven Duggar,108,Los Angeles Angels,2022,8,Outfielder,Outfielder,Minor League Contract
+664058,David Fletcher,108,Los Angeles Angels,2022,42,Shortstop,Infielder,Active
+645801,Mike Ford,108,Los Angeles Angels,2022,36,First Base,Infielder,Minor League Contract
+594838,Phil Gosselin,108,Los Angeles Angels,2022,14,Second Base,Infielder,Released
+656509,Monte Harrison,108,Los Angeles Angels,2022,13,Outfield,Outfielder,Minor League Contract
+623474,Jimmy Herget,108,Los Angeles Angels,2022,46,Pitcher,Pitcher,Active
+628452,Raisel Iglesias,108,Los Angeles Angels,2022,32,Pitcher,Pitcher,Traded
+676083,Janson Junk,108,Los Angeles Angels,2022,66,Pitcher,Pitcher,Active
+501571,Juan Lagares,108,Los Angeles Angels,2022,10,Outfielder,Outfielder,Minor League Contract
+547179,Michael Lorenzen,108,Los Angeles Angels,2022,25,Pitcher,Pitcher,Active
+571901,Aaron Loup,108,Los Angeles Angels,2022,28,Pitcher,Pitcher,Active
+676950,David MacKinnon,108,Los Angeles Angels,2022,39,First Base,Infielder,Claimed
+669016,Brandon Marsh,108,Los Angeles Angels,2022,16,Outfielder,Outfielder,Traded
+665896,José Marte,108,Los Angeles Angels,2022,68,Pitcher,Pitcher,Active
+594577,Mike Mayers,108,Los Angeles Angels,2022,21,Pitcher,Pitcher,Minor League Contract
+608686,Jack Mayfield,108,Los Angeles Angels,2022,9,Second Base,Infielder,Minor League Contract
+666160,Mickey Moniak,108,Los Angeles Angels,2022,16,Outfielder,Outfielder,Active
+572383,Brian Moran,108,Los Angeles Angels,2022,58,Pitcher,Pitcher,Minor League Contract
+681351,Logan O'Hoppe,108,Los Angeles Angels,2022,14,Catcher,Catcher,Active
+660271,Shohei Ohtani,108,Los Angeles Angels,2022,17,Two-Way Player,Two-Way Player,Active
+661383,Oliver Ortega,108,Los Angeles Angels,2022,40,Pitcher,Pitcher,Active
+665625,Elvis Peguero,108,Los Angeles Angels,2022,59,Pitcher,Pitcher,Active
+650671,José Quijada,108,Los Angeles Angels,2022,65,Pitcher,Pitcher,Active
+543685,Anthony Rendon,108,Los Angeles Angels,2022,6,Third Base,Infielder,Active
+650859,Luis Rengifo,108,Los Angeles Angels,2022,2,Second Base,Infielder,Active
+622103,Gerardo Reyes,108,Los Angeles Angels,2022,64,Pitcher,Pitcher,Minor League Contract
+670351,Jose Rojas,108,Los Angeles Angels,2022,18,Third Base,Infielder,Claimed
+519222,Austin Romine,108,Los Angeles Angels,2022,19,Catcher,Catcher,Minor League Contract
+670046,Kenny Rosenberg,108,Los Angeles Angels,2022,53,Pitcher,Pitcher,Active
+663776,Patrick Sandoval,108,Los Angeles Angels,2022,43,Pitcher,Pitcher,Active
+642423,Magneuris Sierra,108,Los Angeles Angels,2022,37,Outfielder,Outfielder,Minor League Contract
+681217,Chase Silseth,108,Los Angeles Angels,2022,63,Pitcher,Pitcher,Active
+670869,Livan Soto,108,Los Angeles Angels,2022,13,Shortstop,Infielder,Active
+545358,Max Stassi,108,Los Angeles Angels,2022,33,Catcher,Catcher,Active
+683021,Michael Stefanic,108,Los Angeles Angels,2022,38,Second Base,Infielder,Active
+660761,José Suarez,108,Los Angeles Angels,2022,54,Pitcher,Pitcher,Active
+435559,Kurt Suzuki,108,Los Angeles Angels,2022,24,Catcher,Catcher,Active
+592789,Noah Syndergaard,108,Los Angeles Angels,2022,34,Pitcher,Pitcher,Traded
+572193,Ryan Tepera,108,Los Angeles Angels,2022,52,Pitcher,Pitcher,Active
+642136,Matt Thaiss,108,Los Angeles Angels,2022,12,Catcher,Catcher,Active
+605504,Dillon Thomas,108,Los Angeles Angels,2022,10,Outfielder,Outfielder,Minor League Contract
+657053,Touki Toussaint,108,Los Angeles Angels,2022,56,Pitcher,Pitcher,Active
+545361,Mike Trout,108,Los Angeles Angels,2022,27,Outfielder,Outfielder,Active
+491624,César Valdez,108,Los Angeles Angels,2022,67,Pitcher,Pitcher,Minor League Contract
+623205,Andrew Velazquez,108,Los Angeles Angels,2022,4,Shortstop,Infielder,Injured 60-Day
+542340,Jonathan Villar,108,Los Angeles Angels,2022,19,Second Base,Infielder,Free Agent
+642180,Tyler Wade,108,Los Angeles Angels,2022,14,Second Base,Infielder,Traded
+595453,Chad Wallach,108,Los Angeles Angels,2022,35,Catcher,Catcher,Minor League Contract
+665120,Jared Walsh,108,Los Angeles Angels,2022,20,First Base,Infielder,Injured 60-Day
+663534,Nash Walters,108,Los Angeles Angels,2022,58,Pitcher,Pitcher,Active
+681806,Andrew Wantz,108,Los Angeles Angels,2022,60,Pitcher,Pitcher,Active
+621493,Taylor Ward,108,Los Angeles Angels,2022,3,Outfielder,Outfielder,Active
+681810,Austin Warren,108,Los Angeles Angels,2022,61,Pitcher,Pitcher,Active
+592848,Zack Weiss,108,Los Angeles Angels,2022,57,Pitcher,Pitcher,Active
+664334,Aaron Whitefield,108,Los Angeles Angels,2022,44,Outfield,Outfielder,Designated for Assignment
+642239,Rob Zastryzny,108,Los Angeles Angels,2022,40,Pitcher,Pitcher,Active
+605113,Nick Ahmed,109,Arizona Diamondbacks,2022,13,Shortstop,Infielder,Injured 60-Day
+642727,Sergio Alcántara,109,Arizona Diamondbacks,2022,43,Third Base,Infielder,Active
+666179,Seth Beer,109,Arizona Diamondbacks,2022,28,First Base,Infielder,Active
+518516,Madison Bumgarner,109,Arizona Diamondbacks,2022,40,Pitcher,Pitcher,Active
+682998,Corbin Carroll,109,Arizona Diamondbacks,2022,7,Outfielder,Outfielder,Active
+528748,Humberto Castellanos,109,Arizona Diamondbacks,2022,54,Pitcher,Pitcher,Injured 60-Day
+571602,Matt Davidson,109,Arizona Diamondbacks,2022,14,First Base,Infielder,Minor League Contract
+605200,Zach Davies,109,Arizona Diamondbacks,2022,27,Pitcher,Pitcher,Active
+606965,Chris Devenski,109,Arizona Diamondbacks,2022,32,Pitcher,Pitcher,Released
+594694,Wilmer Difo,109,Arizona Diamondbacks,2022,1,Shortstop,Infielder,Minor League Contract
+656403,Drew Ellis,109,Arizona Diamondbacks,2022,15,Third Base,Infielder,Claimed
+666818,Luis Frías,109,Arizona Diamondbacks,2022,65,Pitcher,Pitcher,Active
+643316,Paul Fry,109,Arizona Diamondbacks,2022,43,Pitcher,Pitcher,Minor League Contract
+668678,Zac Gallen,109,Arizona Diamondbacks,2022,23,Pitcher,Pitcher,Active
+656448,Stone Garrett,109,Arizona Diamondbacks,2022,46,Outfielder,Outfielder,Active
+656457,Tyler Gilbert,109,Arizona Diamondbacks,2022,49,Pitcher,Pitcher,Injured 60-Day
+656464,Kevin Ginkel,109,Arizona Diamondbacks,2022,37,Pitcher,Pitcher,Active
+606988,Grayson Greiner,109,Arizona Diamondbacks,2022,14,Catcher,Catcher,Traded
+606993,Jake Hager,109,Arizona Diamondbacks,2022,16,Second Base,Infielder,Minor League Contract
+674072,Tommy Henry,109,Arizona Diamondbacks,2022,47,Pitcher,Pitcher,Active
+660634,Yonny Hernández,109,Arizona Diamondbacks,2022,19,Third Base,Infielder,Claimed
+645444,Jose Herrera,109,Arizona Diamondbacks,2022,36,Catcher,Catcher,Active
+663947,Tyler Holton,109,Arizona Diamondbacks,2022,67,Pitcher,Pitcher,Active
+669450,Cooper Hummel,109,Arizona Diamondbacks,2022,21,Outfielder,Outfielder,Active
+686753,Drey Jameson,109,Arizona Diamondbacks,2022,58,Pitcher,Pitcher,Active
+608348,Carson Kelly,109,Arizona Diamondbacks,2022,18,Catcher,Catcher,Active
+518876,Merrill Kelly,109,Arizona Diamondbacks,2022,29,Pitcher,Pitcher,Active
+671083,Buddy Kennedy,109,Arizona Diamondbacks,2022,45,Second Base,Infielder,Active
+453178,Ian Kennedy,109,Arizona Diamondbacks,2022,31,Pitcher,Pitcher,Active
+572971,Dallas Keuchel,109,Arizona Diamondbacks,2022,60,Pitcher,Pitcher,Released
+656669,Jordan Luplow,109,Arizona Diamondbacks,2022,8,Outfielder,Outfielder,Active
+573009,Joe Mantiply,109,Arizona Diamondbacks,2022,35,Pitcher,Pitcher,Active
+606466,Ketel Marte,109,Arizona Diamondbacks,2022,4,Second Base,Infielder,Active
+656686,Corbin Martin,109,Arizona Diamondbacks,2022,25,Pitcher,Pitcher,Active
+664983,Jake McCarthy,109,Arizona Diamondbacks,2022,30,Outfielder,Outfielder,Active
+453343,Mark Melancon,109,Arizona Diamondbacks,2022,34,Pitcher,Pitcher,Active
+641871,Keynan Middleton,109,Arizona Diamondbacks,2022,99,Pitcher,Pitcher,Minor League Contract
+606625,Reyes Moronta,109,Arizona Diamondbacks,2022,59,Pitcher,Pitcher,Active
+669459,Kyle Nelson,109,Arizona Diamondbacks,2022,50,Pitcher,Pitcher,Active
+669194,Ryne Nelson,109,Arizona Diamondbacks,2022,52,Pitcher,Pitcher,Active
+676840,Matt Peacock,109,Arizona Diamondbacks,2022,47,Pitcher,Pitcher,Traded
+444482,David Peralta,109,Arizona Diamondbacks,2022,6,Outfielder,Outfielder,Traded
+672695,Geraldo Perdomo,109,Arizona Diamondbacks,2022,2,Shortstop,Infielder,Active
+424144,Oliver Pérez,109,Arizona Diamondbacks,2022,59,Pitcher,Pitcher,Released
+664092,Sean Poppen,109,Arizona Diamondbacks,2022,64,Pitcher,Pitcher,Active
+598287,Noé Ramirez,109,Arizona Diamondbacks,2022,24,Pitcher,Pitcher,Released
+656896,Emmanuel Rivera,109,Arizona Diamondbacks,2022,15,Third Base,Infielder,Injured 60-Day
+668942,Josh Rojas,109,Arizona Diamondbacks,2022,10,Third Base,Infielder,Active
+592761,Caleb Smith,109,Arizona Diamondbacks,2022,22,Pitcher,Pitcher,Active
+656976,Pavin Smith,109,Arizona Diamondbacks,2022,26,Outfielder,Outfielder,Active
+677950,Alek Thomas,109,Arizona Diamondbacks,2022,5,Outfielder,Outfielder,Active
+670955,Edwin Uceta,109,Arizona Diamondbacks,2022,66,Pitcher,Pitcher,Active
+662139,Daulton Varsho,109,Arizona Diamondbacks,2022,12,Outfielder,Outfielder,Active
+572233,Christian Walker,109,Arizona Diamondbacks,2022,53,First Base,Infielder,Active
+596133,Luke Weaver,109,Arizona Diamondbacks,2022,7,Pitcher,Pitcher,Traded
+605525,J.B. Wendelken,109,Arizona Diamondbacks,2022,48,Pitcher,Pitcher,Minor League Contract
+642203,Taylor Widener,109,Arizona Diamondbacks,2022,57,Pitcher,Pitcher,Active
+542583,Jesús Aguilar,110,Baltimore Orioles,2022,99,Designated Hitter,Hitter,Active
+669211,Keegan Akin,110,Baltimore Orioles,2022,45,Pitcher,Pitcher,Active
+663531,Logan Allen,110,Baltimore Orioles,2022,61,Pitcher,Pitcher,Minor League Contract
+660620,Jonathan Araúz,110,Baltimore Orioles,2022,76,Second Base,Infielder,Minor League Contract
+641329,Bryan Baker,110,Baltimore Orioles,2022,43,Pitcher,Pitcher,Active
+676625,Rylan Bannon,110,Baltimore Orioles,2022,65,Third Base,Infielder,Claimed
+657508,Mike Baumann,110,Baltimore Orioles,2022,53,Pitcher,Pitcher,Active
+642585,Félix Bautista,110,Baltimore Orioles,2022,74,Pitcher,Pitcher,Active
+621532,Anthony Bemboom,110,Baltimore Orioles,2022,,Catcher,Catcher,Minor League Contract
+680694,Kyle Bradish,110,Baltimore Orioles,2022,56,Pitcher,Pitcher,Active
+666974,Yennier Cano,110,Baltimore Orioles,2022,78,Pitcher,Pitcher,Active
+455139,Robinson Chirinos,110,Baltimore Orioles,2022,23,Catcher,Catcher,Active
+666783,Yusniel Díaz,110,Baltimore Orioles,2022,84,Outfielder,Outfielder,Active
+650959,Marcos Diplán,110,Baltimore Orioles,2022,78,Pitcher,Pitcher,Minor League Contract
+595939,Chris Ellis,110,Baltimore Orioles,2022,39,Pitcher,Pitcher,Active
+643316,Paul Fry,110,Baltimore Orioles,2022,51,Pitcher,Pitcher,Traded
+670329,Rico Garcia,110,Baltimore Orioles,2022,63,Pitcher,Pitcher,Minor League Contract
+670810,Logan Gillaspie,110,Baltimore Orioles,2022,71,Pitcher,Pitcher,Active
+642721,Kelvin Gutiérrez,110,Baltimore Orioles,2022,82,Third Base,Infielder,Minor League Contract
+669084,DL Hall,110,Baltimore Orioles,2022,49,Pitcher,Pitcher,Active
+669720,Austin Hays,110,Baltimore Orioles,2022,21,Outfielder,Outfielder,Active
+545343,Louis Head,110,Baltimore Orioles,2022,60,Pitcher,Pitcher,Minor League Contract
+683002,Gunnar Henderson,110,Baltimore Orioles,2022,2,Shortstop,Infielder,Active
+607216,Joey Krehbiel,110,Baltimore Orioles,2022,34,Pitcher,Pitcher,Active
+665152,Dean Kremer,110,Baltimore Orioles,2022,64,Pitcher,Pitcher,Active
+664042,Travis Lakins Sr.,110,Baltimore Orioles,2022,54,Pitcher,Pitcher,Minor League Contract
+605347,Jorge López,110,Baltimore Orioles,2022,48,Pitcher,Pitcher,Traded
+675912,Zac Lowther,110,Baltimore Orioles,2022,59,Pitcher,Pitcher,Minor League Contract
+543475,Jordan Lyles,110,Baltimore Orioles,2022,28,Pitcher,Pitcher,Active
+641820,Trey Mancini,110,Baltimore Orioles,2022,16,First Base,Infielder,Traded
+621006,Richie Martin,110,Baltimore Orioles,2022,1,Second Base,Infielder,Minor League Contract
+622761,Jorge Mateo,110,Baltimore Orioles,2022,3,Second Base,Infielder,Active
+663630,Ryan McKenna,110,Baltimore Orioles,2022,26,Outfielder,Outfielder,Active
+607644,John Means,110,Baltimore Orioles,2022,47,Pitcher,Pitcher,Injured 60-Day
+663624,Ryan Mountcastle,110,Baltimore Orioles,2022,6,First Base,Infielder,Active
+656775,Cedric Mullins,110,Baltimore Orioles,2022,31,Outfielder,Outfielder,Active
+663527,Tyler Nevin,110,Baltimore Orioles,2022,41,Third Base,Infielder,Active
+596059,Rougned Odor,110,Baltimore Orioles,2022,12,Second Base,Infielder,Active
+572008,Chris Owings,110,Baltimore Orioles,2022,11,Second Base,Infielder,Released
+672335,Cionel Pérez,110,Baltimore Orioles,2022,58,Pitcher,Pitcher,Active
+621433,Brett Phillips,110,Baltimore Orioles,2022,66,Outfielder,Outfielder,Minor League Contract
+596082,Jake Reed,110,Baltimore Orioles,2022,61,Pitcher,Pitcher,Claimed
+660593,Denyi Reyes,110,Baltimore Orioles,2022,81,Pitcher,Pitcher,Minor League Contract
+668939,Adley Rutschman,110,Baltimore Orioles,2022,35,Catcher,Catcher,Active
+623993,Anthony Santander,110,Baltimore Orioles,2022,25,Outfielder,Outfielder,Active
+642060,Cody Sedlock,110,Baltimore Orioles,2022,73,Pitcher,Pitcher,Traded
+621466,DJ Stewart,110,Baltimore Orioles,2022,24,Outfielder,Outfielder,Minor League Contract
+669065,Kyle Stowers,110,Baltimore Orioles,2022,83,Outfielder,Outfielder,Active
+676641,Beau Sulser,110,Baltimore Orioles,2022,67,Pitcher,Pitcher,Claimed
+622253,Dillon Tate,110,Baltimore Orioles,2022,55,Pitcher,Pitcher,Active
+602104,Ramón Urías,110,Baltimore Orioles,2022,29,Third Base,Infielder,Active
+679631,Terrin Vavra,110,Baltimore Orioles,2022,77,Second Base,Infielder,Active
+663989,Nick Vespi,110,Baltimore Orioles,2022,79,Pitcher,Pitcher,Active
+608723,Austin Voth,110,Baltimore Orioles,2022,51,Pitcher,Pitcher,Active
+657093,Spenser Watkins,110,Baltimore Orioles,2022,80,Pitcher,Pitcher,Active
+649144,Alex Wells,110,Baltimore Orioles,2022,52,Pitcher,Pitcher,Minor League Contract
+669330,Tyler Wells,110,Baltimore Orioles,2022,68,Pitcher,Pitcher,Active
+669145,Bruce Zimmermann,110,Baltimore Orioles,2022,50,Pitcher,Pitcher,Active
+501659,Abraham Almonte,111,Boston Red Sox,2022,48,Outfield,Outfielder,Free Agent
+660620,Jonathan Araúz,111,Boston Red Sox,2022,3,Second Base,Infielder,Claimed
+624414,Christian Arroyo,111,Boston Red Sox,2022,39,Second Base,Infielder,Active
+598264,Matt Barnes,111,Boston Red Sox,2022,32,Pitcher,Pitcher,Active
+660825,Eduard Bazardo,111,Boston Red Sox,2022,83,Pitcher,Pitcher,Minor League Contract
+678394,Brayan Bello,111,Boston Red Sox,2022,66,Pitcher,Pitcher,Active
+593428,Xander Bogaerts,111,Boston Red Sox,2022,2,Shortstop,Infielder,Active
+598265,Jackie Bradley Jr.,111,Boston Red Sox,2022,19,Outfielder,Outfielder,Released
+518489,Ryan Brasier,111,Boston Red Sox,2022,70,Pitcher,Pitcher,Active
+671213,Triston Casas,111,Boston Red Sox,2022,36,First Base,Infielder,Active
+644374,Yu Chang,111,Boston Red Sox,2022,12,Second Base,Infielder,Active
+614173,Franchy Cordero,111,Boston Red Sox,2022,16,First Base,Infielder,Injured 60-Day
+676710,Kutter Crawford,111,Boston Red Sox,2022,50,Pitcher,Pitcher,Active
+666915,Bobby Dalbec,111,Boston Red Sox,2022,29,First Base,Infielder,Active
+641501,Tyler Danish,111,Boston Red Sox,2022,60,Pitcher,Pitcher,Minor League Contract
+656354,Austin Davis,111,Boston Red Sox,2022,56,Pitcher,Pitcher,Claimed
+664041,Jaylin Davis,111,Boston Red Sox,2022,43,Outfielder,Outfielder,Minor League Contract
+646240,Rafael Devers,111,Boston Red Sox,2022,11,Third Base,Infielder,Active
+518617,Jake Diekman,111,Boston Red Sox,2022,31,Pitcher,Pitcher,Traded
+669023,Jeter Downs,111,Boston Red Sox,2022,20,Shortstop,Infielder,Active
+680776,Jarren Duran,111,Boston Red Sox,2022,40,Outfielder,Outfielder,Active
+543135,Nathan Eovaldi,111,Boston Red Sox,2022,17,Pitcher,Pitcher,Active
+544727,Jeurys Familia,111,Boston Red Sox,2022,31,Pitcher,Pitcher,Minor League Contract
+593140,Michael Feliz,111,Boston Red Sox,2022,48,Pitcher,Pitcher,Minor League Contract
+681464,Frank German,111,Boston Red Sox,2022,71,Pitcher,Pitcher,Active
+650382,Darwinzon Hernández,111,Boston Red Sox,2022,63,Pitcher,Pitcher,Active
+571771,Enrique Hernández,111,Boston Red Sox,2022,5,Shortstop,Infielder,Active
+448179,Rich Hill,111,Boston Red Sox,2022,44,Pitcher,Pitcher,Active
+543333,Eric Hosmer,111,Boston Red Sox,2022,35,First Base,Infielder,Active
+656557,Tanner Houck,111,Boston Red Sox,2022,89,Pitcher,Pitcher,Injured 60-Day
+677161,Zack Kelly,111,Boston Red Sox,2022,76,Pitcher,Pitcher,Active
+502110,J.D. Martinez,111,Boston Red Sox,2022,28,Designated Hitter,Hitter,Active
+624512,Reese McGuire,111,Boston Red Sox,2022,3,Catcher,Catcher,Active
+672391,Kaleb Ort,111,Boston Red Sox,2022,61,Pitcher,Pitcher,Active
+502054,Tommy Pham,111,Boston Red Sox,2022,22,Outfielder,Outfielder,Active
+601713,Nick Pivetta,111,Boston Red Sox,2022,37,Pitcher,Pitcher,Active
+608700,Kevin Plawecki,111,Boston Red Sox,2022,25,Catcher,Catcher,Released
+608701,Rob Refsnyder,111,Boston Red Sox,2022,30,Outfielder,Outfielder,Active
+570663,Hansel Robles,111,Boston Red Sox,2022,57,Pitcher,Pitcher,Released
+519242,Chris Sale,111,Boston Red Sox,2022,41,Pitcher,Pitcher,Injured 60-Day
+570560,Yolmer Sánchez,111,Boston Red Sox,2022,47,Third Base,Infielder,Claimed
+617228,Hirokazu Sawamura,111,Boston Red Sox,2022,18,Pitcher,Pitcher,Minor League Contract
+670167,John Schreiber,111,Boston Red Sox,2022,46,Pitcher,Pitcher,Active
+657756,Connor Seabold,111,Boston Red Sox,2022,67,Pitcher,Pitcher,Active
+543768,Travis Shaw,111,Boston Red Sox,2022,23,Third Base,Infielder,Minor League Contract
+596115,Trevor Story,111,Boston Red Sox,2022,10,Second Base,Infielder,Active
+621381,Matt Strahm,111,Boston Red Sox,2022,55,Pitcher,Pitcher,Active
+570488,Phillips Valdez,111,Boston Red Sox,2022,71,Pitcher,Pitcher,Claimed
+543877,Christian Vázquez,111,Boston Red Sox,2022,7,Catcher,Catcher,Traded
+657077,Alex Verdugo,111,Boston Red Sox,2022,99,Outfielder,Outfielder,Active
+608379,Michael Wacha,111,Boston Red Sox,2022,52,Pitcher,Pitcher,Active
+676477,Garrett Whitlock,111,Boston Red Sox,2022,72,Pitcher,Pitcher,Active
+670174,Josh Winckowski,111,Boston Red Sox,2022,73,Pitcher,Pitcher,Active
+657136,Connor Wong,111,Boston Red Sox,2022,74,Catcher,Catcher,Active
+640470,Adbert Alzolay,112,Chicago Cubs,2022,73,Pitcher,Pitcher,Active
+665871,Javier Assad,112,Chicago Cubs,2022,72,Pitcher,Pitcher,Active
+623520,David Bote,112,Chicago Cubs,2022,13,Second Base,Infielder,Active
+643230,Steven Brault,112,Chicago Cubs,2022,25,Pitcher,Pitcher,Active
+665645,Kervin Castro,112,Chicago Cubs,2022,74,Pitcher,Pitcher,Minor League Contract
+445926,Jesse Chavez,112,Chicago Cubs,2022,43,Pitcher,Pitcher,Traded
+575929,Willson Contreras,112,Chicago Cubs,2022,40,Catcher,Catcher,Active
+643271,Narciso Crook,112,Chicago Cubs,2022,24,Outfield,Outfielder,Active
+571616,Matt Dermody,112,Chicago Cubs,2022,64,Pitcher,Pitcher,Reassigned to Minors
+664123,Scott Effross,112,Chicago Cubs,2022,57,Pitcher,Pitcher,Traded
+659262,Anderson Espinoza,112,Chicago Cubs,2022,51,Pitcher,Pitcher,Active
+669093,Jeremiah Estrada,112,Chicago Cubs,2022,56,Pitcher,Pitcher,Active
+608652,Luke Farrell,112,Chicago Cubs,2022,60,Pitcher,Pitcher,Claimed
+640449,Clint Frazier,112,Chicago Cubs,2022,77,Outfielder,Outfielder,Minor League Contract
+571710,Mychal Givens,112,Chicago Cubs,2022,60,Pitcher,Pitcher,Traded
+543228,Yan Gomes,112,Chicago Cubs,2022,7,Catcher,Catcher,Active
+607229,Robert Gsellman,112,Chicago Cubs,2022,43,Pitcher,Pitcher,Minor League Contract
+664023,Ian Happ,112,Chicago Cubs,2022,8,Outfielder,Outfielder,Active
+543294,Kyle Hendricks,112,Chicago Cubs,2022,28,Pitcher,Pitcher,Injured 60-Day
+641684,Michael Hermosillo,112,Chicago Cubs,2022,37,Outfielder,Outfielder,Minor League Contract
+518792,Jason Heyward,112,Chicago Cubs,2022,22,Outfielder,Outfielder,Injured 60-Day
+664731,P.J. Higgins,112,Chicago Cubs,2022,48,First Base,Infielder,Active
+663538,Nico Hoerner,112,Chicago Cubs,2022,2,Second Base,Infielder,Active
+676714,Brandon Hughes,112,Chicago Cubs,2022,47,Pitcher,Pitcher,Active
+668873,Caleb Kilian,112,Chicago Cubs,2022,45,Pitcher,Pitcher,Active
+643410,Mark Leiter Jr.,112,Chicago Cubs,2022,62,Pitcher,Pitcher,Active
+663893,Brendon Little,112,Chicago Cubs,2022,57,Pitcher,Pitcher,Minor League Contract
+663611,Nick Madrigal,112,Chicago Cubs,2022,1,Third Base,Infielder,Active
+455119,Chris Martin,112,Chicago Cubs,2022,58,Pitcher,Pitcher,Traded
+656716,Zach McKinstry,112,Chicago Cubs,2022,6,Third Base,Infielder,Active
+669214,Conner Menez,112,Chicago Cubs,2022,65,Pitcher,Pitcher,Minor League Contract
+489119,Wade Miley,112,Chicago Cubs,2022,20,Pitcher,Pitcher,Active
+621219,Alec Mills,112,Chicago Cubs,2022,30,Pitcher,Pitcher,Injured 60-Day
+666624,Christopher Morel,112,Chicago Cubs,2022,5,Outfielder,Outfielder,Active
+656794,Sean Newcomb,112,Chicago Cubs,2022,15,Pitcher,Pitcher,Minor League Contract
+596057,Daniel Norris,112,Chicago Cubs,2022,49,Pitcher,Pitcher,Released
+542364,Rafael Ortega,112,Chicago Cubs,2022,66,Outfielder,Outfielder,Injured 60-Day
+656820,Nicholas Padilla,112,Chicago Cubs,2022,58,Pitcher,Pitcher,Claimed
+606019,Esteban Quiroz,112,Chicago Cubs,2022,43,Second Base,Infielder,Active
+614177,Franmil Reyes,112,Chicago Cubs,2022,32,Designated Hitter,Hitter,Active
+663845,Alfonso Rivas III,112,Chicago Cubs,2022,36,First Base,Infielder,Active
+681799,Ethan Roberts,112,Chicago Cubs,2022,21,Pitcher,Pitcher,Injured 60-Day
+502085,David Robertson,112,Chicago Cubs,2022,37,Pitcher,Pitcher,Traded
+655889,Manuel Rodríguez,112,Chicago Cubs,2022,39,Pitcher,Pitcher,Active
+621074,Michael Rucker,112,Chicago Cubs,2022,59,Pitcher,Pitcher,Active
+592716,Adrian Sampson,112,Chicago Cubs,2022,41,Pitcher,Pitcher,Active
+643524,Frank Schwindel,112,Chicago Cubs,2022,18,First Base,Infielder,Released
+592743,Andrelton Simmons,112,Chicago Cubs,2022,19,Shortstop,Infielder,Released
+592767,Drew Smyly,112,Chicago Cubs,2022,11,Pitcher,Pitcher,Active
+657766,Locke St. John,112,Chicago Cubs,2022,45,Pitcher,Pitcher,Claimed
+657006,Justin Steele,112,Chicago Cubs,2022,35,Pitcher,Pitcher,Injured 15-Day
+657770,Eric Stout,112,Chicago Cubs,2022,46,Pitcher,Pitcher,Traded
+573186,Marcus Stroman,112,Chicago Cubs,2022,0,Pitcher,Pitcher,Active
+673548,Seiya Suzuki,112,Chicago Cubs,2022,27,Outfielder,Outfielder,Active
+664161,Matt Swarmer,112,Chicago Cubs,2022,67,Pitcher,Pitcher,Minor League Contract
+624522,Keegan Thompson,112,Chicago Cubs,2022,71,Pitcher,Pitcher,Active
+657272,Erich Uelmen,112,Chicago Cubs,2022,46,Pitcher,Pitcher,Active
+545121,Ildemaro Vargas,112,Chicago Cubs,2022,4,Third Base,Infielder,Free Agent
+676369,Nelson Velázquez,112,Chicago Cubs,2022,4,Outfielder,Outfielder,Active
+542340,Jonathan Villar,112,Chicago Cubs,2022,24,Second Base,Infielder,Released
+669713,Hayden Wesneski,112,Chicago Cubs,2022,19,Pitcher,Pitcher,Active
+592858,Rowan Wick,112,Chicago Cubs,2022,50,Pitcher,Pitcher,Active
+621550,Patrick Wisdom,112,Chicago Cubs,2022,16,Third Base,Infielder,Active
+676724,Jared Young,112,Chicago Cubs,2022,74,First Base,Infielder,Active
+546991,Albert Almora Jr.,113,Cincinnati Reds,2022,3,Outfielder,Outfielder,Released
+502624,Chase Anderson,113,Cincinnati Reds,2022,48,Pitcher,Pitcher,Active
+606157,Aristides Aquino,113,Cincinnati Reds,2022,44,Outfielder,Outfielder,Active
+668933,Graham Ashcraft,113,Cincinnati Reds,2022,51,Pitcher,Pitcher,Active
+676480,José Barrero,113,Cincinnati Reds,2022,2,Shortstop,Infielder,Active
+622491,Luis Castillo,113,Cincinnati Reds,2022,58,Pitcher,Pitcher,Traded
+570666,Luis Cessa,113,Cincinnati Reds,2022,85,Pitcher,Pitcher,Active
+518585,Fernando Cruz,113,Cincinnati Reds,2022,63,Pitcher,Pitcher,Active
+669008,Ronnie Dawson,113,Cincinnati Reds,2022,82,Designated Hitter,Hitter,Minor League Contract
+446321,Ross Detwiler,113,Cincinnati Reds,2022,75,Pitcher,Pitcher,Minor League Contract
+664747,Alexis Díaz,113,Cincinnati Reds,2022,43,Pitcher,Pitcher,Active
+670426,Phillip Diehl,113,Cincinnati Reds,2022,63,Pitcher,Pitcher,Traded
+664871,Kyle Dowdy,113,Cincinnati Reds,2022,72,Pitcher,Pitcher,Active
+592273,Brandon Drury,113,Cincinnati Reds,2022,22,Third Base,Infielder,Traded
+650960,Daniel Duarte,113,Cincinnati Reds,2022,41,Pitcher,Pitcher,Active
+667498,Robert Dugger,113,Cincinnati Reds,2022,76,Pitcher,Pitcher,Minor League Contract
+643290,Justin Dunn,113,Cincinnati Reds,2022,38,Pitcher,Pitcher,Active
+642659,Raynel Espinal,113,Cincinnati Reds,2022,75,Pitcher,Pitcher,Minor League Contract
+656413,Stuart Fairchild,113,Cincinnati Reds,2022,57,Outfielder,Outfielder,Active
+571656,Buck Farmer,113,Cincinnati Reds,2022,46,Pitcher,Pitcher,Active
+571657,Kyle Farmer,113,Cincinnati Reds,2022,17,Shortstop,Infielder,Active
+608652,Luke Farrell,113,Cincinnati Reds,2022,32,Pitcher,Pitcher,Minor League Contract
+641584,Jake Fraley,113,Cincinnati Reds,2022,27,Outfielder,Outfielder,Active
+605244,Aramis Garcia,113,Cincinnati Reds,2022,33,Catcher,Catcher,Claimed
+664139,Ian Gibaut,113,Cincinnati Reds,2022,79,Pitcher,Pitcher,Active
+668881,Hunter Greene,113,Cincinnati Reds,2022,21,Pitcher,Pitcher,Active
+661269,Vladimir Gutierrez,113,Cincinnati Reds,2022,53,Pitcher,Pitcher,Injured 60-Day
+641682,Ryan Hendrix,113,Cincinnati Reds,2022,68,Pitcher,Pitcher,Minor League Contract
+656546,Jeff Hoffman,113,Cincinnati Reds,2022,23,Pitcher,Pitcher,Injured 60-Day
+663697,Jonathan India,113,Cincinnati Reds,2022,6,Second Base,Infielder,Active
+656627,Mark Kolozsvary,113,Cincinnati Reds,2022,47,Catcher,Catcher,Claimed
+669270,Joel Kuhnel,113,Cincinnati Reds,2022,66,Pitcher,Pitcher,Active
+571882,Derek Law,113,Cincinnati Reds,2022,58,Pitcher,Pitcher,Active
+666157,Nick Lodolo,113,Cincinnati Reds,2022,40,Pitcher,Pitcher,Active
+664670,Alejo Lopez,113,Cincinnati Reds,2022,35,Second Base,Infielder,Active
+641816,Tyler Mahle,113,Cincinnati Reds,2022,30,Pitcher,Pitcher,Traded
+501985,Mike Minor,113,Cincinnati Reds,2022,31,Pitcher,Pitcher,Active
+592567,Colin Moran,113,Cincinnati Reds,2022,16,First Base,Infielder,Released
+664294,Dauri Moreta,113,Cincinnati Reds,2022,55,Pitcher,Pitcher,Active
+600301,Taylor Motter,113,Cincinnati Reds,2022,94,Third Base,Infielder,Minor League Contract
+519058,Mike Moustakas,113,Cincinnati Reds,2022,9,Designated Hitter,Hitter,Injured 60-Day
+571980,Tyler Naquin,113,Cincinnati Reds,2022,12,Outfielder,Outfielder,Traded
+608360,Chris Okey,113,Cincinnati Reds,2022,72,Catcher,Catcher,Minor League Contract
+656818,Connor Overton,113,Cincinnati Reds,2022,42,Pitcher,Pitcher,Active
+657709,Michael Papierski,113,Cincinnati Reds,2022,26,Catcher,Catcher,Claimed
+502054,Tommy Pham,113,Cincinnati Reds,2022,28,Outfielder,Outfielder,Traded
+608703,Matt Reynolds,113,Cincinnati Reds,2022,4,Second Base,Infielder,Active
+595375,JT Riddle,113,Cincinnati Reds,2022,57,Shortstop,Infielder,Traded
+642020,Chuckie Robinson,113,Cincinnati Reds,2022,73,Catcher,Catcher,Minor League Contract
+519222,Austin Romine,113,Cincinnati Reds,2022,28,Catcher,Catcher,Active
+665665,Reiver Sanmartin,113,Cincinnati Reds,2022,52,Pitcher,Pitcher,Active
+663574,Tony Santillan,113,Cincinnati Reds,2022,64,Pitcher,Pitcher,Injured 60-Day
+621011,Max Schrock,113,Cincinnati Reds,2022,32,Outfielder,Outfielder,Released
+669222,Nick Senzel,113,Cincinnati Reds,2022,15,Outfielder,Outfielder,Injured 60-Day
+672279,Michael Siani,113,Cincinnati Reds,2022,67,Outfield,Outfielder,Active
+608371,Lucas Sims,113,Cincinnati Reds,2022,39,Pitcher,Pitcher,Injured 60-Day
+456781,Donovan Solano,113,Cincinnati Reds,2022,7,Designated Hitter,Hitter,Active
+676660,Jared Solomon,113,Cincinnati Reds,2022,84,Pitcher,Pitcher,Active
+668715,Spencer Steer,113,Cincinnati Reds,2022,12,First Base,Infielder,Active
+663886,Tyler Stephenson,113,Cincinnati Reds,2022,37,Catcher,Catcher,Injured 60-Day
+519326,Hunter Strickland,113,Cincinnati Reds,2022,54,Pitcher,Pitcher,Active
+458015,Joey Votto,113,Cincinnati Reds,2022,19,First Base,Infielder,Injured 60-Day
+605521,Art Warren,113,Cincinnati Reds,2022,77,Pitcher,Pitcher,Injured 60-Day
+458677,Justin Wilson,113,Cincinnati Reds,2022,34,Pitcher,Pitcher,Injured 60-Day
+643615,T.J. Zeuch,113,Cincinnati Reds,2022,67,Pitcher,Pitcher,Released
+663531,Logan Allen,114,Cleveland Guardians,2022,33,Pitcher,Pitcher,Claimed
+672356,Gabriel Arias,114,Cleveland Guardians,2022,8,Third Base,Infielder,Active
+666181,Will Benson,114,Cleveland Guardians,2022,29,Outfielder,Outfielder,Active
+669456,Shane Bieber,114,Cleveland Guardians,2022,57,Pitcher,Pitcher,Active
+656252,Bobby Bradley,114,Cleveland Guardians,2022,44,First Base,Infielder,Minor League Contract
+686823,Will Brennan,114,Cleveland Guardians,2022,63,Outfielder,Outfielder,Active
+669743,Alex Call,114,Cleveland Guardians,2022,65,Outfielder,Outfielder,Claimed
+621593,Anthony Castro,114,Cleveland Guardians,2022,58,Pitcher,Pitcher,Claimed
+644374,Yu Chang,114,Cleveland Guardians,2022,2,First Base,Infielder,Traded
+650644,Aaron Civale,114,Cleveland Guardians,2022,43,Pitcher,Pitcher,Active
+661403,Emmanuel Clase,114,Cleveland Guardians,2022,48,Pitcher,Pitcher,Active
+676391,Ernie Clement,114,Cleveland Guardians,2022,28,Third Base,Infielder,Claimed
+675540,Xzavion Curry,114,Cleveland Guardians,2022,71,Pitcher,Pitcher,Active
+660853,Enyel De Los Santos,114,Cleveland Guardians,2022,62,Pitcher,Pitcher,Active
+671289,Tyler Freeman,114,Cleveland Guardians,2022,2,Third Base,Infielder,Active
+683769,Hunter Gaddis,114,Cleveland Guardians,2022,70,Pitcher,Pitcher,Active
+664139,Ian Gibaut,114,Cleveland Guardians,2022,50,Pitcher,Pitcher,Claimed
+665926,Andrés Giménez,114,Cleveland Guardians,2022,0,Second Base,Infielder,Active
+660757,Oscar Gonzalez,114,Cleveland Guardians,2022,39,Outfielder,Outfielder,Active
+543238,Anthony Gose,114,Cleveland Guardians,2022,26,Pitcher,Pitcher,Injured 60-Day
+595978,Austin Hedges,114,Cleveland Guardians,2022,17,Catcher,Catcher,Active
+656529,Sam Hentges,114,Cleveland Guardians,2022,31,Pitcher,Pitcher,Active
+666134,Nolan Jones,114,Cleveland Guardians,2022,33,Third Base,Infielder,Active
+675916,James Karinchak,114,Cleveland Guardians,2022,99,Pitcher,Pitcher,Active
+680757,Steven Kwan,114,Cleveland Guardians,2022,38,Outfielder,Outfielder,Active
+681526,Bryan Lavastida,114,Cleveland Guardians,2022,10,Catcher,Catcher,Active
+506702,Sandy León,114,Cleveland Guardians,2022,4,Catcher,Catcher,Traded
+571912,Luke Maile,114,Cleveland Guardians,2022,12,Catcher,Catcher,Active
+668948,Kirk McCarty,114,Cleveland Guardians,2022,59,Pitcher,Pitcher,Active
+663474,Triston McKenzie,114,Cleveland Guardians,2022,24,Pitcher,Pitcher,Active
+640458,Óscar Mercado,114,Cleveland Guardians,2022,35,Outfielder,Outfielder,Minor League Contract
+680911,Owen Miller,114,Cleveland Guardians,2022,6,First Base,Infielder,Active
+669212,Eli Morgan,114,Cleveland Guardians,2022,49,Pitcher,Pitcher,Active
+663752,Cody Morris,114,Cleveland Guardians,2022,36,Pitcher,Pitcher,Active
+666310,Bo Naylor,114,Cleveland Guardians,2022,44,Catcher,Catcher,Active
+647304,Josh Naylor,114,Cleveland Guardians,2022,22,First Base,Infielder,Active
+680700,Richie Palacios,114,Cleveland Guardians,2022,9,Outfielder,Outfielder,Active
+663455,Konnor Pilkington,114,Cleveland Guardians,2022,45,Pitcher,Pitcher,Active
+668676,Zach Plesac,114,Cleveland Guardians,2022,34,Pitcher,Pitcher,Active
+615698,Cal Quantrill,114,Cleveland Guardians,2022,47,Pitcher,Pitcher,Active
+608070,José Ramírez,114,Cleveland Guardians,2022,11,Third Base,Infielder,Active
+670990,Yohan Ramírez,114,Cleveland Guardians,2022,54,Pitcher,Pitcher,Traded
+614177,Franmil Reyes,114,Cleveland Guardians,2022,32,Outfielder,Outfielder,Claimed
+642708,Amed Rosario,114,Cleveland Guardians,2022,1,Shortstop,Infielder,Active
+680704,Nick Sandlin,114,Cleveland Guardians,2022,52,Pitcher,Pitcher,Active
+543766,Bryan Shaw,114,Cleveland Guardians,2022,27,Pitcher,Pitcher,Minor League Contract
+663986,Trevor Stephan,114,Cleveland Guardians,2022,37,Pitcher,Pitcher,Active
+664702,Myles Straw,114,Cleveland Guardians,2022,7,Outfielder,Outfielder,Active
+668684,Tanner Tully,114,Cleveland Guardians,2022,56,Pitcher,Pitcher,Minor League Contract
+622065,Alex Young,114,Cleveland Guardians,2022,46,Pitcher,Pitcher,Traded
+453268,Daniel Bard,115,Colorado Rockies,2022,52,Pitcher,Pitcher,Active
+592144,Wynton Bernard,115,Colorado Rockies,2022,36,Outfield,Outfielder,Active
+656234,Jake Bird,115,Colorado Rockies,2022,59,Pitcher,Pitcher,Active
+621389,Ty Blach,115,Colorado Rockies,2022,50,Pitcher,Pitcher,Active
+453568,Charlie Blackmon,115,Colorado Rockies,2022,19,Designated Hitter,Hitter,Active
+656248,Sean Bouchard,115,Colorado Rockies,2022,12,Outfielder,Outfielder,Active
+592178,Kris Bryant,115,Colorado Rockies,2022,23,Outfielder,Outfielder,Active
+468504,Jhoulys Chacín,115,Colorado Rockies,2022,43,Pitcher,Pitcher,Released
+517008,Alex Colomé,115,Colorado Rockies,2022,37,Pitcher,Pitcher,Active
+543068,C.J. Cron,115,Colorado Rockies,2022,25,First Base,Infielder,Active
+663562,Noah Davis,115,Colorado Rockies,2022,63,Pitcher,Pitcher,Active
+602074,Yonathan Daza,115,Colorado Rockies,2022,2,Outfielder,Outfielder,Active
+553869,Elias Díaz,115,Colorado Rockies,2022,35,Catcher,Catcher,Active
+608032,Carlos Estévez,115,Colorado Rockies,2022,54,Pitcher,Pitcher,Active
+663372,Ryan Feltner,115,Colorado Rockies,2022,18,Pitcher,Pitcher,Active
+607536,Kyle Freeland,115,Colorado Rockies,2022,21,Pitcher,Pitcher,Active
+656458,Lucas Gilbreath,115,Colorado Rockies,2022,58,Pitcher,Pitcher,Active
+596295,Austin Gomber,115,Colorado Rockies,2022,26,Pitcher,Pitcher,Active
+623485,Ashton Goudeau,115,Colorado Rockies,2022,60,Pitcher,Pitcher,Minor League Contract
+545341,Randal Grichuk,115,Colorado Rockies,2022,15,Outfielder,Outfielder,Injured 10-Day
+641658,Garrett Hampson,115,Colorado Rockies,2022,1,Shortstop,Infielder,Active
+656541,Sam Hilliard,115,Colorado Rockies,2022,22,Outfielder,Outfielder,Traded
+668970,Gavin Hollowell,115,Colorado Rockies,2022,64,Pitcher,Pitcher,Active
+578428,Jose Iglesias,115,Colorado Rockies,2022,11,Shortstop,Infielder,Active
+656582,Connor Joe,115,Colorado Rockies,2022,9,Outfielder,Outfielder,Active
+641755,Tyler Kinley,115,Colorado Rockies,2022,40,Pitcher,Pitcher,Injured 60-Day
+641771,Chad Kuhl,115,Colorado Rockies,2022,41,Pitcher,Pitcher,Active
+659275,Dinelson Lamet,115,Colorado Rockies,2022,32,Pitcher,Pitcher,Active
+664875,Justin Lawrence,115,Colorado Rockies,2022,61,Pitcher,Pitcher,Active
+608566,Germán Márquez,115,Colorado Rockies,2022,48,Pitcher,Pitcher,Active
+641857,Ryan McMahon,115,Colorado Rockies,2022,24,Third Base,Infielder,Active
+660707,Elehuris Montero,115,Colorado Rockies,2022,44,Third Base,Infielder,Active
+624513,Dom Nuñez,115,Colorado Rockies,2022,3,Catcher,Catcher,Active
+663898,Brendan Rodgers,115,Colorado Rockies,2022,7,Second Base,Infielder,Active
+622608,Antonio Senzatela,115,Colorado Rockies,2022,49,Pitcher,Pitcher,Active
+661531,Brian Serven,115,Colorado Rockies,2022,6,Catcher,Catcher,Active
+642068,Jordan Sheffield,115,Colorado Rockies,2022,34,Pitcher,Pitcher,Minor League Contract
+663385,Chad Smith,115,Colorado Rockies,2022,56,Pitcher,Pitcher,Active
+596112,Robert Stephenson,115,Colorado Rockies,2022,29,Pitcher,Pitcher,Claimed
+669911,Michael Toglia,115,Colorado Rockies,2022,29,Outfielder,Outfielder,Active
+678662,Ezequiel Tovar,115,Colorado Rockies,2022,14,Shortstop,Infielder,Active
+676701,Alan Trejo,115,Colorado Rockies,2022,13,Second Base,Infielder,Active
+570632,José Ureña,115,Colorado Rockies,2022,51,Pitcher,Pitcher,Active
+641302,Tyler Alexander,116,Detroit Tigers,2022,70,Pitcher,Pitcher,Active
+668731,Akil Baddoo,116,Detroit Tigers,2022,60,Outfielder,Outfielder,Active
+595879,Javier Báez,116,Detroit Tigers,2022,28,Shortstop,Infielder,Active
+606930,Jacob Barnes,116,Detroit Tigers,2022,,Pitcher,Pitcher,Minor League Contract
+571466,Tucker Barnhart,116,Detroit Tigers,2022,15,Catcher,Catcher,Active
+689225,Beau Brieske,116,Detroit Tigers,2022,63,Pitcher,Pitcher,Injured 60-Day
+408234,Miguel Cabrera,116,Detroit Tigers,2022,24,Designated Hitter,Hitter,Active
+663662,Daz Cameron,116,Detroit Tigers,2022,41,Outfielder,Outfielder,Active
+600869,Jeimer Candelario,116,Detroit Tigers,2022,46,Third Base,Infielder,Active
+656290,Drew Carlton,116,Detroit Tigers,2022,66,Pitcher,Pitcher,Minor League Contract
+681481,Kerry Carpenter,116,Detroit Tigers,2022,30,Outfielder,Outfielder,Active
+622379,Luis F. Castillo,116,Detroit Tigers,2022,54,Pitcher,Pitcher,Active
+605612,Harold Castro,116,Detroit Tigers,2022,30,First Base,Infielder,Active
+650489,Willi Castro,116,Detroit Tigers,2022,9,Outfielder,Outfielder,Active
+605177,Andrew Chafin,116,Detroit Tigers,2022,37,Pitcher,Pitcher,Active
+542585,José Cisnero,116,Detroit Tigers,2022,67,Pitcher,Pitcher,Active
+665019,Kody Clemens,116,Detroit Tigers,2022,21,First Base,Infielder,Active
+663478,Brendon Davis,116,Detroit Tigers,2022,74,Third Base,Infielder,Active
+669804,Angel De Jesus,116,Detroit Tigers,2022,62,Pitcher,Pitcher,Active
+622766,Miguel Díaz,116,Detroit Tigers,2022,38,Pitcher,Pitcher,Active
+656412,Alex Faedo,116,Detroit Tigers,2022,49,Pitcher,Pitcher,Active
+671345,Jason Foley,116,Detroit Tigers,2022,68,Pitcher,Pitcher,Active
+605242,Michael Fulmer,116,Detroit Tigers,2022,32,Pitcher,Pitcher,Traded
+650530,Bryan Garcia,116,Detroit Tigers,2022,33,Pitcher,Pitcher,Active
+665621,Rony García,116,Detroit Tigers,2022,51,Pitcher,Pitcher,Injured 60-Day
+572863,Dustin Garneau,116,Detroit Tigers,2022,64,Catcher,Catcher,Minor League Contract
+682985,Riley Greene,116,Detroit Tigers,2022,31,Outfielder,Outfielder,Active
+543257,Robbie Grossman,116,Detroit Tigers,2022,8,Outfielder,Outfielder,Traded
+606992,Eric Haase,116,Detroit Tigers,2022,13,Catcher,Catcher,Active
+656537,Derek Hill,116,Detroit Tigers,2022,54,Outfielder,Outfielder,Claimed
+682051,Garrett Hill,116,Detroit Tigers,2022,50,Pitcher,Pitcher,Active
+571800,Drew Hutchison,116,Detroit Tigers,2022,40,Pitcher,Pitcher,Free Agent
+641729,Joe Jiménez,116,Detroit Tigers,2022,77,Pitcher,Pitcher,Active
+668952,Ryan Kreidler,116,Detroit Tigers,2022,32,Shortstop,Infielder,Active
+656638,Alex Lange,116,Detroit Tigers,2022,55,Pitcher,Pitcher,Active
+571882,Derek Law,116,Detroit Tigers,2022,48,Pitcher,Pitcher,Minor League Contract
+623507,Josh Lester,116,Detroit Tigers,2022,58,Third Base,Infielder,Active
+666159,Matt Manning,116,Detroit Tigers,2022,25,Pitcher,Pitcher,Injured 60-Day
+640457,Austin Meadows,116,Detroit Tigers,2022,17,Outfielder,Outfielder,Injured 60-Day
+663554,Casey Mize,116,Detroit Tigers,2022,12,Pitcher,Pitcher,Injured 60-Day
+596057,Daniel Norris,116,Detroit Tigers,2022,44,Pitcher,Pitcher,Active
+503449,Wily Peralta,116,Detroit Tigers,2022,58,Pitcher,Pitcher,Released
+501381,Michael Pineda,116,Detroit Tigers,2022,38,Pitcher,Pitcher,Released
+622682,Victor Reyes,116,Detroit Tigers,2022,22,Outfielder,Outfielder,Active
+593958,Eduardo Rodriguez,116,Detroit Tigers,2022,57,Pitcher,Pitcher,Active
+660730,Elvin Rodríguez,116,Detroit Tigers,2022,45,Pitcher,Pitcher,Active
+570731,Jonathan Schoop,116,Detroit Tigers,2022,7,Second Base,Infielder,Active
+670097,Zack Short,116,Detroit Tigers,2022,59,Shortstop,Infielder,Active
+669373,Tarik Skubal,116,Detroit Tigers,2022,29,Pitcher,Pitcher,Injured 60-Day
+642397,Gregory Soto,116,Detroit Tigers,2022,65,Pitcher,Pitcher,Active
+679529,Spencer Torkelson,116,Detroit Tigers,2022,20,First Base,Infielder,Active
+676684,Will Vest,116,Detroit Tigers,2022,19,Pitcher,Pitcher,Active
+666214,Joey Wentz,116,Detroit Tigers,2022,43,Pitcher,Pitcher,Active
+650556,Bryan Abreu,117,Houston Astros,2022,52,Pitcher,Pitcher,Active
+514888,Jose Altuve,117,Houston Astros,2022,27,Second Base,Infielder,Active
+670541,Yordan Alvarez,117,Houston Astros,2022,44,Outfielder,Outfielder,Active
+520980,Pedro Báez,117,Houston Astros,2022,52,Pitcher,Pitcher,Released
+656232,Brandon Bielak,117,Houston Astros,2022,64,Pitcher,Pitcher,Reassigned to Minors
+669854,Ronel Blanco,117,Houston Astros,2022,56,Pitcher,Pitcher,Reassigned to Minors
+488726,Michael Brantley,117,Houston Astros,2022,23,Designated Hitter,Hitter,Injured 60-Day
+608324,Alex Bregman,117,Houston Astros,2022,2,Third Base,Infielder,Active
+686613,Hunter Brown,117,Houston Astros,2022,58,Pitcher,Pitcher,Active
+488771,Jason Castro,117,Houston Astros,2022,18,Catcher,Catcher,Injured 60-Day
+649557,Aledmys Díaz,117,Houston Astros,2022,16,Outfielder,Outfielder,Active
+673237,Yainer Diaz,117,Houston Astros,2022,63,Catcher,Catcher,Reassigned to Minors
+643289,Mauricio Dubón,117,Houston Astros,2022,14,Outfielder,Outfielder,Active
+677651,Luis Garcia,117,Houston Astros,2022,77,Pitcher,Pitcher,Active
+592348,Niko Goodrum,117,Houston Astros,2022,11,Second Base,Infielder,Released
+493329,Yuli Gurriel,117,Houston Astros,2022,10,First Base,Infielder,Injured 10-Day
+682073,David Hensley,117,Houston Astros,2022,17,Designated Hitter,Hitter,Active
+664299,Cristian Javier,117,Houston Astros,2022,53,Pitcher,Pitcher,Active
+622100,Taylor Jones,117,Houston Astros,2022,28,First Base,Infielder,Claimed
+686676,Korey Lee,117,Houston Astros,2022,38,Catcher,Catcher,Active
+455117,Martín Maldonado,117,Houston Astros,2022,15,Catcher,Catcher,Active
+641820,Trey Mancini,117,Houston Astros,2022,26,First Base,Infielder,Reassigned to Minors
+661527,Seth Martinez,117,Houston Astros,2022,61,Pitcher,Pitcher,Reassigned to Minors
+656695,J.J. Matijevic,117,Houston Astros,2022,13,First Base,Infielder,Reassigned to Minors
+664208,Phil Maton,117,Houston Astros,2022,88,Pitcher,Pitcher,Reassigned to Minors
+676801,Chas McCormick,117,Houston Astros,2022,20,Outfielder,Outfielder,Active
+621121,Lance McCullers Jr.,117,Houston Astros,2022,43,Pitcher,Pitcher,Active
+676694,Jake Meyers,117,Houston Astros,2022,6,Outfielder,Outfielder,Reassigned to Minors
+606160,Rafael Montero,117,Houston Astros,2022,47,Pitcher,Pitcher,Active
+656786,Parker Mushinski,117,Houston Astros,2022,67,Pitcher,Pitcher,Reassigned to Minors
+593576,Héctor Neris,117,Houston Astros,2022,50,Pitcher,Pitcher,Active
+543606,Jake Odorizzi,117,Houston Astros,2022,17,Pitcher,Pitcher,Traded
+660600,Enoli Paredes,117,Houston Astros,2022,48,Pitcher,Pitcher,Reassigned to Minors
+665161,Jeremy Peña,117,Houston Astros,2022,3,Shortstop,Infielder,Active
+669309,Joe Perez,117,Houston Astros,2022,31,Third Base,Infielder,Reassigned to Minors
+519151,Ryan Pressly,117,Houston Astros,2022,55,Pitcher,Pitcher,Active
+642350,Jose Siri,117,Houston Astros,2022,26,Outfielder,Outfielder,Traded
+519293,Will Smith,117,Houston Astros,2022,51,Pitcher,Pitcher,Active
+592773,Ryne Stanek,117,Houston Astros,2022,45,Pitcher,Pitcher,Active
+642130,Blake Taylor,117,Houston Astros,2022,62,Pitcher,Pitcher,Reassigned to Minors
+663656,Kyle Tucker,117,Houston Astros,2022,30,Outfielder,Outfielder,Active
+664353,José Urquidy,117,Houston Astros,2022,65,Pitcher,Pitcher,Active
+543877,Christian Vázquez,117,Houston Astros,2022,9,Catcher,Catcher,Active
+434378,Justin Verlander,117,Houston Astros,2022,35,Pitcher,Pitcher,Active
+656061,Albert Abreu,118,Kansas City Royals,2022,69,Pitcher,Pitcher,Claimed
+605130,Scott Barlow,118,Kansas City Royals,2022,58,Pitcher,Pitcher,Active
+643217,Andrew Benintendi,118,Kansas City Royals,2022,16,Outfielder,Outfielder,Traded
+680118,Dairon Blanco,118,Kansas City Royals,2022,44,Outfielder,Outfielder,Minor League Contract
+671790,Ronald Bolaños,118,Kansas City Royals,2022,57,Pitcher,Pitcher,Minor League Contract
+641394,Jake Brentz,118,Kansas City Royals,2022,59,Pitcher,Pitcher,Injured 60-Day
+663460,Kris Bubic,118,Kansas City Royals,2022,50,Pitcher,Pitcher,Active
+666721,Max Castillo,118,Kansas City Royals,2022,60,Pitcher,Pitcher,Active
+664199,Taylor Clarke,118,Kansas City Royals,2022,45,Pitcher,Pitcher,Active
+669395,Dylan Coleman,118,Kansas City Royals,2022,65,Pitcher,Pitcher,Active
+621016,Jose Cuas,118,Kansas City Royals,2022,74,Pitcher,Pitcher,Active
+641531,Hunter Dozier,118,Kansas City Royals,2022,17,Third Base,Infielder,Active
+681987,Nate Eaton,118,Kansas City Royals,2022,18,Outfielder,Outfielder,Active
+666023,Freddy Fermin,118,Kansas City Royals,2022,78,Catcher,Catcher,Minor League Contract
+595956,Cam Gallagher,118,Kansas City Royals,2022,36,Catcher,Catcher,Traded
+672580,Maikel Garcia,118,Kansas City Royals,2022,11,Shortstop,Infielder,Active
+607237,Amir Garrett,118,Kansas City Royals,2022,24,Pitcher,Pitcher,Active
+425844,Zack Greinke,118,Kansas City Royals,2022,23,Pitcher,Pitcher,Active
+656492,Foster Griffin,118,Kansas City Royals,2022,60,Pitcher,Pitcher,Traded
+669169,Jonathan Heasley,118,Kansas City Royals,2022,49,Pitcher,Pitcher,Active
+672578,Carlos Hernández,118,Kansas City Royals,2022,43,Pitcher,Pitcher,Active
+676551,Brewer Hicklen,118,Kansas City Royals,2022,75,Outfielder,Outfielder,Minor League Contract
+664728,Kyle Isbel,118,Kansas City Royals,2022,28,Outfielder,Outfielder,Active
+641745,Brad Keller,118,Kansas City Royals,2022,56,Pitcher,Pitcher,Active
+663804,Jackson Kowar,118,Kansas City Royals,2022,37,Pitcher,Pitcher,Active
+670032,Nicky Lopez,118,Kansas City Royals,2022,8,Third Base,Infielder,Active
+663738,Daniel Lynch IV,118,Kansas City Royals,2022,52,Pitcher,Pitcher,Active
+686681,Michael Massey,118,Kansas City Royals,2022,19,Second Base,Infielder,Active
+669004,MJ Melendez,118,Kansas City Royals,2022,1,Outfielder,Outfielder,Active
+596043,Daniel Mengden,118,Kansas City Royals,2022,73,Pitcher,Pitcher,Minor League Contract
+593160,Whit Merrifield,118,Kansas City Royals,2022,15,Second Base,Infielder,Traded
+670090,Wyatt Mills,118,Kansas City Royals,2022,41,Pitcher,Pitcher,Active
+664948,Anthony Misiewicz,118,Kansas City Royals,2022,36,Pitcher,Pitcher,Active
+609275,Adalberto Mondesi,118,Kansas City Royals,2022,27,Shortstop,Infielder,Injured 60-Day
+658668,Edward Olivares,118,Kansas City Royals,2022,14,Outfielder,Outfielder,Active
+686469,Vinnie Pasquantino,118,Kansas City Royals,2022,9,First Base,Infielder,Active
+606303,Joel Payamps,118,Kansas City Royals,2022,38,Pitcher,Pitcher,Claimed
+676840,Matt Peacock,118,Kansas City Royals,2022,46,Pitcher,Pitcher,Claimed
+521692,Salvador Perez,118,Kansas City Royals,2022,13,Catcher,Catcher,Active
+668472,Nick Pratto,118,Kansas City Royals,2022,32,First Base,Infielder,Active
+656896,Emmanuel Rivera,118,Kansas City Royals,2022,26,Third Base,Infielder,Traded
+665861,Sebastián Rivero,118,Kansas City Royals,2022,48,Catcher,Catcher,Active
+667670,Brent Rooker,118,Kansas City Royals,2022,55,Outfielder,Outfielder,Active
+467793,Carlos Santana,118,Kansas City Royals,2022,41,First Base,Infielder,Traded
+663903,Brady Singer,118,Kansas City Royals,2022,51,Pitcher,Pitcher,Active
+676092,Collin Snider,118,Kansas City Royals,2022,40,Pitcher,Pitcher,Active
+642100,Gabe Speier,118,Kansas City Royals,2022,67,Pitcher,Pitcher,Active
+622251,Josh Staumont,118,Kansas City Royals,2022,63,Pitcher,Pitcher,Active
+572191,Michael A. Taylor,118,Kansas City Royals,2022,2,Outfielder,Outfielder,Active
+527055,Arodys Vizcaíno,118,Kansas City Royals,2022,68,Pitcher,Pitcher,Minor League Contract
+671221,Drew Waters,118,Kansas City Royals,2022,6,Outfielder,Outfielder,Active
+596133,Luke Weaver,118,Kansas City Royals,2022,26,Pitcher,Pitcher,Claimed
+677951,Bobby Witt Jr.,118,Kansas City Royals,2022,7,Shortstop,Infielder,Active
+672582,Angel Zerpa,118,Kansas City Royals,2022,61,Pitcher,Pitcher,Injured 60-Day
+593643,Hanser Alberto,119,Los Angeles Dodgers,2022,17,Second Base,Infielder,Active
+622075,Yency Almonte,119,Los Angeles Dodgers,2022,38,Pitcher,Pitcher,Active
+657193,Eddy Alvarez,119,Los Angeles Dodgers,2022,37,Third Base,Infielder,Released
+542881,Tyler Anderson,119,Los Angeles Dodgers,2022,31,Pitcher,Pitcher,Active
+605131,Austin Barnes,119,Los Angeles Dodgers,2022,15,Catcher,Catcher,Active
+641355,Cody Bellinger,119,Los Angeles Dodgers,2022,35,Outfielder,Outfielder,Active
+605141,Mookie Betts,119,Los Angeles Dodgers,2022,50,Outfielder,Outfielder,Active
+641360,Phil Bickford,119,Los Angeles Dodgers,2022,52,Pitcher,Pitcher,Active
+677865,Justin Bruihl,119,Los Angeles Dodgers,2022,63,Pitcher,Pitcher,Active
+621111,Walker Buehler,119,Los Angeles Dodgers,2022,21,Pitcher,Pitcher,Injured 60-Day
+664076,Garrett Cleavinger,119,Los Angeles Dodgers,2022,61,Pitcher,Pitcher,Traded
+572362,Robbie Erlin,119,Los Angeles Dodgers,2022,60,Pitcher,Pitcher,Minor League Contract
+657571,Caleb Ferguson,119,Los Angeles Dodgers,2022,64,Pitcher,Pitcher,Active
+518692,Freddie Freeman,119,Los Angeles Dodgers,2022,5,First Base,Infielder,Active
+608336,Joey Gallo,119,Los Angeles Dodgers,2022,12,Outfielder,Outfielder,Active
+664062,Tony Gonsolin,119,Los Angeles Dodgers,2022,26,Pitcher,Pitcher,Active
+660813,Brusdar Graterol,119,Los Angeles Dodgers,2022,48,Pitcher,Pitcher,Active
+572888,Shane Greene,119,Los Angeles Dodgers,2022,25,Pitcher,Pitcher,Minor League Contract
+675627,Michael Grove,119,Los Angeles Dodgers,2022,78,Pitcher,Pitcher,Active
+571760,Andrew Heaney,119,Los Angeles Dodgers,2022,28,Pitcher,Pitcher,Active
+592390,Heath Hembree,119,Los Angeles Dodgers,2022,56,Pitcher,Pitcher,Minor League Contract
+543339,Daniel Hudson,119,Los Angeles Dodgers,2022,41,Pitcher,Pitcher,Injured 60-Day
+656578,Andre Jackson,119,Los Angeles Dodgers,2022,94,Pitcher,Pitcher,Active
+592454,Tommy Kahnle,119,Los Angeles Dodgers,2022,44,Pitcher,Pitcher,Active
+477132,Clayton Kershaw,119,Los Angeles Dodgers,2022,22,Pitcher,Pitcher,Active
+518886,Craig Kimbrel,119,Los Angeles Dodgers,2022,46,Pitcher,Pitcher,Active
+571875,Jake Lamb,119,Los Angeles Dodgers,2022,18,First Base,Infielder,Traded
+666158,Gavin Lux,119,Los Angeles Dodgers,2022,9,Shortstop,Infielder,Active
+455119,Chris Martin,119,Los Angeles Dodgers,2022,58,Pitcher,Pitcher,Active
+669160,Dustin May,119,Los Angeles Dodgers,2022,85,Pitcher,Pitcher,Active
+656716,Zach McKinstry,119,Los Angeles Dodgers,2022,8,Shortstop,Infielder,Traded
+606625,Reyes Moronta,119,Los Angeles Dodgers,2022,45,Pitcher,Pitcher,Claimed
+571970,Max Muncy,119,Los Angeles Dodgers,2022,13,Third Base,Infielder,Active
+681546,James Outman,119,Los Angeles Dodgers,2022,77,Outfielder,Outfielder,Active
+686752,Ryan Pepiot,119,Los Angeles Dodgers,2022,47,Pitcher,Pitcher,Active
+623465,Evan Phillips,119,Los Angeles Dodgers,2022,59,Pitcher,Pitcher,Active
+607680,Kevin Pillar,119,Los Angeles Dodgers,2022,11,Outfielder,Outfielder,Injured 60-Day
+456034,David Price,119,Los Angeles Dodgers,2022,33,Pitcher,Pitcher,Active
+596082,Jake Reed,119,Los Angeles Dodgers,2022,57,Pitcher,Pitcher,Claimed
+621458,Edwin Ríos,119,Los Angeles Dodgers,2022,43,Third Base,Infielder,Active
+669257,Will Smith,119,Los Angeles Dodgers,2022,16,Catcher,Catcher,Active
+621035,Chris Taylor,119,Los Angeles Dodgers,2022,3,Shortstop,Infielder,Active
+572204,Trayce Thompson,119,Los Angeles Dodgers,2022,25,Outfielder,Outfielder,Active
+595014,Blake Treinen,119,Los Angeles Dodgers,2022,49,Pitcher,Pitcher,Active
+457759,Justin Turner,119,Los Angeles Dodgers,2022,10,Third Base,Infielder,Active
+607208,Trea Turner,119,Los Angeles Dodgers,2022,6,Shortstop,Infielder,Active
+628711,Julio Urías,119,Los Angeles Dodgers,2022,7,Pitcher,Pitcher,Active
+678246,Miguel Vargas,119,Los Angeles Dodgers,2022,71,First Base,Infielder,Active
+681911,Alex Vesia,119,Los Angeles Dodgers,2022,51,Pitcher,Pitcher,Active
+669952,Mitch White,119,Los Angeles Dodgers,2022,66,Pitcher,Pitcher,Traded
+547172,Tony Wolters,119,Los Angeles Dodgers,2022,,Catcher,Catcher,Minor League Contract
+676265,Cory Abbott,120,Washington Nationals,2022,77,Pitcher,Pitcher,Active
+682928,CJ Abrams,120,Washington Nationals,2022,5,Shortstop,Infielder,Active
+656180,Riley Adams,120,Washington Nationals,2022,15,Catcher,Catcher,Active
+672851,Joan Adon,120,Washington Nationals,2022,60,Pitcher,Pitcher,Active
+501303,Ehire Adrianza,120,Washington Nationals,2022,5,Outfielder,Outfielder,Traded
+644364,Víctor Arano,120,Washington Nationals,2022,64,Pitcher,Pitcher,Active
+668663,Tres Barrera,120,Washington Nationals,2022,38,Catcher,Catcher,Active
+605137,Josh Bell,120,Washington Nationals,2022,19,First Base,Infielder,Traded
+669743,Alex Call,120,Washington Nationals,2022,62,Outfielder,Outfielder,Active
+676917,Cade Cavalli,120,Washington Nationals,2022,54,Pitcher,Pitcher,Active
+518553,Steve Cishek,120,Washington Nationals,2022,33,Pitcher,Pitcher,Active
+621348,Sam Clay,120,Washington Nationals,2022,49,Pitcher,Pitcher,Claimed
+461325,Tyler Clippard,120,Washington Nationals,2022,39,Pitcher,Pitcher,Minor League Contract
+571578,Patrick Corbin,120,Washington Nationals,2022,46,Pitcher,Pitcher,Active
+443558,Nelson Cruz,120,Washington Nationals,2022,23,Designated Hitter,Hitter,Active
+448281,Sean Doolittle,120,Washington Nationals,2022,63,Pitcher,Pitcher,Injured 60-Day
+605218,Carl Edwards Jr.,120,Washington Nationals,2022,58,Pitcher,Pitcher,Active
+444876,Alcides Escobar,120,Washington Nationals,2022,3,Shortstop,Infielder,Released
+502179,Paolo Espino,120,Washington Nationals,2022,30,Pitcher,Pitcher,Active
+607200,Erick Fedde,120,Washington Nationals,2022,32,Pitcher,Pitcher,Active
+640448,Kyle Finnegan,120,Washington Nationals,2022,67,Pitcher,Pitcher,Active
+665650,Lucius Fox,120,Washington Nationals,2022,26,Shortstop,Infielder,Active
+596748,Maikel Franco,120,Washington Nationals,2022,7,Third Base,Infielder,Released
+671277,Luis García Jr.,120,Washington Nationals,2022,2,Second Base,Infielder,Active
+657585,Reed Garrett,120,Washington Nationals,2022,53,Pitcher,Pitcher,Active
+680686,Josiah Gray,120,Washington Nationals,2022,40,Pitcher,Pitcher,Active
+640451,Hunter Harvey,120,Washington Nationals,2022,73,Pitcher,Pitcher,Active
+514917,César Hernández,120,Washington Nationals,2022,1,Second Base,Infielder,Active
+628450,Yadiel Hernandez,120,Washington Nationals,2022,29,Outfielder,Outfielder,Injured 60-Day
+681885,Evan Lee,120,Washington Nationals,2022,59,Pitcher,Pitcher,Injured 60-Day
+600921,Andrés Machado,120,Washington Nationals,2022,57,Pitcher,Pitcher,Active
+459429,Jake McGee,120,Washington Nationals,2022,47,Pitcher,Pitcher,Released
+608841,Joey Meneses,120,Washington Nationals,2022,45,Designated Hitter,Hitter,Active
+641907,Patrick Murphy,120,Washington Nationals,2022,52,Pitcher,Pitcher,Minor League Contract
+641943,Joshua Palacios,120,Washington Nationals,2022,68,Outfielder,Outfielder,Active
+660906,Francisco Pérez,120,Washington Nationals,2022,65,Pitcher,Pitcher,Active
+672832,Israel Pineda,120,Washington Nationals,2022,43,Catcher,Catcher,Active
+663432,Tanner Rainey,120,Washington Nationals,2022,21,Pitcher,Pitcher,Injured 60-Day
+541640,Erasmo Ramírez,120,Washington Nationals,2022,61,Pitcher,Pitcher,Active
+645302,Victor Robles,120,Washington Nationals,2022,16,Outfielder,Outfielder,Active
+642028,Josh Rogers,120,Washington Nationals,2022,13,Pitcher,Pitcher,Minor League Contract
+676720,Tommy Romero,120,Washington Nationals,2022,49,Pitcher,Pitcher,Active
+660688,Keibert Ruiz,120,Washington Nationals,2022,20,Catcher,Catcher,Active
+592717,Aaron Sanchez,120,Washington Nationals,2022,45,Pitcher,Pitcher,Minor League Contract
+434671,Aníbal Sánchez,120,Washington Nationals,2022,19,Pitcher,Pitcher,Active
+665742,Juan Soto,120,Washington Nationals,2022,22,Outfielder,Outfielder,Traded
+543829,Dee Strange-Gordon,120,Washington Nationals,2022,,Outfield,Outfielder,Minor League Contract
+544931,Stephen Strasburg,120,Washington Nationals,2022,37,Pitcher,Pitcher,Injured 60-Day
+676194,Jackson Tetreault,120,Washington Nationals,2022,72,Pitcher,Pitcher,Injured 60-Day
+657041,Lane Thomas,120,Washington Nationals,2022,28,Outfielder,Outfielder,Active
+666168,Mason Thompson,120,Washington Nationals,2022,71,Pitcher,Pitcher,Active
+545121,Ildemaro Vargas,120,Washington Nationals,2022,14,Third Base,Infielder,Active
+572228,Luke Voit,120,Washington Nationals,2022,34,First Base,Infielder,Active
+608723,Austin Voth,120,Washington Nationals,2022,50,Pitcher,Pitcher,Claimed
+607179,Jordan Weems,120,Washington Nationals,2022,51,Pitcher,Pitcher,Active
+624413,Pete Alonso,121,New York Mets,2022,20,First Base,Infielder,Active
+682626,Francisco Alvarez,121,New York Mets,2022,50,Catcher,Catcher,Active
+571439,R.J. Alvarez,121,New York Mets,2022,71,Pitcher,Pitcher,Minor League Contract
+605135,Chris Bassitt,121,New York Mets,2022,40,Pitcher,Pitcher,Active
+683146,Brett Baty,121,New York Mets,2022,22,Third Base,Infielder,Active
+663905,Travis Blankenhorn,121,New York Mets,2022,27,Second Base,Infielder,Minor League Contract
+592192,Mark Canha,121,New York Mets,2022,19,Outfielder,Outfielder,Active
+429664,Robinson Canó,121,New York Mets,2022,24,Second Base,Infielder,Released
+471911,Carlos Carrasco,121,New York Mets,2022,59,Pitcher,Pitcher,Active
+592222,Alex Claudio,121,New York Mets,2022,58,Pitcher,Pitcher,Minor League Contract
+621348,Sam Clay,121,New York Mets,2022,46,Pitcher,Pitcher,Minor League Contract
+605204,J.D. Davis,121,New York Mets,2022,28,Third Base,Infielder,Traded
+621242,Edwin Díaz,121,New York Mets,2022,39,Pitcher,Pitcher,Active
+500871,Eduardo Escobar,121,New York Mets,2022,10,Third Base,Infielder,Active
+688010,Nate Fisher,121,New York Mets,2022,64,Pitcher,Pitcher,Minor League Contract
+571710,Mychal Givens,121,New York Mets,2022,60,Pitcher,Pitcher,Active
+605253,Terrance Gore,121,New York Mets,2022,4,Outfield,Outfielder,Active
+641645,Luis Guillorme,121,New York Mets,2022,13,Second Base,Infielder,Active
+670059,Colin Holderman,121,New York Mets,2022,35,Pitcher,Pitcher,Traded
+488984,Tommy Hunter,121,New York Mets,2022,34,Pitcher,Pitcher,Active
+542255,Ender Inciarte,121,New York Mets,2022,22,Outfield,Outfielder,Minor League Contract
+608671,Travis Jankowski,121,New York Mets,2022,,Outfielder,Outfielder,Minor League Contract
+666137,Khalil Lee,121,New York Mets,2022,26,Outfielder,Outfielder,Active
+596019,Francisco Lindor,121,New York Mets,2022,12,Shortstop,Infielder,Active
+661255,Yoan López,121,New York Mets,2022,44,Pitcher,Pitcher,Active
+607625,Seth Lugo,121,New York Mets,2022,67,Pitcher,Pitcher,Active
+571918,Deven Marrero,121,New York Mets,2022,15,Third Base,Infielder,Minor League Contract
+516782,Starling Marte,121,New York Mets,2022,6,Outfielder,Outfielder,Active
+543507,Trevor May,121,New York Mets,2022,65,Pitcher,Pitcher,Active
+664850,Patrick Mazeika,121,New York Mets,2022,4,Catcher,Catcher,Claimed
+543510,James McCann,121,New York Mets,2022,33,Catcher,Catcher,Active
+643446,Jeff McNeil,121,New York Mets,2022,1,Second Base,Infielder,Active
+658431,Adonis Medina,121,New York Mets,2022,68,Pitcher,Pitcher,Minor League Contract
+656731,Tylor Megill,121,New York Mets,2022,38,Pitcher,Pitcher,Active
+656755,Bryce Montes de Oca,121,New York Mets,2022,63,Pitcher,Pitcher,Active
+571980,Tyler Naquin,121,New York Mets,2022,25,Outfielder,Outfielder,Active
+621512,Tomás Nido,121,New York Mets,2022,3,Catcher,Catcher,Active
+607043,Brandon Nimmo,121,New York Mets,2022,9,Outfielder,Outfielder,Active
+668665,Stephen Nogosek,121,New York Mets,2022,42,Pitcher,Pitcher,Active
+493603,Adam Ottavino,121,New York Mets,2022,0,Pitcher,Pitcher,Active
+605421,Michael Pérez,121,New York Mets,2022,35,Catcher,Catcher,Minor League Contract
+656849,David Peterson,121,New York Mets,2022,23,Pitcher,Pitcher,Active
+663911,Nick Plummer,121,New York Mets,2022,18,Outfielder,Outfielder,Minor League Contract
+596082,Jake Reed,121,New York Mets,2022,72,Pitcher,Pitcher,Claimed
+656887,Sean Reid-Foley,121,New York Mets,2022,61,Pitcher,Pitcher,Injured 60-Day
+608703,Matt Reynolds,121,New York Mets,2022,15,Shortstop,Infielder,Claimed
+570257,Joely Rodríguez,121,New York Mets,2022,30,Pitcher,Pitcher,Active
+573131,Darin Ruf,121,New York Mets,2022,33,First Base,Infielder,Active
+570560,Yolmer Sánchez,121,New York Mets,2022,43,Third Base,Infielder,Minor League Contract
+453286,Max Scherzer,121,New York Mets,2022,21,Pitcher,Pitcher,Active
+592741,Chasen Shreve,121,New York Mets,2022,43,Pitcher,Pitcher,Released
+642086,Dominic Smith,121,New York Mets,2022,2,First Base,Infielder,Active
+622098,Drew Smith,121,New York Mets,2022,40,Pitcher,Pitcher,Active
+663378,Thomas Szapucki,121,New York Mets,2022,63,Pitcher,Pitcher,Traded
+668901,Mark Vientos,121,New York Mets,2022,27,Third Base,Infielder,Active
+596129,Daniel Vogelbach,121,New York Mets,2022,32,Designated Hitter,Hitter,Active
+592836,Taijuan Walker,121,New York Mets,2022,99,Pitcher,Pitcher,Active
+592866,Trevor Williams,121,New York Mets,2022,29,Pitcher,Pitcher,Active
+642239,Rob Zastryzny,121,New York Mets,2022,63,Pitcher,Pitcher,Claimed
+594798,Jacob deGrom,121,New York Mets,2022,48,Pitcher,Pitcher,Active

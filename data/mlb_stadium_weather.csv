@@ -1,0 +1,31 @@
+team,venue,city,latitude,longitude,temperature_c,humidity_pct,pressure_hpa,wind_speed_kmh,wind_direction_degrees,wind_direction_cardinal,wind_gusts_kmh,cloud_cover_pct,precipitation_mm,prediction,confidence,timestamp
+Arizona Diamondbacks,Chase Field,"Phoenix, AZ",33.4452,-112.0667,19.5,36,1017.2,6.6,112,ESE,8.6,0,0.0,Sunny,0.71,2025-11-06T16:15
+Atlanta Braves,Truist Park,"Atlanta, GA",33.8903,-84.4677,19.0,57,1020.0,6.5,341,NNW,7.6,0,0.0,Sunny,0.71,2025-11-06T16:15
+Baltimore Orioles,Oriole Park at Camden Yards,"Baltimore, MD",39.2839,-76.6217,13.6,31,1021.7,22.1,294,WNW,40.3,0,0.0,Sunny,0.71,2025-11-06T16:15
+Boston Red Sox,Fenway Park,"Boston, MA",42.3467,-71.0972,9.1,51,1012.3,23.8,297,WNW,42.5,96,0.0,Rainy,0.76,2025-11-06T16:15
+Chicago Cubs,Wrigley Field,"Chicago, IL",41.9484,-87.6553,10.0,57,1021.7,9.2,201,SSW,20.2,0,0.0,Sunny,0.71,2025-11-06T16:15
+Chicago White Sox,Guaranteed Rate Field,"Chicago, IL",41.8299,-87.6338,9.9,62,1021.7,9.2,201,SSW,20.5,0,0.0,Sunny,0.71,2025-11-06T16:15
+Cincinnati Reds,Great American Ball Park,"Cincinnati, OH",39.0974,-84.5086,11.9,47,1023.8,2.9,150,SSE,7.2,0,0.0,Sunny,0.71,2025-11-06T16:15
+Cleveland Guardians,Progressive Field,"Cleveland, OH",41.4962,-81.6852,9.5,56,1022.4,13.1,286,WNW,24.1,9,0.0,Sunny,0.71,2025-11-06T16:15
+Colorado Rockies,Coors Field,"Denver, CO",39.7559,-104.9942,18.0,18,1009.2,20.4,287,WNW,46.4,100,0.0,Rainy,0.76,2025-11-06T16:15
+Detroit Tigers,Comerica Park,"Detroit, MI",42.3391,-83.0485,9.1,42,1021.9,11.2,268,W,20.5,2,0.0,Sunny,0.71,2025-11-06T16:15
+Houston Astros,Minute Maid Park,"Houston, TX",29.7573,-95.3556,22.1,86,1019.2,2.6,286,WNW,13.0,26,0.0,Sunny,0.76,2025-11-06T16:15
+Kansas City Royals,Kauffman Stadium,"Kansas City, MO",39.0517,-94.4803,14.0,48,1015.7,24.2,150,SSE,49.7,4,0.0,Sunny,0.71,2025-11-06T16:15
+Los Angeles Angels,Angel Stadium,"Anaheim, CA",33.8003,-117.8827,16.7,70,1021.2,6.0,147,SSE,10.1,0,0.0,Rainy,0.53,2025-11-06T16:15
+Los Angeles Dodgers,Dodger Stadium,"Los Angeles, CA",34.0739,-118.24,16.1,68,1020.5,8.7,107,ESE,12.2,11,0.0,Rainy,0.53,2025-11-06T16:15
+Miami Marlins,LoanDepot Park,"Miami, FL",25.7781,-80.2197,27.7,63,1018.4,10.5,84,E,11.9,100,0.0,Sunny,0.73,2025-11-06T16:15
+Milwaukee Brewers,American Family Field,"Milwaukee, WI",43.028,-87.9712,9.7,37,1020.9,10.9,189,S,22.7,3,0.0,Sunny,0.71,2025-11-06T16:15
+Minnesota Twins,Target Field,"Minneapolis, MN",44.9817,-93.2776,9.7,50,1014.0,20.0,152,SSE,48.2,100,0.0,Rainy,0.56,2025-11-06T16:15
+New York Mets,Citi Field,"New York, NY",40.7571,-73.8458,10.5,48,1016.9,26.6,303,WNW,43.6,36,0.0,Sunny,0.71,2025-11-06T16:15
+New York Yankees,Yankee Stadium,"New York, NY",40.8296,-73.9262,10.6,45,1017.0,27.5,302,WNW,43.2,36,0.0,Sunny,0.71,2025-11-06T16:15
+Oakland Athletics,Oakland Coliseum,"Oakland, CA",37.7516,-122.2005,15.6,95,1024.1,1.4,270,W,6.1,100,0.0,Rainy,0.8,2025-11-06T16:15
+Philadelphia Phillies,Citizens Bank Park,"Philadelphia, PA",39.9061,-75.1665,12.9,30,1019.7,27.4,300,WNW,43.9,0,0.0,Sunny,0.71,2025-11-06T16:15
+Pittsburgh Pirates,PNC Park,"Pittsburgh, PA",40.4469,-80.0057,9.9,49,1023.0,18.2,297,WNW,38.9,2,0.0,Sunny,0.71,2025-11-06T16:15
+San Diego Padres,Petco Park,"San Diego, CA",32.7073,-117.1566,17.3,83,1021.0,7.6,352,N,15.8,62,0.0,Rainy,0.8,2025-11-06T16:15
+San Francisco Giants,Oracle Park,"San Francisco, CA",37.7786,-122.3893,14.4,95,1024.3,5.7,252,WSW,15.1,98,0.0,Rainy,0.8,2025-11-06T16:15
+Seattle Mariners,T-Mobile Park,"Seattle, WA",47.5914,-122.3325,15.0,50,1013.0,10.0,0,N,0.0,50,0.0,Sunny,0.52,2025-11-06T11:25:21.998018
+St. Louis Cardinals,Busch Stadium,"St. Louis, MO",38.6226,-90.1928,13.1,39,1021.7,16.8,145,SE,34.6,0,0.0,Sunny,0.71,2025-11-06T16:15
+Tampa Bay Rays,Tropicana Field,"St. Petersburg, FL",27.7682,-82.6534,23.7,71,1020.4,8.1,69,ENE,11.5,100,0.0,Rainy,0.51,2025-11-06T16:15
+Texas Rangers,Globe Life Field,"Arlington, TX",32.747,-97.0817,22.8,61,1016.1,17.6,211,SSW,30.2,4,0.0,Sunny,1.0,2025-11-06T16:15
+Toronto Blue Jays,Rogers Centre,"Toronto, ON",43.6414,-79.3894,6.9,54,1020.3,12.3,302,WNW,32.0,7,0.0,Sunny,0.71,2025-11-06T16:15
+Washington Nationals,Nationals Park,"Washington, DC",38.873,-77.0074,13.3,32,1022.3,21.3,298,WNW,46.1,0,0.0,Sunny,0.71,2025-11-06T16:15

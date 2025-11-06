@@ -1,3 +1,6 @@
+# npx @github/copilot
+ 
+
 import xgboost as xgb
 import numpy as np
 from sklearn.datasets import fetch_california_housing

@@ -1,0 +1,19 @@
+fantasy_team,player_name,mlb_team,position,player_type,game_date,opponent,venue,is_home,temperature,wind_speed,wind_direction,wind_component,crosswind,advantage,advantage_score,conditions,humidity
+I like big bunts,Shohei Ohtani,LAD,DH,Hitter,2025-09-28,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+I like big bunts,Shohei Ohtani,LAD,DH,Hitter,2025-09-27,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+I like big bunts,Mookie Betts,LAD,OF,Hitter,2025-09-27,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+I like big bunts,Mookie Betts,LAD,OF,Hitter,2025-09-28,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+Pure uncut adam west,Bryce Harper,PHI,DH,Hitter,2025-09-27,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+Pure uncut adam west,Bryce Harper,PHI,DH,Hitter,2025-09-28,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+Pure uncut adam west,Trea Turner,PHI,SS,Hitter,2025-09-27,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+Pure uncut adam west,Trea Turner,PHI,SS,Hitter,2025-09-28,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+Pure uncut adam west,Freddie Freeman,LAD,1B,Hitter,2025-09-27,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+Pure uncut adam west,Freddie Freeman,LAD,1B,Hitter,2025-09-28,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY FAVORABLE,2.0,Sunny,30
+I like big bunts,Ronald Acuña Jr.,ATL,OF,Hitter,2025-09-28,Pittsburgh Pirates,Truist Park,True,19.0,6.5,NNW,5.38874422160777,3.634753872559855,FAVORABLE,1.0,Sunny,57
+I like big bunts,Ronald Acuña Jr.,ATL,OF,Hitter,2025-09-27,Pittsburgh Pirates,Truist Park,True,19.0,6.5,NNW,5.38874422160777,3.634753872559855,FAVORABLE,1.0,Sunny,57
+I like big bunts,Spencer Strider,ATL,SP,Pitcher,2025-09-27,Pittsburgh Pirates,Truist Park,True,19.0,6.5,NNW,5.38874422160777,3.634753872559855,UNFAVORABLE,-1.0,Sunny,57
+I like big bunts,Spencer Strider,ATL,SP,Pitcher,2025-09-28,Pittsburgh Pirates,Truist Park,True,19.0,6.5,NNW,5.38874422160777,3.634753872559855,UNFAVORABLE,-1.0,Sunny,57
+I like big bunts,Corbin Burnes,BAL,SP,Pitcher,2025-09-27,New York Yankees,Yankee Stadium,False,10.6,27.5,WNW,25.84154707161248,9.40555394145589,VERY UNFAVORABLE,-2.0,Sunny,45
+I like big bunts,Corbin Burnes,BAL,SP,Pitcher,2025-09-28,New York Yankees,Yankee Stadium,False,10.6,27.5,WNW,25.84154707161248,9.40555394145589,VERY UNFAVORABLE,-2.0,Sunny,45
+Pure uncut adam west,Zack Wheeler,PHI,SP,Pitcher,2025-09-28,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY UNFAVORABLE,-2.0,Sunny,30
+Pure uncut adam west,Zack Wheeler,PHI,SP,Pitcher,2025-09-27,Minnesota Twins,Citizens Bank Park,True,12.9,27.4,WNW,11.579740371695165,24.832833364804205,VERY UNFAVORABLE,-2.0,Sunny,30
