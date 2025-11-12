@@ -30,7 +30,8 @@ from scripts.fa import (
     park_factors_fa,
     lineup_position_fa,
     time_of_day_fa,
-    defensive_positions_fa
+    defensive_positions_fa,
+    recent_form_fa
 )
 
 
@@ -217,7 +218,7 @@ def run_all_factor_analyses(data_dir: Path):
         print(f"  ✗ Error: {e}")
     
     # 13. Defensive Positions Analysis
-    print("13/13 Defensive Positions Analysis...")
+    print("13/14 Defensive Positions Analysis...")
     try:
         analyzer = defensive_positions_fa.DefensivePositionsAnalyzer()
         defense_df = analyzer.analyze_roster(roster_df, schedule_2025, teams)
@@ -228,9 +229,21 @@ def run_all_factor_analyses(data_dir: Path):
     except Exception as e:
         print(f"  ✗ Error: {e}")
     
-    print(f"\n✓ Completed {len(results)}/13 factor analyses")
+    # 14. Recent Form / Streaks Analysis
+    print("14/14 Recent Form / Streaks Analysis...")
+    try:
+        analyzer = recent_form_fa.RecentFormAnalyzer(data_dir)
+        form_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete)
+        output_file = data_dir / f"recent_form_analysis_{timestamp}.csv"
+        form_df.to_csv(output_file, index=False)
+        results['recent_form'] = output_file
+        print(f"  ✓ Saved to {output_file.name}")
+    except Exception as e:
+        print(f"  ✗ Error: {e}")
     
-    return len(results) >= 10  # Success if at least 10 completed
+    print(f"\n✓ Completed {len(results)}/14 factor analyses")
+    
+    return len(results) >= 11  # Success if at least 11 completed
 
 
 def main():

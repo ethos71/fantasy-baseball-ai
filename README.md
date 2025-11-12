@@ -4,9 +4,9 @@ An automated machine learning system for fantasy baseball optimization that comb
 
 ## Overview
 
-This system analyzes **13 key factors** using 3+ years of historical data to recommend optimal lineup decisions. Run it **30 minutes before game time** for best results.
+This system analyzes **14 key factors** using 3+ years of historical data to recommend optimal lineup decisions. Run it **30 minutes before game time** for best results.
 
-### 13 Factor Analysis System
+### 14 Factor Analysis System
 
 1. **Wind Analysis** - Weather conditions impact on performance
 2. **Historical Matchup** - Player vs. opponent track record  
@@ -21,6 +21,7 @@ This system analyzes **13 key factors** using 3+ years of historical data to rec
 11. **Lineup Position** - Batting order position effects
 12. **Time of Day** - Day/night game performance
 13. **Defensive Positions** - Team defensive quality
+14. **Recent Form/Streaks** - Hot/cold streaks and trends ⭐ NEW!
 
 **🎯 Automated Weight Tuning:** System optimizes factor weights for each player based on 3+ years of historical backtesting!
 
@@ -253,7 +254,7 @@ python src/scripts/fa/matchup_fa.py
 - 3+ years historical backtesting
 
 **Analysis:**
-- 13 independent factor analyses
+- 14 independent factor analyses
 - Player-specific weight tuning
 - Real-time data integration
 
