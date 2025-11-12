@@ -1,0 +1,321 @@
+#!/usr/bin/env python3
+"""
+fb-ai - Fantasy Baseball AI Quick Command
+
+A simple command to run sit/start analysis 30 minutes before game time.
+This is a shortcut wrapper around daily_sitstart.py with smart defaults.
+
+Usage:
+    fb-ai                    # Run analysis for today (auto-detects mode)
+    fb-ai --date 2025-09-29  # Run for specific date
+    fb-ai --full             # Force full analysis with weight tuning
+    fb-ai --quick            # Force quick mode (skip weight tuning)
+    fb-ai --when             # Show when to run (game times)
+    fb-ai --last             # Show last recommendations
+    fb-ai --help             # Show help
+"""
+
+import sys
+import subprocess
+import os
+from pathlib import Path
+from datetime import datetime, time
+import argparse
+
+
+def get_project_root():
+    """Get the project root directory"""
+    # Use current working directory as project root
+    # This works because fb-ai should be run from project root
+    return Path.cwd()
+
+
+def log_command_to_file(args):
+    """Log the command invocation to docs/copilot-last-instructions.txt"""
+    project_root = get_project_root()
+    log_file = project_root / "docs" / "copilot-last-instructions.txt"
+    
+    # Ensure docs directory exists
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Build log entry
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    command_parts = ["fb-ai"]
+    
+    if args.date:
+        command_parts.append(f"--date {args.date}")
+    if args.full:
+        command_parts.append("--full")
+    if args.quick:
+        command_parts.append("--quick")
+    if args.when:
+        command_parts.append("--when")
+    if args.last:
+        command_parts.append("--last")
+    if args.help:
+        command_parts.append("--help")
+    
+    command = " ".join(command_parts)
+    
+    log_entry = f"""
+{'='*80}
+Timestamp: {timestamp}
+Command: {command}
+{'='*80}
+"""
+    
+    # Append to log file
+    with open(log_file, 'a') as f:
+        f.write(log_entry)
+    
+    return log_file
+
+
+def show_when_to_run():
+    """Show game times and when to run"""
+    print("\n🕐 Checking game schedule...\n")
+    
+    script = get_project_root() / "src" / "scripts" / "schedule_helper.py"
+    
+    subprocess.run([
+        sys.executable,
+        str(script)
+    ])
+
+
+def show_last_recommendations():
+    """Show the most recent recommendations"""
+    data_dir = get_project_root() / "data"
+    
+    # Find most recent recommendations file
+    rec_files = sorted(
+        data_dir.glob("sitstart_recommendations_*.csv"),
+        key=lambda x: x.stat().st_mtime,
+        reverse=True
+    )
+    
+    if not rec_files:
+        print("\n❌ No recommendations found yet.")
+        print("   Run 'fb-ai' to generate recommendations.\n")
+        return
+    
+    latest = rec_files[0]
+    file_time = datetime.fromtimestamp(latest.stat().st_mtime)
+    
+    print("\n" + "="*80)
+    print(f"LATEST RECOMMENDATIONS - {file_time.strftime('%Y-%m-%d %I:%M %p')}")
+    print("="*80 + "\n")
+    
+    # Read and display recommendations
+    import pandas as pd
+    df = pd.read_csv(latest)
+    
+    if 'final_score' in df.columns:
+        df = df.sort_values('final_score', ascending=False)
+        
+        # Show top 5 starts and bottom 5 sits
+        print("🌟 TOP 5 STARTS:")
+        print("-" * 80)
+        for idx, row in df.head(5).iterrows():
+            name = row.get('player_name', 'Unknown')
+            score = row.get('final_score', 0)
+            rec = row.get('recommendation', 'N/A')
+            print(f"  {score:>6.2f}  {name:<30}  {rec}")
+        
+        print("\n🚫 BOTTOM 5 SITS:")
+        print("-" * 80)
+        for idx, row in df.tail(5).iterrows():
+            name = row.get('player_name', 'Unknown')
+            score = row.get('final_score', 0)
+            rec = row.get('recommendation', 'N/A')
+            print(f"  {score:>6.2f}  {name:<30}  {rec}")
+        
+        print("\n" + "="*80)
+        print(f"📁 Full details: {latest.name}")
+        print("="*80 + "\n")
+    else:
+        print(f"📁 Recommendations file: {latest.name}")
+        print("   (View with: cat data/{})".format(latest.name))
+
+
+def auto_detect_mode():
+    """Automatically detect if we should use quick or full mode based on time"""
+    current_time = datetime.now().time()
+    
+    # If it's early (before 10 AM), use full mode
+    # If it's later (close to game time), use quick mode
+    if current_time < time(10, 0):
+        return "full"
+    else:
+        return "quick"
+
+
+def run_analysis(mode="auto", target_date=None):
+    """Run the sit/start analysis"""
+    
+    script = get_project_root() / "src" / "scripts" / "daily_sitstart.py"
+    
+    # Build command
+    cmd = [sys.executable, str(script)]
+    
+    # Add date if specified
+    if target_date:
+        cmd.extend(["--date", target_date])
+    
+    # Determine mode
+    if mode == "auto":
+        mode = auto_detect_mode()
+    
+    # Add mode flag
+    if mode == "quick":
+        cmd.append("--skip-tune")
+        mode_name = "QUICK MODE (no weight tuning)"
+        time_est = "1-2 minutes"
+    else:
+        mode_name = "FULL MODE (with weight tuning)"
+        time_est = "3-5 minutes"
+    
+    # Display header
+    print("\n" + "="*80)
+    print("⚾ FANTASY BASEBALL AI - SIT/START ANALYSIS".center(80))
+    print("="*80 + "\n")
+    
+    print(f"Mode: {mode_name}")
+    print(f"Estimated time: {time_est}")
+    
+    if target_date:
+        print(f"Target date: {target_date}")
+    else:
+        print(f"Target date: Today ({datetime.now().strftime('%Y-%m-%d')})")
+    
+    print("\n" + "="*80 + "\n")
+    
+    # Run the script
+    try:
+        result = subprocess.run(cmd, check=True)
+        
+        # Show last recommendations after completion
+        print("\n" + "="*80)
+        print("✅ ANALYSIS COMPLETE - QUICK SUMMARY".center(80))
+        print("="*80)
+        
+        show_last_recommendations()
+        
+        return result.returncode
+        
+    except subprocess.CalledProcessError as e:
+        print(f"\n❌ Analysis failed with error code {e.returncode}")
+        return e.returncode
+    except KeyboardInterrupt:
+        print("\n\n⚠️  Analysis interrupted by user")
+        return 1
+
+
+def print_help():
+    """Print help message"""
+    print("""
+fb-ai - Fantasy Baseball AI Quick Command
+==========================================
+
+Run sit/start analysis 30 minutes before game time.
+
+USAGE:
+    fb-ai                    Run analysis for today (auto mode)
+    fb-ai --date 2025-09-29  Run for specific date
+    fb-ai --full             Force full analysis with weight tuning (3-5 min)
+    fb-ai --quick            Force quick mode, skip weight tuning (1-2 min)
+    fb-ai --when             Show when to run (game times)
+    fb-ai --last             Show last recommendations
+    fb-ai --help             Show this help
+
+AUTO MODE:
+    Before 10 AM: Uses full mode (with weight tuning)
+    After 10 AM:  Uses quick mode (skip weight tuning for speed)
+
+WORKFLOW:
+    1. Run 'fb-ai --when' in the morning to see game times
+    2. Run 'fb-ai' 30 minutes before first game
+    3. Review recommendations and set your lineup
+
+EXAMPLES:
+    # Morning: Check when games start
+    $ fb-ai --when
+
+    # 30 mins before games: Run analysis
+    $ fb-ai
+
+    # Quick mode for last-minute decisions
+    $ fb-ai --quick
+
+    # Check yesterday's recommendations
+    $ fb-ai --last
+
+    # Run for specific date (postseason)
+    $ fb-ai --date 2025-10-15
+
+OUTPUT:
+    Primary file: data/sitstart_recommendations_YYYYMMDD_HHMMSS.csv
+    
+    Scores range from -2.0 to +2.0:
+        +1.5 to +2.0  🌟 VERY FAVORABLE - Strong start
+        +0.5 to +1.5  ✅ FAVORABLE - Start
+        -0.5 to +0.5  ⚖️  NEUTRAL - Consider matchup
+        -1.5 to -0.5  ⚠️  UNFAVORABLE - Consider bench
+        -2.0 to -1.5  🚫 VERY UNFAVORABLE - Bench
+
+For more details, see: README.md or docs/DAILY_WORKFLOW.md
+    """)
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='Fantasy Baseball AI - Quick Sit/Start Analysis',
+        add_help=False
+    )
+    
+    parser.add_argument('--date', type=str, help='Target date (YYYY-MM-DD)')
+    parser.add_argument('--full', action='store_true', help='Force full mode with weight tuning')
+    parser.add_argument('--quick', action='store_true', help='Force quick mode (skip weight tuning)')
+    parser.add_argument('--when', action='store_true', help='Show game times and when to run')
+    parser.add_argument('--last', action='store_true', help='Show last recommendations')
+    parser.add_argument('--help', '-h', action='store_true', help='Show help')
+    
+    args = parser.parse_args()
+    
+    # Log this command execution (do it first)
+    try:
+        log_file = log_command_to_file(args)
+        # Only show if not help command (keep help clean)
+        if not args.help:
+            print(f"📝 Command logged to: docs/copilot-last-instructions.txt")
+    except Exception as e:
+        # Don't fail if logging fails
+        pass
+    
+    # Handle special commands
+    if args.help:
+        print_help()
+        return 0
+    
+    if args.when:
+        show_when_to_run()
+        return 0
+    
+    if args.last:
+        show_last_recommendations()
+        return 0
+    
+    # Determine mode
+    if args.full:
+        mode = "full"
+    elif args.quick:
+        mode = "quick"
+    else:
+        mode = "auto"
+    
+    # Run analysis
+    return run_analysis(mode=mode, target_date=args.date)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,1036 +1,1107 @@
-player_id,player_name,team_id,team_name,season,jersey_number,position,position_type,status,fullName,firstName,lastName,primaryNumber,position_abbr
-680728,,109,Arizona Diamondbacks,2025,,Catcher,,Active,Adrian Del Castillo,,,25,C
-677950,,109,Arizona Diamondbacks,2025,,Outfielder,,Active,Alek Thomas,,,5,CF
-694851,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Andrew Hoffmann,,,56,P
-685314,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Andrew Saalfrank,,,27,P
-687166,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Austin Pope,,,66,P
-677942,,109,Arizona Diamondbacks,2025,,Shortstop,,Active,Blaze Alexander,,,9,SS
-694297,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Brandon Pfaadt,,,32,P
-805299,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Brandyn Garcia,,,55,P
-686826,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Bryce Jarvis,,,40,P
-682998,,109,Arizona Diamondbacks,2025,,Outfielder,,Active,Corbin Carroll,,,7,RF
-686753,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Drey Jameson,,,99,P
-593958,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Eduardo Rodriguez,,,57,P
-672515,,109,Arizona Diamondbacks,2025,,Catcher,,Active,Gabriel Moreno,,,14,C
-672695,,109,Arizona Diamondbacks,2025,,Shortstop,,Active,Geraldo Perdomo,,,2,SS
-681402,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Gus Varland,,,,P
-545121,,109,Arizona Diamondbacks,2025,,Second Base,,Active,Ildemaro Vargas,,,6,2B
-664983,,109,Arizona Diamondbacks,2025,,Outfielder,,Active,Jake McCarthy,,,31,CF
-691783,,109,Arizona Diamondbacks,2025,,Shortstop,,Active,Jordan Lawlar,,,10,SS
-678489,,109,Arizona Diamondbacks,2025,,Outfielder,,Active,Jorge Barrosa,,,1,LF
-686228,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Juan Burgos,,,52,P
-666661,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Juan Morillo,,,67,P
-606466,,109,Arizona Diamondbacks,2025,,Second Base,,Active,Ketel Marte,,,4,2B
-679775,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Kyle Backhus,,,43,P
-666971,,109,Arizona Diamondbacks,2025,,Outfielder,,Active,Lourdes Gurriel Jr.,,,12,LF
-691769,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Philip Abner,,,50,P
-657044,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Ryan Thompson,,,81,P
-669194,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Ryne Nelson,,,19,P
-688497,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Taylor Rashi,,,54,P
-694374,,109,Arizona Diamondbacks,2025,,Second Base,,Active,Tim Tawa,,,13,2B
-682988,,109,Arizona Diamondbacks,2025,,First Base,,Active,Tyler Locklear,,,28,1B
-700270,,109,Arizona Diamondbacks,2025,,Pitcher,,Active,Yilber Díaz,,,45,P
-642851,,133,Athletics,2025,,Catcher,,Active,Austin Wynns,,,29,C
-669620,,133,Athletics,2025,,Pitcher,,Active,Brady Basso,,,66,P
-667670,,133,Athletics,2025,,Outfielder,,Active,Brent Rooker,,,25,RF
-695391,,133,Athletics,2025,,Third Base,,Active,Brett Harris,,,11,3B
-666126,,133,Athletics,2025,,Outfielder,,Active,Carlos Cortes,,,26,LF
-687515,,133,Athletics,2025,,Outfielder,,Active,Colby Thomas,,,32,RF
-687231,,133,Athletics,2025,,Third Base,,Active,Darell Hernaiz,,,2,3B
-672016,,133,Athletics,2025,,Outfielder,,Active,Denzel Clarke,,,1,CF
-674384,,133,Athletics,2025,,Pitcher,,Active,Eduarniel Núñez,,,54,P
-665660,,133,Athletics,2025,,Pitcher,,Active,Elvis Alvarado,,,61,P
-680880,,133,Athletics,2025,,Pitcher,,Active,Grant Holman,,,67,P
-680684,,133,Athletics,2025,,Pitcher,,Active,Gunnar Hoglund,,,53,P
-692013,,133,Athletics,2025,,Pitcher,,Active,Henry Baez,,,,P
-663687,,133,Athletics,2025,,Pitcher,,Active,Hogan Harris,,,36,P
-669372,,133,Athletics,2025,,Pitcher,,Active,J.T. Ginn,,,70,P
-668709,,133,Athletics,2025,,Outfielder,,Active,JJ Bleday,,,33,CF
-678022,,133,Athletics,2025,,Pitcher,,Active,Jack Perkins,,,50,P
-682052,,133,Athletics,2025,,Pitcher,,Active,Jacob Lopez,,,57,P
-805779,,133,Athletics,2025,,Shortstop,,Active,Jacob Wilson,,,5,SS
-605488,,133,Athletics,2025,,Pitcher,,Active,Jeffrey Springs,,,59,P
-683155,,133,Athletics,2025,,Pitcher,,Active,Joey Estes,,,68,P
-686993,,133,Athletics,2025,,Pitcher,,Active,Justin Sterner,,,60,P
-686610,,133,Athletics,2025,,Pitcher,,Active,Ken Waldichuk,,,30,P
-671732,,133,Athletics,2025,,Outfielder,,Active,Lawrence Butler,,,4,RF
-665622,,133,Athletics,2025,,Pitcher,,Active,Luis Medina,,,46,P
-806960,,133,Athletics,2025,,Pitcher,,Active,Luis Morales,,,58,P
-622663,,133,Athletics,2025,,Pitcher,,Active,Luis Severino,,,40,P
-686930,,133,Athletics,2025,,Pitcher,,Active,Mason Barnett,,,63,P
-691777,,133,Athletics,2025,,Third Base,,Active,Max Muncy,,,10,3B
-680474,,133,Athletics,2025,,Third Base,,Active,Max Schuemann,,,12,3B
-547184,,133,Athletics,2025,,Pitcher,,Active,Michael Kelly,,,49,P
-687765,,133,Athletics,2025,,Pitcher,,Active,Mitch Spence,,,28,P
-701762,,133,Athletics,2025,,First Base,,Active,Nick Kurtz,,,16,1B
-674370,,133,Athletics,2025,,Pitcher,,Active,Osvaldo Bido,,,45,P
-669127,,133,Athletics,2025,,Catcher,,Active,Shea Langeliers,,,23,C
-621053,,133,Athletics,2025,,Pitcher,,Active,Tyler Ferguson,,,44,P
-691016,,133,Athletics,2025,,Outfielder,,Active,Tyler Soderstrom,,,21,LF
-680869,,133,Athletics,2025,,Second Base,,Active,Zack Gelof,,,20,2B
-666201,,144,Atlanta Braves,2025,,Pitcher,,Active,Alek Manoah,,,,P
-680735,,144,Atlanta Braves,2025,,Pitcher,,Active,Austin Cox,,,68,P
-689172,,144,Atlanta Braves,2025,,Second Base,,Active,Brett Wisely,,,60,2B
-693821,,144,Atlanta Braves,2025,,Pitcher,,Active,Bryce Elder,,,55,P
-677578,,144,Atlanta Braves,2025,,Outfielder,,Active,Carlos Rodríguez,,,71,RF
-519242,,144,Atlanta Braves,2025,,Pitcher,,Active,Chris Sale,,,51,P
-642020,,144,Atlanta Braves,2025,,Catcher,,Active,Chuckie Robinson,,,,C
-800311,,144,Atlanta Braves,2025,,Pitcher,,Active,Didier Fuentes,,,75,P
-686948,,144,Atlanta Braves,2025,,Catcher,,Active,Drake Baldwin,,,30,C
-689266,,144,Atlanta Braves,2025,,Pitcher,,Active,Dylan Dodd,,,46,P
-669276,,144,Atlanta Braves,2025,,Pitcher,,Active,Dylan Lee,,,52,P
-642201,,144,Atlanta Braves,2025,,Outfielder,,Active,Eli White,,,36,RF
-802686,,144,Atlanta Braves,2025,,Pitcher,,Active,Hayden Harris,,,79,P
-676702,,144,Atlanta Braves,2025,,Pitcher,,Active,Hunter Stratton,,,65,P
-694462,,144,Atlanta Braves,2025,,Pitcher,,Active,Hurston Waldrep,,,64,P
-702910,,144,Atlanta Braves,2025,,Pitcher,,Active,Jhancarlos Lara,,,81,P
-606303,,144,Atlanta Braves,2025,,Pitcher,,Active,Joel Payamps,,,53,P
-666214,,144,Atlanta Braves,2025,,Pitcher,,Active,Joey Wentz,,,33,P
-660761,,144,Atlanta Braves,2025,,Pitcher,,Active,José Suarez,,,54,P
-595777,,144,Atlanta Braves,2025,,Outfielder,,Active,Jurickson Profar,,,7,LF
-621566,,144,Atlanta Braves,2025,,First Base,,Active,Matt Olson,,,28,1B
-671739,,144,Atlanta Braves,2025,,Outfielder,,Active,Michael Harris II,,,23,CF
-805373,,144,Atlanta Braves,2025,,Shortstop,,Active,Nacho Alvarez Jr.,,,67,SS
-669397,,144,Atlanta Braves,2025,,Shortstop,,Active,Nick Allen,,,2,SS
-645277,,144,Atlanta Braves,2025,,Second Base,,Active,Ozzie Albies,,,1,2B
-572955,,144,Atlanta Braves,2025,,Pitcher,,Active,Pierce Johnson,,,38,P
-691548,,144,Atlanta Braves,2025,,Pitcher,,Active,Rolddy Muñoz,,,70,P
-660670,,144,Atlanta Braves,2025,,Outfielder,,Active,Ronald Acuña Jr.,,,13,RF
-675911,,144,Atlanta Braves,2025,,Pitcher,,Active,Spencer Strider,,,99,P
-641755,,144,Atlanta Braves,2025,,Pitcher,,Active,Tyler Kinley,,,45,P
-660644,,144,Atlanta Braves,2025,,Third Base,,Active,Vidal Bruján,,,17,3B
-668939,,110,Baltimore Orioles,2025,,Catcher,,Active,Adley Rutschman,,,35,C
-544150,,110,Baltimore Orioles,2025,,Pitcher,,Active,Albert Suárez,,,49,P
-656577,,110,Baltimore Orioles,2025,,Catcher,,Active,Alex Jackson,,,70,C
-552640,,110,Baltimore Orioles,2025,,Pitcher,,Active,Andrew Kittredge,,,,P
-700249,,110,Baltimore Orioles,2025,,Pitcher,,Active,Cade Povich,,,37,P
-685068,,110,Baltimore Orioles,2025,,Pitcher,,Active,Carson Ragsdale,,,83,P
-694646,,110,Baltimore Orioles,2025,,Pitcher,,Active,Chayce McDermott,,,59,P
-691723,,110,Baltimore Orioles,2025,,First Base,,Active,Coby Mayo,,,16,1B
-681882,,110,Baltimore Orioles,2025,,Pitcher,,Active,Colin Selby,,,60,P
-681297,,110,Baltimore Orioles,2025,,Outfielder,,Active,Colton Cowser,,,17,LF
-665152,,110,Baltimore Orioles,2025,,Pitcher,,Active,Dean Kremer,,,64,P
-608650,,110,Baltimore Orioles,2025,,Pitcher,,Active,Dietrich Enns,,,71,P
-687637,,110,Baltimore Orioles,2025,,Outfielder,,Active,Dylan Beavers,,,12,RF
-666185,,110,Baltimore Orioles,2025,,Outfielder,,Active,Dylan Carlson,,,15,LF
-666277,,110,Baltimore Orioles,2025,,Pitcher,,Active,George Soriano,,,,P
-664991,,110,Baltimore Orioles,2025,,Pitcher,,Active,Grant Wolfram,,,86,P
-683002,,110,Baltimore Orioles,2025,,Shortstop,,Active,Gunnar Henderson,,,2,SS
-677008,,110,Baltimore Orioles,2025,,Outfielder,,Active,Heston Kjerstad,,,13,LF
-702616,,110,Baltimore Orioles,2025,,Second Base,,Active,Jackson Holliday,,,7,2B
-669236,,110,Baltimore Orioles,2025,,Second Base,,Active,Jeremiah Jackson,,,82,2B
-676059,,110,Baltimore Orioles,2025,,Third Base,,Active,Jordan Westburg,,,11,3B
-622761,,110,Baltimore Orioles,2025,,Shortstop,,Active,Jorge Mateo,,,3,SS
-664744,,110,Baltimore Orioles,2025,,Pitcher,,Active,Jose Espada,,,72,P
-677020,,110,Baltimore Orioles,2025,,Pitcher,,Active,Josh Walker,,,,P
-620454,,110,Baltimore Orioles,2025,,Pitcher,,Active,José Castillo,,,66,P
-669704,,110,Baltimore Orioles,2025,,Pitcher,,Active,Kade Strowd,,,57,P
-669211,,110,Baltimore Orioles,2025,,Pitcher,,Active,Keegan Akin,,,45,P
-680694,,110,Baltimore Orioles,2025,,Pitcher,,Active,Kyle Bradish,,,38,P
-676679,,110,Baltimore Orioles,2025,,Shortstop,,Active,Luis Vázquez,,,52,SS
-668974,,110,Baltimore Orioles,2025,,Catcher,,Active,Maverick Handley,,,98,C
-670329,,110,Baltimore Orioles,2025,,Pitcher,,Active,Rico Garcia,,,50,P
-663624,,110,Baltimore Orioles,2025,,First Base,,Active,Ryan Mountcastle,,,6,1B
-676116,,110,Baltimore Orioles,2025,,First Base,,Active,Ryan Noda,,,41,1B
-694212,,110,Baltimore Orioles,2025,,Catcher,,Active,Samuel Basallo,,,29,C
-681869,,110,Baltimore Orioles,2025,,Pitcher,,Active,Shawn Dubin,,,62,P
-669432,,110,Baltimore Orioles,2025,,Pitcher,,Active,Trevor Rogers,,,28,P
-641933,,110,Baltimore Orioles,2025,,Outfielder,,Active,Tyler O'Neill,,,9,RF
-669330,,110,Baltimore Orioles,2025,,Pitcher,,Active,Tyler Wells,,,68,P
-682274,,110,Baltimore Orioles,2025,,Pitcher,,Active,Yaramil Hiraldo,,,76,P
-666974,,110,Baltimore Orioles,2025,,Pitcher,,Active,Yennier Cano,,,78,P
-547973,,111,Boston Red Sox,2025,,Pitcher,,Active,Aroldis Chapman,,,44,P
-678394,,111,Boston Red Sox,2025,,Pitcher,,Active,Brayan Bello,,,66,P
-657514,,111,Boston Red Sox,2025,,Pitcher,,Active,Brennan Bernardino,,,83,P
-665966,,111,Boston Red Sox,2025,,Catcher,,Active,Carlos Narváez,,,75,C
-678882,,111,Boston Red Sox,2025,,Outfielder,,Active,Ceddanne Rafaela,,,3,CF
-669684,,111,Boston Red Sox,2025,,Pitcher,,Active,Chris Murphy,,,72,P
-813349,,111,Boston Red Sox,2025,,Pitcher,,Active,Connelly Early,,,71,P
-657136,,111,Boston Red Sox,2025,,Catcher,,Active,Connor Wong,,,12,C
-681867,,111,Boston Red Sox,2025,,Pitcher,,Active,Cooper Criswell,,,64,P
-666152,,111,Boston Red Sox,2025,,Second Base,,Active,David Hamilton,,,17,2B
-676979,,111,Boston Red Sox,2025,,Pitcher,,Active,Garrett Crochet,,,35,P
-676477,,111,Boston Red Sox,2025,,Pitcher,,Active,Garrett Whitlock,,,22,P
-669711,,111,Boston Red Sox,2025,,Pitcher,,Active,Greg Weissert,,,57,P
-680776,,111,Boston Red Sox,2025,,Outfielder,,Active,Jarren Duran,,,16,LF
-691373,,111,Boston Red Sox,2025,,Outfielder,,Active,Jhostynxon Garcia,,,51,CF
-663855,,111,Boston Red Sox,2025,,Pitcher,,Active,Jordan Hicks,,,46,P
-663558,,111,Boston Red Sox,2025,,Pitcher,,Active,Jovani Morán,,,47,P
-686580,,111,Boston Red Sox,2025,,Pitcher,,Active,Justin Slaten,,,63,P
-692225,,111,Boston Red Sox,2025,,Second Base,,Active,Kristian Campbell,,,28,2B
-690986,,111,Boston Red Sox,2025,,Pitcher,,Active,Kyle Harrison,,,38,P
-691384,,111,Boston Red Sox,2025,,Pitcher,,Active,Luis Perales,,,,P
-807799,,111,Boston Red Sox,2025,,Outfielder,,Active,Masataka Yoshida,,,7,LF
-681987,,111,Boston Red Sox,2025,,Third Base,,Active,Nate Eaton,,,40,3B
-663993,,111,Boston Red Sox,2025,,First Base,,Active,Nathaniel Lowe,,,37,1B
-686765,,111,Boston Red Sox,2025,,First Base,,Active,Nick Sogard,,,20,1B
-801139,,111,Boston Red Sox,2025,,Pitcher,,Active,Payton Tolle,,,70,P
-690916,,111,Boston Red Sox,2025,,Pitcher,,Active,Richard Fitts,,,80,P
-701350,,111,Boston Red Sox,2025,,Outfielder,,Active,Roman Anthony,,,19,RF
-663853,,111,Boston Red Sox,2025,,First Base,,Active,Romy Gonzalez,,,23,1B
-596115,,111,Boston Red Sox,2025,,Shortstop,,Active,Trevor Story,,,10,SS
-677800,,111,Boston Red Sox,2025,,Outfielder,,Active,Wilyer Abreu,,,52,RF
-677161,,111,Boston Red Sox,2025,,Pitcher,,Active,Zack Kelly,,,76,P
-676962,,112,Chicago Cubs,2025,,Pitcher,,Active,Ben Brown,,,32,P
-690990,,112,Chicago Cubs,2025,,Pitcher,,Active,Cade Horton,,,22,P
-608348,,112,Chicago Cubs,2025,,Catcher,,Active,Carson Kelly,,,15,C
-607067,,112,Chicago Cubs,2025,,Pitcher,,Active,Colin Rea,,,53,P
-694037,,112,Chicago Cubs,2025,,Pitcher,,Active,Daniel Palencia,,,48,P
-621020,,112,Chicago Cubs,2025,,Shortstop,,Active,Dansby Swanson,,,7,SS
-669212,,112,Chicago Cubs,2025,,Pitcher,,Active,Eli Morgan,,,33,P
-681799,,112,Chicago Cubs,2025,,Pitcher,,Active,Ethan Roberts,,,39,P
-668970,,112,Chicago Cubs,2025,,Pitcher,,Active,Gavin Hollowell,,,46,P
-664023,,112,Chicago Cubs,2025,,Outfielder,,Active,Ian Happ,,,8,LF
-680891,,112,Chicago Cubs,2025,,Pitcher,,Active,Jack Neely,,,37,P
-592791,,112,Chicago Cubs,2025,,Pitcher,,Active,Jameson Taillon,,,50,P
-665871,,112,Chicago Cubs,2025,,Pitcher,,Active,Javier Assad,,,72,P
-696136,,112,Chicago Cubs,2025,,Pitcher,,Active,Jordan Wicks,,,36,P
-457759,,112,Chicago Cubs,2025,,First Base,,Active,Justin Turner,,,3,1B
-682634,,112,Chicago Cubs,2025,,Outfielder,,Active,Kevin Alcántara,,,13,RF
-681432,,112,Chicago Cubs,2025,,Pitcher,,Active,Luke Little,,,43,P
-807713,,112,Chicago Cubs,2025,,Third Base,,Active,Matt Shaw,,,6,3B
-571510,,112,Chicago Cubs,2025,,Pitcher,,Active,Matthew Boyd,,,16,P
-683737,,112,Chicago Cubs,2025,,First Base,,Active,Michael Busch,,,29,1B
-647336,,112,Chicago Cubs,2025,,Pitcher,,Active,Michael Soroka,,,99,P
-665804,,112,Chicago Cubs,2025,,Catcher,,Active,Miguel Amaya,,,9,C
-694208,,112,Chicago Cubs,2025,,Catcher,,Active,Moisés Ballesteros,,,25,C
-663538,,112,Chicago Cubs,2025,,Second Base,,Active,Nico Hoerner,,,2,2B
-683357,,112,Chicago Cubs,2025,,Outfielder,,Active,Owen Caissie,,,19,RF
-691718,,112,Chicago Cubs,2025,,Outfielder,,Active,Pete Crow-Armstrong,,,4,CF
-687863,,112,Chicago Cubs,2025,,Pitcher,,Active,Porter Hodge,,,37,P
-624512,,112,Chicago Cubs,2025,,Catcher,,Active,Reese McGuire,,,20,C
-673548,,112,Chicago Cubs,2025,,Outfielder,,Active,Seiya Suzuki,,,27,RF
-643217,,145,Chicago White Sox,2025,,Outfielder,,Active,Andrew Benintendi,,,23,LF
-701496,,145,Chicago White Sox,2025,,Third Base,,Active,Ben Cowles,,,,3B
-685126,,145,Chicago White Sox,2025,,Pitcher,,Active,Brandon Eisert,,,53,P
-681460,,145,Chicago White Sox,2025,,Outfielder,,Active,Brooks Baldwin,,,27,LF
-663542,,145,Chicago White Sox,2025,,Pitcher,,Active,Bryan Hudson,,,60,P
-682868,,145,Chicago White Sox,2025,,Third Base,,Active,Bryan Ramos,,,44,3B
-592155,,145,Chicago White Sox,2025,,Pitcher,,Active,Cam Booser,,,71,P
-805367,,145,Chicago White Sox,2025,,Shortstop,,Active,Chase Meidroth,,,10,SS
-695657,,145,Chicago White Sox,2025,,Shortstop,,Active,Colson Montgomery,,,12,SS
-678554,,145,Chicago White Sox,2025,,First Base,,Active,Curtis Mead,,,29,1B
-663436,,145,Chicago White Sox,2025,,Pitcher,,Active,Davis Martin,,,65,P
-656537,,145,Chicago White Sox,2025,,Outfielder,,Active,Derek Hill,,,47,CF
-700337,,145,Chicago White Sox,2025,,Catcher,,Active,Edgar Quero,,,7,C
-686642,,145,Chicago White Sox,2025,,Pitcher,,Active,Fraser Ellard,,,55,P
-691799,,145,Chicago White Sox,2025,,Pitcher,,Active,Grant Taylor,,,31,P
-683568,,145,Chicago White Sox,2025,,Pitcher,,Active,Jairo Iriarte,,,58,P
-686563,,145,Chicago White Sox,2025,,Pitcher,,Active,Jonathan Cannon,,,48,P
-673929,,145,Chicago White Sox,2025,,Pitcher,,Active,Jordan Leasure,,,49,P
-686676,,145,Chicago White Sox,2025,,Catcher,,Active,Korey Lee,,,26,C
-691019,,145,Chicago White Sox,2025,,Catcher,,Active,Kyle Teel,,,8,C
-672820,,145,Chicago White Sox,2025,,Second Base,,Active,Lenyn Sosa,,,50,2B
-673357,,145,Chicago White Sox,2025,,Outfielder,,Active,Luis Robert Jr.,,,88,CF
-678246,,145,Chicago White Sox,2025,,Third Base,,Active,Miguel Vargas,,,20,3B
-643565,,145,Chicago White Sox,2025,,Outfielder,,Active,Mike Tauchman,,,18,RF
-678024,,145,Chicago White Sox,2025,,Pitcher,,Active,Mike Vasil,,,61,P
-680732,,145,Chicago White Sox,2025,,Pitcher,,Active,Sean Burke,,,59,P
-681343,,145,Chicago White Sox,2025,,Pitcher,,Active,Shane Smith,,,64,P
-621051,,145,Chicago White Sox,2025,,Pitcher,,Active,Steven Wilson,,,36,P
-671284,,145,Chicago White Sox,2025,,First Base,,Active,Tim Elko,,,30,1B
-656457,,145,Chicago White Sox,2025,,Pitcher,,Active,Tyler Gilbert,,,40,P
-682790,,145,Chicago White Sox,2025,,Pitcher,,Active,Wikelman González,,,66,P
-672782,,145,Chicago White Sox,2025,,Pitcher,,Active,Yoendrys Gómez,,,94,P
-671096,,113,Cincinnati Reds,2025,,Pitcher,,Active,Andrew Abbott,,,41,P
-694362,,113,Cincinnati Reds,2025,,Outfielder,,Active,Blake Dunn,,,59,LF
-663903,,113,Cincinnati Reds,2025,,Pitcher,,Active,Brady Singer,,,51,P
-695505,,113,Cincinnati Reds,2025,,Pitcher,,Active,Chase Burns,,,26,P
-695534,,113,Cincinnati Reds,2025,,Pitcher,,Active,Chase Petty,,,61,P
-687952,,113,Cincinnati Reds,2025,,First Base,,Active,Christian Encarnacion-Strand,,,33,1B
-683175,,113,Cincinnati Reds,2025,,Pitcher,,Active,Connor Phillips,,,34,P
-682829,,113,Cincinnati Reds,2025,,Shortstop,,Active,Elly De La Cruz,,,44,SS
-666158,,113,Cincinnati Reds,2025,,Outfielder,,Active,Gavin Lux,,,2,LF
-668933,,113,Cincinnati Reds,2025,,Pitcher,,Active,Graham Ashcraft,,,23,P
-668881,,113,Cincinnati Reds,2025,,Pitcher,,Active,Hunter Greene,,,21,P
-624431,,113,Cincinnati Reds,2025,,Catcher,,Active,Jose Trevino,,,35,C
-663647,,113,Cincinnati Reds,2025,,Third Base,,Active,Ke'Bryan Hayes,,,3,3B
-624522,,113,Cincinnati Reds,2025,,Pitcher,,Active,Keegan Thompson,,,,P
-682825,,113,Cincinnati Reds,2025,,Pitcher,,Active,Luis Mey,,,62,P
-680689,,113,Cincinnati Reds,2025,,Pitcher,,Active,Lyon Richardson,,,72,P
-680574,,113,Cincinnati Reds,2025,,Second Base,,Active,Matt McLain,,,9,2B
-666157,,113,Cincinnati Reds,2025,,Pitcher,,Active,Nick Lodolo,,,40,P
-682622,,113,Cincinnati Reds,2025,,Third Base,,Active,Noelvi Marte,,,16,3B
-677956,,113,Cincinnati Reds,2025,,Outfielder,,Active,Rece Hinds,,,57,RF
-665665,,113,Cincinnati Reds,2025,,Pitcher,,Active,Reiver Sanmartin,,,48,P
-701398,,113,Cincinnati Reds,2025,,Third Base,,Active,Sal Stewart,,,43,3B
-680397,,113,Cincinnati Reds,2025,,Pitcher,,Active,Sam Benschoter,,,63,P
-594580,,113,Cincinnati Reds,2025,,Pitcher,,Active,Sam Moll,,,50,P
-668715,,113,Cincinnati Reds,2025,,First Base,,Active,Spencer Steer,,,7,1B
-670770,,113,Cincinnati Reds,2025,,Outfielder,,Active,TJ Friedl,,,29,CF
-663574,,113,Cincinnati Reds,2025,,Pitcher,,Active,Tony Santillan,,,64,P
-663886,,113,Cincinnati Reds,2025,,Catcher,,Active,Tyler Stephenson,,,37,C
-677943,,113,Cincinnati Reds,2025,,Catcher,,Active,Will Banfield,,,49,C
-666181,,113,Cincinnati Reds,2025,,Outfielder,,Active,Will Benson,,,30,LF
-691172,,113,Cincinnati Reds,2025,,Pitcher,,Active,Yosver Zulueta,,,67,P
-687209,,113,Cincinnati Reds,2025,,Pitcher,,Active,Zach Maxwell,,,78,P
-682657,,114,Cleveland Guardians,2025,,Outfielder,,Active,Angel Martínez,,,1,CF
-595978,,114,Cleveland Guardians,2025,,Catcher,,Active,Austin Hedges,,,27,C
-666310,,114,Cleveland Guardians,2025,,Catcher,,Active,Bo Naylor,,,23,C
-677587,,114,Cleveland Guardians,2025,,Shortstop,,Active,Brayan Rocchio,,,4,SS
-692216,,114,Cleveland Guardians,2025,,First Base,,Active,C.J. Kayfus,,,63,1B
-671922,,114,Cleveland Guardians,2025,,Pitcher,,Active,Cade Smith,,,36,P
-800050,,114,Cleveland Guardians,2025,,Outfielder,,Active,Chase DeLauter,,,34,RF
-682982,,114,Cleveland Guardians,2025,,Pitcher,,Active,Daniel Espino,,,66,P
-682177,,114,Cleveland Guardians,2025,,Second Base,,Active,Daniel Schneemann,,,10,2B
-681807,,114,Cleveland Guardians,2025,,First Base,,Active,David Fry,,,6,1B
-624513,,114,Cleveland Guardians,2025,,Catcher,,Active,Dom Nuñez,,,46,C
-680951,,114,Cleveland Guardians,2025,,Pitcher,,Active,Doug Nikhazy,,,65,P
-681870,,114,Cleveland Guardians,2025,,Pitcher,,Active,Erik Sabrowski,,,62,P
-680916,,114,Cleveland Guardians,2025,,Pitcher,,Active,Franco Aleman,,,92,P
-672356,,114,Cleveland Guardians,2025,,Shortstop,,Active,Gabriel Arias,,,13,SS
-668909,,114,Cleveland Guardians,2025,,Pitcher,,Active,Gavin Williams,,,32,P
-671655,,114,Cleveland Guardians,2025,,Outfielder,,Active,George Valera,,,35,RF
-683769,,114,Cleveland Guardians,2025,,Pitcher,,Active,Hunter Gaddis,,,33,P
-678877,,114,Cleveland Guardians,2025,,Outfielder,,Active,Jhonkensy Noel,,,43,RF
-676282,,114,Cleveland Guardians,2025,,Pitcher,,Active,Joey Cantillo,,,54,P
-671286,,114,Cleveland Guardians,2025,,Outfielder,,Active,Johnathan Rodríguez,,,30,RF
-608070,,114,Cleveland Guardians,2025,,Third Base,,Active,José Ramírez,,,11,3B
-682877,,114,Cleveland Guardians,2025,,Shortstop,,Active,Juan Brito,,,74,SS
-663465,,114,Cleveland Guardians,2025,,Pitcher,,Active,Kolby Allard,,,49,P
-700932,,114,Cleveland Guardians,2025,,First Base,,Active,Kyle Manzardo,,,9,1B
-671106,,114,Cleveland Guardians,2025,,Pitcher,,Active,Logan Allen,,,26,P
-670036,,114,Cleveland Guardians,2025,,Pitcher,,Active,Matt Festa,,,52,P
-640454,,114,Cleveland Guardians,2025,,Pitcher,,Active,Matt Krook,,,,P
-663671,,114,Cleveland Guardians,2025,,Pitcher,,Active,Nic Enright,,,59,P
-666134,,114,Cleveland Guardians,2025,,Outfielder,,Active,Nolan Jones,,,22,RF
-800048,,114,Cleveland Guardians,2025,,Pitcher,,Active,Parker Messick,,,77,P
-690984,,114,Cleveland Guardians,2025,,Outfielder,,Active,Petey Halpin,,,0,CF
-677944,,114,Cleveland Guardians,2025,,Pitcher,,Active,Slade Cecconi,,,44,P
-680757,,114,Cleveland Guardians,2025,,Outfielder,,Active,Steven Kwan,,,38,LF
-676440,,114,Cleveland Guardians,2025,,Pitcher,,Active,Tanner Bibee,,,28,P
-682120,,114,Cleveland Guardians,2025,,Pitcher,,Active,Tim Herrin,,,29,P
-669717,,114,Cleveland Guardians,2025,,Third Base,,Active,Will Wilson,,,7,3B
-687849,,114,Cleveland Guardians,2025,,Pitcher,,Active,Zak Kent,,,61,P
-691182,,115,Colorado Rockies,2025,,Second Base,,Active,Adael Amador,,,1,2B
-683409,,115,Colorado Rockies,2025,,Pitcher,,Active,Angel Chivilli,,,57,P
-683627,,115,Colorado Rockies,2025,,Pitcher,,Active,Anthony Molina,,,43,P
-622608,,115,Colorado Rockies,2025,,Pitcher,,Active,Antonio Senzatela,,,49,P
-688760,,115,Colorado Rockies,2025,,First Base,,Active,Blaine Crim,,,16,1B
-687134,,115,Colorado Rockies,2025,,Pitcher,,Active,Bradley Blalock,,,64,P
-690924,,115,Colorado Rockies,2025,,Catcher,,Active,Braxton Fulford,,,37,C
-686668,,115,Colorado Rockies,2025,,Outfielder,,Active,Brenton Doyle,,,9,CF
-687223,,115,Colorado Rockies,2025,,Pitcher,,Active,Carson Palmquist,,,45,P
-801403,,115,Colorado Rockies,2025,,Pitcher,,Active,Chase Dollander,,,32,P
-691011,,115,Colorado Rockies,2025,,Catcher,,Active,Drew Romo,,,3,C
-678662,,115,Colorado Rockies,2025,,Shortstop,,Active,Ezequiel Tovar,,,14,SS
-696100,,115,Colorado Rockies,2025,,Catcher,,Active,Hunter Goodman,,,15,C
-677955,,115,Colorado Rockies,2025,,Pitcher,,Active,Jaden Hill,,,0,P
-676105,,115,Colorado Rockies,2025,,Pitcher,,Active,Jeff Criswell,,,46,P
-623474,,115,Colorado Rockies,2025,,Pitcher,,Active,Jimmy Herget,,,44,P
-687597,,115,Colorado Rockies,2025,,Outfielder,,Active,Jordan Beck,,,27,LF
-675848,,115,Colorado Rockies,2025,,Pitcher,,Active,Juan Mejia,,,47,P
-592178,,115,Colorado Rockies,2025,,Designated Hitter,,Active,Kris Bryant,,,23,DH
-607536,,115,Colorado Rockies,2025,,Pitcher,,Active,Kyle Freeland,,,21,P
-691720,,115,Colorado Rockies,2025,,Third Base,,Active,Kyle Karros,,,12,3B
-678821,,115,Colorado Rockies,2025,,Pitcher,,Active,Luis Peralta,,,41,P
-685326,,115,Colorado Rockies,2025,,Pitcher,,Active,McCade Brown,,,51,P
-669911,,115,Colorado Rockies,2025,,First Base,,Active,Michael Toglia,,,4,1B
-666160,,115,Colorado Rockies,2025,,Outfielder,,Active,Mickey Moniak,,,22,RF
-672710,,115,Colorado Rockies,2025,,Pitcher,,Active,Roansy Contreras,,,59,P
-663372,,115,Colorado Rockies,2025,,Pitcher,,Active,Ryan Feltner,,,18,P
-690022,,115,Colorado Rockies,2025,,Shortstop,,Active,Ryan Ritter,,,8,SS
-669020,,115,Colorado Rockies,2025,,Pitcher,,Active,Ryan Rolison,,,50,P
-678020,,115,Colorado Rockies,2025,,Pitcher,,Active,Seth Halvorsen,,,54,P
-685299,,115,Colorado Rockies,2025,,Pitcher,,Active,Tanner Gordon,,,29,P
-687859,,115,Colorado Rockies,2025,,Outfield,,Active,Troy Johnston,,,,OF
-671289,,115,Colorado Rockies,2025,,Outfielder,,Active,Tyler Freeman,,,2,RF
-680767,,115,Colorado Rockies,2025,,Pitcher,,Active,Victor Vodnik,,,38,P
-682653,,115,Colorado Rockies,2025,,Third Base,,Active,Warming Bernabel,,,25,3B
-692585,,115,Colorado Rockies,2025,,Outfielder,,Active,Yanquiel Fernández,,,35,RF
-691728,,115,Colorado Rockies,2025,,Outfielder,,Active,Zac Veen,,,13,LF
-688642,,115,Colorado Rockies,2025,,Pitcher,,Active,Zach Agnos,,,36,P
-656638,,116,Detroit Tigers,2025,,Pitcher,,Active,Alex Lange,,,55,P
-628451,,116,Detroit Tigers,2025,,Third Base,,Active,Andy Ibáñez,,,77,3B
-690544,,116,Detroit Tigers,2025,,Pitcher,,Active,Bailey Horn,,,67,P
-676428,,116,Detroit Tigers,2025,,Pitcher,,Active,Brant Hurter,,,48,P
-669724,,116,Detroit Tigers,2025,,Pitcher,,Active,Brenan Hanifee,,,75,P
-663554,,116,Detroit Tigers,2025,,Pitcher,,Active,Casey Mize,,,12,P
-695445,,116,Detroit Tigers,2025,,Pitcher,,Active,Chase Lee,,,53,P
-690993,,116,Detroit Tigers,2025,,Second Base,,Active,Colt Keith,,,33,2B
-693307,,116,Detroit Tigers,2025,,Catcher,,Active,Dillon Dingler,,,13,C
-805427,,116,Detroit Tigers,2025,,Pitcher,,Active,Drew Sommers,,,51,P
-681916,,116,Detroit Tigers,2025,,Pitcher,,Active,Dylan Smith,,,58,P
-690291,,116,Detroit Tigers,2025,,Third Base,,Active,Jace Jung,,,17,3B
-656427,,116,Detroit Tigers,2025,,Pitcher,,Active,Jack Flaherty,,,9,P
-663330,,116,Detroit Tigers,2025,,Outfielder,,Active,Jahmai Jones,,,18,RF
-668670,,116,Detroit Tigers,2025,,Catcher,,Active,Jake Rogers,,,34,C
-595879,,116,Detroit Tigers,2025,,Outfielder,,Active,Javier Báez,,,28,CF
-664353,,116,Detroit Tigers,2025,,Pitcher,,Active,José Urquidy,,,65,P
-669234,,116,Detroit Tigers,2025,,Outfielder,,Active,Justyn-Henry Malloy,,,44,RF
-672456,,116,Detroit Tigers,2025,,Pitcher,,Active,Keider Montero,,,54,P
-681481,,116,Detroit Tigers,2025,,Outfielder,,Active,Kerry Carpenter,,,30,RF
-663837,,116,Detroit Tigers,2025,,Outfielder,,Active,Matt Vierling,,,8,CF
-678009,,116,Detroit Tigers,2025,,Outfielder,,Active,Parker Meadows,,,22,CF
-623149,,116,Detroit Tigers,2025,,Pitcher,,Active,Paul Sewald,,,62,P
-682985,,116,Detroit Tigers,2025,,Outfielder,,Active,Riley Greene,,,31,LF
-687830,,116,Detroit Tigers,2025,,Pitcher,,Active,Sawyer Gipson-Long,,,66,P
-679529,,116,Detroit Tigers,2025,,First Base,,Active,Spencer Torkelson,,,20,1B
-663432,,116,Detroit Tigers,2025,,Pitcher,,Active,Tanner Rainey,,,32,P
-669373,,116,Detroit Tigers,2025,,Pitcher,,Active,Tarik Skubal,,,29,P
-700242,,116,Detroit Tigers,2025,,Shortstop,,Active,Trey Sweeney,,,27,SS
-675512,,116,Detroit Tigers,2025,,Pitcher,,Active,Troy Melton,,,52,P
-663947,,116,Detroit Tigers,2025,,Pitcher,,Active,Tyler Holton,,,87,P
-694331,,116,Detroit Tigers,2025,,Pitcher,,Active,Tyler Mattison,,,59,P
-672761,,116,Detroit Tigers,2025,,Outfielder,,Active,Wenceel Pérez,,,46,RF
-676684,,116,Detroit Tigers,2025,,Pitcher,,Active,Will Vest,,,19,P
-656716,,116,Detroit Tigers,2025,,Third Base,,Active,Zach McKinstry,,,39,3B
-805123,,117,Houston Astros,2025,,Pitcher,,Active,AJ Blubaugh,,,69,P
-656986,,117,Houston Astros,2025,,Pitcher,,Active,Bennett Sousa,,,62,P
-694728,,117,Houston Astros,2025,,Shortstop,,Active,Brice Matthews,,,28,SS
-650556,,117,Houston Astros,2025,,Pitcher,,Active,Bryan Abreu,,,52,P
-687911,,117,Houston Astros,2025,,Pitcher,,Active,Bryan King,,,74,P
-701358,,117,Houston Astros,2025,,Outfielder,,Active,Cam Smith,,,11,RF
-621043,,117,Houston Astros,2025,,Shortstop,,Active,Carlos Correa,,,1,SS
-676801,,117,Houston Astros,2025,,Outfielder,,Active,Chas McCormick,,,20,LF
-572233,,117,Houston Astros,2025,,First Base,,Active,Christian Walker,,,8,1B
-676467,,117,Houston Astros,2025,,Pitcher,,Active,Colton Gordon,,,61,P
-664299,,117,Houston Astros,2025,,Pitcher,,Active,Cristian Javier,,,53,P
-663967,,117,Houston Astros,2025,,Catcher,,Active,César Salazar,,,18,C
-660853,,117,Houston Astros,2025,,Pitcher,,Active,Enyel De Los Santos,,,65,P
-686613,,117,Houston Astros,2025,,Pitcher,,Active,Hunter Brown,,,58,P
-670623,,117,Houston Astros,2025,,Third Base,,Active,Isaac Paredes,,,15,3B
-641585,,117,Houston Astros,2025,,Pitcher,,Active,J.P. France,,,68,P
-689200,,117,Houston Astros,2025,,Outfielder,,Active,Jacob Melton,,,31,LF
-676694,,117,Houston Astros,2025,,Outfielder,,Active,Jake Meyers,,,6,CF
-669920,,117,Houston Astros,2025,,Pitcher,,Active,Jason Alexander,,,54,P
-681151,,117,Houston Astros,2025,,Pitcher,,Active,Jayden Murray,,,70,P
-665161,,117,Houston Astros,2025,,Shortstop,,Active,Jeremy Peña,,,3,SS
-660821,,117,Houston Astros,2025,,Outfielder,,Active,Jesús Sánchez,,,4,RF
-514888,,117,Houston Astros,2025,,Outfielder,,Active,Jose Altuve,,,27,LF
-623352,,117,Houston Astros,2025,,Pitcher,,Active,Josh Hader,,,71,P
-685744,,117,Houston Astros,2025,,Outfielder,,Active,Kenedy Corona,,,47,CF
-621121,,117,Houston Astros,2025,,Pitcher,,Active,Lance McCullers Jr.,,,43,P
-701121,,117,Houston Astros,2025,,Pitcher,,Active,Logan VanWey,,,64,P
-643289,,117,Houston Astros,2025,,Second Base,,Active,Mauricio Dubón,,,14,2B
-663878,,117,Houston Astros,2025,,Pitcher,,Active,Nate Pearson,,,,P
-602104,,117,Houston Astros,2025,,Third Base,,Active,Ramón Urías,,,29,3B
-694376,,117,Houston Astros,2025,,Outfielder,,Active,Shay Whitcomb,,,10,LF
-681293,,117,Houston Astros,2025,,Pitcher,,Active,Spencer Arrighetti,,,41,P
-595345,,117,Houston Astros,2025,,Pitcher,,Active,Steven Okert,,,48,P
-666211,,117,Houston Astros,2025,,Outfielder,,Active,Taylor Trammell,,,26,LF
-673237,,117,Houston Astros,2025,,Catcher,,Active,Yainer Diaz,,,21,C
-670541,,117,Houston Astros,2025,,Outfielder,,Active,Yordan Alvarez,,,44,LF
-805904,,117,Houston Astros,2025,,Outfielder,,Active,Zach Cole,,,16,CF
-679525,,118,Kansas City Royals,2025,,Pitcher,,Active,Alec Marsh,,,48,P
-672582,,118,Kansas City Royals,2025,,Pitcher,,Active,Angel Zerpa,,,61,P
-663559,,118,Kansas City Royals,2025,,Pitcher,,Active,Bailey Falter,,,36,P
-677951,,118,Kansas City Royals,2025,,Shortstop,,Active,Bobby Witt Jr.,,,7,SS
-608032,,118,Kansas City Royals,2025,,Pitcher,,Active,Carlos Estévez,,,53,P
-695600,,118,Kansas City Royals,2025,,Catcher,,Active,Carter Jensen,,,22,C
-666142,,118,Kansas City Royals,2025,,Pitcher,,Active,Cole Ragans,,,55,P
-680118,,118,Kansas City Royals,2025,,Outfielder,,Active,Dairon Blanco,,,44,CF
-663738,,118,Kansas City Royals,2025,,Pitcher,,Active,Daniel Lynch IV,,,41,P
-671221,,118,Kansas City Royals,2025,,Outfielder,,Active,Drew Waters,,,8,LF
-672021,,118,Kansas City Royals,2025,,Pitcher,,Active,Eric Cerantola,,,87,P
-695506,,118,Kansas City Royals,2025,,Outfielder,,Active,Jac Caglianone,,,14,RF
-663704,,118,Kansas City Royals,2025,,Pitcher,,Active,James McArthur,,,66,P
-670231,,118,Kansas City Royals,2025,,Outfielder,,Active,John Rave,,,16,RF
-670167,,118,Kansas City Royals,2025,,Pitcher,,Active,John Schreiber,,,46,P
-680742,,118,Kansas City Royals,2025,,Pitcher,,Active,Jonathan Bowlan,,,62,P
-663697,,118,Kansas City Royals,2025,,Second Base,,Active,Jonathan India,,,6,2B
-663460,,118,Kansas City Royals,2025,,Pitcher,,Active,Kris Bubic,,,50,P
-664728,,118,Kansas City Royals,2025,,Outfielder,,Active,Kyle Isbel,,,28,CF
-657140,,118,Kansas City Royals,2025,,Pitcher,,Active,Kyle Wright,,,30,P
-668674,,118,Kansas City Royals,2025,,Pitcher,,Active,Lucas Erceg,,,60,P
-679883,,118,Kansas City Royals,2025,,Pitcher,,Active,Luinder Avila,,,58,P
-669004,,118,Kansas City Royals,2025,,Outfielder,,Active,MJ Melendez,,,1,LF
-672580,,118,Kansas City Royals,2025,,Third Base,,Active,Maikel Garcia,,,11,3B
-686681,,118,Kansas City Royals,2025,,Second Base,,Active,Michael Massey,,,19,2B
-608379,,118,Kansas City Royals,2025,,Pitcher,,Active,Michael Wacha,,,52,P
-679845,,118,Kansas City Royals,2025,,Outfielder,,Active,Nick Loftin,,,12,LF
-702070,,118,Kansas City Royals,2025,,Pitcher,,Active,Noah Cameron,,,65,P
-686701,,118,Kansas City Royals,2025,,Pitcher,,Active,Ryan Bergert,,,38,P
-521692,,118,Kansas City Royals,2025,,Catcher,,Active,Salvador Perez,,,13,C
-669674,,118,Kansas City Royals,2025,,Pitcher,,Active,Sam Long,,,73,P
-607625,,118,Kansas City Royals,2025,,Pitcher,,Active,Seth Lugo,,,67,P
-663568,,118,Kansas City Royals,2025,,Pitcher,,Active,Stephen Kolek,,,32,P
-674444,,118,Kansas City Royals,2025,,Pitcher,,Active,Steven Cruz,,,64,P
-664199,,118,Kansas City Royals,2025,,Pitcher,,Active,Taylor Clarke,,,45,P
-686475,,118,Kansas City Royals,2025,,Second Base,,Active,Tyler Tolbert,,,2,2B
-686469,,118,Kansas City Royals,2025,,First Base,,Active,Vinnie Pasquantino,,,9,1B
-543685,,108,Los Angeles Angels,2025,,Third Base,,Active,Anthony Rendon,,,6,3B
-690829,,108,Los Angeles Angels,2025,,Pitcher,,Active,Ben Joyce,,,44,P
-656271,,108,Los Angeles Angels,2025,,Pitcher,,Active,Brock Burke,,,46,P
-669326,,108,Los Angeles Angels,2025,,Outfielder,,Active,Bryce Teodosio,,,22,CF
-702674,,108,Los Angeles Angels,2025,,Pitcher,,Active,Caden Dana,,,36,P
-681217,,108,Los Angeles Angels,2025,,Pitcher,,Active,Chase Silseth,,,63,P
-695681,,108,Los Angeles Angels,2025,,Second Base,,Active,Christian Moore,,,4,2B
-694203,,108,Los Angeles Angels,2025,,Shortstop,,Active,Denzer Guzman,,,13,SS
-672569,,108,Los Angeles Angels,2025,,Outfielder,,Active,Gustavo Campero,,,51,RF
-686799,,108,Los Angeles Angels,2025,,Pitcher,,Active,Jack Kochanowicz,,,41,P
-666176,,108,Los Angeles Angels,2025,,Outfielder,,Active,Jo Adell,,,7,CF
-624585,,108,Los Angeles Angels,2025,,Outfielder,,Active,Jorge Soler,,,12,RF
-820862,,108,Los Angeles Angels,2025,,Pitcher,,Active,José Fermin,,,68,P
-667755,,108,Los Angeles Angels,2025,,Pitcher,,Active,José Soriano,,,59,P
-677347,,108,Los Angeles Angels,2025,,Second Base,,Active,Kyren Paris,,,19,2B
-681351,,108,Los Angeles Angels,2025,,Catcher,,Active,Logan O'Hoppe,,,14,C
-683090,,108,Los Angeles Angels,2025,,Outfielder,,Active,Matthew Lugo,,,15,LF
-545361,,108,Los Angeles Angels,2025,,Outfielder,,Active,Mike Trout,,,27,RF
-815083,,108,Los Angeles Angels,2025,,Pitcher,,Active,Mitch Farris,,,70,P
-694384,,108,Los Angeles Angels,2025,,First Base,,Active,Nolan Schanuel,,,18,1B
-672724,,108,Los Angeles Angels,2025,,Third Base,,Active,Oswald Peraza,,,10,3B
-672282,,108,Los Angeles Angels,2025,,Pitcher,,Active,Reid Detmers,,,48,P
-596112,,108,Los Angeles Angels,2025,,Pitcher,,Active,Robert Stephenson,,,24,P
-696270,,108,Los Angeles Angels,2025,,Pitcher,,Active,Ryan Johnson,,,32,P
-666171,,108,Los Angeles Angels,2025,,Pitcher,,Active,Ryan Zeferjahn,,,56,P
-691951,,108,Los Angeles Angels,2025,,Pitcher,,Active,Sam Aldegheri,,,61,P
-696147,,108,Los Angeles Angels,2025,,Pitcher,,Active,Sam Bachman,,,40,P
-665861,,108,Los Angeles Angels,2025,,Catcher,,Active,Sebastián Rivero,,,38,C
-621493,,108,Los Angeles Angels,2025,,Outfielder,,Active,Taylor Ward,,,3,LF
-518595,,108,Los Angeles Angels,2025,,Catcher,,Active,Travis d'Arnaud,,,25,C
-682989,,108,Los Angeles Angels,2025,,Pitcher,,Active,Victor Mederos,,,58,P
-579328,,108,Los Angeles Angels,2025,,Pitcher,,Active,Yusei Kikuchi,,,16,P
-687263,,108,Los Angeles Angels,2025,,Shortstop,,Active,Zach Neto,,,9,SS
-669743,,119,Los Angeles Dodgers,2025,,Outfielder,,Active,Alex Call,,,12,RF
-690976,,119,Los Angeles Dodgers,2025,,Shortstop,,Active,Alex Freeland,,,76,SS
-681911,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Alex Vesia,,,51,P
-681624,,119,Los Angeles Dodgers,2025,,Outfielder,,Active,Andy Pages,,,44,CF
-607455,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Anthony Banda,,,43,P
-676508,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Ben Casparius,,,78,P
-666163,,119,Los Angeles Dodgers,2025,,Catcher,,Active,Ben Rortvedt,,,47,C
-605483,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Blake Snell,,,7,P
-595014,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Blake Treinen,,,49,P
-676272,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Bobby Miller,,,28,P
-592779,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Brock Stewart,,,41,P
-687221,,119,Los Angeles Dodgers,2025,,Catcher,,Active,Dalton Rushing,,,68,C
-683618,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Edgardo Henriquez,,,60,P
-686218,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Emmet Sheehan,,,80,P
-665923,,119,Los Angeles Dodgers,2025,,Outfielder,,Active,Esteury Ruiz,,,27,LF
-518692,,119,Los Angeles Dodgers,2025,,First Base,,Active,Freddie Freeman,,,5,1B
-808975,,119,Los Angeles Dodgers,2025,,Second Base,,Active,Hyeseong Kim,,,6,2B
-676263,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Jack Dreyer,,,86,P
-681909,,119,Los Angeles Dodgers,2025,,Outfielder,,Active,Justin Dean,,,75,CF
-680736,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Justin Wrobleski,,,70,P
-689017,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Landon Knack,,,96,P
-571970,,119,Los Angeles Dodgers,2025,,Third Base,,Active,Max Muncy,,,13,3B
-605141,,119,Los Angeles Dodgers,2025,,Shortstop,,Active,Mookie Betts,,,50,SS
-801434,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Paul Gervase,,,65,P
-808963,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Roki Sasaki,,,11,P
-660271,,119,Los Angeles Dodgers,2025,,Two-Way Player,,Active,Shohei Ohtani,,,17,TWP
-656945,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Tanner Scott,,,66,P
-606192,,119,Los Angeles Dodgers,2025,,Outfielder,,Active,Teoscar Hernández,,,37,RF
-669242,,119,Los Angeles Dodgers,2025,,Second Base,,Active,Tommy Edman,,,25,2B
-607192,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Tyler Glasnow,,,31,P
-694361,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Will Klein,,,61,P
-669257,,119,Los Angeles Dodgers,2025,,Catcher,,Active,Will Smith,,,16,C
-808967,,119,Los Angeles Dodgers,2025,,Pitcher,,Active,Yoshinobu Yamamoto,,,18,P
-800049,,146,Miami Marlins,2025,,Pitcher,,Active,Adam Mazur,,,60,P
-682663,,146,Miami Marlins,2025,,Catcher,,Active,Agustín Ramírez,,,50,C
-806188,,146,Miami Marlins,2025,,Pitcher,,Active,Cade Gibson,,,58,P
-676534,,146,Miami Marlins,2025,,Pitcher,,Active,Calvin Faucher,,,53,P
-685005,,146,Miami Marlins,2025,,Pitcher,,Active,Christian Roa,,,82,P
-681393,,146,Miami Marlins,2025,,Third Base,,Active,Connor Norby,,,1,3B
-667472,,146,Miami Marlins,2025,,Outfielder,,Active,Dane Myers,,,54,CF
-690978,,146,Miami Marlins,2025,,Pitcher,,Active,Dax Fulton,,,90,P
-691277,,146,Miami Marlins,2025,,Third Base,,Active,Deyvison De Los Santos,,,65,3B
-665795,,146,Miami Marlins,2025,,Pitcher,,Active,Edward Cabrera,,,27,P
-676572,,146,Miami Marlins,2025,,First Base,,Active,Eric Wagaman,,,33,1B
-691587,,146,Miami Marlins,2025,,Pitcher,,Active,Eury Pérez,,,39,P
-688363,,146,Miami Marlins,2025,,Third Base,,Active,Graham Pauley,,,21,3B
-665052,,146,Miami Marlins,2025,,Outfielder,,Active,Griffin Conine,,,18,LF
-681715,,146,Miami Marlins,2025,,Outfielder,,Active,Heriberto Hernández,,,64,LF
-676466,,146,Miami Marlins,2025,,Second Base,,Active,Jack Winkler,,,63,2B
-805300,,146,Miami Marlins,2025,,Outfielder,,Active,Jakob Marsee,,,87,CF
-676083,,146,Miami Marlins,2025,,Pitcher,,Active,Janson Junk,,,26,P
-691858,,146,Miami Marlins,2025,,Shortstop,,Active,Jared Serna,,,68,SS
-691594,,146,Miami Marlins,2025,,Second Base,,Active,Javier Sanoja,,,46,2B
-686894,,146,Miami Marlins,2025,,Outfielder,,Active,Joey Wiemer,,,41,LF
-681006,,146,Miami Marlins,2025,,Pitcher,,Active,Josh Simpson,,,66,P
-669065,,146,Miami Marlins,2025,,Outfielder,,Active,Kyle Stowers,,,28,LF
-669199,,146,Miami Marlins,2025,,Pitcher,,Active,Lake Bachar,,,84,P
-689414,,146,Miami Marlins,2025,,Catcher,,Active,Liam Hicks,,,34,C
-691185,,146,Miami Marlins,2025,,Shortstop,,Active,Maximo Acosta,,,24,SS
-656848,,146,Miami Marlins,2025,,Pitcher,,Active,Michael Petersen,,,49,P
-672640,,146,Miami Marlins,2025,,Second Base,,Active,Otto Lopez,,,6,2B
-678692,,146,Miami Marlins,2025,,Pitcher,,Active,Ronny Henriquez,,,32,P
-687473,,146,Miami Marlins,2025,,Pitcher,,Active,Ryan Gusto,,,65,P
-677960,,146,Miami Marlins,2025,,Pitcher,,Active,Ryan Weathers,,,35,P
-645261,,146,Miami Marlins,2025,,Pitcher,,Active,Sandy Alcantara,,,22,P
-663969,,146,Miami Marlins,2025,,Pitcher,,Active,Tyler Phillips,,,30,P
-683748,,146,Miami Marlins,2025,,Outfielder,,Active,Victor Mesa Jr.,,,10,CF
-669364,,146,Miami Marlins,2025,,Shortstop,,Active,Xavier Edwards,,,9,SS
-676879,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Aaron Ashby,,,26,P
-682842,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Abner Uribe,,,45,P
-683734,,158,Milwaukee Brewers,2025,,First Base,,Active,Andrew Vaughn,,,28,1B
-655316,,158,Milwaukee Brewers,2025,,Shortstop,,Active,Andruw Monasterio,,,14,SS
-678011,,158,Milwaukee Brewers,2025,,Second Base,,Active,Anthony Seigler,,,18,2B
-663368,,158,Milwaukee Brewers,2025,,Outfielder,,Active,Blake Perkins,,,16,CF
-663604,,158,Milwaukee Brewers,2025,,Outfielder,,Active,Brandon Lockridge,,,20,LF
-668930,,158,Milwaukee Brewers,2025,,Second Base,,Active,Brice Turang,,,2,2B
-702332,,158,Milwaukee Brewers,2025,,Third Base,,Active,Caleb Durbin,,,21,3B
-692230,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Carlos Rodriguez,,,00,P
-694477,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Chad Patrick,,,39,P
-592885,,158,Milwaukee Brewers,2025,,Outfielder,,Active,Christian Yelich,,,22,LF
-689441,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Coleman Crow,,,,P
-684974,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Craig Yoho,,,48,P
-669084,,158,Milwaukee Brewers,2025,,Pitcher,,Active,DL Hall,,,37,P
-668834,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Easton McGee,,,50,P
-642547,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Freddy Peralta,,,51,P
-681982,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Grant Anderson,,,56,P
-686555,,158,Milwaukee Brewers,2025,,Outfielder,,Active,Isaac Collins,,,6,LF
-694192,,158,Milwaukee Brewers,2025,,Outfielder,,Active,Jackson Chourio,,,11,CF
-694819,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Jacob Misiorowski,,,32,P
-641343,,158,Milwaukee Brewers,2025,,First Base,,Active,Jake Bauers,,,9,1B
-657649,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Jared Koenig,,,47,P
-691620,,158,Milwaukee Brewers,2025,,Catcher,,Active,Jeferson Quero,,,76,C
-687401,,158,Milwaukee Brewers,2025,,Shortstop,,Active,Joey Ortiz,,,3,SS
-683232,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Nick Mears,,,25,P
-682990,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Quinn Priester,,,46,P
-642239,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Rob Zastryzny,,,58,P
-688107,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Robert Gasser,,,54,P
-686217,,158,Milwaukee Brewers,2025,,Outfielder,,Active,Sal Frelick,,,10,RF
-671111,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Sammy Peralta,,,,P
-672642,,158,Milwaukee Brewers,2025,,Outfielder,,Active,Steward Berroa,,,35,RF
-668964,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Tobias Myers,,,36,P
-656730,,158,Milwaukee Brewers,2025,,Pitcher,,Active,Trevor Megill,,,29,P
-672012,,158,Milwaukee Brewers,2025,,Third Base,,Active,Tyler Black,,,7,3B
-661388,,158,Milwaukee Brewers,2025,,Catcher,,Active,William Contreras,,,24,C
-664948,,142,Minnesota Twins,2025,,Pitcher,,Active,Anthony Misiewicz,,,57,P
-668885,,142,Minnesota Twins,2025,,Outfielder,,Active,Austin Martin,,,16,CF
-641927,,142,Minnesota Twins,2025,,Pitcher,,Active,Bailey Ober,,,17,P
-686797,,142,Minnesota Twins,2025,,Third Base,,Active,Brooks Lee,,,2,3B
-621439,,142,Minnesota Twins,2025,,Outfielder,,Active,Byron Buxton,,,25,CF
-676812,,142,Minnesota Twins,2025,,Outfielder,,Active,Carson McCusker,,,60,LF
-689520,,142,Minnesota Twins,2025,,Pitcher,,Active,Cody Laweryson,,,66,P
-663485,,142,Minnesota Twins,2025,,Pitcher,,Active,Cole Sands,,,44,P
-680577,,142,Minnesota Twins,2025,,Outfielder,,Active,DaShawn Keirsey Jr.,,,21,CF
-701581,,142,Minnesota Twins,2025,,Pitcher,,Active,David Festa,,,58,P
-666397,,142,Minnesota Twins,2025,,Second Base,,Active,Edouard Julien,,,47,2B
-691181,,142,Minnesota Twins,2025,,Outfielder,,Active,Emmanuel Rodriguez,,,32,CF
-650893,,142,Minnesota Twins,2025,,Pitcher,,Active,Génesis Cabrera,,,92,P
-681546,,142,Minnesota Twins,2025,,Outfielder,,Active,James Outman,,,43,CF
-640902,,142,Minnesota Twins,2025,,Catcher,,Active,Jhonny Pereda,,,65,C
-657746,,142,Minnesota Twins,2025,,Pitcher,,Active,Joe Ryan,,,41,P
-669304,,142,Minnesota Twins,2025,,Third Base,,Active,Jose Miranda,,,64,3B
-623437,,142,Minnesota Twins,2025,,Pitcher,,Active,Justin Topa,,,48,P
-665019,,142,Minnesota Twins,2025,,Second Base,,Active,Kody Clemens,,,18,2B
-681892,,142,Minnesota Twins,2025,,Pitcher,,Active,Kody Funderburk,,,55,P
-807712,,142,Minnesota Twins,2025,,Second Base,,Active,Luke Keaschall,,,15,2B
-694397,,142,Minnesota Twins,2025,,Pitcher,,Active,Marco Raya,,,85,P
-670242,,142,Minnesota Twins,2025,,Outfielder,,Active,Matt Wallner,,,38,RF
-543859,,142,Minnesota Twins,2025,,Pitcher,,Active,Michael Tonkin,,,39,P
-690953,,142,Minnesota Twins,2025,,Pitcher,,Active,Mick Abel,,,20,P
-681508,,142,Minnesota Twins,2025,,Second Base,,Active,Mickey Gasper,,,11,2B
-641154,,142,Minnesota Twins,2025,,Pitcher,,Active,Pablo López,,,49,P
-701487,,142,Minnesota Twins,2025,,Pitcher,,Active,Pierson Ohl,,,62,P
-668904,,142,Minnesota Twins,2025,,Third Base,,Active,Royce Lewis,,,23,3B
-680837,,142,Minnesota Twins,2025,,Third Base,,Active,Ryan Fitzgerald,,,53,3B
-680777,,142,Minnesota Twins,2025,,Catcher,,Active,Ryan Jeffers,,,27,C
-668952,,142,Minnesota Twins,2025,,Outfielder,,Active,Ryan Kreidler,,,,CF
-680573,,142,Minnesota Twins,2025,,Pitcher,,Active,Simeon Woods Richardson,,,24,P
-671737,,142,Minnesota Twins,2025,,Pitcher,,Active,Taj Bradley,,,26,P
-641672,,142,Minnesota Twins,2025,,Pitcher,,Active,Thomas Hatch,,,56,P
-701519,,142,Minnesota Twins,2025,,Pitcher,,Active,Travis Adams,,,45,P
-663616,,142,Minnesota Twins,2025,,Outfielder,,Active,Trevor Larnach,,,9,RF
-805673,,142,Minnesota Twins,2025,,Pitcher,,Active,Zebby Matthews,,,52,P
-692024,,121,New York Mets,2025,,Pitcher,,Active,Alex Carrillo,,,84,P
-681810,,121,New York Mets,2025,,Pitcher,,Active,Austin Warren,,,44,P
-607043,,121,New York Mets,2025,,Outfielder,,Active,Brandon Nimmo,,,9,LF
-687075,,121,New York Mets,2025,,Pitcher,,Active,Brandon Sproat,,,40,P
-663399,,121,New York Mets,2025,,Pitcher,,Active,Brandon Waddell,,,82,P
-683146,,121,New York Mets,2025,,Third Base,,Active,Brett Baty,,,7,3B
-548384,,121,New York Mets,2025,,Pitcher,,Active,Brooks Raley,,,25,P
-605280,,121,New York Mets,2025,,Pitcher,,Active,Clay Holmes,,,35,P
-656849,,121,New York Mets,2025,,Pitcher,,Active,David Peterson,,,23,P
-697811,,121,New York Mets,2025,,Pitcher,,Active,Dylan Ross,,,50,P
-682626,,121,New York Mets,2025,,Catcher,,Active,Francisco Alvarez,,,4,C
-596019,,121,New York Mets,2025,,Shortstop,,Active,Francisco Lindor,,,12,SS
-663584,,121,New York Mets,2025,,Catcher,,Active,Hayden Senger,,,30,C
-623211,,121,New York Mets,2025,,Pitcher,,Active,Huascar Brazobán,,,43,P
-676724,,121,New York Mets,2025,,Outfielder,,Active,Jared Young,,,29,LF
-643446,,121,New York Mets,2025,,Second Base,,Active,Jeff McNeil,,,1,2B
-680702,,121,New York Mets,2025,,Pitcher,,Active,Joey Gerber,,,,P
-804636,,121,New York Mets,2025,,Pitcher,,Active,Jonah Tong,,,21,P
-702752,,121,New York Mets,2025,,Pitcher,,Active,Jonathan Pintaro,,,91,P
-665742,,121,New York Mets,2025,,Outfielder,,Active,Juan Soto,,,22,RF
-663795,,121,New York Mets,2025,,Pitcher,,Active,Justin Hagenman,,,51,P
-673540,,121,New York Mets,2025,,Pitcher,,Active,Kodai Senga,,,34,P
-620443,,121,New York Mets,2025,,Catcher,,Active,Luis Torrens,,,13,C
-682668,,121,New York Mets,2025,,Second Base,,Active,Luisangel Acuña,,,2,2B
-668901,,121,New York Mets,2025,,Third Base,,Active,Mark Vientos,,,27,3B
-690997,,121,New York Mets,2025,,Pitcher,,Active,Nolan McLean,,,26,P
-657585,,121,New York Mets,2025,,Pitcher,,Active,Reed Garrett,,,75,P
-663992,,121,New York Mets,2025,,Pitcher,,Active,Richard Lovelady,,,,P
-677595,,121,New York Mets,2025,,Third Base,,Active,Ronny Mauricio,,,10,3B
-640455,,121,New York Mets,2025,,Pitcher,,Active,Sean Manaea,,,59,P
-621438,,121,New York Mets,2025,,Outfielder,,Active,Tyrone Taylor,,,15,CF
-592450,,147,New York Yankees,2025,,Outfielder,,Active,Aaron Judge,,,99,RF
-642216,,147,New York Yankees,2025,,Pitcher,,Active,Allan Winans,,,62,P
-683011,,147,New York Yankees,2025,,Shortstop,,Active,Anthony Volpe,,,11,SS
-669224,,147,New York Yankees,2025,,Catcher,,Active,Austin Wells,,,28,C
-700250,,147,New York Yankees,2025,,First Base,,Active,Ben Rice,,,22,1B
-669699,,147,New York Yankees,2025,,Shortstop,,Active,Braden Shewmake,,,89,SS
-687396,,147,New York Yankees,2025,,Pitcher,,Active,Brent Headrick,,,47,P
-693645,,147,New York Yankees,2025,,Pitcher,,Active,Cam Schlittler,,,31,P
-666808,,147,New York Yankees,2025,,Pitcher,,Active,Camilo Doval,,,75,P
-607074,,147,New York Yankees,2025,,Pitcher,,Active,Carlos Rodón,,,55,P
-670280,,147,New York Yankees,2025,,Pitcher,,Active,David Bednar,,,53,P
-518585,,147,New York Yankees,2025,,Pitcher,,Active,Fernando Cruz,,,63,P
-519317,,147,New York Yankees,2025,,Designated Hitter,,Active,Giancarlo Stanton,,,27,DH
-641656,,147,New York Yankees,2025,,Pitcher,,Active,Ian Hamilton,,,71,P
-641555,,147,New York Yankees,2025,,Catcher,,Active,J.C. Escarra,,,25,C
-656234,,147,New York Yankees,2025,,Pitcher,,Active,Jake Bird,,,59,P
-691176,,147,New York Yankees,2025,,Outfielder,,Active,Jasson Domínguez,,,24,LF
-682144,,147,New York Yankees,2025,,Pitcher,,Active,Jayvien Sandridge,,,88,P
-665862,,147,New York Yankees,2025,,Second Base,,Active,Jazz Chisholm Jr.,,,13,2B
-678391,,147,New York Yankees,2025,,Second Base,,Active,Jorbit Vivas,,,90,2B
-676609,,147,New York Yankees,2025,,Shortstop,,Active,José Caballero,,,72,SS
-661563,,147,New York Yankees,2025,,Pitcher,,Active,Luis Gil,,,81,P
-643410,,147,New York Yankees,2025,,Pitcher,,Active,Mark Leiter Jr.,,,56,P
-608331,,147,New York Yankees,2025,,Pitcher,,Active,Max Fried,,,54,P
-683522,,147,New York Yankees,2025,,Pitcher,,Active,Michael Arias,,,83,P
-641857,,147,New York Yankees,2025,,Third Base,,Active,Ryan McMahon,,,19,3B
-664123,,147,New York Yankees,2025,,Pitcher,,Active,Scott Effross,,,57,P
-657612,,147,New York Yankees,2025,,Pitcher,,Active,Tim Hill,,,41,P
-701542,,147,New York Yankees,2025,,Pitcher,,Active,Will Warren,,,98,P
-660787,,147,New York Yankees,2025,,Pitcher,,Active,Yerry De los Santos,,,73,P
-605400,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Aaron Nola,,,27,P
-660604,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Alan Rangel,,,56,P
-664761,,143,Philadelphia Phillies,2025,,Third Base,,Active,Alec Bohm,,,28,3B
-669016,,143,Philadelphia Phillies,2025,,Outfielder,,Active,Brandon Marsh,,,16,CF
-547180,,143,Philadelphia Phillies,2025,,First Base,,Active,Bryce Harper,,,3,1B
-681082,,143,Philadelphia Phillies,2025,,Second Base,,Active,Bryson Stott,,,5,2B
-650911,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Cristopher Sánchez,,,61,P
-624641,,143,Philadelphia Phillies,2025,,Second Base,,Active,Edmundo Sosa,,,33,2B
-596117,,143,Philadelphia Phillies,2025,,Catcher,,Active,Garrett Stubbs,,,21,C
-691893,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Jean Cabrera,,,79,P
-666200,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Jesús Luzardo,,,44,P
-661395,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Jhoan Duran,,,59,P
-679032,,143,Philadelphia Phillies,2025,,Outfielder,,Active,Johan Rojas,,,23,CF
-621237,,143,Philadelphia Phillies,2025,,Pitcher,,Active,José Alvarado,,,46,P
-621381,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Matt Strahm,,,25,P
-676661,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Max Lazar,,,60,P
-675650,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Michael Mercado,,,63,P
-691330,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Moisés Chace,,,75,P
-592206,,143,Philadelphia Phillies,2025,,Outfielder,,Active,Nick Castellanos,,,8,RF
-676510,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Nolan Hoffman,,,47,P
-689147,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Orion Kerkering,,,50,P
-805249,,143,Philadelphia Phillies,2025,,First Base,,Active,Otto Kemp,,,4,1B
-672463,,143,Philadelphia Phillies,2025,,Second Base,,Active,Rafael Lantigua,,,19,2B
-665561,,143,Philadelphia Phillies,2025,,Catcher,,Active,Rafael Marchán,,,13,C
-686751,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Seth Johnson,,,51,P
-592836,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Taijuan Walker,,,99,P
-621383,,143,Philadelphia Phillies,2025,,Pitcher,,Active,Tanner Banks,,,58,P
-607208,,143,Philadelphia Phillies,2025,,Shortstop,,Active,Trea Turner,,,7,SS
-642215,,143,Philadelphia Phillies,2025,,Outfielder,,Active,Weston Wilson,,,37,LF
-672744,,134,Pittsburgh Pirates,2025,,Outfielder,,Active,Alexander Canario,,,29,LF
-695257,,134,Pittsburgh Pirates,2025,,Outfield,,Active,Billy Cook,,,25,OF
-677952,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Braxton Ashcraft,,,67,P
-668804,,134,Pittsburgh Pirates,2025,,Outfielder,,Active,Bryan Reynolds,,,10,RF
-696149,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Bubba Chandler,,,57,P
-687478,,134,Pittsburgh Pirates,2025,,Shortstop,,Active,Cam Devanney,,,34,SS
-676742,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Cam Sanders,,,64,P
-669387,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Carmen Mlodzinski,,,50,P
-663767,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Chase Shugart,,,55,P
-670059,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Colin Holderman,,,35,P
-664294,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Dauri Moreta,,,36,P
-642701,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Dennis Santana,,,60,P
-681895,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Evan Sisk,,,51,P
-680779,,134,Pittsburgh Pirates,2025,,Catcher,,Active,Henry Davis,,,32,C
-682995,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Hunter Barco,,,45,P
-676755,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Isaac Mattson,,,72,P
-669193,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Jack Little,,,,P
-669261,,134,Pittsburgh Pirates,2025,,Outfielder,,Active,Jack Suwinski,,,65,RF
-669707,,134,Pittsburgh Pirates,2025,,Shortstop,,Active,Jared Triolo,,,19,SS
-678225,,134,Pittsburgh Pirates,2025,,Outfielder,,Active,Ji Hwan Bae,,,3,CF
-663698,,134,Pittsburgh Pirates,2025,,Catcher,,Active,Joey Bart,,,14,C
-670912,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Johan Oviedo,,,24,P
-664875,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Justin Lawrence,,,61,P
-693312,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Kyle Nicolas,,,66,P
-678894,,134,Pittsburgh Pirates,2025,,Shortstop,,Active,Liover Peguero,,,31,SS
-690382,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Michael Darrell-Hicks,,,41,P
-681347,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Mike Burrows,,,53,P
-656605,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Mitch Keller,,,23,P
-693304,,134,Pittsburgh Pirates,2025,,Second Base,,Active,Nick Gonzales,,,39,2B
-694377,,134,Pittsburgh Pirates,2025,,Second Base,,Active,Nick Yorke,,,38,2B
-665833,,134,Pittsburgh Pirates,2025,,Outfielder,,Active,Oneil Cruz,,,15,CF
-694973,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Paul Skenes,,,30,P
-804668,,134,Pittsburgh Pirates,2025,,Catcher,,Active,Rafael Flores,,,43,C
-687462,,134,Pittsburgh Pirates,2025,,First Base,,Active,Spencer Horwitz,,,2,1B
-802419,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Thomas Harrington,,,78,P
-691907,,134,Pittsburgh Pirates,2025,,Shortstop,,Active,Tsung-Che Cheng,,,71,SS
-683770,,134,Pittsburgh Pirates,2025,,Outfielder,,Active,Will Robertson,,,,LF
-670990,,134,Pittsburgh Pirates,2025,,Pitcher,,Active,Yohan Ramírez,,,49,P
-670970,,135,San Diego Padres,2025,,Pitcher,,Active,Adrian Morejon,,,50,P
-689690,,135,San Diego Padres,2025,,Pitcher,,Active,Alek Jacob,,,37,P
-699134,,135,San Diego Padres,2025,,Pitcher,,Active,Bradgley Rodriguez,,,72,P
-663773,,135,San Diego Padres,2025,,Pitcher,,Active,Bryan Hoeing,,,78,P
-669369,,135,San Diego Padres,2025,,Outfielder,,Active,Bryce Johnson,,,29,CF
-688158,,135,San Diego Padres,2025,,Pitcher,,Active,David Morgan,,,66,P
-665487,,135,San Diego Padres,2025,,Outfielder,,Active,Fernando Tatis Jr.,,,23,RF
-666023,,135,San Diego Padres,2025,,Catcher,,Active,Freddy Fermin,,,54,C
-657757,,135,San Diego Padres,2025,,Outfielder,,Active,Gavin Sheets,,,30,LF
-676664,,135,San Diego Padres,2025,,Pitcher,,Active,JP Sears,,,38,P
-701538,,135,San Diego Padres,2025,,Outfielder,,Active,Jackson Merrill,,,3,CF
-630105,,135,San Diego Padres,2025,,Second Base,,Active,Jake Cronenworth,,,9,2B
-592094,,135,San Diego Padres,2025,,Pitcher,,Active,Jason Adam,,,40,P
-669093,,135,San Diego Padres,2025,,Pitcher,,Active,Jeremiah Estrada,,,56,P
-666745,,135,San Diego Padres,2025,,Pitcher,,Active,Jhony Brito,,,76,P
-605397,,135,San Diego Padres,2025,,Pitcher,,Active,Joe Musgrove,,,44,P
-669134,,135,San Diego Padres,2025,,Catcher,,Active,Luis Campusano,,,12,C
-592518,,135,San Diego Padres,2025,,Third Base,,Active,Manny Machado,,,13,3B
-669200,,135,San Diego Padres,2025,,Second Base,,Active,Mason McCoy,,,18,2B
-695243,,135,San Diego Padres,2025,,Pitcher,,Active,Mason Miller,,,22,P
-663362,,135,San Diego Padres,2025,,Pitcher,,Active,Matt Waldron,,,61,P
-601713,,135,San Diego Padres,2025,,Pitcher,,Active,Nick Pivetta,,,27,P
-678316,,135,San Diego Padres,2025,,Pitcher,,Active,Omar Cruz,,,60,P
-657656,,135,San Diego Padres,2025,,Outfielder,,Active,Ramón Laureano,,,5,RF
-681190,,135,San Diego Padres,2025,,Pitcher,,Active,Randy Vásquez,,,98,P
-676760,,135,San Diego Padres,2025,,Pitcher,,Active,Ron Marinaccio,,,97,P
-669308,,135,San Diego Padres,2025,,Pitcher,,Active,Sean Reynolds,,,25,P
-672359,,135,San Diego Padres,2025,,Outfielder,,Active,Tirso Ornelas,,,21,LF
-593974,,135,San Diego Padres,2025,,Pitcher,,Active,Wandy Peralta,,,58,P
-695238,,135,San Diego Padres,2025,,Third Base,,Active,Will Wagner,,,24,3B
-593428,,135,San Diego Padres,2025,,Shortstop,,Active,Xander Bogaerts,,,2,SS
-506433,,135,San Diego Padres,2025,,Pitcher,,Active,Yu Darvish,,,11,P
-673513,,135,San Diego Padres,2025,,Pitcher,,Active,Yuki Matsui,,,1,P
-668800,,137,San Francisco Giants,2025,,Catcher,,Active,Andrew Knizner,,,21,C
-694918,,137,San Francisco Giants,2025,,Pitcher,,Active,Blade Tidwell,,,,P
-805811,,137,San Francisco Giants,2025,,First Base,,Active,Bryce Eldridge,,,78,1B
-693313,,137,San Francisco Giants,2025,,Pitcher,,Active,Carson Seymour,,,77,P
-687931,,137,San Francisco Giants,2025,,Pitcher,,Active,Carson Whisenhunt,,,88,P
-669477,,137,San Francisco Giants,2025,,Third Base,,Active,Casey Schmitt,,,10,3B
-683766,,137,San Francisco Giants,2025,,Second Base,,Active,Christian Koss,,,50,2B
-687551,,137,San Francisco Giants,2025,,Outfielder,,Active,Drew Gilbert,,,61,CF
-687529,,137,San Francisco Giants,2025,,Outfielder,,Active,Grant McCray,,,58,CF
-806185,,137,San Francisco Giants,2025,,Pitcher,,Active,Hayden Birdsong,,,60,P
-671218,,137,San Francisco Giants,2025,,Outfielder,,Active,Heliot Ramos,,,17,LF
-664141,,137,San Francisco Giants,2025,,Pitcher,,Active,JT Brubaker,,,34,P
-666464,,137,San Francisco Giants,2025,,Outfielder,,Active,Jerar Encarnacion,,,59,RF
-683679,,137,San Francisco Giants,2025,,Catcher,,Active,Jesus Rodriguez,,,,C
-666711,,137,San Francisco Giants,2025,,Pitcher,,Active,Joel Peguero,,,63,P
-664192,,137,San Francisco Giants,2025,,Pitcher,,Active,Joey Lucchesi,,,57,P
-676130,,137,San Francisco Giants,2025,,Pitcher,,Active,José Buttó,,,70,P
-808982,,137,San Francisco Giants,2025,,Outfielder,,Active,Jung Hoo Lee,,,51,CF
-678906,,137,San Francisco Giants,2025,,Pitcher,,Active,Kai-Wei Teng,,,66,P
-676775,,137,San Francisco Giants,2025,,Pitcher,,Active,Keaton Winn,,,67,P
-694738,,137,San Francisco Giants,2025,,Pitcher,,Active,Landen Roupp,,,65,P
-657277,,137,San Francisco Giants,2025,,Pitcher,,Active,Logan Webb,,,62,P
-682641,,137,San Francisco Giants,2025,,Outfielder,,Active,Luis Matos,,,29,RF
-682617,,137,San Francisco Giants,2025,,Outfield,,Active,Marco Luciano,,,37,OF
-696131,,137,San Francisco Giants,2025,,Pitcher,,Active,Mason Black,,,47,P
-656305,,137,San Francisco Giants,2025,,Third Base,,Active,Matt Chapman,,,26,3B
-657424,,137,San Francisco Giants,2025,,Pitcher,,Active,Matt Gage,,,93,P
-672275,,137,San Francisco Giants,2025,,Catcher,,Active,Patrick Bailey,,,14,C
-646240,,137,San Francisco Giants,2025,,Designated Hitter,,Active,Rafael Devers,,,16,DH
-592662,,137,San Francisco Giants,2025,,Pitcher,,Active,Robbie Ray,,,38,P
-676254,,137,San Francisco Giants,2025,,Pitcher,,Active,Ryan Walker,,,74,P
-702352,,137,San Francisco Giants,2025,,Pitcher,,Active,Spencer Bivens,,,76,P
-686790,,137,San Francisco Giants,2025,,Pitcher,,Active,Trevor McDonald,,,72,P
-663941,,137,San Francisco Giants,2025,,Pitcher,,Active,Tristan Beck,,,43,P
-666149,,137,San Francisco Giants,2025,,Second Base,,Active,Tyler Fitzgerald,,,49,2B
-685133,,137,San Francisco Giants,2025,,Outfield,,Active,Wade Meckler,,,53,OF
-642715,,137,San Francisco Giants,2025,,Shortstop,,Active,Willy Adames,,,2,SS
-662253,,136,Seattle Mariners,2025,,Pitcher,,Active,Andrés Muñoz,,,75,P
-810938,,136,Seattle Mariners,2025,,Third Base,,Active,Ben Williamson,,,9,3B
-680604,,136,Seattle Mariners,2025,,Pitcher,,Active,Blas Castaño,,,62,P
-693433,,136,Seattle Mariners,2025,,Pitcher,,Active,Bryan Woo,,,22,P
-682243,,136,Seattle Mariners,2025,,Pitcher,,Active,Bryce Miller,,,50,P
-663728,,136,Seattle Mariners,2025,,Catcher,,Active,Cal Raleigh,,,29,C
-672841,,136,Seattle Mariners,2025,,Pitcher,,Active,Carlos Vargas,,,54,P
-668984,,136,Seattle Mariners,2025,,Pitcher,,Active,Casey Legumina,,,64,P
-677961,,136,Seattle Mariners,2025,,Pitcher,,Active,Cole Wilcox,,,,P
-702284,,136,Seattle Mariners,2025,,Second Base,,Active,Cole Young,,,2,2B
-682445,,136,Seattle Mariners,2025,,Pitcher,,Active,Domingo Gonzalez,,,,P
-686527,,136,Seattle Mariners,2025,,Outfielder,,Active,Dominic Canzone,,,8,RF
-660825,,136,Seattle Mariners,2025,,Pitcher,,Active,Eduard Bazardo,,,83,P
-676106,,136,Seattle Mariners,2025,,Pitcher,,Active,Emerson Hancock,,,26,P
-642100,,136,Seattle Mariners,2025,,Pitcher,,Active,Gabe Speier,,,55,P
-669923,,136,Seattle Mariners,2025,,Pitcher,,Active,George Kirby,,,68,P
-666619,,136,Seattle Mariners,2025,,Pitcher,,Active,Gregory Santos,,,48,P
-695670,,136,Seattle Mariners,2025,,Catcher,,Active,Harry Ford,,,5,C
-641487,,136,Seattle Mariners,2025,,Shortstop,,Active,J.P. Crawford,,,3,SS
-663804,,136,Seattle Mariners,2025,,Pitcher,,Active,Jackson Kowar,,,37,P
-646242,,136,Seattle Mariners,2025,,Pitcher,,Active,Jhonathan Díaz,,,74,P
-677594,,136,Seattle Mariners,2025,,Outfielder,,Active,Julio Rodríguez,,,44,CF
-660844,,136,Seattle Mariners,2025,,Second Base,,Active,Leo Rivas,,,76,2B
-688138,,136,Seattle Mariners,2025,,Pitcher,,Active,Logan Evans,,,73,P
-669302,,136,Seattle Mariners,2025,,Pitcher,,Active,Logan Gilbert,,,36,P
-622491,,136,Seattle Mariners,2025,,Pitcher,,Active,Luis Castillo,,,58,P
-670042,,136,Seattle Mariners,2025,,Outfielder,,Active,Luke Raley,,,20,RF
-666374,,136,Seattle Mariners,2025,,Pitcher,,Active,Matt Brash,,,47,P
-670156,,136,Seattle Mariners,2025,,Third Base,,Active,Miles Mastrobuoni,,,21,3B
-668227,,136,Seattle Mariners,2025,,Outfielder,,Active,Randy Arozarena,,,56,LF
-689041,,136,Seattle Mariners,2025,,Outfielder,,Active,Rhylan Thomas,,,31,LF
-669208,,136,Seattle Mariners,2025,,Second Base,,Active,Ryan Bliss,,,1,2B
-669392,,136,Seattle Mariners,2025,,Second Base,,Active,Samad Taylor,,,0,2B
-642048,,136,Seattle Mariners,2025,,Pitcher,,Active,Tayler Saucedo,,,60,P
-663423,,136,Seattle Mariners,2025,,Pitcher,,Active,Trent Thornton,,,46,P
-700187,,136,Seattle Mariners,2025,,Pitcher,,Active,Troy Taylor,,,59,P
-645302,,136,Seattle Mariners,2025,,Outfielder,,Active,Victor Robles,,,10,RF
-676475,,138,St. Louis Cardinals,2025,,First Base,,Active,Alec Burleson,,,41,1B
-701552,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Andre Granillo,,,65,P
-669467,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Andre Pallante,,,53,P
-685107,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Anthony Veneziano,,,67,P
-680977,,138,St. Louis Cardinals,2025,,Second Base,,Active,Brendan Donovan,,,33,2B
-688297,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Chris Roycroft,,,58,P
-693409,,138,St. Louis Cardinals,2025,,Second Base,,Active,César Prieto,,,31,2B
-700669,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Gordon Graceffo,,,44,P
-671056,,138,St. Louis Cardinals,2025,,Catcher,,Active,Iván Herrera,,,48,C
-699625,,138,St. Louis Cardinals,2025,,Catcher,,Active,Jimmy Crooks,,,8,C
-668941,,138,St. Louis Cardinals,2025,,Pitcher,,Active,JoJo Romero,,,59,P
-667463,,138,St. Louis Cardinals,2025,,Pitcher,,Active,John King,,,47,P
-691023,,138,St. Louis Cardinals,2025,,Outfielder,,Active,Jordan Walker,,,18,RF
-660896,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Jorge Alcala,,,56,P
-665877,,138,St. Louis Cardinals,2025,,Second Base,,Active,José Fermín,,,15,2B
-681517,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Kyle Leahy,,,62,P
-663457,,138,St. Louis Cardinals,2025,,Outfielder,,Active,Lars Nootbaar,,,21,LF
-691026,,138,St. Louis Cardinals,2025,,Shortstop,,Active,Masyn Winn,,,0,SS
-689288,,138,St. Louis Cardinals,2025,,Outfielder,,Active,Matt Koperniak,,,29,LF
-694335,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Matt Svanson,,,49,P
-669461,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Matthew Liberatore,,,52,P
-700241,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Michael McGreevy,,,36,P
-672279,,138,St. Louis Cardinals,2025,,Outfielder,,Active,Michael Siani,,,22,CF
-701675,,138,St. Louis Cardinals,2025,,Outfielder,,Active,Nathan Church,,,27,LF
-675919,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Nick Raquet,,,70,P
-571448,,138,St. Louis Cardinals,2025,,Third Base,,Active,Nolan Arenado,,,28,3B
-669357,,138,St. Louis Cardinals,2025,,Second Base,,Active,Nolan Gorman,,,16,2B
-686780,,138,St. Louis Cardinals,2025,,Catcher,,Active,Pedro Pagés,,,43,C
-676617,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Riley O'Brien,,,55,P
-682610,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Roddery Muñoz,,,35,P
-681676,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Ryan Fernandez,,,64,P
-691828,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Sem Robberse,,,61,P
-543243,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Sonny Gray,,,54,P
-694358,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Tekoah Roby,,,38,P
-695336,,138,St. Louis Cardinals,2025,,Second Base,,Active,Thomas Saggese,,,25,2B
-693311,,138,St. Louis Cardinals,2025,,Pitcher,,Active,Tink Hence,,,30,P
-687363,,138,St. Louis Cardinals,2025,,Outfielder,,Active,Victor Scott II,,,11,CF
-575929,,138,St. Louis Cardinals,2025,,First Base,,Active,Willson Contreras,,,40,1B
-650968,,138,St. Louis Cardinals,2025,,Catcher,,Active,Yohel Pozo,,,63,C
-676044,,139,Tampa Bay Rays,2025,,First Base,,Active,Bob Seymour,,,41,1B
-664040,,139,Tampa Bay Rays,2025,,Second Base,,Active,Brandon Lowe,,,8,2B
-641329,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Bryan Baker,,,47,P
-700246,,139,Tampa Bay Rays,2025,,Shortstop,,Active,Carson Williams,,,7,SS
-802415,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Chandler Simpson,,,14,CF
-666624,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Christopher Morel,,,24,LF
-642121,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Cole Sulser,,,71,P
-656876,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Drew Rasmussen,,,57,P
-670955,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Edwin Uceta,,,63,P
-679358,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Eric Orze,,,17,P
-677592,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Everson Pereira,,,45,CF
-664076,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Garrett Cleavinger,,,60,P
-643377,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Griffin Jax,,,22,P
-685801,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Hunter Bigge,,,43,P
-676439,,139,Tampa Bay Rays,2025,,Catcher,,Active,Hunter Feduccia,,,30,C
-693855,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Ian Seymour,,,61,P
-663968,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Jake Mangum,,,28,LF
-669947,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Jesse Scholtens,,,65,P
-671212,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Joe Boyle,,,36,P
-697812,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Joe Rock,,,68,P
-666018,,139,Tampa Bay Rays,2025,,First Base,,Active,Jonathan Aranda,,,62,1B
-676356,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Jonny DeLuca,,,21,CF
-666139,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Josh Lowe,,,15,RF
-691406,,139,Tampa Bay Rays,2025,,Third Base,,Active,Junior Caminero,,,13,3B
-670224,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Kameron Misner,,,26,CF
-687330,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Kevin Kelly,,,49,P
-655889,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Manuel Rodríguez,,,39,P
-669438,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Mason Englert,,,59,P
-682254,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Mason Montgomery,,,48,P
-663743,,139,Tampa Bay Rays,2025,,Catcher,,Active,Nick Fortes,,,40,C
-664126,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Pete Fairbanks,,,29,P
-680700,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Richie Palacios,,,1,LF
-686752,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Ryan Pepiot,,,44,P
-668723,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Ryan Vilade,,,,RF
-669358,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Shane Baz,,,11,P
-663556,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Shane McClanahan,,,18,P
-656484,,139,Tampa Bay Rays,2025,,Third Base,,Active,Tristan Gray,,,10,3B
-671976,,139,Tampa Bay Rays,2025,,Outfielder,,Active,Tristan Peters,,,25,LF
-650490,,139,Tampa Bay Rays,2025,,First Base,,Active,Yandy Díaz,,,2,1B
-692414,,139,Tampa Bay Rays,2025,,Pitcher,,Active,Yoniel Curet,,,58,P
-666969,,140,Texas Rangers,2025,,Outfielder,,Active,Adolis García,,,53,RF
-696030,,140,Texas Rangers,2025,,Outfielder,,Active,Alejandro Osuna,,,19,LF
-683227,,140,Texas Rangers,2025,,Third Base,,Active,Cody Freeman,,,39,3B
-668390,,140,Texas Rangers,2025,,Pitcher,,Active,Cole Winn,,,60,P
-608369,,140,Texas Rangers,2025,,Shortstop,,Active,Corey Seager,,,5,SS
-687589,,140,Texas Rangers,2025,,Pitcher,,Active,Dom Hamel,,,,P
-693713,,140,Texas Rangers,2025,,Pitcher,,Active,Emiliano Teodo,,,82,P
-677649,,140,Texas Rangers,2025,,Shortstop,,Active,Ezequiel Duran,,,20,SS
-683004,,140,Texas Rangers,2025,,Pitcher,,Active,Jack Leiter,,,35,P
-656641,,140,Texas Rangers,2025,,Pitcher,,Active,Jacob Latz,,,67,P
-657097,,140,Texas Rangers,2025,,Pitcher,,Active,Jacob Webb,,,71,P
-594798,,140,Texas Rangers,2025,,Pitcher,,Active,Jacob deGrom,,,48,P
-669394,,140,Texas Rangers,2025,,First Base,,Active,Jake Burger,,,21,1B
-592626,,140,Texas Rangers,2025,,First Base,,Active,Joc Pederson,,,4,1B
-641680,,140,Texas Rangers,2025,,Catcher,,Active,Jonah Heim,,,28,C
-692030,,140,Texas Rangers,2025,,Pitcher,,Active,Jose Corniell,,,59,P
-673962,,140,Texas Rangers,2025,,Third Base,,Active,Josh Jung,,,6,3B
-669701,,140,Texas Rangers,2025,,Shortstop,,Active,Josh Smith,,,8,SS
-679822,,140,Texas Rangers,2025,,First Base,,Active,Justin Foscue,,,56,1B
-677958,,140,Texas Rangers,2025,,Pitcher,,Active,Kumar Rocker,,,80,P
-543309,,140,Texas Rangers,2025,,Catcher,,Active,Kyle Higashioka,,,11,C
-681168,,140,Texas Rangers,2025,,Pitcher,,Active,Luis Curvelo,,,57,P
-687847,,140,Texas Rangers,2025,,Pitcher,,Active,Marc Church,,,30,P
-680737,,140,Texas Rangers,2025,,Outfielder,,Active,Michael Helman,,,24,CF
-671305,,140,Texas Rangers,2025,,Pitcher,,Active,Michel Otañez,,,,P
-676395,,140,Texas Rangers,2025,,Pitcher,,Active,Robert Garcia,,,62,P
-680862,,140,Texas Rangers,2025,,Catcher,,Active,Willie MacIver,,,,C
-692437,,140,Texas Rangers,2025,,Pitcher,,Active,Winston Santos,,,84,P
-694671,,140,Texas Rangers,2025,,Outfielder,,Active,Wyatt Langford,,,36,LF
-671936,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Adam Macko,,,64,P
-680718,,141,Toronto Blue Jays,2025,,Third Base,,Active,Addison Barger,,,47,3B
-672386,,141,Toronto Blue Jays,2025,,Catcher,,Active,Alejandro Kirk,,,30,C
-665926,,141,Toronto Blue Jays,2025,,Second Base,,Active,Andrés Giménez,,,0,2B
-623993,,141,Toronto Blue Jays,2025,,Outfielder,,Active,Anthony Santander,,,25,RF
-680755,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Braydon Fisher,,,63,P
-663893,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Brendon Little,,,54,P
-662139,,141,Toronto Blue Jays,2025,,Outfielder,,Active,Daulton Varsho,,,5,CF
-676914,,141,Toronto Blue Jays,2025,,Outfielder,,Active,Davis Schneider,,,36,LF
-622253,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Dillon Tate,,,9,P
-687922,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Easton Lucas,,,62,P
-641778,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Eric Lauer,,,56,P
-676391,,141,Toronto Blue Jays,2025,,Third Base,,Active,Ernie Clement,,,22,3B
-543807,,141,Toronto Blue Jays,2025,,Outfielder,,Active,George Springer,,,4,RF
-814005,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Jake Bloss,,,28,P
-656546,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Jeff Hoffman,,,23,P
-694388,,141,Toronto Blue Jays,2025,,Outfielder,,Active,Joey Loperfido,,,10,LF
-682729,,141,Toronto Blue Jays,2025,,Outfielder,,Active,Jonatan Clase,,,8,LF
-621244,,141,Toronto Blue Jays,2025,,Pitcher,,Active,José Berríos,,,17,P
-677865,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Justin Bruihl,,,58,P
-592332,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Kevin Gausman,,,34,P
-681751,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Lazaro Estrada,,,60,P
-677870,,141,Toronto Blue Jays,2025,,Shortstop,,Active,Leo Jiménez,,,49,SS
-686973,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Louis Varland,,,77,P
-689254,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Mason Fluharty,,,68,P
-664702,,141,Toronto Blue Jays,2025,,Outfielder,,Active,Myles Straw,,,3,CF
-664770,,141,Toronto Blue Jays,2025,,Outfielder,,Active,Nathan Lukes,,,38,RF
-687606,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Paxton Schultz,,,65,P
-669456,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Shane Bieber,,,57,P
-667297,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Tommy Nance,,,45,P
-702056,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Trey Yesavage,,,39,P
-623168,,141,Toronto Blue Jays,2025,,Catcher,,Active,Tyler Heineman,,,55,C
-665489,,141,Toronto Blue Jays,2025,,First Base,,Active,Vladimir Guerrero Jr.,,,27,1B
-684320,,141,Toronto Blue Jays,2025,,Pitcher,,Active,Yariel Rodríguez,,,29,P
-674841,,120,Washington Nationals,2025,,Pitcher,,Active,Andrew Alvarez,,,54,P
-691251,,120,Washington Nationals,2025,,Pitcher,,Active,Andry Lara,,,72,P
-665953,,120,Washington Nationals,2025,,First Base,,Active,Andrés Chaparro,,,87,1B
-695418,,120,Washington Nationals,2025,,Pitcher,,Active,Brad Lord,,,61,P
-691781,,120,Washington Nationals,2025,,Third Base,,Active,Brady House,,,55,3B
-682928,,120,Washington Nationals,2025,,Shortstop,,Active,CJ Abrams,,,5,SS
-676917,,120,Washington Nationals,2025,,Pitcher,,Active,Cade Cavalli,,,24,P
-690925,,120,Washington Nationals,2025,,Pitcher,,Active,Clayton Beeter,,,39,P
-669371,,120,Washington Nationals,2025,,Pitcher,,Active,Cole Henry,,,99,P
-695734,,120,Washington Nationals,2025,,Outfielder,,Active,Daylen Lile,,,51,RF
-686611,,120,Washington Nationals,2025,,Outfielder,,Active,Dylan Crews,,,3,RF
-671131,,120,Washington Nationals,2025,,Pitcher,,Active,Jackson Rutledge,,,79,P
-696285,,120,Washington Nationals,2025,,Outfielder,,Active,Jacob Young,,,30,CF
-671109,,120,Washington Nationals,2025,,Pitcher,,Active,Jake Eder,,,,P
-663623,,120,Washington Nationals,2025,,Pitcher,,Active,Jake Irvin,,,27,P
-695578,,120,Washington Nationals,2025,,Outfielder,,Active,James Wood,,,29,LF
-678606,,120,Washington Nationals,2025,,Pitcher,,Active,Jose A. Ferrer,,,47,P
-677588,,120,Washington Nationals,2025,,Third Base,,Active,José Tena,,,8,3B
-642759,,120,Washington Nationals,2025,,Pitcher,,Active,Julian Fernández,,,65,P
-660688,,120,Washington Nationals,2025,,Catcher,,Active,Keibert Ruiz,,,20,C
-663455,,120,Washington Nationals,2025,,Pitcher,,Active,Konnor Pilkington,,,45,P
-671277,,120,Washington Nationals,2025,,Second Base,,Active,Luis García Jr.,,,2,2B
-669022,,120,Washington Nationals,2025,,Pitcher,,Active,MacKenzie Gore,,,1,P
-680730,,120,Washington Nationals,2025,,Pitcher,,Active,Mitchell Parker,,,70,P
-683083,,120,Washington Nationals,2025,,Shortstop,,Active,Nasim Nuñez,,,26,SS
-687377,,120,Washington Nationals,2025,,Pitcher,,Active,Orlando Ribalta,,,64,P
-676571,,120,Washington Nationals,2025,,Pitcher,,Active,PJ Poulin,,,50,P
-656180,,120,Washington Nationals,2025,,Catcher,,Active,Riley Adams,,,15,C
-690987,,120,Washington Nationals,2025,,Outfielder,,Active,Robert Hassell III,,,57,CF
-702795,,120,Washington Nationals,2025,,Pitcher,,Active,Ryan Loutos,,,52,P
-666659,,120,Washington Nationals,2025,,Pitcher,,Active,Sauryn Lao,,,73,P
-702358,,120,Washington Nationals,2025,,Third Base,,Active,Trey Lipscomb,,,38,3B
-694350,,120,Washington Nationals,2025,,Pitcher,,Active,Zach Brzykcy,,,66,P
+player_id,player_name,team_id,team_name,season,jersey_number,position,position_type,status
+642851,Austin Wynns,133,Athletics,2025,29,Catcher,Catcher,Active
+669620,Brady Basso,133,Athletics,2025,66,Pitcher,Pitcher,Active
+667670,Brent Rooker,133,Athletics,2025,25,Outfielder,Outfielder,Active
+695391,Brett Harris,133,Athletics,2025,11,Third Base,Infielder,Active
+666126,Carlos Cortes,133,Athletics,2025,26,Outfielder,Outfielder,Active
+687515,Colby Thomas,133,Athletics,2025,32,Outfielder,Outfielder,Active
+687231,Darell Hernaiz,133,Athletics,2025,2,Third Base,Infielder,Active
+672016,Denzel Clarke,133,Athletics,2025,1,Outfielder,Outfielder,Active
+674384,Eduarniel Núñez,133,Athletics,2025,54,Pitcher,Pitcher,Active
+665660,Elvis Alvarado,133,Athletics,2025,61,Pitcher,Pitcher,Active
+680880,Grant Holman,133,Athletics,2025,67,Pitcher,Pitcher,Active
+680684,Gunnar Hoglund,133,Athletics,2025,53,Pitcher,Pitcher,Active
+692013,Henry Baez,133,Athletics,2025,,Pitcher,Pitcher,Active
+663687,Hogan Harris,133,Athletics,2025,36,Pitcher,Pitcher,Active
+669372,J.T. Ginn,133,Athletics,2025,70,Pitcher,Pitcher,Active
+668709,JJ Bleday,133,Athletics,2025,33,Outfielder,Outfielder,Active
+678022,Jack Perkins,133,Athletics,2025,50,Pitcher,Pitcher,Active
+682052,Jacob Lopez,133,Athletics,2025,57,Pitcher,Pitcher,Active
+805779,Jacob Wilson,133,Athletics,2025,5,Shortstop,Infielder,Active
+605488,Jeffrey Springs,133,Athletics,2025,59,Pitcher,Pitcher,Active
+683155,Joey Estes,133,Athletics,2025,68,Pitcher,Pitcher,Active
+686993,Justin Sterner,133,Athletics,2025,60,Pitcher,Pitcher,Active
+686610,Ken Waldichuk,133,Athletics,2025,30,Pitcher,Pitcher,Active
+671732,Lawrence Butler,133,Athletics,2025,4,Outfielder,Outfielder,Active
+665622,Luis Medina,133,Athletics,2025,46,Pitcher,Pitcher,Active
+806960,Luis Morales,133,Athletics,2025,58,Pitcher,Pitcher,Active
+622663,Luis Severino,133,Athletics,2025,40,Pitcher,Pitcher,Active
+686930,Mason Barnett,133,Athletics,2025,63,Pitcher,Pitcher,Active
+691777,Max Muncy,133,Athletics,2025,10,Third Base,Infielder,Active
+680474,Max Schuemann,133,Athletics,2025,12,Third Base,Infielder,Active
+547184,Michael Kelly,133,Athletics,2025,49,Pitcher,Pitcher,Active
+687765,Mitch Spence,133,Athletics,2025,28,Pitcher,Pitcher,Active
+701762,Nick Kurtz,133,Athletics,2025,16,First Base,Infielder,Active
+674370,Osvaldo Bido,133,Athletics,2025,45,Pitcher,Pitcher,Active
+669127,Shea Langeliers,133,Athletics,2025,23,Catcher,Catcher,Active
+621053,Tyler Ferguson,133,Athletics,2025,44,Pitcher,Pitcher,Active
+691016,Tyler Soderstrom,133,Athletics,2025,21,Outfielder,Outfielder,Active
+680869,Zack Gelof,133,Athletics,2025,20,Second Base,Infielder,Active
+672744,Alexander Canario,134,Pittsburgh Pirates,2025,29,Outfielder,Outfielder,Active
+695257,Billy Cook,134,Pittsburgh Pirates,2025,25,Outfield,Outfielder,Active
+677952,Braxton Ashcraft,134,Pittsburgh Pirates,2025,67,Pitcher,Pitcher,Active
+668804,Bryan Reynolds,134,Pittsburgh Pirates,2025,10,Outfielder,Outfielder,Active
+696149,Bubba Chandler,134,Pittsburgh Pirates,2025,57,Pitcher,Pitcher,Active
+687478,Cam Devanney,134,Pittsburgh Pirates,2025,34,Shortstop,Infielder,Active
+676742,Cam Sanders,134,Pittsburgh Pirates,2025,64,Pitcher,Pitcher,Active
+669387,Carmen Mlodzinski,134,Pittsburgh Pirates,2025,50,Pitcher,Pitcher,Active
+663767,Chase Shugart,134,Pittsburgh Pirates,2025,55,Pitcher,Pitcher,Active
+670059,Colin Holderman,134,Pittsburgh Pirates,2025,35,Pitcher,Pitcher,Active
+664294,Dauri Moreta,134,Pittsburgh Pirates,2025,36,Pitcher,Pitcher,Active
+642701,Dennis Santana,134,Pittsburgh Pirates,2025,60,Pitcher,Pitcher,Active
+682848,Endy Rodríguez,134,Pittsburgh Pirates,2025,5,First Base,Infielder,Active
+665839,Enmanuel Valdez,134,Pittsburgh Pirates,2025,48,First Base,Infielder,Active
+681895,Evan Sisk,134,Pittsburgh Pirates,2025,51,Pitcher,Pitcher,Active
+680779,Henry Davis,134,Pittsburgh Pirates,2025,32,Catcher,Catcher,Active
+682995,Hunter Barco,134,Pittsburgh Pirates,2025,45,Pitcher,Pitcher,Active
+676755,Isaac Mattson,134,Pittsburgh Pirates,2025,72,Pitcher,Pitcher,Active
+669261,Jack Suwinski,134,Pittsburgh Pirates,2025,65,Outfielder,Outfielder,Active
+683003,Jared Jones,134,Pittsburgh Pirates,2025,37,Pitcher,Pitcher,Active
+669707,Jared Triolo,134,Pittsburgh Pirates,2025,19,Shortstop,Infielder,Active
+663698,Joey Bart,134,Pittsburgh Pirates,2025,14,Catcher,Catcher,Active
+670912,Johan Oviedo,134,Pittsburgh Pirates,2025,24,Pitcher,Pitcher,Active
+664875,Justin Lawrence,134,Pittsburgh Pirates,2025,61,Pitcher,Pitcher,Active
+693312,Kyle Nicolas,134,Pittsburgh Pirates,2025,66,Pitcher,Pitcher,Active
+681347,Mike Burrows,134,Pittsburgh Pirates,2025,53,Pitcher,Pitcher,Active
+656605,Mitch Keller,134,Pittsburgh Pirates,2025,23,Pitcher,Pitcher,Active
+693304,Nick Gonzales,134,Pittsburgh Pirates,2025,39,Second Base,Infielder,Active
+694377,Nick Yorke,134,Pittsburgh Pirates,2025,38,Second Base,Infielder,Active
+665833,Oneil Cruz,134,Pittsburgh Pirates,2025,15,Outfielder,Outfielder,Active
+694973,Paul Skenes,134,Pittsburgh Pirates,2025,30,Pitcher,Pitcher,Active
+804668,Rafael Flores,134,Pittsburgh Pirates,2025,43,Catcher,Catcher,Active
+682927,Ronny Simon,134,Pittsburgh Pirates,2025,63,Second Base,Infielder,Active
+689877,Ryan Harbin,134,Pittsburgh Pirates,2025,,Pitcher,Pitcher,Active
+687462,Spencer Horwitz,134,Pittsburgh Pirates,2025,2,First Base,Infielder,Active
+802419,Thomas Harrington,134,Pittsburgh Pirates,2025,78,Pitcher,Pitcher,Active
+691907,Tsung-Che Cheng,134,Pittsburgh Pirates,2025,71,Shortstop,Infielder,Active
+683770,Will Robertson,134,Pittsburgh Pirates,2025,,Outfielder,Outfielder,Active
+670990,Yohan Ramírez,134,Pittsburgh Pirates,2025,49,Pitcher,Pitcher,Active
+670970,Adrian Morejon,135,San Diego Padres,2025,50,Pitcher,Pitcher,Active
+689690,Alek Jacob,135,San Diego Padres,2025,37,Pitcher,Pitcher,Active
+699134,Bradgley Rodriguez,135,San Diego Padres,2025,72,Pitcher,Pitcher,Active
+663773,Bryan Hoeing,135,San Diego Padres,2025,78,Pitcher,Pitcher,Active
+669369,Bryce Johnson,135,San Diego Padres,2025,29,Outfielder,Outfielder,Active
+688158,David Morgan,135,San Diego Padres,2025,66,Pitcher,Pitcher,Active
+665487,Fernando Tatis Jr.,135,San Diego Padres,2025,23,Outfielder,Outfielder,Active
+666023,Freddy Fermin,135,San Diego Padres,2025,54,Catcher,Catcher,Active
+657757,Gavin Sheets,135,San Diego Padres,2025,30,Outfielder,Outfielder,Active
+676664,JP Sears,135,San Diego Padres,2025,38,Pitcher,Pitcher,Active
+701538,Jackson Merrill,135,San Diego Padres,2025,3,Outfielder,Outfielder,Active
+630105,Jake Cronenworth,135,San Diego Padres,2025,9,Second Base,Infielder,Active
+592094,Jason Adam,135,San Diego Padres,2025,40,Pitcher,Pitcher,Active
+669093,Jeremiah Estrada,135,San Diego Padres,2025,56,Pitcher,Pitcher,Active
+666745,Jhony Brito,135,San Diego Padres,2025,76,Pitcher,Pitcher,Active
+605397,Joe Musgrove,135,San Diego Padres,2025,44,Pitcher,Pitcher,Active
+669134,Luis Campusano,135,San Diego Padres,2025,12,Catcher,Catcher,Active
+592518,Manny Machado,135,San Diego Padres,2025,13,Third Base,Infielder,Active
+669200,Mason McCoy,135,San Diego Padres,2025,18,Second Base,Infielder,Active
+695243,Mason Miller,135,San Diego Padres,2025,22,Pitcher,Pitcher,Active
+663362,Matt Waldron,135,San Diego Padres,2025,61,Pitcher,Pitcher,Active
+601713,Nick Pivetta,135,San Diego Padres,2025,27,Pitcher,Pitcher,Active
+678316,Omar Cruz,135,San Diego Padres,2025,60,Pitcher,Pitcher,Active
+657656,Ramón Laureano,135,San Diego Padres,2025,5,Outfielder,Outfielder,Active
+681190,Randy Vásquez,135,San Diego Padres,2025,98,Pitcher,Pitcher,Active
+676760,Ron Marinaccio,135,San Diego Padres,2025,97,Pitcher,Pitcher,Active
+669308,Sean Reynolds,135,San Diego Padres,2025,25,Pitcher,Pitcher,Active
+672359,Tirso Ornelas,135,San Diego Padres,2025,21,Outfielder,Outfielder,Active
+593974,Wandy Peralta,135,San Diego Padres,2025,58,Pitcher,Pitcher,Active
+695238,Will Wagner,135,San Diego Padres,2025,24,Third Base,Infielder,Active
+593428,Xander Bogaerts,135,San Diego Padres,2025,2,Shortstop,Infielder,Active
+506433,Yu Darvish,135,San Diego Padres,2025,11,Pitcher,Pitcher,Active
+673513,Yuki Matsui,135,San Diego Padres,2025,1,Pitcher,Pitcher,Active
+662253,Andrés Muñoz,136,Seattle Mariners,2025,75,Pitcher,Pitcher,Active
+810938,Ben Williamson,136,Seattle Mariners,2025,9,Third Base,Infielder,Active
+680604,Blas Castaño,136,Seattle Mariners,2025,62,Pitcher,Pitcher,Active
+693433,Bryan Woo,136,Seattle Mariners,2025,22,Pitcher,Pitcher,Active
+682243,Bryce Miller,136,Seattle Mariners,2025,50,Pitcher,Pitcher,Active
+663728,Cal Raleigh,136,Seattle Mariners,2025,29,Catcher,Catcher,Active
+672841,Carlos Vargas,136,Seattle Mariners,2025,54,Pitcher,Pitcher,Active
+668984,Casey Legumina,136,Seattle Mariners,2025,64,Pitcher,Pitcher,Active
+677961,Cole Wilcox,136,Seattle Mariners,2025,,Pitcher,Pitcher,Active
+702284,Cole Young,136,Seattle Mariners,2025,2,Second Base,Infielder,Active
+682445,Domingo Gonzalez,136,Seattle Mariners,2025,,Pitcher,Pitcher,Active
+686527,Dominic Canzone,136,Seattle Mariners,2025,8,Outfielder,Outfielder,Active
+660825,Eduard Bazardo,136,Seattle Mariners,2025,83,Pitcher,Pitcher,Active
+676106,Emerson Hancock,136,Seattle Mariners,2025,26,Pitcher,Pitcher,Active
+642100,Gabe Speier,136,Seattle Mariners,2025,55,Pitcher,Pitcher,Active
+669923,George Kirby,136,Seattle Mariners,2025,68,Pitcher,Pitcher,Active
+666619,Gregory Santos,136,Seattle Mariners,2025,48,Pitcher,Pitcher,Active
+695670,Harry Ford,136,Seattle Mariners,2025,5,Catcher,Catcher,Active
+641487,J.P. Crawford,136,Seattle Mariners,2025,3,Shortstop,Infielder,Active
+663804,Jackson Kowar,136,Seattle Mariners,2025,37,Pitcher,Pitcher,Active
+646242,Jhonathan Díaz,136,Seattle Mariners,2025,74,Pitcher,Pitcher,Active
+677594,Julio Rodríguez,136,Seattle Mariners,2025,44,Outfielder,Outfielder,Active
+660844,Leo Rivas,136,Seattle Mariners,2025,76,Second Base,Infielder,Active
+688138,Logan Evans,136,Seattle Mariners,2025,73,Pitcher,Pitcher,Active
+669302,Logan Gilbert,136,Seattle Mariners,2025,36,Pitcher,Pitcher,Active
+622491,Luis Castillo,136,Seattle Mariners,2025,58,Pitcher,Pitcher,Active
+670042,Luke Raley,136,Seattle Mariners,2025,20,Outfielder,Outfielder,Active
+666374,Matt Brash,136,Seattle Mariners,2025,47,Pitcher,Pitcher,Active
+670156,Miles Mastrobuoni,136,Seattle Mariners,2025,21,Third Base,Infielder,Active
+668227,Randy Arozarena,136,Seattle Mariners,2025,56,Outfielder,Outfielder,Active
+689041,Rhylan Thomas,136,Seattle Mariners,2025,31,Outfielder,Outfielder,Active
+669208,Ryan Bliss,136,Seattle Mariners,2025,1,Second Base,Infielder,Active
+702795,Ryan Loutos,136,Seattle Mariners,2025,,Pitcher,Pitcher,Active
+669392,Samad Taylor,136,Seattle Mariners,2025,0,Second Base,Infielder,Active
+642048,Tayler Saucedo,136,Seattle Mariners,2025,60,Pitcher,Pitcher,Active
+663423,Trent Thornton,136,Seattle Mariners,2025,46,Pitcher,Pitcher,Active
+700187,Troy Taylor,136,Seattle Mariners,2025,59,Pitcher,Pitcher,Active
+645302,Victor Robles,136,Seattle Mariners,2025,10,Outfielder,Outfielder,Active
+668800,Andrew Knizner,137,San Francisco Giants,2025,21,Catcher,Catcher,Active
+694918,Blade Tidwell,137,San Francisco Giants,2025,,Pitcher,Pitcher,Active
+805811,Bryce Eldridge,137,San Francisco Giants,2025,78,First Base,Infielder,Active
+693313,Carson Seymour,137,San Francisco Giants,2025,77,Pitcher,Pitcher,Active
+687931,Carson Whisenhunt,137,San Francisco Giants,2025,88,Pitcher,Pitcher,Active
+669477,Casey Schmitt,137,San Francisco Giants,2025,10,Third Base,Infielder,Active
+683766,Christian Koss,137,San Francisco Giants,2025,50,Second Base,Infielder,Active
+687551,Drew Gilbert,137,San Francisco Giants,2025,61,Outfielder,Outfielder,Active
+669062,Erik Miller,137,San Francisco Giants,2025,68,Pitcher,Pitcher,Active
+687529,Grant McCray,137,San Francisco Giants,2025,58,Outfielder,Outfielder,Active
+806185,Hayden Birdsong,137,San Francisco Giants,2025,60,Pitcher,Pitcher,Active
+671218,Heliot Ramos,137,San Francisco Giants,2025,17,Outfielder,Outfielder,Active
+664141,JT Brubaker,137,San Francisco Giants,2025,34,Pitcher,Pitcher,Active
+666464,Jerar Encarnacion,137,San Francisco Giants,2025,59,Outfielder,Outfielder,Active
+683679,Jesus Rodriguez,137,San Francisco Giants,2025,,Catcher,Catcher,Active
+666711,Joel Peguero,137,San Francisco Giants,2025,63,Pitcher,Pitcher,Active
+664192,Joey Lucchesi,137,San Francisco Giants,2025,57,Pitcher,Pitcher,Active
+676130,José Buttó,137,San Francisco Giants,2025,70,Pitcher,Pitcher,Active
+808982,Jung Hoo Lee,137,San Francisco Giants,2025,51,Outfielder,Outfielder,Active
+681909,Justin Dean,137,San Francisco Giants,2025,,Outfielder,Outfielder,Active
+678906,Kai-Wei Teng,137,San Francisco Giants,2025,66,Pitcher,Pitcher,Active
+676775,Keaton Winn,137,San Francisco Giants,2025,67,Pitcher,Pitcher,Active
+694738,Landen Roupp,137,San Francisco Giants,2025,65,Pitcher,Pitcher,Active
+657277,Logan Webb,137,San Francisco Giants,2025,62,Pitcher,Pitcher,Active
+682641,Luis Matos,137,San Francisco Giants,2025,29,Outfielder,Outfielder,Active
+682617,Marco Luciano,137,San Francisco Giants,2025,37,Outfield,Outfielder,Active
+656305,Matt Chapman,137,San Francisco Giants,2025,26,Third Base,Infielder,Active
+657424,Matt Gage,137,San Francisco Giants,2025,93,Pitcher,Pitcher,Active
+672275,Patrick Bailey,137,San Francisco Giants,2025,14,Catcher,Catcher,Active
+646240,Rafael Devers,137,San Francisco Giants,2025,16,Designated Hitter,Hitter,Active
+678495,Randy Rodríguez,137,San Francisco Giants,2025,73,Pitcher,Pitcher,Active
+665665,Reiver Sanmartin,137,San Francisco Giants,2025,,Pitcher,Pitcher,Active
+592662,Robbie Ray,137,San Francisco Giants,2025,38,Pitcher,Pitcher,Active
+676254,Ryan Walker,137,San Francisco Giants,2025,74,Pitcher,Pitcher,Active
+702352,Spencer Bivens,137,San Francisco Giants,2025,76,Pitcher,Pitcher,Active
+686790,Trevor McDonald,137,San Francisco Giants,2025,72,Pitcher,Pitcher,Active
+663941,Tristan Beck,137,San Francisco Giants,2025,43,Pitcher,Pitcher,Active
+666149,Tyler Fitzgerald,137,San Francisco Giants,2025,49,Second Base,Infielder,Active
+685133,Wade Meckler,137,San Francisco Giants,2025,53,Outfield,Outfielder,Active
+642715,Willy Adames,137,San Francisco Giants,2025,2,Shortstop,Infielder,Active
+676475,Alec Burleson,138,St. Louis Cardinals,2025,41,First Base,Infielder,Active
+701552,Andre Granillo,138,St. Louis Cardinals,2025,65,Pitcher,Pitcher,Active
+669467,Andre Pallante,138,St. Louis Cardinals,2025,53,Pitcher,Pitcher,Active
+680977,Brendan Donovan,138,St. Louis Cardinals,2025,33,Second Base,Infielder,Active
+663494,Bryan Torres,138,St. Louis Cardinals,2025,,Outfield,Outfielder,Active
+693409,César Prieto,138,St. Louis Cardinals,2025,31,Second Base,Infielder,Active
+688297,Chris Roycroft,138,St. Louis Cardinals,2025,58,Pitcher,Pitcher,Active
+700669,Gordon Graceffo,138,St. Louis Cardinals,2025,44,Pitcher,Pitcher,Active
+671056,Iván Herrera,138,St. Louis Cardinals,2025,48,Catcher,Catcher,Active
+699625,Jimmy Crooks,138,St. Louis Cardinals,2025,8,Catcher,Catcher,Active
+668941,JoJo Romero,138,St. Louis Cardinals,2025,59,Pitcher,Pitcher,Active
+667463,John King,138,St. Louis Cardinals,2025,47,Pitcher,Pitcher,Active
+691023,Jordan Walker,138,St. Louis Cardinals,2025,18,Outfielder,Outfielder,Active
+660896,Jorge Alcala,138,St. Louis Cardinals,2025,56,Pitcher,Pitcher,Active
+665877,José Fermín,138,St. Louis Cardinals,2025,15,Second Base,Infielder,Active
+681517,Kyle Leahy,138,St. Louis Cardinals,2025,62,Pitcher,Pitcher,Active
+663457,Lars Nootbaar,138,St. Louis Cardinals,2025,21,Outfielder,Outfielder,Active
+691026,Masyn Winn,138,St. Louis Cardinals,2025,0,Shortstop,Infielder,Active
+689288,Matt Koperniak,138,St. Louis Cardinals,2025,29,Outfielder,Outfielder,Active
+694335,Matt Svanson,138,St. Louis Cardinals,2025,49,Pitcher,Pitcher,Active
+669461,Matthew Liberatore,138,St. Louis Cardinals,2025,52,Pitcher,Pitcher,Active
+700241,Michael McGreevy,138,St. Louis Cardinals,2025,36,Pitcher,Pitcher,Active
+701675,Nathan Church,138,St. Louis Cardinals,2025,27,Outfielder,Outfielder,Active
+675919,Nick Raquet,138,St. Louis Cardinals,2025,70,Pitcher,Pitcher,Active
+571448,Nolan Arenado,138,St. Louis Cardinals,2025,28,Third Base,Infielder,Active
+669357,Nolan Gorman,138,St. Louis Cardinals,2025,16,Second Base,Infielder,Active
+686780,Pedro Pagés,138,St. Louis Cardinals,2025,43,Catcher,Catcher,Active
+676617,Riley O'Brien,138,St. Louis Cardinals,2025,55,Pitcher,Pitcher,Active
+681676,Ryan Fernandez,138,St. Louis Cardinals,2025,64,Pitcher,Pitcher,Active
+691828,Sem Robberse,138,St. Louis Cardinals,2025,61,Pitcher,Pitcher,Active
+543243,Sonny Gray,138,St. Louis Cardinals,2025,54,Pitcher,Pitcher,Active
+694358,Tekoah Roby,138,St. Louis Cardinals,2025,38,Pitcher,Pitcher,Active
+695336,Thomas Saggese,138,St. Louis Cardinals,2025,25,Second Base,Infielder,Active
+693311,Tink Hence,138,St. Louis Cardinals,2025,30,Pitcher,Pitcher,Active
+687363,Victor Scott II,138,St. Louis Cardinals,2025,11,Outfielder,Outfielder,Active
+575929,Willson Contreras,138,St. Louis Cardinals,2025,40,First Base,Infielder,Active
+650968,Yohel Pozo,138,St. Louis Cardinals,2025,63,Catcher,Catcher,Active
+664040,Brandon Lowe,139,Tampa Bay Rays,2025,8,Second Base,Infielder,Active
+641329,Bryan Baker,139,Tampa Bay Rays,2025,47,Pitcher,Pitcher,Active
+700246,Carson Williams,139,Tampa Bay Rays,2025,7,Shortstop,Infielder,Active
+802415,Chandler Simpson,139,Tampa Bay Rays,2025,14,Outfielder,Outfielder,Active
+666624,Christopher Morel,139,Tampa Bay Rays,2025,24,Outfielder,Outfielder,Active
+642121,Cole Sulser,139,Tampa Bay Rays,2025,71,Pitcher,Pitcher,Active
+656876,Drew Rasmussen,139,Tampa Bay Rays,2025,57,Pitcher,Pitcher,Active
+670955,Edwin Uceta,139,Tampa Bay Rays,2025,63,Pitcher,Pitcher,Active
+679358,Eric Orze,139,Tampa Bay Rays,2025,17,Pitcher,Pitcher,Active
+677592,Everson Pereira,139,Tampa Bay Rays,2025,45,Outfielder,Outfielder,Active
+666215,Forrest Whitley,139,Tampa Bay Rays,2025,,Pitcher,Pitcher,Active
+664076,Garrett Cleavinger,139,Tampa Bay Rays,2025,60,Pitcher,Pitcher,Active
+643377,Griffin Jax,139,Tampa Bay Rays,2025,22,Pitcher,Pitcher,Active
+685801,Hunter Bigge,139,Tampa Bay Rays,2025,43,Pitcher,Pitcher,Active
+676439,Hunter Feduccia,139,Tampa Bay Rays,2025,30,Catcher,Catcher,Active
+693855,Ian Seymour,139,Tampa Bay Rays,2025,61,Pitcher,Pitcher,Active
+641584,Jake Fraley,139,Tampa Bay Rays,2025,,Outfielder,Outfielder,Active
+663968,Jake Mangum,139,Tampa Bay Rays,2025,28,Outfielder,Outfielder,Active
+669947,Jesse Scholtens,139,Tampa Bay Rays,2025,65,Pitcher,Pitcher,Active
+671212,Joe Boyle,139,Tampa Bay Rays,2025,36,Pitcher,Pitcher,Active
+697812,Joe Rock,139,Tampa Bay Rays,2025,68,Pitcher,Pitcher,Active
+666018,Jonathan Aranda,139,Tampa Bay Rays,2025,62,First Base,Infielder,Active
+676356,Jonny DeLuca,139,Tampa Bay Rays,2025,21,Outfielder,Outfielder,Active
+666139,Josh Lowe,139,Tampa Bay Rays,2025,15,Outfielder,Outfielder,Active
+691406,Junior Caminero,139,Tampa Bay Rays,2025,13,Third Base,Infielder,Active
+687330,Kevin Kelly,139,Tampa Bay Rays,2025,49,Pitcher,Pitcher,Active
+655889,Manuel Rodríguez,139,Tampa Bay Rays,2025,39,Pitcher,Pitcher,Active
+669438,Mason Englert,139,Tampa Bay Rays,2025,59,Pitcher,Pitcher,Active
+682254,Mason Montgomery,139,Tampa Bay Rays,2025,48,Pitcher,Pitcher,Active
+663743,Nick Fortes,139,Tampa Bay Rays,2025,40,Catcher,Catcher,Active
+680700,Richie Palacios,139,Tampa Bay Rays,2025,1,Outfielder,Outfielder,Active
+686752,Ryan Pepiot,139,Tampa Bay Rays,2025,44,Pitcher,Pitcher,Active
+668723,Ryan Vilade,139,Tampa Bay Rays,2025,,Outfielder,Outfielder,Active
+669358,Shane Baz,139,Tampa Bay Rays,2025,11,Pitcher,Pitcher,Active
+663556,Shane McClanahan,139,Tampa Bay Rays,2025,18,Pitcher,Pitcher,Active
+670764,Taylor Walls,139,Tampa Bay Rays,2025,6,Shortstop,Infielder,Active
+656484,Tristan Gray,139,Tampa Bay Rays,2025,10,Third Base,Infielder,Active
+671976,Tristan Peters,139,Tampa Bay Rays,2025,25,Outfielder,Outfielder,Active
+650490,Yandy Díaz,139,Tampa Bay Rays,2025,2,First Base,Infielder,Active
+692414,Yoniel Curet,139,Tampa Bay Rays,2025,58,Pitcher,Pitcher,Active
+666969,Adolis García,140,Texas Rangers,2025,53,Outfielder,Outfielder,Active
+696030,Alejandro Osuna,140,Texas Rangers,2025,19,Outfielder,Outfielder,Active
+674003,Cody Bradford,140,Texas Rangers,2025,61,Pitcher,Pitcher,Active
+683227,Cody Freeman,140,Texas Rangers,2025,39,Third Base,Infielder,Active
+668390,Cole Winn,140,Texas Rangers,2025,60,Pitcher,Pitcher,Active
+608369,Corey Seager,140,Texas Rangers,2025,5,Shortstop,Infielder,Active
+687589,Dom Hamel,140,Texas Rangers,2025,,Pitcher,Pitcher,Active
+693713,Emiliano Teodo,140,Texas Rangers,2025,82,Pitcher,Pitcher,Active
+694497,Evan Carter,140,Texas Rangers,2025,32,Outfielder,Outfielder,Active
+677649,Ezequiel Duran,140,Texas Rangers,2025,20,Shortstop,Infielder,Active
+683004,Jack Leiter,140,Texas Rangers,2025,35,Pitcher,Pitcher,Active
+656641,Jacob Latz,140,Texas Rangers,2025,67,Pitcher,Pitcher,Active
+657097,Jacob Webb,140,Texas Rangers,2025,71,Pitcher,Pitcher,Active
+594798,Jacob deGrom,140,Texas Rangers,2025,48,Pitcher,Pitcher,Active
+669394,Jake Burger,140,Texas Rangers,2025,21,First Base,Infielder,Active
+592626,Joc Pederson,140,Texas Rangers,2025,4,First Base,Infielder,Active
+641680,Jonah Heim,140,Texas Rangers,2025,28,Catcher,Catcher,Active
+692030,Jose Corniell,140,Texas Rangers,2025,59,Pitcher,Pitcher,Active
+673962,Josh Jung,140,Texas Rangers,2025,6,Third Base,Infielder,Active
+622250,Josh Sborz,140,Texas Rangers,2025,66,Pitcher,Pitcher,Active
+669701,Josh Smith,140,Texas Rangers,2025,8,Shortstop,Infielder,Active
+679822,Justin Foscue,140,Texas Rangers,2025,56,First Base,Infielder,Active
+677958,Kumar Rocker,140,Texas Rangers,2025,80,Pitcher,Pitcher,Active
+543309,Kyle Higashioka,140,Texas Rangers,2025,11,Catcher,Catcher,Active
+681168,Luis Curvelo,140,Texas Rangers,2025,57,Pitcher,Pitcher,Active
+687847,Marc Church,140,Texas Rangers,2025,30,Pitcher,Pitcher,Active
+543760,Marcus Semien,140,Texas Rangers,2025,2,Second Base,Infielder,Active
+680737,Michael Helman,140,Texas Rangers,2025,24,Outfielder,Outfielder,Active
+671305,Michel Otañez,140,Texas Rangers,2025,,Pitcher,Pitcher,Active
+543135,Nathan Eovaldi,140,Texas Rangers,2025,17,Pitcher,Pitcher,Active
+676395,Robert Garcia,140,Texas Rangers,2025,62,Pitcher,Pitcher,Active
+664059,Sam Haggerty,140,Texas Rangers,2025,0,Outfielder,Outfielder,Active
+680862,Willie MacIver,140,Texas Rangers,2025,,Catcher,Catcher,Active
+692437,Winston Santos,140,Texas Rangers,2025,84,Pitcher,Pitcher,Active
+694671,Wyatt Langford,140,Texas Rangers,2025,36,Outfielder,Outfielder,Active
+671936,Adam Macko,141,Toronto Blue Jays,2025,64,Pitcher,Pitcher,Active
+680718,Addison Barger,141,Toronto Blue Jays,2025,47,Third Base,Infielder,Active
+672386,Alejandro Kirk,141,Toronto Blue Jays,2025,30,Catcher,Catcher,Active
+665926,Andrés Giménez,141,Toronto Blue Jays,2025,0,Second Base,Infielder,Active
+682785,Angel Bastardo,141,Toronto Blue Jays,2025,66,Pitcher,Pitcher,Active
+623993,Anthony Santander,141,Toronto Blue Jays,2025,25,Outfielder,Outfielder,Active
+670102,Bowden Francis,141,Toronto Blue Jays,2025,44,Pitcher,Pitcher,Active
+678218,Brandon Valenzuela,141,Toronto Blue Jays,2025,,Catcher,Catcher,Active
+680755,Braydon Fisher,141,Toronto Blue Jays,2025,63,Pitcher,Pitcher,Active
+663893,Brendon Little,141,Toronto Blue Jays,2025,54,Pitcher,Pitcher,Active
+662139,Daulton Varsho,141,Toronto Blue Jays,2025,5,Outfielder,Outfielder,Active
+676914,Davis Schneider,141,Toronto Blue Jays,2025,36,Outfielder,Outfielder,Active
+687922,Easton Lucas,141,Toronto Blue Jays,2025,62,Pitcher,Pitcher,Active
+641778,Eric Lauer,141,Toronto Blue Jays,2025,56,Pitcher,Pitcher,Active
+676391,Ernie Clement,141,Toronto Blue Jays,2025,22,Third Base,Infielder,Active
+543807,George Springer,141,Toronto Blue Jays,2025,4,Outfielder,Outfielder,Active
+814005,Jake Bloss,141,Toronto Blue Jays,2025,28,Pitcher,Pitcher,Active
+656546,Jeff Hoffman,141,Toronto Blue Jays,2025,23,Pitcher,Pitcher,Active
+694388,Joey Loperfido,141,Toronto Blue Jays,2025,10,Outfielder,Outfielder,Active
+682729,Jonatan Clase,141,Toronto Blue Jays,2025,8,Outfielder,Outfielder,Active
+621244,José Berríos,141,Toronto Blue Jays,2025,17,Pitcher,Pitcher,Active
+677865,Justin Bruihl,141,Toronto Blue Jays,2025,58,Pitcher,Pitcher,Active
+592332,Kevin Gausman,141,Toronto Blue Jays,2025,34,Pitcher,Pitcher,Active
+681751,Lazaro Estrada,141,Toronto Blue Jays,2025,60,Pitcher,Pitcher,Active
+677870,Leo Jiménez,141,Toronto Blue Jays,2025,49,Shortstop,Infielder,Active
+686973,Louis Varland,141,Toronto Blue Jays,2025,77,Pitcher,Pitcher,Active
+689254,Mason Fluharty,141,Toronto Blue Jays,2025,68,Pitcher,Pitcher,Active
+664702,Myles Straw,141,Toronto Blue Jays,2025,3,Outfielder,Outfielder,Active
+664770,Nathan Lukes,141,Toronto Blue Jays,2025,38,Outfielder,Outfielder,Active
+680704,Nick Sandlin,141,Toronto Blue Jays,2025,52,Pitcher,Pitcher,Active
+687606,Paxton Schultz,141,Toronto Blue Jays,2025,65,Pitcher,Pitcher,Active
+669456,Shane Bieber,141,Toronto Blue Jays,2025,57,Pitcher,Pitcher,Active
+667297,Tommy Nance,141,Toronto Blue Jays,2025,45,Pitcher,Pitcher,Active
+702056,Trey Yesavage,141,Toronto Blue Jays,2025,39,Pitcher,Pitcher,Active
+623168,Tyler Heineman,141,Toronto Blue Jays,2025,55,Catcher,Catcher,Active
+665489,Vladimir Guerrero Jr.,141,Toronto Blue Jays,2025,27,First Base,Infielder,Active
+684320,Yariel Rodríguez,141,Toronto Blue Jays,2025,29,Pitcher,Pitcher,Active
+554340,Yimi García,141,Toronto Blue Jays,2025,93,Pitcher,Pitcher,Active
+702176,Alan Roden,142,Minnesota Twins,2025,19,Outfielder,Outfielder,Active
+668885,Austin Martin,142,Minnesota Twins,2025,16,Outfielder,Outfielder,Active
+641927,Bailey Ober,142,Minnesota Twins,2025,17,Pitcher,Pitcher,Active
+686797,Brooks Lee,142,Minnesota Twins,2025,2,Third Base,Infielder,Active
+621439,Byron Buxton,142,Minnesota Twins,2025,25,Outfielder,Outfielder,Active
+676812,Carson McCusker,142,Minnesota Twins,2025,60,Outfielder,Outfielder,Active
+663485,Cole Sands,142,Minnesota Twins,2025,44,Pitcher,Pitcher,Active
+680577,DaShawn Keirsey Jr.,142,Minnesota Twins,2025,21,Outfielder,Outfielder,Active
+701581,David Festa,142,Minnesota Twins,2025,58,Pitcher,Pitcher,Active
+666397,Edouard Julien,142,Minnesota Twins,2025,47,Second Base,Infielder,Active
+691181,Emmanuel Rodriguez,142,Minnesota Twins,2025,32,Outfielder,Outfielder,Active
+681546,James Outman,142,Minnesota Twins,2025,43,Outfielder,Outfielder,Active
+640902,Jhonny Pereda,142,Minnesota Twins,2025,65,Catcher,Catcher,Active
+657746,Joe Ryan,142,Minnesota Twins,2025,41,Pitcher,Pitcher,Active
+623437,Justin Topa,142,Minnesota Twins,2025,48,Pitcher,Pitcher,Active
+665019,Kody Clemens,142,Minnesota Twins,2025,18,Second Base,Infielder,Active
+681892,Kody Funderburk,142,Minnesota Twins,2025,55,Pitcher,Pitcher,Active
+807712,Luke Keaschall,142,Minnesota Twins,2025,15,Second Base,Infielder,Active
+694397,Marco Raya,142,Minnesota Twins,2025,85,Pitcher,Pitcher,Active
+670242,Matt Wallner,142,Minnesota Twins,2025,38,Outfielder,Outfielder,Active
+690953,Mick Abel,142,Minnesota Twins,2025,20,Pitcher,Pitcher,Active
+681508,Mickey Gasper,142,Minnesota Twins,2025,11,Second Base,Infielder,Active
+641154,Pablo López,142,Minnesota Twins,2025,49,Pitcher,Pitcher,Active
+701487,Pierson Ohl,142,Minnesota Twins,2025,62,Pitcher,Pitcher,Active
+668904,Royce Lewis,142,Minnesota Twins,2025,23,Third Base,Infielder,Active
+680837,Ryan Fitzgerald,142,Minnesota Twins,2025,53,Third Base,Infielder,Active
+680777,Ryan Jeffers,142,Minnesota Twins,2025,27,Catcher,Catcher,Active
+668952,Ryan Kreidler,142,Minnesota Twins,2025,,Outfielder,Outfielder,Active
+680573,Simeon Woods Richardson,142,Minnesota Twins,2025,24,Pitcher,Pitcher,Active
+671737,Taj Bradley,142,Minnesota Twins,2025,26,Pitcher,Pitcher,Active
+701519,Travis Adams,142,Minnesota Twins,2025,45,Pitcher,Pitcher,Active
+663616,Trevor Larnach,142,Minnesota Twins,2025,9,Outfielder,Outfielder,Active
+805673,Zebby Matthews,142,Minnesota Twins,2025,52,Pitcher,Pitcher,Active
+605400,Aaron Nola,143,Philadelphia Phillies,2025,27,Pitcher,Pitcher,Active
+660604,Alan Rangel,143,Philadelphia Phillies,2025,56,Pitcher,Pitcher,Active
+664761,Alec Bohm,143,Philadelphia Phillies,2025,28,Third Base,Infielder,Active
+669016,Brandon Marsh,143,Philadelphia Phillies,2025,16,Outfielder,Outfielder,Active
+547180,Bryce Harper,143,Philadelphia Phillies,2025,3,First Base,Infielder,Active
+681082,Bryson Stott,143,Philadelphia Phillies,2025,5,Second Base,Infielder,Active
+650911,Cristopher Sánchez,143,Philadelphia Phillies,2025,61,Pitcher,Pitcher,Active
+642016,Daniel Robert,143,Philadelphia Phillies,2025,48,Pitcher,Pitcher,Active
+624641,Edmundo Sosa,143,Philadelphia Phillies,2025,33,Second Base,Infielder,Active
+596117,Garrett Stubbs,143,Philadelphia Phillies,2025,21,Catcher,Catcher,Active
+691893,Jean Cabrera,143,Philadelphia Phillies,2025,79,Pitcher,Pitcher,Active
+666200,Jesús Luzardo,143,Philadelphia Phillies,2025,44,Pitcher,Pitcher,Active
+661395,Jhoan Duran,143,Philadelphia Phillies,2025,59,Pitcher,Pitcher,Active
+679032,Johan Rojas,143,Philadelphia Phillies,2025,23,Outfielder,Outfielder,Active
+621237,José Alvarado,143,Philadelphia Phillies,2025,46,Pitcher,Pitcher,Active
+621381,Matt Strahm,143,Philadelphia Phillies,2025,25,Pitcher,Pitcher,Active
+676661,Max Lazar,143,Philadelphia Phillies,2025,60,Pitcher,Pitcher,Active
+675650,Michael Mercado,143,Philadelphia Phillies,2025,63,Pitcher,Pitcher,Active
+691330,Moisés Chace,143,Philadelphia Phillies,2025,75,Pitcher,Pitcher,Active
+592206,Nick Castellanos,143,Philadelphia Phillies,2025,8,Outfielder,Outfielder,Active
+676510,Nolan Hoffman,143,Philadelphia Phillies,2025,47,Pitcher,Pitcher,Active
+689147,Orion Kerkering,143,Philadelphia Phillies,2025,50,Pitcher,Pitcher,Active
+805249,Otto Kemp,143,Philadelphia Phillies,2025,4,First Base,Infielder,Active
+665561,Rafael Marchán,143,Philadelphia Phillies,2025,13,Catcher,Catcher,Active
+686751,Seth Johnson,143,Philadelphia Phillies,2025,51,Pitcher,Pitcher,Active
+592836,Taijuan Walker,143,Philadelphia Phillies,2025,99,Pitcher,Pitcher,Active
+621383,Tanner Banks,143,Philadelphia Phillies,2025,58,Pitcher,Pitcher,Active
+607208,Trea Turner,143,Philadelphia Phillies,2025,7,Shortstop,Infielder,Active
+642215,Weston Wilson,143,Philadelphia Phillies,2025,37,Outfielder,Outfielder,Active
+554430,Zack Wheeler,143,Philadelphia Phillies,2025,45,Pitcher,Pitcher,Active
+700363,AJ Smith-Shawver,144,Atlanta Braves,2025,32,Pitcher,Pitcher,Active
+607481,Aaron Bummer,144,Atlanta Braves,2025,49,Pitcher,Pitcher,Active
+666201,Alek Manoah,144,Atlanta Braves,2025,,Pitcher,Pitcher,Active
+663586,Austin Riley,144,Atlanta Braves,2025,27,Third Base,Infielder,Active
+689172,Brett Wisely,144,Atlanta Braves,2025,60,Second Base,Infielder,Active
+693821,Bryce Elder,144,Atlanta Braves,2025,55,Pitcher,Pitcher,Active
+519242,Chris Sale,144,Atlanta Braves,2025,51,Pitcher,Pitcher,Active
+678226,Daysbel Hernández,144,Atlanta Braves,2025,62,Pitcher,Pitcher,Active
+800311,Didier Fuentes,144,Atlanta Braves,2025,75,Pitcher,Pitcher,Active
+686948,Drake Baldwin,144,Atlanta Braves,2025,30,Catcher,Catcher,Active
+689266,Dylan Dodd,144,Atlanta Braves,2025,46,Pitcher,Pitcher,Active
+669276,Dylan Lee,144,Atlanta Braves,2025,52,Pitcher,Pitcher,Active
+642201,Eli White,144,Atlanta Braves,2025,36,Outfielder,Outfielder,Active
+656550,Grant Holmes,144,Atlanta Braves,2025,66,Pitcher,Pitcher,Active
+802686,Hayden Harris,144,Atlanta Braves,2025,79,Pitcher,Pitcher,Active
+676702,Hunter Stratton,144,Atlanta Braves,2025,65,Pitcher,Pitcher,Active
+694462,Hurston Waldrep,144,Atlanta Braves,2025,64,Pitcher,Pitcher,Active
+702910,Jhancarlos Lara,144,Atlanta Braves,2025,81,Pitcher,Pitcher,Active
+641729,Joe Jiménez,144,Atlanta Braves,2025,77,Pitcher,Pitcher,Active
+666214,Joey Wentz,144,Atlanta Braves,2025,33,Pitcher,Pitcher,Active
+660761,José Suarez,144,Atlanta Braves,2025,54,Pitcher,Pitcher,Active
+595777,Jurickson Profar,144,Atlanta Braves,2025,7,Outfielder,Outfielder,Active
+621566,Matt Olson,144,Atlanta Braves,2025,28,First Base,Infielder,Active
+671739,Michael Harris II,144,Atlanta Braves,2025,23,Outfielder,Outfielder,Active
+672279,Michael Siani,144,Atlanta Braves,2025,,Outfielder,Outfielder,Active
+805373,Nacho Alvarez Jr.,144,Atlanta Braves,2025,67,Shortstop,Infielder,Active
+669397,Nick Allen,144,Atlanta Braves,2025,2,Shortstop,Infielder,Active
+645277,Ozzie Albies,144,Atlanta Braves,2025,1,Second Base,Infielder,Active
+625643,Reynaldo López,144,Atlanta Braves,2025,40,Pitcher,Pitcher,Active
+691548,Rolddy Muñoz,144,Atlanta Braves,2025,70,Pitcher,Pitcher,Active
+660670,Ronald Acuña Jr.,144,Atlanta Braves,2025,13,Outfielder,Outfielder,Active
+669221,Sean Murphy,144,Atlanta Braves,2025,12,Catcher,Catcher,Active
+680885,Spencer Schwellenbach,144,Atlanta Braves,2025,56,Pitcher,Pitcher,Active
+675911,Spencer Strider,144,Atlanta Braves,2025,99,Pitcher,Pitcher,Active
+660644,Vidal Bruján,144,Atlanta Braves,2025,17,Third Base,Infielder,Active
+643217,Andrew Benintendi,145,Chicago White Sox,2025,23,Outfielder,Outfielder,Active
+701496,Ben Cowles,145,Chicago White Sox,2025,,Third Base,Infielder,Active
+685126,Brandon Eisert,145,Chicago White Sox,2025,53,Pitcher,Pitcher,Active
+681460,Brooks Baldwin,145,Chicago White Sox,2025,27,Outfielder,Outfielder,Active
+663542,Bryan Hudson,145,Chicago White Sox,2025,60,Pitcher,Pitcher,Active
+682868,Bryan Ramos,145,Chicago White Sox,2025,44,Third Base,Infielder,Active
+592155,Cam Booser,145,Chicago White Sox,2025,71,Pitcher,Pitcher,Active
+805367,Chase Meidroth,145,Chicago White Sox,2025,10,Shortstop,Infielder,Active
+695657,Colson Montgomery,145,Chicago White Sox,2025,12,Shortstop,Infielder,Active
+678554,Curtis Mead,145,Chicago White Sox,2025,29,First Base,Infielder,Active
+663436,Davis Martin,145,Chicago White Sox,2025,65,Pitcher,Pitcher,Active
+656537,Derek Hill,145,Chicago White Sox,2025,47,Outfielder,Outfielder,Active
+689672,Drew Thorpe,145,Chicago White Sox,2025,33,Pitcher,Pitcher,Active
+700337,Edgar Quero,145,Chicago White Sox,2025,7,Catcher,Catcher,Active
+686642,Fraser Ellard,145,Chicago White Sox,2025,55,Pitcher,Pitcher,Active
+691799,Grant Taylor,145,Chicago White Sox,2025,31,Pitcher,Pitcher,Active
+683568,Jairo Iriarte,145,Chicago White Sox,2025,58,Pitcher,Pitcher,Active
+686563,Jonathan Cannon,145,Chicago White Sox,2025,48,Pitcher,Pitcher,Active
+673929,Jordan Leasure,145,Chicago White Sox,2025,49,Pitcher,Pitcher,Active
+686676,Korey Lee,145,Chicago White Sox,2025,26,Catcher,Catcher,Active
+681066,Ky Bush,145,Chicago White Sox,2025,,Pitcher,Pitcher,Active
+691019,Kyle Teel,145,Chicago White Sox,2025,8,Catcher,Catcher,Active
+672820,Lenyn Sosa,145,Chicago White Sox,2025,50,Second Base,Infielder,Active
+673357,Luis Robert Jr.,145,Chicago White Sox,2025,88,Outfielder,Outfielder,Active
+678246,Miguel Vargas,145,Chicago White Sox,2025,20,Third Base,Infielder,Active
+643565,Mike Tauchman,145,Chicago White Sox,2025,18,Outfielder,Outfielder,Active
+678024,Mike Vasil,145,Chicago White Sox,2025,61,Pitcher,Pitcher,Active
+672860,Prelander Berroa,145,Chicago White Sox,2025,66,Pitcher,Pitcher,Active
+680732,Sean Burke,145,Chicago White Sox,2025,59,Pitcher,Pitcher,Active
+681343,Shane Smith,145,Chicago White Sox,2025,64,Pitcher,Pitcher,Active
+621051,Steven Wilson,145,Chicago White Sox,2025,36,Pitcher,Pitcher,Active
+671284,Tim Elko,145,Chicago White Sox,2025,30,First Base,Infielder,Active
+656457,Tyler Gilbert,145,Chicago White Sox,2025,40,Pitcher,Pitcher,Active
+682790,Wikelman González,145,Chicago White Sox,2025,66,Pitcher,Pitcher,Active
+672782,Yoendrys Gómez,145,Chicago White Sox,2025,94,Pitcher,Pitcher,Active
+800049,Adam Mazur,146,Miami Marlins,2025,60,Pitcher,Pitcher,Active
+682663,Agustín Ramírez,146,Miami Marlins,2025,50,Catcher,Catcher,Active
+677053,Andrew Nardi,146,Miami Marlins,2025,43,Pitcher,Pitcher,Active
+669622,Anthony Bender,146,Miami Marlins,2025,37,Pitcher,Pitcher,Active
+666129,Braxton Garrett,146,Miami Marlins,2025,29,Pitcher,Pitcher,Active
+806188,Cade Gibson,146,Miami Marlins,2025,58,Pitcher,Pitcher,Active
+676534,Calvin Faucher,146,Miami Marlins,2025,53,Pitcher,Pitcher,Active
+681393,Connor Norby,146,Miami Marlins,2025,1,Third Base,Infielder,Active
+667472,Dane Myers,146,Miami Marlins,2025,54,Outfielder,Outfielder,Active
+690978,Dax Fulton,146,Miami Marlins,2025,90,Pitcher,Pitcher,Active
+691277,Deyvison De Los Santos,146,Miami Marlins,2025,65,Third Base,Infielder,Active
+665795,Edward Cabrera,146,Miami Marlins,2025,27,Pitcher,Pitcher,Active
+676572,Eric Wagaman,146,Miami Marlins,2025,33,First Base,Infielder,Active
+691587,Eury Pérez,146,Miami Marlins,2025,39,Pitcher,Pitcher,Active
+688363,Graham Pauley,146,Miami Marlins,2025,21,Third Base,Infielder,Active
+665052,Griffin Conine,146,Miami Marlins,2025,18,Outfielder,Outfielder,Active
+681715,Heriberto Hernández,146,Miami Marlins,2025,64,Outfielder,Outfielder,Active
+805300,Jakob Marsee,146,Miami Marlins,2025,87,Outfielder,Outfielder,Active
+676083,Janson Junk,146,Miami Marlins,2025,26,Pitcher,Pitcher,Active
+691858,Jared Serna,146,Miami Marlins,2025,68,Shortstop,Infielder,Active
+691594,Javier Sanoja,146,Miami Marlins,2025,46,Second Base,Infielder,Active
+686894,Joey Wiemer,146,Miami Marlins,2025,41,Outfielder,Outfielder,Active
+681006,Josh Simpson,146,Miami Marlins,2025,66,Pitcher,Pitcher,Active
+669065,Kyle Stowers,146,Miami Marlins,2025,28,Outfielder,Outfielder,Active
+669199,Lake Bachar,146,Miami Marlins,2025,84,Pitcher,Pitcher,Active
+689414,Liam Hicks,146,Miami Marlins,2025,34,Catcher,Catcher,Active
+676974,Max Meyer,146,Miami Marlins,2025,23,Pitcher,Pitcher,Active
+691185,Maximo Acosta,146,Miami Marlins,2025,24,Shortstop,Infielder,Active
+656848,Michael Petersen,146,Miami Marlins,2025,49,Pitcher,Pitcher,Active
+672640,Otto Lopez,146,Miami Marlins,2025,6,Second Base,Infielder,Active
+678692,Ronny Henriquez,146,Miami Marlins,2025,32,Pitcher,Pitcher,Active
+687473,Ryan Gusto,146,Miami Marlins,2025,65,Pitcher,Pitcher,Active
+677960,Ryan Weathers,146,Miami Marlins,2025,35,Pitcher,Pitcher,Active
+645261,Sandy Alcantara,146,Miami Marlins,2025,22,Pitcher,Pitcher,Active
+663969,Tyler Phillips,146,Miami Marlins,2025,30,Pitcher,Pitcher,Active
+683748,Victor Mesa Jr.,146,Miami Marlins,2025,10,Outfielder,Outfielder,Active
+669364,Xavier Edwards,146,Miami Marlins,2025,9,Shortstop,Infielder,Active
+694350,Zach Brzykcy,146,Miami Marlins,2025,,Pitcher,Pitcher,Active
+592450,Aaron Judge,147,New York Yankees,2025,99,Outfielder,Outfielder,Active
+642216,Allan Winans,147,New York Yankees,2025,62,Pitcher,Pitcher,Active
+683011,Anthony Volpe,147,New York Yankees,2025,11,Shortstop,Infielder,Active
+669224,Austin Wells,147,New York Yankees,2025,28,Catcher,Catcher,Active
+700250,Ben Rice,147,New York Yankees,2025,22,First Base,Infielder,Active
+669699,Braden Shewmake,147,New York Yankees,2025,89,Shortstop,Infielder,Active
+687396,Brent Headrick,147,New York Yankees,2025,47,Pitcher,Pitcher,Active
+693645,Cam Schlittler,147,New York Yankees,2025,31,Pitcher,Pitcher,Active
+666808,Camilo Doval,147,New York Yankees,2025,75,Pitcher,Pitcher,Active
+607074,Carlos Rodón,147,New York Yankees,2025,55,Pitcher,Pitcher,Active
+657376,Clarke Schmidt,147,New York Yankees,2025,36,Pitcher,Pitcher,Active
+670280,David Bednar,147,New York Yankees,2025,53,Pitcher,Pitcher,Active
+518585,Fernando Cruz,147,New York Yankees,2025,63,Pitcher,Pitcher,Active
+543037,Gerrit Cole,147,New York Yankees,2025,45,Pitcher,Pitcher,Active
+519317,Giancarlo Stanton,147,New York Yankees,2025,27,Designated Hitter,Hitter,Active
+641656,Ian Hamilton,147,New York Yankees,2025,71,Pitcher,Pitcher,Active
+641555,J.C. Escarra,147,New York Yankees,2025,25,Catcher,Catcher,Active
+656234,Jake Bird,147,New York Yankees,2025,59,Pitcher,Pitcher,Active
+664776,Jake Cousins,147,New York Yankees,2025,61,Pitcher,Pitcher,Active
+691176,Jasson Domínguez,147,New York Yankees,2025,24,Outfielder,Outfielder,Active
+682144,Jayvien Sandridge,147,New York Yankees,2025,88,Pitcher,Pitcher,Active
+665862,Jazz Chisholm Jr.,147,New York Yankees,2025,13,Second Base,Infielder,Active
+678391,Jorbit Vivas,147,New York Yankees,2025,90,Second Base,Infielder,Active
+676609,José Caballero,147,New York Yankees,2025,72,Shortstop,Infielder,Active
+665645,Kervin Castro,147,New York Yankees,2025,,Pitcher,Pitcher,Active
+661563,Luis Gil,147,New York Yankees,2025,81,Pitcher,Pitcher,Active
+643410,Mark Leiter Jr.,147,New York Yankees,2025,56,Pitcher,Pitcher,Active
+608331,Max Fried,147,New York Yankees,2025,54,Pitcher,Pitcher,Active
+683522,Michael Arias,147,New York Yankees,2025,83,Pitcher,Pitcher,Active
+665828,Oswaldo Cabrera,147,New York Yankees,2025,95,Third Base,Infielder,Active
+641857,Ryan McMahon,147,New York Yankees,2025,19,Third Base,Infielder,Active
+664123,Scott Effross,147,New York Yankees,2025,57,Pitcher,Pitcher,Active
+657612,Tim Hill,147,New York Yankees,2025,41,Pitcher,Pitcher,Active
+701542,Will Warren,147,New York Yankees,2025,98,Pitcher,Pitcher,Active
+660787,Yerry De los Santos,147,New York Yankees,2025,73,Pitcher,Pitcher,Active
+676879,Aaron Ashby,158,Milwaukee Brewers,2025,26,Pitcher,Pitcher,Active
+682842,Abner Uribe,158,Milwaukee Brewers,2025,45,Pitcher,Pitcher,Active
+683734,Andrew Vaughn,158,Milwaukee Brewers,2025,28,First Base,Infielder,Active
+655316,Andruw Monasterio,158,Milwaukee Brewers,2025,14,Shortstop,Infielder,Active
+678011,Anthony Seigler,158,Milwaukee Brewers,2025,18,Second Base,Infielder,Active
+663368,Blake Perkins,158,Milwaukee Brewers,2025,16,Outfielder,Outfielder,Active
+663604,Brandon Lockridge,158,Milwaukee Brewers,2025,20,Outfielder,Outfielder,Active
+668930,Brice Turang,158,Milwaukee Brewers,2025,2,Second Base,Infielder,Active
+702332,Caleb Durbin,158,Milwaukee Brewers,2025,21,Third Base,Infielder,Active
+692230,Carlos Rodriguez,158,Milwaukee Brewers,2025,00,Pitcher,Pitcher,Active
+694477,Chad Patrick,158,Milwaukee Brewers,2025,39,Pitcher,Pitcher,Active
+592885,Christian Yelich,158,Milwaukee Brewers,2025,22,Outfielder,Outfielder,Active
+689441,Coleman Crow,158,Milwaukee Brewers,2025,,Pitcher,Pitcher,Active
+684974,Craig Yoho,158,Milwaukee Brewers,2025,48,Pitcher,Pitcher,Active
+669084,DL Hall,158,Milwaukee Brewers,2025,37,Pitcher,Pitcher,Active
+668834,Easton McGee,158,Milwaukee Brewers,2025,50,Pitcher,Pitcher,Active
+642547,Freddy Peralta,158,Milwaukee Brewers,2025,51,Pitcher,Pitcher,Active
+669003,Garrett Mitchell,158,Milwaukee Brewers,2025,5,Outfielder,Outfielder,Active
+681982,Grant Anderson,158,Milwaukee Brewers,2025,56,Pitcher,Pitcher,Active
+686555,Isaac Collins,158,Milwaukee Brewers,2025,6,Outfielder,Outfielder,Active
+694192,Jackson Chourio,158,Milwaukee Brewers,2025,11,Outfielder,Outfielder,Active
+694819,Jacob Misiorowski,158,Milwaukee Brewers,2025,32,Pitcher,Pitcher,Active
+641343,Jake Bauers,158,Milwaukee Brewers,2025,9,First Base,Infielder,Active
+657649,Jared Koenig,158,Milwaukee Brewers,2025,47,Pitcher,Pitcher,Active
+691620,Jeferson Quero,158,Milwaukee Brewers,2025,76,Catcher,Catcher,Active
+687401,Joey Ortiz,158,Milwaukee Brewers,2025,3,Shortstop,Infielder,Active
+701656,Logan Henderson,158,Milwaukee Brewers,2025,43,Pitcher,Pitcher,Active
+683232,Nick Mears,158,Milwaukee Brewers,2025,25,Pitcher,Pitcher,Active
+682990,Quinn Priester,158,Milwaukee Brewers,2025,46,Pitcher,Pitcher,Active
+642239,Rob Zastryzny,158,Milwaukee Brewers,2025,58,Pitcher,Pitcher,Active
+688107,Robert Gasser,158,Milwaukee Brewers,2025,54,Pitcher,Pitcher,Active
+686217,Sal Frelick,158,Milwaukee Brewers,2025,10,Outfielder,Outfielder,Active
+671111,Sammy Peralta,158,Milwaukee Brewers,2025,,Pitcher,Pitcher,Active
+672642,Steward Berroa,158,Milwaukee Brewers,2025,35,Outfielder,Outfielder,Active
+668964,Tobias Myers,158,Milwaukee Brewers,2025,36,Pitcher,Pitcher,Active
+656730,Trevor Megill,158,Milwaukee Brewers,2025,29,Pitcher,Pitcher,Active
+672012,Tyler Black,158,Milwaukee Brewers,2025,7,Third Base,Infielder,Active
+661388,William Contreras,158,Milwaukee Brewers,2025,24,Catcher,Catcher,Active
+543685,Anthony Rendon,108,Los Angeles Angels,2025,6,Third Base,Infielder,Active
+690829,Ben Joyce,108,Los Angeles Angels,2025,44,Pitcher,Pitcher,Active
+656271,Brock Burke,108,Los Angeles Angels,2025,46,Pitcher,Pitcher,Active
+669326,Bryce Teodosio,108,Los Angeles Angels,2025,22,Outfielder,Outfielder,Active
+702674,Caden Dana,108,Los Angeles Angels,2025,36,Pitcher,Pitcher,Active
+681217,Chase Silseth,108,Los Angeles Angels,2025,63,Pitcher,Pitcher,Active
+695681,Christian Moore,108,Los Angeles Angels,2025,4,Second Base,Infielder,Active
+689520,Cody Laweryson,108,Los Angeles Angels,2025,,Pitcher,Pitcher,Active
+694203,Denzer Guzman,108,Los Angeles Angels,2025,13,Shortstop,Infielder,Active
+672569,Gustavo Campero,108,Los Angeles Angels,2025,51,Outfielder,Outfielder,Active
+686799,Jack Kochanowicz,108,Los Angeles Angels,2025,41,Pitcher,Pitcher,Active
+666176,Jo Adell,108,Los Angeles Angels,2025,7,Outfielder,Outfielder,Active
+624585,Jorge Soler,108,Los Angeles Angels,2025,12,Outfielder,Outfielder,Active
+820862,José Fermin,108,Los Angeles Angels,2025,68,Pitcher,Pitcher,Active
+667755,José Soriano,108,Los Angeles Angels,2025,59,Pitcher,Pitcher,Active
+677347,Kyren Paris,108,Los Angeles Angels,2025,19,Second Base,Infielder,Active
+681351,Logan O'Hoppe,108,Los Angeles Angels,2025,14,Catcher,Catcher,Active
+683090,Matthew Lugo,108,Los Angeles Angels,2025,15,Outfielder,Outfielder,Active
+545361,Mike Trout,108,Los Angeles Angels,2025,27,Outfielder,Outfielder,Active
+815083,Mitch Farris,108,Los Angeles Angels,2025,70,Pitcher,Pitcher,Active
+694384,Nolan Schanuel,108,Los Angeles Angels,2025,18,First Base,Infielder,Active
+672724,Oswald Peraza,108,Los Angeles Angels,2025,10,Third Base,Infielder,Active
+672282,Reid Detmers,108,Los Angeles Angels,2025,48,Pitcher,Pitcher,Active
+596112,Robert Stephenson,108,Los Angeles Angels,2025,24,Pitcher,Pitcher,Active
+696270,Ryan Johnson,108,Los Angeles Angels,2025,32,Pitcher,Pitcher,Active
+666171,Ryan Zeferjahn,108,Los Angeles Angels,2025,56,Pitcher,Pitcher,Active
+691951,Sam Aldegheri,108,Los Angeles Angels,2025,61,Pitcher,Pitcher,Active
+696147,Sam Bachman,108,Los Angeles Angels,2025,40,Pitcher,Pitcher,Active
+665861,Sebastián Rivero,108,Los Angeles Angels,2025,38,Catcher,Catcher,Active
+621493,Taylor Ward,108,Los Angeles Angels,2025,3,Outfielder,Outfielder,Active
+518595,Travis d'Arnaud,108,Los Angeles Angels,2025,25,Catcher,Catcher,Active
+682989,Victor Mederos,108,Los Angeles Angels,2025,58,Pitcher,Pitcher,Active
+579328,Yusei Kikuchi,108,Los Angeles Angels,2025,16,Pitcher,Pitcher,Active
+687263,Zach Neto,108,Los Angeles Angels,2025,9,Shortstop,Infielder,Active
+640462,A.J. Puk,109,Arizona Diamondbacks,2025,33,Pitcher,Pitcher,Active
+680728,Adrian Del Castillo,109,Arizona Diamondbacks,2025,25,Catcher,Catcher,Active
+677950,Alek Thomas,109,Arizona Diamondbacks,2025,5,Outfielder,Outfielder,Active
+694851,Andrew Hoffmann,109,Arizona Diamondbacks,2025,56,Pitcher,Pitcher,Active
+685314,Andrew Saalfrank,109,Arizona Diamondbacks,2025,27,Pitcher,Pitcher,Active
+686796,Blake Walston,109,Arizona Diamondbacks,2025,48,Pitcher,Pitcher,Active
+677942,Blaze Alexander,109,Arizona Diamondbacks,2025,9,Shortstop,Infielder,Active
+694297,Brandon Pfaadt,109,Arizona Diamondbacks,2025,32,Pitcher,Pitcher,Active
+805299,Brandyn Garcia,109,Arizona Diamondbacks,2025,55,Pitcher,Pitcher,Active
+686826,Bryce Jarvis,109,Arizona Diamondbacks,2025,40,Pitcher,Pitcher,Active
+801216,Christian Montes De Oca,109,Arizona Diamondbacks,2025,59,Pitcher,Pitcher,Active
+669203,Corbin Burnes,109,Arizona Diamondbacks,2025,39,Pitcher,Pitcher,Active
+682998,Corbin Carroll,109,Arizona Diamondbacks,2025,7,Outfielder,Outfielder,Active
+691441,Cristian Mena,109,Arizona Diamondbacks,2025,64,Pitcher,Pitcher,Active
+686753,Drey Jameson,109,Arizona Diamondbacks,2025,99,Pitcher,Pitcher,Active
+593958,Eduardo Rodriguez,109,Arizona Diamondbacks,2025,57,Pitcher,Pitcher,Active
+672515,Gabriel Moreno,109,Arizona Diamondbacks,2025,14,Catcher,Catcher,Active
+672695,Geraldo Perdomo,109,Arizona Diamondbacks,2025,2,Shortstop,Infielder,Active
+681402,Gus Varland,109,Arizona Diamondbacks,2025,,Pitcher,Pitcher,Active
+664983,Jake McCarthy,109,Arizona Diamondbacks,2025,31,Outfielder,Outfielder,Active
+691783,Jordan Lawlar,109,Arizona Diamondbacks,2025,10,Shortstop,Infielder,Active
+678489,Jorge Barrosa,109,Arizona Diamondbacks,2025,1,Outfielder,Outfielder,Active
+686228,Juan Burgos,109,Arizona Diamondbacks,2025,52,Pitcher,Pitcher,Active
+666661,Juan Morillo,109,Arizona Diamondbacks,2025,67,Pitcher,Pitcher,Active
+679885,Justin Martinez,109,Arizona Diamondbacks,2025,63,Pitcher,Pitcher,Active
+606466,Ketel Marte,109,Arizona Diamondbacks,2025,4,Second Base,Infielder,Active
+656464,Kevin Ginkel,109,Arizona Diamondbacks,2025,37,Pitcher,Pitcher,Active
+679775,Kyle Backhus,109,Arizona Diamondbacks,2025,43,Pitcher,Pitcher,Active
+666971,Lourdes Gurriel Jr.,109,Arizona Diamondbacks,2025,12,Outfielder,Outfielder,Active
+656976,Pavin Smith,109,Arizona Diamondbacks,2025,26,First Base,Infielder,Active
+691769,Philip Abner,109,Arizona Diamondbacks,2025,50,Pitcher,Pitcher,Active
+657044,Ryan Thompson,109,Arizona Diamondbacks,2025,81,Pitcher,Pitcher,Active
+669194,Ryne Nelson,109,Arizona Diamondbacks,2025,19,Pitcher,Pitcher,Active
+688497,Taylor Rashi,109,Arizona Diamondbacks,2025,54,Pitcher,Pitcher,Active
+694374,Tim Tawa,109,Arizona Diamondbacks,2025,13,Second Base,Infielder,Active
+674072,Tommy Henry,109,Arizona Diamondbacks,2025,47,Pitcher,Pitcher,Active
+682988,Tyler Locklear,109,Arizona Diamondbacks,2025,28,First Base,Infielder,Active
+700270,Yilber Díaz,109,Arizona Diamondbacks,2025,45,Pitcher,Pitcher,Active
+668939,Adley Rutschman,110,Baltimore Orioles,2025,35,Catcher,Catcher,Active
+544150,Albert Suárez,110,Baltimore Orioles,2025,49,Pitcher,Pitcher,Active
+656577,Alex Jackson,110,Baltimore Orioles,2025,70,Catcher,Catcher,Active
+552640,Andrew Kittredge,110,Baltimore Orioles,2025,,Pitcher,Pitcher,Active
+689296,Anthony Nunez,110,Baltimore Orioles,2025,,Pitcher,Pitcher,Active
+687064,Brandon Young,110,Baltimore Orioles,2025,63,Pitcher,Pitcher,Active
+700249,Cade Povich,110,Baltimore Orioles,2025,37,Pitcher,Pitcher,Active
+694646,Chayce McDermott,110,Baltimore Orioles,2025,59,Pitcher,Pitcher,Active
+691723,Coby Mayo,110,Baltimore Orioles,2025,16,First Base,Infielder,Active
+681882,Colin Selby,110,Baltimore Orioles,2025,60,Pitcher,Pitcher,Active
+681297,Colton Cowser,110,Baltimore Orioles,2025,17,Outfielder,Outfielder,Active
+665152,Dean Kremer,110,Baltimore Orioles,2025,64,Pitcher,Pitcher,Active
+608650,Dietrich Enns,110,Baltimore Orioles,2025,71,Pitcher,Pitcher,Active
+687637,Dylan Beavers,110,Baltimore Orioles,2025,12,Outfielder,Outfielder,Active
+642585,Félix Bautista,110,Baltimore Orioles,2025,74,Pitcher,Pitcher,Active
+666277,George Soriano,110,Baltimore Orioles,2025,,Pitcher,Pitcher,Active
+664991,Grant Wolfram,110,Baltimore Orioles,2025,86,Pitcher,Pitcher,Active
+680570,Grayson Rodriguez,110,Baltimore Orioles,2025,30,Pitcher,Pitcher,Active
+683002,Gunnar Henderson,110,Baltimore Orioles,2025,2,Shortstop,Infielder,Active
+677008,Heston Kjerstad,110,Baltimore Orioles,2025,13,Outfielder,Outfielder,Active
+702616,Jackson Holliday,110,Baltimore Orioles,2025,7,Second Base,Infielder,Active
+669236,Jeremiah Jackson,110,Baltimore Orioles,2025,82,Second Base,Infielder,Active
+676059,Jordan Westburg,110,Baltimore Orioles,2025,11,Third Base,Infielder,Active
+664744,Jose Espada,110,Baltimore Orioles,2025,72,Pitcher,Pitcher,Active
+669704,Kade Strowd,110,Baltimore Orioles,2025,57,Pitcher,Pitcher,Active
+669211,Keegan Akin,110,Baltimore Orioles,2025,45,Pitcher,Pitcher,Active
+680694,Kyle Bradish,110,Baltimore Orioles,2025,38,Pitcher,Pitcher,Active
+665750,Leody Taveras,110,Baltimore Orioles,2025,,Outfield,Outfielder,Active
+676679,Luis Vázquez,110,Baltimore Orioles,2025,52,Shortstop,Infielder,Active
+668974,Maverick Handley,110,Baltimore Orioles,2025,98,Catcher,Catcher,Active
+694175,Pedro León,110,Baltimore Orioles,2025,,Outfielder,Outfielder,Active
+670329,Rico Garcia,110,Baltimore Orioles,2025,50,Pitcher,Pitcher,Active
+663624,Ryan Mountcastle,110,Baltimore Orioles,2025,6,First Base,Infielder,Active
+676116,Ryan Noda,110,Baltimore Orioles,2025,41,First Base,Infielder,Active
+694212,Samuel Basallo,110,Baltimore Orioles,2025,29,Catcher,Catcher,Active
+669432,Trevor Rogers,110,Baltimore Orioles,2025,28,Pitcher,Pitcher,Active
+641933,Tyler O'Neill,110,Baltimore Orioles,2025,9,Outfielder,Outfielder,Active
+669330,Tyler Wells,110,Baltimore Orioles,2025,68,Pitcher,Pitcher,Active
+682274,Yaramil Hiraldo,110,Baltimore Orioles,2025,76,Pitcher,Pitcher,Active
+666974,Yennier Cano,110,Baltimore Orioles,2025,78,Pitcher,Pitcher,Active
+547973,Aroldis Chapman,111,Boston Red Sox,2025,44,Pitcher,Pitcher,Active
+678394,Brayan Bello,111,Boston Red Sox,2025,66,Pitcher,Pitcher,Active
+657514,Brennan Bernardino,111,Boston Red Sox,2025,83,Pitcher,Pitcher,Active
+665966,Carlos Narváez,111,Boston Red Sox,2025,75,Catcher,Catcher,Active
+678882,Ceddanne Rafaela,111,Boston Red Sox,2025,3,Outfielder,Outfielder,Active
+669684,Chris Murphy,111,Boston Red Sox,2025,72,Pitcher,Pitcher,Active
+813349,Connelly Early,111,Boston Red Sox,2025,71,Pitcher,Pitcher,Active
+657136,Connor Wong,111,Boston Red Sox,2025,12,Catcher,Catcher,Active
+681867,Cooper Criswell,111,Boston Red Sox,2025,64,Pitcher,Pitcher,Active
+666152,David Hamilton,111,Boston Red Sox,2025,17,Second Base,Infielder,Active
+676979,Garrett Crochet,111,Boston Red Sox,2025,35,Pitcher,Pitcher,Active
+676477,Garrett Whitlock,111,Boston Red Sox,2025,22,Pitcher,Pitcher,Active
+669711,Greg Weissert,111,Boston Red Sox,2025,57,Pitcher,Pitcher,Active
+690928,Hunter Dobbins,111,Boston Red Sox,2025,73,Pitcher,Pitcher,Active
+680776,Jarren Duran,111,Boston Red Sox,2025,16,Outfielder,Outfielder,Active
+691373,Jhostynxon Garcia,111,Boston Red Sox,2025,51,Outfielder,Outfielder,Active
+663855,Jordan Hicks,111,Boston Red Sox,2025,46,Pitcher,Pitcher,Active
+670174,Josh Winckowski,111,Boston Red Sox,2025,25,Pitcher,Pitcher,Active
+663558,Jovani Morán,111,Boston Red Sox,2025,47,Pitcher,Pitcher,Active
+686580,Justin Slaten,111,Boston Red Sox,2025,63,Pitcher,Pitcher,Active
+692225,Kristian Campbell,111,Boston Red Sox,2025,28,Second Base,Infielder,Active
+676710,Kutter Crawford,111,Boston Red Sox,2025,50,Pitcher,Pitcher,Active
+690986,Kyle Harrison,111,Boston Red Sox,2025,38,Pitcher,Pitcher,Active
+691384,Luis Perales,111,Boston Red Sox,2025,,Pitcher,Pitcher,Active
+691785,Marcelo Mayer,111,Boston Red Sox,2025,39,Third Base,Infielder,Active
+807799,Masataka Yoshida,111,Boston Red Sox,2025,7,Outfielder,Outfielder,Active
+681987,Nate Eaton,111,Boston Red Sox,2025,40,Third Base,Infielder,Active
+663993,Nathaniel Lowe,111,Boston Red Sox,2025,37,First Base,Infielder,Active
+686765,Nick Sogard,111,Boston Red Sox,2025,20,First Base,Infielder,Active
+663776,Patrick Sandoval,111,Boston Red Sox,2025,43,Pitcher,Pitcher,Active
+801139,Payton Tolle,111,Boston Red Sox,2025,70,Pitcher,Pitcher,Active
+690916,Richard Fitts,111,Boston Red Sox,2025,80,Pitcher,Pitcher,Active
+701350,Roman Anthony,111,Boston Red Sox,2025,19,Outfielder,Outfielder,Active
+663853,Romy Gonzalez,111,Boston Red Sox,2025,23,First Base,Infielder,Active
+656557,Tanner Houck,111,Boston Red Sox,2025,89,Pitcher,Pitcher,Active
+596115,Trevor Story,111,Boston Red Sox,2025,10,Shortstop,Infielder,Active
+671213,Triston Casas,111,Boston Red Sox,2025,36,First Base,Infielder,Active
+687093,Vaughn Grissom,111,Boston Red Sox,2025,5,Second Base,Infielder,Active
+677800,Wilyer Abreu,111,Boston Red Sox,2025,52,Outfielder,Outfielder,Active
+677161,Zack Kelly,111,Boston Red Sox,2025,76,Pitcher,Pitcher,Active
+676962,Ben Brown,112,Chicago Cubs,2025,32,Pitcher,Pitcher,Active
+690990,Cade Horton,112,Chicago Cubs,2025,22,Pitcher,Pitcher,Active
+608348,Carson Kelly,112,Chicago Cubs,2025,15,Catcher,Catcher,Active
+607067,Colin Rea,112,Chicago Cubs,2025,53,Pitcher,Pitcher,Active
+694037,Daniel Palencia,112,Chicago Cubs,2025,48,Pitcher,Pitcher,Active
+621020,Dansby Swanson,112,Chicago Cubs,2025,7,Shortstop,Infielder,Active
+669212,Eli Morgan,112,Chicago Cubs,2025,33,Pitcher,Pitcher,Active
+681799,Ethan Roberts,112,Chicago Cubs,2025,39,Pitcher,Pitcher,Active
+668970,Gavin Hollowell,112,Chicago Cubs,2025,46,Pitcher,Pitcher,Active
+664023,Ian Happ,112,Chicago Cubs,2025,8,Outfielder,Outfielder,Active
+680891,Jack Neely,112,Chicago Cubs,2025,37,Pitcher,Pitcher,Active
+592791,Jameson Taillon,112,Chicago Cubs,2025,50,Pitcher,Pitcher,Active
+665871,Javier Assad,112,Chicago Cubs,2025,72,Pitcher,Pitcher,Active
+696136,Jordan Wicks,112,Chicago Cubs,2025,36,Pitcher,Pitcher,Active
+657006,Justin Steele,112,Chicago Cubs,2025,35,Pitcher,Pitcher,Active
+682634,Kevin Alcántara,112,Chicago Cubs,2025,13,Outfielder,Outfielder,Active
+681432,Luke Little,112,Chicago Cubs,2025,43,Pitcher,Pitcher,Active
+807713,Matt Shaw,112,Chicago Cubs,2025,6,Third Base,Infielder,Active
+571510,Matthew Boyd,112,Chicago Cubs,2025,16,Pitcher,Pitcher,Active
+683737,Michael Busch,112,Chicago Cubs,2025,29,First Base,Infielder,Active
+665804,Miguel Amaya,112,Chicago Cubs,2025,9,Catcher,Catcher,Active
+694208,Moisés Ballesteros,112,Chicago Cubs,2025,25,Catcher,Catcher,Active
+663538,Nico Hoerner,112,Chicago Cubs,2025,2,Second Base,Infielder,Active
+683357,Owen Caissie,112,Chicago Cubs,2025,19,Outfielder,Outfielder,Active
+691718,Pete Crow-Armstrong,112,Chicago Cubs,2025,4,Outfielder,Outfielder,Active
+687863,Porter Hodge,112,Chicago Cubs,2025,37,Pitcher,Pitcher,Active
+624512,Reese McGuire,112,Chicago Cubs,2025,20,Catcher,Catcher,Active
+673548,Seiya Suzuki,112,Chicago Cubs,2025,27,Outfielder,Outfielder,Active
+671096,Andrew Abbott,113,Cincinnati Reds,2025,41,Pitcher,Pitcher,Active
+694362,Blake Dunn,113,Cincinnati Reds,2025,59,Outfielder,Outfielder,Active
+663903,Brady Singer,113,Cincinnati Reds,2025,51,Pitcher,Pitcher,Active
+682227,Brandon Williamson,113,Cincinnati Reds,2025,65,Pitcher,Pitcher,Active
+686730,Carson Spiers,113,Cincinnati Reds,2025,68,Pitcher,Pitcher,Active
+695505,Chase Burns,113,Cincinnati Reds,2025,26,Pitcher,Pitcher,Active
+695534,Chase Petty,113,Cincinnati Reds,2025,61,Pitcher,Pitcher,Active
+687952,Christian Encarnacion-Strand,113,Cincinnati Reds,2025,33,First Base,Infielder,Active
+683175,Connor Phillips,113,Cincinnati Reds,2025,34,Pitcher,Pitcher,Active
+682829,Elly De La Cruz,113,Cincinnati Reds,2025,44,Shortstop,Infielder,Active
+666158,Gavin Lux,113,Cincinnati Reds,2025,2,Outfielder,Outfielder,Active
+668933,Graham Ashcraft,113,Cincinnati Reds,2025,23,Pitcher,Pitcher,Active
+668881,Hunter Greene,113,Cincinnati Reds,2025,21,Pitcher,Pitcher,Active
+683742,Jose Franco,113,Cincinnati Reds,2025,,Pitcher,Pitcher,Active
+624431,Jose Trevino,113,Cincinnati Reds,2025,35,Catcher,Catcher,Active
+687924,Julian Aguiar,113,Cincinnati Reds,2025,39,Pitcher,Pitcher,Active
+663647,Ke'Bryan Hayes,113,Cincinnati Reds,2025,3,Third Base,Infielder,Active
+624522,Keegan Thompson,113,Cincinnati Reds,2025,,Pitcher,Pitcher,Active
+682825,Luis Mey,113,Cincinnati Reds,2025,62,Pitcher,Pitcher,Active
+680689,Lyon Richardson,113,Cincinnati Reds,2025,72,Pitcher,Pitcher,Active
+680574,Matt McLain,113,Cincinnati Reds,2025,9,Second Base,Infielder,Active
+666157,Nick Lodolo,113,Cincinnati Reds,2025,40,Pitcher,Pitcher,Active
+682622,Noelvi Marte,113,Cincinnati Reds,2025,16,Third Base,Infielder,Active
+677956,Rece Hinds,113,Cincinnati Reds,2025,57,Outfielder,Outfielder,Active
+695076,Rhett Lowder,113,Cincinnati Reds,2025,25,Pitcher,Pitcher,Active
+682610,Roddery Muñoz,113,Cincinnati Reds,2025,,Pitcher,Pitcher,Active
+701398,Sal Stewart,113,Cincinnati Reds,2025,43,Third Base,Infielder,Active
+594580,Sam Moll,113,Cincinnati Reds,2025,50,Pitcher,Pitcher,Active
+668715,Spencer Steer,113,Cincinnati Reds,2025,7,First Base,Infielder,Active
+670770,TJ Friedl,113,Cincinnati Reds,2025,29,Outfielder,Outfielder,Active
+663574,Tony Santillan,113,Cincinnati Reds,2025,64,Pitcher,Pitcher,Active
+682997,Tyler Callihan,113,Cincinnati Reds,2025,32,Outfielder,Outfielder,Active
+663886,Tyler Stephenson,113,Cincinnati Reds,2025,37,Catcher,Catcher,Active
+677943,Will Banfield,113,Cincinnati Reds,2025,49,Catcher,Catcher,Active
+666181,Will Benson,113,Cincinnati Reds,2025,30,Outfielder,Outfielder,Active
+691172,Yosver Zulueta,113,Cincinnati Reds,2025,67,Pitcher,Pitcher,Active
+687209,Zach Maxwell,113,Cincinnati Reds,2025,78,Pitcher,Pitcher,Active
+689958,Andrew Walters,114,Cleveland Guardians,2025,91,Pitcher,Pitcher,Active
+682657,Angel Martínez,114,Cleveland Guardians,2025,1,Outfielder,Outfielder,Active
+595978,Austin Hedges,114,Cleveland Guardians,2025,27,Catcher,Catcher,Active
+666310,Bo Naylor,114,Cleveland Guardians,2025,23,Catcher,Catcher,Active
+677587,Brayan Rocchio,114,Cleveland Guardians,2025,4,Shortstop,Infielder,Active
+692216,C.J. Kayfus,114,Cleveland Guardians,2025,63,First Base,Infielder,Active
+671922,Cade Smith,114,Cleveland Guardians,2025,36,Pitcher,Pitcher,Active
+800050,Chase DeLauter,114,Cleveland Guardians,2025,34,Outfielder,Outfielder,Active
+682982,Daniel Espino,114,Cleveland Guardians,2025,66,Pitcher,Pitcher,Active
+682177,Daniel Schneemann,114,Cleveland Guardians,2025,10,Second Base,Infielder,Active
+681807,David Fry,114,Cleveland Guardians,2025,6,First Base,Infielder,Active
+680951,Doug Nikhazy,114,Cleveland Guardians,2025,65,Pitcher,Pitcher,Active
+681870,Erik Sabrowski,114,Cleveland Guardians,2025,62,Pitcher,Pitcher,Active
+680916,Franco Aleman,114,Cleveland Guardians,2025,92,Pitcher,Pitcher,Active
+672356,Gabriel Arias,114,Cleveland Guardians,2025,13,Shortstop,Infielder,Active
+668909,Gavin Williams,114,Cleveland Guardians,2025,32,Pitcher,Pitcher,Active
+671655,George Valera,114,Cleveland Guardians,2025,35,Outfielder,Outfielder,Active
+683769,Hunter Gaddis,114,Cleveland Guardians,2025,33,Pitcher,Pitcher,Active
+678877,Jhonkensy Noel,114,Cleveland Guardians,2025,43,Outfielder,Outfielder,Active
+676282,Joey Cantillo,114,Cleveland Guardians,2025,54,Pitcher,Pitcher,Active
+671286,Johnathan Rodríguez,114,Cleveland Guardians,2025,30,Outfielder,Outfielder,Active
+608070,José Ramírez,114,Cleveland Guardians,2025,11,Third Base,Infielder,Active
+682877,Juan Brito,114,Cleveland Guardians,2025,74,Shortstop,Infielder,Active
+700932,Kyle Manzardo,114,Cleveland Guardians,2025,9,First Base,Infielder,Active
+671106,Logan Allen,114,Cleveland Guardians,2025,26,Pitcher,Pitcher,Active
+670036,Matt Festa,114,Cleveland Guardians,2025,52,Pitcher,Pitcher,Active
+663671,Nic Enright,114,Cleveland Guardians,2025,59,Pitcher,Pitcher,Active
+666134,Nolan Jones,114,Cleveland Guardians,2025,22,Outfielder,Outfielder,Active
+800048,Parker Messick,114,Cleveland Guardians,2025,77,Pitcher,Pitcher,Active
+690984,Petey Halpin,114,Cleveland Guardians,2025,0,Outfielder,Outfielder,Active
+656529,Sam Hentges,114,Cleveland Guardians,2025,31,Pitcher,Pitcher,Active
+677944,Slade Cecconi,114,Cleveland Guardians,2025,44,Pitcher,Pitcher,Active
+680757,Steven Kwan,114,Cleveland Guardians,2025,38,Outfielder,Outfielder,Active
+676440,Tanner Bibee,114,Cleveland Guardians,2025,28,Pitcher,Pitcher,Active
+682120,Tim Herrin,114,Cleveland Guardians,2025,29,Pitcher,Pitcher,Active
+686823,Will Brennan,114,Cleveland Guardians,2025,17,Outfielder,Outfielder,Active
+687849,Zak Kent,114,Cleveland Guardians,2025,61,Pitcher,Pitcher,Active
+691182,Adael Amador,115,Colorado Rockies,2025,1,Second Base,Infielder,Active
+683409,Angel Chivilli,115,Colorado Rockies,2025,57,Pitcher,Pitcher,Active
+683627,Anthony Molina,115,Colorado Rockies,2025,43,Pitcher,Pitcher,Active
+622608,Antonio Senzatela,115,Colorado Rockies,2025,49,Pitcher,Pitcher,Active
+688760,Blaine Crim,115,Colorado Rockies,2025,16,First Base,Infielder,Active
+687134,Bradley Blalock,115,Colorado Rockies,2025,64,Pitcher,Pitcher,Active
+690924,Braxton Fulford,115,Colorado Rockies,2025,37,Catcher,Catcher,Active
+686668,Brenton Doyle,115,Colorado Rockies,2025,9,Outfielder,Outfielder,Active
+687223,Carson Palmquist,115,Colorado Rockies,2025,45,Pitcher,Pitcher,Active
+801403,Chase Dollander,115,Colorado Rockies,2025,32,Pitcher,Pitcher,Active
+691011,Drew Romo,115,Colorado Rockies,2025,3,Catcher,Catcher,Active
+678662,Ezequiel Tovar,115,Colorado Rockies,2025,14,Shortstop,Infielder,Active
+670183,Garrett Acton,115,Colorado Rockies,2025,,Pitcher,Pitcher,Active
+696100,Hunter Goodman,115,Colorado Rockies,2025,15,Catcher,Catcher,Active
+677955,Jaden Hill,115,Colorado Rockies,2025,0,Pitcher,Pitcher,Active
+676105,Jeff Criswell,115,Colorado Rockies,2025,46,Pitcher,Pitcher,Active
+623474,Jimmy Herget,115,Colorado Rockies,2025,44,Pitcher,Pitcher,Active
+687597,Jordan Beck,115,Colorado Rockies,2025,27,Outfielder,Outfielder,Active
+675848,Juan Mejia,115,Colorado Rockies,2025,47,Pitcher,Pitcher,Active
+592178,Kris Bryant,115,Colorado Rockies,2025,23,Designated Hitter,Hitter,Active
+607536,Kyle Freeland,115,Colorado Rockies,2025,21,Pitcher,Pitcher,Active
+691720,Kyle Karros,115,Colorado Rockies,2025,12,Third Base,Infielder,Active
+678821,Luis Peralta,115,Colorado Rockies,2025,41,Pitcher,Pitcher,Active
+685326,McCade Brown,115,Colorado Rockies,2025,51,Pitcher,Pitcher,Active
+669911,Michael Toglia,115,Colorado Rockies,2025,4,First Base,Infielder,Active
+666160,Mickey Moniak,115,Colorado Rockies,2025,22,Outfielder,Outfielder,Active
+672710,Roansy Contreras,115,Colorado Rockies,2025,59,Pitcher,Pitcher,Active
+663372,Ryan Feltner,115,Colorado Rockies,2025,18,Pitcher,Pitcher,Active
+690022,Ryan Ritter,115,Colorado Rockies,2025,8,Shortstop,Infielder,Active
+669020,Ryan Rolison,115,Colorado Rockies,2025,50,Pitcher,Pitcher,Active
+678020,Seth Halvorsen,115,Colorado Rockies,2025,54,Pitcher,Pitcher,Active
+685299,Tanner Gordon,115,Colorado Rockies,2025,29,Pitcher,Pitcher,Active
+687859,Troy Johnston,115,Colorado Rockies,2025,,Outfield,Outfielder,Active
+671289,Tyler Freeman,115,Colorado Rockies,2025,2,Outfielder,Outfielder,Active
+680767,Victor Vodnik,115,Colorado Rockies,2025,38,Pitcher,Pitcher,Active
+682653,Warming Bernabel,115,Colorado Rockies,2025,25,Third Base,Infielder,Active
+692585,Yanquiel Fernández,115,Colorado Rockies,2025,35,Outfielder,Outfielder,Active
+691728,Zac Veen,115,Colorado Rockies,2025,13,Outfielder,Outfielder,Active
+688642,Zach Agnos,115,Colorado Rockies,2025,36,Pitcher,Pitcher,Active
+656638,Alex Lange,116,Detroit Tigers,2025,55,Pitcher,Pitcher,Active
+628451,Andy Ibáñez,116,Detroit Tigers,2025,77,Third Base,Infielder,Active
+690544,Bailey Horn,116,Detroit Tigers,2025,67,Pitcher,Pitcher,Active
+689225,Beau Brieske,116,Detroit Tigers,2025,4,Pitcher,Pitcher,Active
+676428,Brant Hurter,116,Detroit Tigers,2025,48,Pitcher,Pitcher,Active
+669724,Brenan Hanifee,116,Detroit Tigers,2025,75,Pitcher,Pitcher,Active
+663554,Casey Mize,116,Detroit Tigers,2025,12,Pitcher,Pitcher,Active
+695445,Chase Lee,116,Detroit Tigers,2025,53,Pitcher,Pitcher,Active
+690993,Colt Keith,116,Detroit Tigers,2025,33,Second Base,Infielder,Active
+693307,Dillon Dingler,116,Detroit Tigers,2025,13,Catcher,Catcher,Active
+805427,Drew Sommers,116,Detroit Tigers,2025,51,Pitcher,Pitcher,Active
+681916,Dylan Smith,116,Detroit Tigers,2025,58,Pitcher,Pitcher,Active
+690291,Jace Jung,116,Detroit Tigers,2025,17,Third Base,Infielder,Active
+656427,Jack Flaherty,116,Detroit Tigers,2025,9,Pitcher,Pitcher,Active
+669193,Jack Little,116,Detroit Tigers,2025,,Pitcher,Pitcher,Active
+695549,Jackson Jobe,116,Detroit Tigers,2025,21,Pitcher,Pitcher,Active
+663330,Jahmai Jones,116,Detroit Tigers,2025,18,Outfielder,Outfielder,Active
+668670,Jake Rogers,116,Detroit Tigers,2025,34,Catcher,Catcher,Active
+671345,Jason Foley,116,Detroit Tigers,2025,68,Pitcher,Pitcher,Active
+595879,Javier Báez,116,Detroit Tigers,2025,28,Outfielder,Outfielder,Active
+669234,Justyn-Henry Malloy,116,Detroit Tigers,2025,44,Outfielder,Outfielder,Active
+672456,Keider Montero,116,Detroit Tigers,2025,54,Pitcher,Pitcher,Active
+681481,Kerry Carpenter,116,Detroit Tigers,2025,30,Outfielder,Outfielder,Active
+663837,Matt Vierling,116,Detroit Tigers,2025,8,Outfielder,Outfielder,Active
+678009,Parker Meadows,116,Detroit Tigers,2025,22,Outfielder,Outfielder,Active
+681857,Reese Olson,116,Detroit Tigers,2025,45,Pitcher,Pitcher,Active
+682985,Riley Greene,116,Detroit Tigers,2025,31,Outfielder,Outfielder,Active
+687830,Sawyer Gipson-Long,116,Detroit Tigers,2025,66,Pitcher,Pitcher,Active
+674944,Sean Guenther,116,Detroit Tigers,2025,73,Pitcher,Pitcher,Active
+679529,Spencer Torkelson,116,Detroit Tigers,2025,20,First Base,Infielder,Active
+663432,Tanner Rainey,116,Detroit Tigers,2025,32,Pitcher,Pitcher,Active
+669373,Tarik Skubal,116,Detroit Tigers,2025,29,Pitcher,Pitcher,Active
+700242,Trey Sweeney,116,Detroit Tigers,2025,27,Shortstop,Infielder,Active
+675512,Troy Melton,116,Detroit Tigers,2025,52,Pitcher,Pitcher,Active
+680744,Ty Madden,116,Detroit Tigers,2025,36,Pitcher,Pitcher,Active
+663947,Tyler Holton,116,Detroit Tigers,2025,87,Pitcher,Pitcher,Active
+694331,Tyler Mattison,116,Detroit Tigers,2025,59,Pitcher,Pitcher,Active
+672761,Wenceel Pérez,116,Detroit Tigers,2025,46,Outfielder,Outfielder,Active
+676684,Will Vest,116,Detroit Tigers,2025,19,Pitcher,Pitcher,Active
+656716,Zach McKinstry,116,Detroit Tigers,2025,39,Third Base,Infielder,Active
+805123,AJ Blubaugh,117,Houston Astros,2025,69,Pitcher,Pitcher,Active
+656986,Bennett Sousa,117,Houston Astros,2025,62,Pitcher,Pitcher,Active
+687888,Brandon Walter,117,Houston Astros,2025,60,Pitcher,Pitcher,Active
+694728,Brice Matthews,117,Houston Astros,2025,28,Shortstop,Infielder,Active
+650556,Bryan Abreu,117,Houston Astros,2025,52,Pitcher,Pitcher,Active
+687911,Bryan King,117,Houston Astros,2025,74,Pitcher,Pitcher,Active
+701358,Cam Smith,117,Houston Astros,2025,11,Outfielder,Outfielder,Active
+621043,Carlos Correa,117,Houston Astros,2025,1,Shortstop,Infielder,Active
+663967,César Salazar,117,Houston Astros,2025,18,Catcher,Catcher,Active
+572233,Christian Walker,117,Houston Astros,2025,8,First Base,Infielder,Active
+676467,Colton Gordon,117,Houston Astros,2025,61,Pitcher,Pitcher,Active
+664299,Cristian Javier,117,Houston Astros,2025,53,Pitcher,Pitcher,Active
+660853,Enyel De Los Santos,117,Houston Astros,2025,65,Pitcher,Pitcher,Active
+669713,Hayden Wesneski,117,Houston Astros,2025,39,Pitcher,Pitcher,Active
+686613,Hunter Brown,117,Houston Astros,2025,58,Pitcher,Pitcher,Active
+670623,Isaac Paredes,117,Houston Astros,2025,15,Third Base,Infielder,Active
+641585,J.P. France,117,Houston Astros,2025,68,Pitcher,Pitcher,Active
+689200,Jacob Melton,117,Houston Astros,2025,31,Outfielder,Outfielder,Active
+676694,Jake Meyers,117,Houston Astros,2025,6,Outfielder,Outfielder,Active
+669920,Jason Alexander,117,Houston Astros,2025,54,Pitcher,Pitcher,Active
+681151,Jayden Murray,117,Houston Astros,2025,70,Pitcher,Pitcher,Active
+665161,Jeremy Peña,117,Houston Astros,2025,3,Shortstop,Infielder,Active
+660821,Jesús Sánchez,117,Houston Astros,2025,4,Outfielder,Outfielder,Active
+514888,Jose Altuve,117,Houston Astros,2025,27,Outfielder,Outfielder,Active
+623352,Josh Hader,117,Houston Astros,2025,71,Pitcher,Pitcher,Active
+672391,Kaleb Ort,117,Houston Astros,2025,63,Pitcher,Pitcher,Active
+621121,Lance McCullers Jr.,117,Houston Astros,2025,43,Pitcher,Pitcher,Active
+701121,Logan VanWey,117,Houston Astros,2025,64,Pitcher,Pitcher,Active
+643289,Mauricio Dubón,117,Houston Astros,2025,14,Second Base,Infielder,Active
+663878,Nate Pearson,117,Houston Astros,2025,,Pitcher,Pitcher,Active
+602104,Ramón Urías,117,Houston Astros,2025,29,Third Base,Infielder,Active
+669854,Ronel Blanco,117,Houston Astros,2025,56,Pitcher,Pitcher,Active
+694376,Shay Whitcomb,117,Houston Astros,2025,10,Outfielder,Outfielder,Active
+681293,Spencer Arrighetti,117,Houston Astros,2025,41,Pitcher,Pitcher,Active
+595345,Steven Okert,117,Houston Astros,2025,48,Pitcher,Pitcher,Active
+666211,Taylor Trammell,117,Houston Astros,2025,26,Outfielder,Outfielder,Active
+673237,Yainer Diaz,117,Houston Astros,2025,21,Catcher,Catcher,Active
+670541,Yordan Alvarez,117,Houston Astros,2025,44,Outfielder,Outfielder,Active
+805904,Zach Cole,117,Houston Astros,2025,16,Outfielder,Outfielder,Active
+701305,Zach Dezenzo,117,Houston Astros,2025,9,Outfielder,Outfielder,Active
+679525,Alec Marsh,118,Kansas City Royals,2025,48,Pitcher,Pitcher,Active
+672582,Angel Zerpa,118,Kansas City Royals,2025,61,Pitcher,Pitcher,Active
+663559,Bailey Falter,118,Kansas City Royals,2025,36,Pitcher,Pitcher,Active
+677951,Bobby Witt Jr.,118,Kansas City Royals,2025,7,Shortstop,Infielder,Active
+608032,Carlos Estévez,118,Kansas City Royals,2025,53,Pitcher,Pitcher,Active
+695600,Carter Jensen,118,Kansas City Royals,2025,22,Catcher,Catcher,Active
+666142,Cole Ragans,118,Kansas City Royals,2025,55,Pitcher,Pitcher,Active
+680118,Dairon Blanco,118,Kansas City Royals,2025,44,Outfielder,Outfielder,Active
+663738,Daniel Lynch IV,118,Kansas City Royals,2025,41,Pitcher,Pitcher,Active
+671221,Drew Waters,118,Kansas City Royals,2025,8,Outfielder,Outfielder,Active
+672021,Eric Cerantola,118,Kansas City Royals,2025,87,Pitcher,Pitcher,Active
+695506,Jac Caglianone,118,Kansas City Royals,2025,14,Outfielder,Outfielder,Active
+663704,James McArthur,118,Kansas City Royals,2025,66,Pitcher,Pitcher,Active
+670231,John Rave,118,Kansas City Royals,2025,16,Outfielder,Outfielder,Active
+670167,John Schreiber,118,Kansas City Royals,2025,46,Pitcher,Pitcher,Active
+680742,Jonathan Bowlan,118,Kansas City Royals,2025,62,Pitcher,Pitcher,Active
+663697,Jonathan India,118,Kansas City Royals,2025,6,Second Base,Infielder,Active
+670224,Kameron Misner,118,Kansas City Royals,2025,,Outfielder,Outfielder,Active
+663460,Kris Bubic,118,Kansas City Royals,2025,50,Pitcher,Pitcher,Active
+664728,Kyle Isbel,118,Kansas City Royals,2025,28,Outfielder,Outfielder,Active
+668674,Lucas Erceg,118,Kansas City Royals,2025,60,Pitcher,Pitcher,Active
+679883,Luinder Avila,118,Kansas City Royals,2025,58,Pitcher,Pitcher,Active
+669004,MJ Melendez,118,Kansas City Royals,2025,1,Outfielder,Outfielder,Active
+672580,Maikel Garcia,118,Kansas City Royals,2025,11,Third Base,Infielder,Active
+696131,Mason Black,118,Kansas City Royals,2025,,Pitcher,Pitcher,Active
+686681,Michael Massey,118,Kansas City Royals,2025,19,Second Base,Infielder,Active
+608379,Michael Wacha,118,Kansas City Royals,2025,52,Pitcher,Pitcher,Active
+679845,Nick Loftin,118,Kansas City Royals,2025,12,Outfielder,Outfielder,Active
+702070,Noah Cameron,118,Kansas City Royals,2025,65,Pitcher,Pitcher,Active
+686701,Ryan Bergert,118,Kansas City Royals,2025,38,Pitcher,Pitcher,Active
+521692,Salvador Perez,118,Kansas City Royals,2025,13,Catcher,Catcher,Active
+607625,Seth Lugo,118,Kansas City Royals,2025,67,Pitcher,Pitcher,Active
+663568,Stephen Kolek,118,Kansas City Royals,2025,32,Pitcher,Pitcher,Active
+674444,Steven Cruz,118,Kansas City Royals,2025,64,Pitcher,Pitcher,Active
+664199,Taylor Clarke,118,Kansas City Royals,2025,45,Pitcher,Pitcher,Active
+686475,Tyler Tolbert,118,Kansas City Royals,2025,2,Second Base,Infielder,Active
+686469,Vinnie Pasquantino,118,Kansas City Royals,2025,9,First Base,Infielder,Active
+669743,Alex Call,119,Los Angeles Dodgers,2025,12,Outfielder,Outfielder,Active
+690976,Alex Freeland,119,Los Angeles Dodgers,2025,76,Shortstop,Infielder,Active
+681911,Alex Vesia,119,Los Angeles Dodgers,2025,51,Pitcher,Pitcher,Active
+681624,Andy Pages,119,Los Angeles Dodgers,2025,44,Outfielder,Outfielder,Active
+607455,Anthony Banda,119,Los Angeles Dodgers,2025,43,Pitcher,Pitcher,Active
+676508,Ben Casparius,119,Los Angeles Dodgers,2025,78,Pitcher,Pitcher,Active
+666163,Ben Rortvedt,119,Los Angeles Dodgers,2025,47,Catcher,Catcher,Active
+605483,Blake Snell,119,Los Angeles Dodgers,2025,7,Pitcher,Pitcher,Active
+595014,Blake Treinen,119,Los Angeles Dodgers,2025,49,Pitcher,Pitcher,Active
+676272,Bobby Miller,119,Los Angeles Dodgers,2025,28,Pitcher,Pitcher,Active
+592779,Brock Stewart,119,Los Angeles Dodgers,2025,41,Pitcher,Pitcher,Active
+660813,Brusdar Graterol,119,Los Angeles Dodgers,2025,48,Pitcher,Pitcher,Active
+687221,Dalton Rushing,119,Los Angeles Dodgers,2025,68,Catcher,Catcher,Active
+683618,Edgardo Henriquez,119,Los Angeles Dodgers,2025,60,Pitcher,Pitcher,Active
+686218,Emmet Sheehan,119,Los Angeles Dodgers,2025,80,Pitcher,Pitcher,Active
+665923,Esteury Ruiz,119,Los Angeles Dodgers,2025,27,Outfielder,Outfielder,Active
+623465,Evan Phillips,119,Los Angeles Dodgers,2025,59,Pitcher,Pitcher,Active
+518692,Freddie Freeman,119,Los Angeles Dodgers,2025,5,First Base,Infielder,Active
+694813,Gavin Stone,119,Los Angeles Dodgers,2025,35,Pitcher,Pitcher,Active
+808975,Hyeseong Kim,119,Los Angeles Dodgers,2025,6,Second Base,Infielder,Active
+676263,Jack Dreyer,119,Los Angeles Dodgers,2025,86,Pitcher,Pitcher,Active
+680736,Justin Wrobleski,119,Los Angeles Dodgers,2025,70,Pitcher,Pitcher,Active
+669165,Kyle Hurt,119,Los Angeles Dodgers,2025,63,Pitcher,Pitcher,Active
+689017,Landon Knack,119,Los Angeles Dodgers,2025,96,Pitcher,Pitcher,Active
+571970,Max Muncy,119,Los Angeles Dodgers,2025,13,Third Base,Infielder,Active
+605141,Mookie Betts,119,Los Angeles Dodgers,2025,50,Shortstop,Infielder,Active
+693308,Nick Frasso,119,Los Angeles Dodgers,2025,79,Pitcher,Pitcher,Active
+801434,Paul Gervase,119,Los Angeles Dodgers,2025,65,Pitcher,Pitcher,Active
+689981,River Ryan,119,Los Angeles Dodgers,2025,77,Pitcher,Pitcher,Active
+673662,Robinson Ortiz,119,Los Angeles Dodgers,2025,,Pitcher,Pitcher,Active
+808963,Roki Sasaki,119,Los Angeles Dodgers,2025,11,Pitcher,Pitcher,Active
+669899,Ryan Ward,119,Los Angeles Dodgers,2025,,Outfielder,Outfielder,Active
+660271,Shohei Ohtani,119,Los Angeles Dodgers,2025,17,Two-Way Player,Two-Way Player,Active
+656945,Tanner Scott,119,Los Angeles Dodgers,2025,66,Pitcher,Pitcher,Active
+606192,Teoscar Hernández,119,Los Angeles Dodgers,2025,37,Outfielder,Outfielder,Active
+669242,Tommy Edman,119,Los Angeles Dodgers,2025,25,Second Base,Infielder,Active
+607192,Tyler Glasnow,119,Los Angeles Dodgers,2025,31,Pitcher,Pitcher,Active
+694361,Will Klein,119,Los Angeles Dodgers,2025,61,Pitcher,Pitcher,Active
+669257,Will Smith,119,Los Angeles Dodgers,2025,16,Catcher,Catcher,Active
+808967,Yoshinobu Yamamoto,119,Los Angeles Dodgers,2025,18,Pitcher,Pitcher,Active
+665953,Andrés Chaparro,120,Washington Nationals,2025,87,First Base,Infielder,Active
+674841,Andrew Alvarez,120,Washington Nationals,2025,54,Pitcher,Pitcher,Active
+691251,Andry Lara,120,Washington Nationals,2025,72,Pitcher,Pitcher,Active
+695418,Brad Lord,120,Washington Nationals,2025,61,Pitcher,Pitcher,Active
+691781,Brady House,120,Washington Nationals,2025,55,Third Base,Infielder,Active
+682928,CJ Abrams,120,Washington Nationals,2025,5,Shortstop,Infielder,Active
+676917,Cade Cavalli,120,Washington Nationals,2025,24,Pitcher,Pitcher,Active
+690925,Clayton Beeter,120,Washington Nationals,2025,39,Pitcher,Pitcher,Active
+669371,Cole Henry,120,Washington Nationals,2025,99,Pitcher,Pitcher,Active
+687792,DJ Herz,120,Washington Nationals,2025,77,Pitcher,Pitcher,Active
+695734,Daylen Lile,120,Washington Nationals,2025,51,Outfielder,Outfielder,Active
+686452,Drew Millas,120,Washington Nationals,2025,81,Catcher,Catcher,Active
+686611,Dylan Crews,120,Washington Nationals,2025,3,Outfielder,Outfielder,Active
+671131,Jackson Rutledge,120,Washington Nationals,2025,79,Pitcher,Pitcher,Active
+696285,Jacob Young,120,Washington Nationals,2025,30,Outfielder,Outfielder,Active
+671109,Jake Eder,120,Washington Nationals,2025,,Pitcher,Pitcher,Active
+663623,Jake Irvin,120,Washington Nationals,2025,27,Pitcher,Pitcher,Active
+695578,James Wood,120,Washington Nationals,2025,29,Outfielder,Outfielder,Active
+678606,Jose A. Ferrer,120,Washington Nationals,2025,47,Pitcher,Pitcher,Active
+677588,José Tena,120,Washington Nationals,2025,8,Third Base,Infielder,Active
+680686,Josiah Gray,120,Washington Nationals,2025,40,Pitcher,Pitcher,Active
+642759,Julian Fernández,120,Washington Nationals,2025,65,Pitcher,Pitcher,Active
+660688,Keibert Ruiz,120,Washington Nationals,2025,20,Catcher,Catcher,Active
+663455,Konnor Pilkington,120,Washington Nationals,2025,45,Pitcher,Pitcher,Active
+671277,Luis García Jr.,120,Washington Nationals,2025,2,Second Base,Infielder,Active
+669022,MacKenzie Gore,120,Washington Nationals,2025,1,Pitcher,Pitcher,Active
+680730,Mitchell Parker,120,Washington Nationals,2025,70,Pitcher,Pitcher,Active
+683083,Nasim Nuñez,120,Washington Nationals,2025,26,Shortstop,Infielder,Active
+687377,Orlando Ribalta,120,Washington Nationals,2025,64,Pitcher,Pitcher,Active
+676571,PJ Poulin,120,Washington Nationals,2025,50,Pitcher,Pitcher,Active
+656180,Riley Adams,120,Washington Nationals,2025,15,Catcher,Catcher,Active
+690987,Robert Hassell III,120,Washington Nationals,2025,57,Outfielder,Outfielder,Active
+666659,Sauryn Lao,120,Washington Nationals,2025,73,Pitcher,Pitcher,Active
+592866,Trevor Williams,120,Washington Nationals,2025,32,Pitcher,Pitcher,Active
+621345,A.J. Minter,121,New York Mets,2025,33,Pitcher,Pitcher,Active
+692024,Alex Carrillo,121,New York Mets,2025,84,Pitcher,Pitcher,Active
+681810,Austin Warren,121,New York Mets,2025,44,Pitcher,Pitcher,Active
+607043,Brandon Nimmo,121,New York Mets,2025,9,Outfielder,Outfielder,Active
+687075,Brandon Sproat,121,New York Mets,2025,40,Pitcher,Pitcher,Active
+663399,Brandon Waddell,121,New York Mets,2025,82,Pitcher,Pitcher,Active
+683146,Brett Baty,121,New York Mets,2025,7,Third Base,Infielder,Active
+548384,Brooks Raley,121,New York Mets,2025,25,Pitcher,Pitcher,Active
+681035,Christian Scott,121,New York Mets,2025,45,Pitcher,Pitcher,Active
+605280,Clay Holmes,121,New York Mets,2025,35,Pitcher,Pitcher,Active
+664849,Danny Young,121,New York Mets,2025,81,Pitcher,Pitcher,Active
+656849,David Peterson,121,New York Mets,2025,23,Pitcher,Pitcher,Active
+673380,Dedniel Núñez,121,New York Mets,2025,72,Pitcher,Pitcher,Active
+697811,Dylan Ross,121,New York Mets,2025,50,Pitcher,Pitcher,Active
+682626,Francisco Alvarez,121,New York Mets,2025,4,Catcher,Catcher,Active
+596019,Francisco Lindor,121,New York Mets,2025,12,Shortstop,Infielder,Active
+593423,Frankie Montas,121,New York Mets,2025,47,Pitcher,Pitcher,Active
+663584,Hayden Senger,121,New York Mets,2025,30,Catcher,Catcher,Active
+623211,Huascar Brazobán,121,New York Mets,2025,43,Pitcher,Pitcher,Active
+676724,Jared Young,121,New York Mets,2025,29,Outfielder,Outfielder,Active
+643446,Jeff McNeil,121,New York Mets,2025,1,Second Base,Infielder,Active
+678225,Ji Hwan Bae,121,New York Mets,2025,,Outfielder,Outfielder,Active
+680702,Joey Gerber,121,New York Mets,2025,,Pitcher,Pitcher,Active
+804636,Jonah Tong,121,New York Mets,2025,21,Pitcher,Pitcher,Active
+702752,Jonathan Pintaro,121,New York Mets,2025,91,Pitcher,Pitcher,Active
+620454,José Castillo,121,New York Mets,2025,,Pitcher,Pitcher,Active
+665742,Juan Soto,121,New York Mets,2025,22,Outfielder,Outfielder,Active
+663795,Justin Hagenman,121,New York Mets,2025,51,Pitcher,Pitcher,Active
+673540,Kodai Senga,121,New York Mets,2025,34,Pitcher,Pitcher,Active
+620443,Luis Torrens,121,New York Mets,2025,13,Catcher,Catcher,Active
+682668,Luisangel Acuña,121,New York Mets,2025,2,Second Base,Infielder,Active
+668901,Mark Vientos,121,New York Mets,2025,27,Third Base,Infielder,Active
+668820,Max Kranick,121,New York Mets,2025,32,Pitcher,Pitcher,Active
+690997,Nolan McLean,121,New York Mets,2025,26,Pitcher,Pitcher,Active
+657585,Reed Garrett,121,New York Mets,2025,75,Pitcher,Pitcher,Active
+663992,Richard Lovelady,121,New York Mets,2025,,Pitcher,Pitcher,Active
+677595,Ronny Mauricio,121,New York Mets,2025,10,Third Base,Infielder,Active
+640455,Sean Manaea,121,New York Mets,2025,59,Pitcher,Pitcher,Active
+656731,Tylor Megill,121,New York Mets,2025,38,Pitcher,Pitcher,Active
+621438,Tyrone Taylor,121,New York Mets,2025,15,Outfielder,Outfielder,Active
