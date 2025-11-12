@@ -128,7 +128,7 @@ def fetch_all_player_gamelogs(players_df, season=2024, output_dir=None):
 
 def main():
     """Main execution"""
-    project_root = Path(__file__).parent.parent.parent
+    project_root = Path(__file__).parent.parent.parent.parent
     data_dir = project_root / "data"
     
     print("="*80)
