@@ -62,11 +62,11 @@ This will:
 
 **🎯 Simple Command (Recommended)**
 ```bash
-./fb-ai                                # Auto mode (smart defaults)
-./fb-ai --when                         # Check game times
-./fb-ai --quick                        # Quick mode (1-2 min)
-./fb-ai --last                         # Show last recommendations
-./fb-ai --help                         # See all options
+fb-ai                                  # Auto mode (smart defaults)
+fb-ai --when                           # Check game times
+fb-ai --quick                          # Quick mode (1-2 min)
+fb-ai --last                           # Show last recommendations
+fb-ai --help                           # See all options
 ```
 
 The `fb-ai` prompt command automatically:
@@ -74,7 +74,7 @@ The `fb-ai` prompt command automatically:
 - Uses quick mode (skip tuning) after 10 AM for speed
 - Shows recommendations immediately after completion
 
-_Note: `fb-ai` is a symlink to `.github/prompts/fb-ai` for convenience._
+_Note: The actual script is at `.github/prompts/fb-ai`. A wrapper in `~/bin/fb-ai` allows calling from anywhere. See [docs/SETUP_FB_AI_COMMAND.md](docs/SETUP_FB_AI_COMMAND.md) for setup instructions._
 
 **📋 Full Command Options**
 ```bash
@@ -276,9 +276,9 @@ For detailed documentation:
 
 **Super Simple (Just type this!):**
 ```bash
-./fb-ai                                # Run sit/start analysis (auto mode)
-./fb-ai --when                         # Check game times
-./fb-ai --last                         # Show last recommendations
+fb-ai                                  # Run sit/start analysis (auto mode)
+fb-ai --when                           # Check game times
+fb-ai --last                           # Show last recommendations
 ```
 
 **Full Commands:**
@@ -287,18 +287,18 @@ For detailed documentation:
 python src/fb_ai.py --refresh
 
 # Daily sit/start
-./fb-ai                                # Simple way (recommended)
+fb-ai                                  # Simple way (recommended)
 python src/scripts/daily_sitstart.py  # Full way
 
 # Quick mode (skip weight tuning)
-./fb-ai --quick
+fb-ai --quick
 python src/scripts/daily_sitstart.py --skip-tune
 
 # Specific date
-./fb-ai --date 2025-09-29
+fb-ai --date 2025-09-29
 
 # Check game times (when to run)
-./fb-ai --when
+fb-ai --when
 python src/scripts/schedule_helper.py
 
 # Check data status

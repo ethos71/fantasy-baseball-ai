@@ -14,7 +14,7 @@ Takes ~5-10 minutes. Do this once to download all data.
 
 **Check when your games start:**
 ```bash
-./fb-ai --when
+fb-ai --when
 ```
 
 This shows you exactly when to run the analysis (30 mins before first game).
@@ -25,7 +25,7 @@ This shows you exactly when to run the analysis (30 mins before first game).
 
 **Get sit/start recommendations:**
 ```bash
-./fb-ai
+fb-ai
 ```
 
 That's it! The system will:
@@ -36,7 +36,7 @@ That's it! The system will:
 
 **Too close to game time? Use quick mode:**
 ```bash
-./fb-ai --quick
+fb-ai --quick
 ```
 
 ---
@@ -65,9 +65,9 @@ Apply recommendations to your Yahoo Fantasy lineup!
 ## 📊 Other Useful Commands
 
 ```bash
-./fb-ai --last              # View yesterday's recommendations
-./fb-ai --date 2025-09-29   # Run for specific date (postseason)
-./fb-ai --help              # See all options
+fb-ai --last              # View yesterday's recommendations
+fb-ai --date 2025-09-29   # Run for specific date (postseason)
+fb-ai --help              # See all options
 ```
 
 ---
@@ -76,8 +76,8 @@ Apply recommendations to your Yahoo Fantasy lineup!
 
 | Time | Command | What It Does |
 |------|---------|-------------|
-| **Morning (8-9 AM)** | `./fb-ai --when` | Check game times |
-| **30 mins before games** | `./fb-ai` | Get recommendations |
+| **Morning (8-9 AM)** | `fb-ai --when` | Check game times |
+| **30 mins before games** | `fb-ai` | Get recommendations |
 | **Set lineup** | (Manual) | Apply recommendations in Yahoo |
 
 ---
@@ -98,7 +98,7 @@ Apply recommendations to your Yahoo Fantasy lineup!
 
 - **Run early?** System uses full analysis with weight tuning (more accurate)
 - **Run late?** System skips weight tuning for speed (still very good)
-- **Force quick mode?** Use `./fb-ai --quick` (1-2 minutes)
+- **Force quick mode?** Use `fb-ai --quick` (1-2 minutes)
 - **Weekly task:** Run `python src/scripts/daily_sitstart.py --tune-only` to refresh weight calibration
 
 ---
@@ -112,7 +112,7 @@ crontab -e
 
 Add this line:
 ```
-0 7 * * * cd /home/dominick/workspace/fantasy-baseball-ai && ./fb-ai
+0 7 * * * cd /home/dominick/workspace/fantasy-baseball-ai && fb-ai
 ```
 
 Recommendations will be ready when you wake up!
@@ -128,7 +128,7 @@ data/sitstart_recommendations_YYYYMMDD_HHMMSS.csv
 
 View anytime with:
 ```bash
-./fb-ai --last
+fb-ai --last
 ```
 
 Or open in Excel/Google Sheets for detailed analysis.
@@ -138,11 +138,11 @@ Or open in Excel/Google Sheets for detailed analysis.
 ## ❓ Need Help?
 
 ```bash
-./fb-ai --help                          # Quick help
+fb-ai --help                            # Quick help
 cat README.md                           # Full documentation
 cat docs/DAILY_WORKFLOW.md              # Detailed workflow guide
 ```
 
 ---
 
-**That's it! Just type `./fb-ai` 30 minutes before game time and you're done!** 🎉
+**That's it! Just type `fb-ai` 30 minutes before game time and you're done!** 🎉
