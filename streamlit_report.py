@@ -96,6 +96,136 @@ with col_right:
 
 st.markdown("---")
 
+# Player Weight Breakdown Section
+st.subheader("⚖️ Player Weight Breakdown")
+st.markdown("View individual factor weights for roster players and top waiver wire prospects")
+
+# Create tabs for roster vs waiver wire
+tab1, tab2 = st.tabs(["📊 Roster Players", "🌟 Top 10 Waiver Wire"])
+
+with tab1:
+    st.markdown("#### Roster Players - Factor Weight Analysis")
+    
+    # Get all weight columns
+    weight_cols = [col for col in df.columns if col.endswith('_weight')]
+    
+    if weight_cols:
+        # Allow user to select a player
+        selected_player = st.selectbox("Select player to view detailed weights:", df['player_name'].tolist())
+        
+        if selected_player:
+            player_row = df[df['player_name'] == selected_player].iloc[0]
+            
+            # Extract weights and scores for this player
+            player_weights = {}
+            player_scores = {}
+            for col in weight_cols:
+                factor_name = col.replace('_weight', '').title()
+                weight_val = player_row[col]
+                score_col = col.replace('_weight', '_score')
+                score_val = player_row[score_col] if score_col in df.columns else 0
+                
+                if weight_val > 0:  # Only show factors with weight
+                    player_weights[factor_name] = weight_val
+                    player_scores[factor_name] = score_val
+            
+            # Create dual chart - weights and scores
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.markdown("**Factor Weights**")
+                fig_weights = px.bar(
+                    x=list(player_weights.keys()),
+                    y=list(player_weights.values()),
+                    labels={'x': 'Factor', 'y': 'Weight'},
+                    color=list(player_weights.values()),
+                    color_continuous_scale='Blues',
+                    title=f'{selected_player} - Factor Weights'
+                )
+                fig_weights.update_layout(showlegend=False, xaxis_tickangle=-45)
+                st.plotly_chart(fig_weights, use_container_width=True)
+            
+            with col2:
+                st.markdown("**Factor Scores**")
+                fig_scores = px.bar(
+                    x=list(player_scores.keys()),
+                    y=list(player_scores.values()),
+                    labels={'x': 'Factor', 'y': 'Score'},
+                    color=list(player_scores.values()),
+                    color_continuous_scale='RdYlGn',
+                    title=f'{selected_player} - Factor Scores'
+                )
+                fig_scores.update_layout(showlegend=False, xaxis_tickangle=-45)
+                st.plotly_chart(fig_scores, use_container_width=True)
+            
+            # Show contribution breakdown
+            st.markdown("**Weighted Contribution to Final Score**")
+            contributions = {factor: score * player_weights.get(factor, 0) 
+                           for factor, score in player_scores.items()}
+            contrib_df = pd.DataFrame({
+                'Factor': list(contributions.keys()),
+                'Weight': [player_weights.get(f, 0) for f in contributions.keys()],
+                'Score': [player_scores.get(f, 0) for f in contributions.keys()],
+                'Contribution': list(contributions.values())
+            })
+            contrib_df = contrib_df.sort_values('Contribution', ascending=False)
+            st.dataframe(contrib_df.style.format({
+                'Weight': '{:.1%}',
+                'Score': '{:.3f}',
+                'Contribution': '{:.3f}'
+            }).background_gradient(subset=['Contribution'], cmap='RdYlGn'), use_container_width=True)
+
+with tab2:
+    st.markdown("#### Top 10 Waiver Wire Prospects")
+    
+    # Load waiver wire data if available
+    import glob
+    waiver_files = sorted(glob.glob('data/waiver_wire_*.csv'), reverse=True)
+    
+    if waiver_files:
+        waiver_df = pd.read_csv(waiver_files[0])
+        if len(waiver_df) > 0:
+            # Show top 10 waiver wire options
+            top_waiver = waiver_df.nlargest(10, 'final_score') if 'final_score' in waiver_df.columns else waiver_df.head(10)
+            st.dataframe(top_waiver[['player_name', 'final_score', 'recommendation']].head(10), use_container_width=True)
+            
+            # Allow selection for detailed view
+            if len(top_waiver) > 0:
+                selected_fa = st.selectbox("Select waiver player for details:", top_waiver['player_name'].tolist())
+                
+                if selected_fa and selected_fa in top_waiver['player_name'].values:
+                    fa_row = top_waiver[top_waiver['player_name'] == selected_fa].iloc[0]
+                    
+                    # Extract weights and scores
+                    fa_weights = {}
+                    fa_scores = {}
+                    for col in weight_cols:
+                        factor_name = col.replace('_weight', '').title()
+                        weight_val = fa_row[col] if col in fa_row else 0
+                        score_col = col.replace('_weight', '_score')
+                        score_val = fa_row[score_col] if score_col in fa_row else 0
+                        
+                        if weight_val > 0:
+                            fa_weights[factor_name] = weight_val
+                            fa_scores[factor_name] = score_val
+                    
+                    # Show chart
+                    fig_fa = px.bar(
+                        x=list(fa_weights.keys()),
+                        y=list(fa_weights.values()),
+                        labels={'x': 'Factor', 'y': 'Weight'},
+                        title=f'{selected_fa} - Factor Weights',
+                        color_discrete_sequence=['#ff7f0e']
+                    )
+                    fig_fa.update_layout(showlegend=False, xaxis_tickangle=-45)
+                    st.plotly_chart(fig_fa, use_container_width=True)
+        else:
+            st.info("No waiver wire data available in this analysis")
+    else:
+        st.info("💡 Waiver wire analysis not yet run. Run with waiver wire analysis enabled to see top free agent prospects.")
+
+st.markdown("---")
+
 # Factor Analysis
 st.subheader("🔍 Factor Analysis")
 
