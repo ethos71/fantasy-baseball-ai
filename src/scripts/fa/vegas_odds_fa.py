@@ -175,35 +175,42 @@ class VegasOddsAnalyzer:
         year = game_date.year
         game_log_file = self.data_dir / f'mlb_game_logs_{year}.csv'
         
+        # If game logs don't exist for this year, use default league averages
         if not game_log_file.exists():
-            return None
-            
-        try:
-            # Load game logs
-            game_logs = pd.read_csv(game_log_file)
-            game_logs['game_date'] = pd.to_datetime(game_logs['game_date'])
-            
-            # Get recent team performance (last 30 days)
-            cutoff = game_date - timedelta(days=30)
-            recent_games = game_logs[
-                (game_logs['game_date'] >= cutoff) &
-                (game_logs['game_date'] < game_date)
-            ]
-            
-            # Calculate team run scoring rates
-            team_games = recent_games.groupby(['game_pk', 'game_date']).agg({
-                'R': 'sum',
-                'is_win': 'first'
-            }).reset_index()
-            
-            # Approximate team strength (runs per game)
-            if len(team_games) > 0:
-                avg_runs = team_games['R'].mean()
-                win_pct = team_games['is_win'].mean()
-            else:
-                avg_runs = 4.5  # League average
+            avg_runs = 4.5  # League average runs per game
+            win_pct = 0.500  # Default to .500
+        else:
+            try:
+                # Load game logs
+                game_logs = pd.read_csv(game_log_file)
+                game_logs['game_date'] = pd.to_datetime(game_logs['game_date'])
+                
+                # Get recent team performance (last 30 days)
+                cutoff = game_date - timedelta(days=30)
+                recent_games = game_logs[
+                    (game_logs['game_date'] >= cutoff) &
+                    (game_logs['game_date'] < game_date)
+                ]
+                
+                # Calculate team run scoring rates
+                team_games = recent_games.groupby(['game_pk', 'game_date']).agg({
+                    'R': 'sum',
+                    'is_win': 'first'
+                }).reset_index()
+                
+                # Approximate team strength (runs per game)
+                if len(team_games) > 0:
+                    avg_runs = team_games['R'].mean()
+                    win_pct = team_games['is_win'].mean()
+                else:
+                    avg_runs = 4.5  # League average
+                    win_pct = 0.500
+            except Exception as e:
+                print(f"Error loading game logs for {team}: {e}")
+                avg_runs = 4.5
                 win_pct = 0.500
-            
+        
+        try:
             # Determine if home/away from schedule
             game_row = schedule_df[
                 (schedule_df['game_date'] == game_date) &
@@ -249,7 +256,15 @@ class VegasOddsAnalyzer:
             }
         except Exception as e:
             print(f"Error calculating Vegas odds for {team}: {e}")
-            return None
+            # Return default neutral odds instead of None
+            return {
+                'over_under': 8.5,  # League average
+                'team_moneyline': -110,  # Pick'em
+                'opponent_moneyline': -110,
+                'run_line': 0,
+                'is_home': True,
+                'available': False
+            }
     
     def analyze_roster(self, roster_df, schedule_df, players_df, as_of_date=None):
         """
