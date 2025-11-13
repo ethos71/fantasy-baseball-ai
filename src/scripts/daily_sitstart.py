@@ -134,12 +134,32 @@ class DailySitStartManager:
         """Step 2: Run all 20 factor analyses"""
         self.print_header("STEP 2: Run All Factor Analyses (20 Factors)")
         
-        # Run the consolidated FA runner script
-        return self.run_script(
-            "src/scripts/run_all_fa.py",
-            "Running All 20 Factor Analyses",
-            check_success=True
-        )
+        # Run the consolidated FA runner script with target date
+        script_path = self.project_root / "src" / "scripts" / "run_all_fa.py"
+        target_date_str = self.target_date.strftime("%Y-%m-%d")
+        
+        print(f"\n▶ Running All 20 Factor Analyses...")
+        
+        try:
+            result = subprocess.run(
+                [sys.executable, str(script_path), "--date", target_date_str],
+                cwd=str(self.project_root),
+                capture_output=True,
+                text=True,
+                check=False
+            )
+            
+            if result.returncode == 0:
+                print(f"  ✓ Running All 20 Factor Analyses completed")
+                return True
+            else:
+                print(f"  ⚠️  Running All 20 Factor Analyses had issues (continuing)")
+                print(f"     Error: {result.stderr[:200]}")
+                return False
+                
+        except Exception as e:
+            print(f"  ✗ Error running Running All 20 Factor Analyses: {e}")
+            return False
     
     def step3_tune_weights(self) -> bool:
         """Step 3: Tune weights for roster players"""
@@ -315,8 +335,20 @@ class DailySitStartManager:
             mask = df['player_name'].str.contains(player_name, case=False, na=False)
             if mask.any():
                 row = df[mask].iloc[0]
-                # Look for score column (varies by factor)
-                for col in ['score', 'final_score', 'advantage_score', 'impact_score']:
+                # Look for score column (check multiple patterns)
+                score_columns = [
+                    'score', 'final_score', 'advantage_score', 'impact_score',
+                    'platoon_score', 'temp_score', 'pitch_mix_score', 'park_score',
+                    'lineup_score', 'time_score', 'defense_score', 'form_score',
+                    'bullpen_score', 'humidity_score', 'monthly_score', 'momentum_score',
+                    'statcast_score', 'vegas_score', 'wind_score', 'umpire_score'
+                ]
+                # Also check for any column ending with '_score'
+                for col in df.columns:
+                    if col.endswith('_score') and col not in score_columns:
+                        score_columns.append(col)
+                
+                for col in score_columns:
                     if col in df.columns:
                         return float(row[col])
             
@@ -325,7 +357,18 @@ class DailySitStartManager:
                 mask = df['player_id'] == player_id
                 if mask.any():
                     row = df[mask].iloc[0]
-                    for col in ['score', 'final_score', 'advantage_score', 'impact_score']:
+                    score_columns = [
+                        'score', 'final_score', 'advantage_score', 'impact_score',
+                        'platoon_score', 'temp_score', 'pitch_mix_score', 'park_score',
+                        'lineup_score', 'time_score', 'defense_score', 'form_score',
+                        'bullpen_score', 'humidity_score', 'monthly_score', 'momentum_score',
+                        'statcast_score', 'vegas_score', 'wind_score', 'umpire_score'
+                    ]
+                    for col in df.columns:
+                        if col.endswith('_score') and col not in score_columns:
+                            score_columns.append(col)
+                    
+                    for col in score_columns:
                         if col in df.columns:
                             return float(row[col])
             

@@ -7,12 +7,14 @@ This is a wrapper that runs each FA module and saves outputs.
 
 Usage:
     python src/scripts/run_all_fa.py
+    python src/scripts/run_all_fa.py --date 2025-09-28
 """
 
 import sys
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
+import argparse
 
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -41,13 +43,24 @@ from scripts.fa import (
 )
 
 
-def run_all_factor_analyses(data_dir: Path):
-    """Run all 17 factor analyses and save outputs"""
+def run_all_factor_analyses(data_dir: Path, as_of_date=None):
+    """Run all 17 factor analyses and save outputs
+    
+    Args:
+        data_dir: Path to data directory
+        as_of_date: Target date for analysis (datetime or str). Defaults to today.
+    """
+    
+    # Parse as_of_date
+    if as_of_date is None:
+        as_of_date = datetime.now()
+    elif isinstance(as_of_date, str):
+        as_of_date = datetime.strptime(as_of_date, "%Y-%m-%d")
     
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # Load required data
-    print("Loading data files...")
+    print(f"Loading data files for analysis date: {as_of_date.strftime('%Y-%m-%d')}...")
     
     # Get latest roster
     roster_files = sorted(data_dir.glob("yahoo_fantasy_rosters_*.csv"), 
@@ -111,7 +124,7 @@ def run_all_factor_analyses(data_dir: Path):
     print("1/20 Wind Analysis...")
     try:
         analyzer = wind_analysis.WindAnalyzer(data_dir)
-        wind_df = analyzer.analyze_roster(roster_df, schedule_2025, weather)
+        wind_df = analyzer.analyze_roster(roster_df, schedule_2025, weather, as_of_date=as_of_date)
         output_file = data_dir / f"wind_analysis_{timestamp}.csv"
         wind_df.to_csv(output_file, index=False)
         results['wind'] = output_file
@@ -159,7 +172,7 @@ def run_all_factor_analyses(data_dir: Path):
     print("5/20 Injury/Recovery Analysis...")
     try:
         analyzer = injury_fa.InjuryFactorAnalyzer(data_dir)
-        injury_df = analyzer.analyze_roster(roster_df, players_complete)
+        injury_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete)
         output_file = data_dir / f"injury_analysis_{timestamp}.csv"
         injury_df.to_csv(output_file, index=False)
         results['injury'] = output_file
@@ -267,7 +280,7 @@ def run_all_factor_analyses(data_dir: Path):
     print("14/20 Recent Form / Streaks Analysis...")
     try:
         analyzer = recent_form_fa.RecentFormAnalyzer(data_dir)
-        form_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete)
+        form_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete, as_of_date=as_of_date)
         output_file = data_dir / f"recent_form_analysis_{timestamp}.csv"
         form_df.to_csv(output_file, index=False)
         results['recent_form'] = output_file
@@ -327,7 +340,7 @@ def run_all_factor_analyses(data_dir: Path):
     print("19/20 Statcast Metrics Analysis...")
     try:
         analyzer = statcast_metrics_fa.StatcastMetricsAnalyzer(data_dir)
-        statcast_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete)
+        statcast_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete, as_of_date=as_of_date)
         output_file = data_dir / f"statcast_metrics_analysis_{timestamp}.csv"
         statcast_df.to_csv(output_file, index=False)
         results['statcast'] = output_file
@@ -339,7 +352,7 @@ def run_all_factor_analyses(data_dir: Path):
     print("20/20 Vegas Odds Analysis...")
     try:
         analyzer = vegas_odds_fa.VegasOddsAnalyzer(data_dir)
-        vegas_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete)
+        vegas_df = analyzer.analyze_roster(roster_df, schedule_2025, players_complete, as_of_date=as_of_date)
         output_file = data_dir / f"vegas_odds_analysis_{timestamp}.csv"
         vegas_df.to_csv(output_file, index=False)
         results['vegas'] = output_file
@@ -353,6 +366,10 @@ def run_all_factor_analyses(data_dir: Path):
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Run all 20 factor analyses')
+    parser.add_argument('--date', type=str, help='Target date for analysis (YYYY-MM-DD)')
+    args = parser.parse_args()
+    
     project_root = Path(__file__).parent.parent.parent
     data_dir = project_root / "data"
     
@@ -361,7 +378,7 @@ def main():
     print("="*80 + "\n")
     
     try:
-        success = run_all_factor_analyses(data_dir)
+        success = run_all_factor_analyses(data_dir, as_of_date=args.date)
         sys.exit(0 if success else 1)
     except Exception as e:
         print(f"\n❌ Error: {e}")

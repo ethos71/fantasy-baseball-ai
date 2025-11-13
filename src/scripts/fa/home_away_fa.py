@@ -64,14 +64,14 @@ class HomeAwayFactorAnalyzer:
                 if len(player_history) >= 5:
                     # Calculate home stats
                     home_games = player_history[player_history.get('is_home', False)]
-                    home_ab = home_games['at_bats'].sum()
-                    home_hits = home_games['hits'].sum()
+                    home_ab = home_games['AB'].sum()
+                    home_hits = home_games['H'].sum()
                     home_ba = home_hits / home_ab if home_ab > 0 else 0
                     
                     # Calculate away stats
                     away_games = player_history[~player_history.get('is_home', True)]
-                    away_ab = away_games['at_bats'].sum()
-                    away_hits = away_games['hits'].sum()
+                    away_ab = away_games['AB'].sum()
+                    away_hits = away_games['H'].sum()
                     away_ba = away_hits / away_ab if away_ab > 0 else 0
                     
                     # Determine if current game is home

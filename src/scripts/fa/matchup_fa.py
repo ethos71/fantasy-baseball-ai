@@ -52,9 +52,9 @@ class MatchupFactorAnalyzer:
                 ]
                 
                 if len(player_history) > 0:
-                    total_ab = player_history['at_bats'].sum()
-                    total_hits = player_history['hits'].sum()
-                    total_hr = player_history['home_runs'].sum()
+                    total_ab = player_history['AB'].sum()
+                    total_hits = player_history['H'].sum()
+                    total_hr = player_history['HR'].sum()
                     avg_ba = total_hits / total_ab if total_ab > 0 else 0
                     
                     matchup_score = self.calculate_matchup_score(

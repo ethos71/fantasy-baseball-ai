@@ -82,8 +82,8 @@ class InjuryFactorAnalyzer:
                             pre_injury = player_history[player_history['game_date'] < return_date].tail(10)
                             post_injury = player_history[player_history['game_date'] >= return_date]
                             
-                            pre_ba = pre_injury['hits'].sum() / pre_injury['at_bats'].sum() if len(pre_injury) > 0 else 0
-                            post_ba = post_injury['hits'].sum() / post_injury['at_bats'].sum() if len(post_injury) > 0 else 0
+                            pre_ba = pre_injury['H'].sum() / pre_injury['AB'].sum() if len(pre_injury) > 0 and pre_injury['AB'].sum() > 0 else 0
+                            post_ba = post_injury['H'].sum() / post_injury['AB'].sum() if len(post_injury) > 0 and post_injury['AB'].sum() > 0 else 0
                             
                             injury_score = self.calculate_injury_score(
                                 pre_ba, post_ba, days_since, len(post_injury)

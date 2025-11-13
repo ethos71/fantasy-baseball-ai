@@ -60,7 +60,10 @@ class RestDayFactorAnalyzer:
                 player_history = game_logs_df[
                     (game_logs_df['player_name'] == player_name) &
                     (game_logs_df['game_date'] < game_date)
-                ].sort_values('game_date')
+                ].sort_values('game_date').copy()
+                
+                # Ensure game_date is datetime
+                player_history['game_date'] = pd.to_datetime(player_history['game_date'])
                 
                 if len(player_history) >= 5:
                     # Calculate days between games
@@ -70,14 +73,14 @@ class RestDayFactorAnalyzer:
                     
                     # Rested games (2+ days)
                     rested = player_history[player_history['days_rest'] >= 2]
-                    rested_ab = rested['at_bats'].sum()
-                    rested_hits = rested['hits'].sum()
+                    rested_ab = rested['AB'].sum()
+                    rested_hits = rested['H'].sum()
                     rested_ba = rested_hits / rested_ab if rested_ab > 0 else 0
                     
                     # Back-to-back games (0-1 days)
                     b2b = player_history[player_history['days_rest'] <= 1]
-                    b2b_ab = b2b['at_bats'].sum()
-                    b2b_hits = b2b['hits'].sum()
+                    b2b_ab = b2b['AB'].sum()
+                    b2b_hits = b2b['H'].sum()
                     b2b_ba = b2b_hits / b2b_ab if b2b_ab > 0 else 0
                     
                     # Days since last game
