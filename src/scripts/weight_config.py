@@ -9,7 +9,6 @@ Integrates with all factor analysis modules to apply appropriate weights during 
 import json
 from pathlib import Path
 from typing import Dict, Optional
-import sys
 
 
 class WeightConfig:
@@ -158,7 +157,7 @@ class WeightConfig:
         print(f"\n{'Total':<25s} {total:.4f}")
         
         if abs(total - 1.0) > 0.01:
-            print(f"⚠️  Warning: Weights don't sum to 1.0")
+            print("⚠️  Warning: Weights don't sum to 1.0")
     
     def normalize_weights(self, weights: Dict) -> Dict:
         """Normalize weights to sum to 1.0"""

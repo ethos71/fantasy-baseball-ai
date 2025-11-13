@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from datetime import datetime, timedelta
-from typing import Dict, List, Tuple, Optional
+from typing import Dict
 
 
 class WaiverWireAnalyzer:

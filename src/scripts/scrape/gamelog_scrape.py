@@ -14,7 +14,6 @@ Output: Individual game logs with hitting stats per game
 import requests
 import pandas as pd
 from pathlib import Path
-from datetime import datetime
 import time
 
 

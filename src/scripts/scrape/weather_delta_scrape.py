@@ -204,7 +204,7 @@ class WeatherDeltaScraper:
         output_path = self.data_dir / "mlb_stadium_weather.csv"
         df.to_csv(output_path, index=False)
         
-        print(f"\n✅ Weather data updated for all 30 stadiums")
+        print("\n✅ Weather data updated for all 30 stadiums")
         print(f"📁 Saved to: {output_path}")
         print(f"⏰ Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*80 + "\n")

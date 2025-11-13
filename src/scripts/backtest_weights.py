@@ -12,34 +12,18 @@ Usage:
     python src/scripts/backtest_weights.py --save             # Save tuned weights
 """
 
-import os
 import sys
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
-from typing import Dict, List, Tuple
+from typing import Dict, List
 import argparse
 from scipy.optimize import differential_evolution
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
-
-# Import all factor analysis modules
-from scripts.fa import wind_analysis
-from scripts.fa import matchup_fa
-from scripts.fa import home_away_fa
-from scripts.fa import platoon_fa
-from scripts.fa import park_factors_fa
-from scripts.fa import rest_day_fa
-from scripts.fa import injury_fa
-from scripts.fa import umpire_fa
-from scripts.fa import temperature_fa
-from scripts.fa import pitch_mix_fa
-from scripts.fa import lineup_position_fa
-from scripts.fa import time_of_day_fa
-from scripts.fa import defensive_positions_fa
 
 
 class WeightTuner:
@@ -505,7 +489,7 @@ class WeightTuner:
         print("\n📊 Loading historical data...")
         roster_df = self.load_roster()
         games_df = self.load_historical_games(start_year=2022)
-        stats_df = self.load_player_stats()
+        _ = self.load_player_stats()
         
         if games_df.empty:
             print("❌ No historical data available. Run data refresh first.")

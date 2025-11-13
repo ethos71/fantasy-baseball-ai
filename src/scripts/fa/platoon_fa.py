@@ -112,7 +112,7 @@ class PlatoonFactorAnalyzer:
                 if len(player_history) > 0:
                     # Calculate splits (simplified)
                     vs_lhp_games = len(player_history) // 4  # Estimate
-                    vs_rhp_games = len(player_history) - vs_lhp_games
+                    _ = len(player_history) - vs_lhp_games
                     vs_lhp_ba = 0.250  # Placeholder
                     vs_rhp_ba = 0.260  # Placeholder
                 

@@ -12,9 +12,7 @@ This script:
 - With --refresh: Clears all data and re-scrapes MLB statistics and weather
 """
 
-import os
 import sys
-import glob
 import subprocess
 import argparse
 from datetime import datetime
@@ -53,13 +51,13 @@ class DataRefreshManager:
             if len(csv_files) > 10:
                 print(f"  ... and {len(csv_files) - 10} more")
         
-        print(f"\n📊 New data will be fetched:")
-        print(f"  • MLB Teams (30 teams)")
-        print(f"  • Game Schedules (4 years)")
-        print(f"  • Player Rosters (all teams, 4 years)")
-        print(f"  • Stadium Weather (30 stadiums)")
+        print("\n📊 New data will be fetched:")
+        print("  • MLB Teams (30 teams)")
+        print("  • Game Schedules (4 years)")
+        print("  • Player Rosters (all teams, 4 years)")
+        print("  • Stadium Weather (30 stadiums)")
         
-        print(f"\n⏱️  Estimated time: 5-10 minutes")
+        print("\n⏱️  Estimated time: 5-10 minutes")
         
         response = input("\nProceed with data refresh? (yes/no): ").strip().lower()
         return response in ['yes', 'y']
@@ -108,7 +106,7 @@ class DataRefreshManager:
         
         try:
             # Run the script and stream output in real-time
-            result = subprocess.run(
+            subprocess.run(
                 [sys.executable, str(script_path)],
                 cwd=str(self.project_root),
                 check=True,
@@ -257,7 +255,7 @@ class DataRefreshManager:
             elif age.days > 0:
                 print(f"\n✓ Data is {age.days} days old")
             else:
-                print(f"\n✓ Data is fresh (updated today)")
+                print("\n✓ Data is fresh (updated today)")
         
         self.print_header("Available Commands")
         

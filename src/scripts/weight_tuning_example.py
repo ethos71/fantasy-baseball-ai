@@ -13,7 +13,6 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scripts.weight_config import WeightConfig
-from scripts.backtest_weights import WeightTuner
 
 
 def main():

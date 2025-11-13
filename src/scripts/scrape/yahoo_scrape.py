@@ -19,10 +19,7 @@ Setup:
 Teams: "I like big bunts", "Pure uncut adam west"
 """
 
-import os
 import sys
-import json
-import webbrowser
 from datetime import datetime
 from pathlib import Path
 import pandas as pd
@@ -91,7 +88,7 @@ class YahooFantasyAPI:
         
         # Get all leagues
         try:
-            data = self.request(f"users;use_login=1/games;game_codes=mlb/leagues")
+            data = self.request("users;use_login=1/games;game_codes=mlb/leagues")
         except Exception as e:
             print(f"⚠️  Error fetching teams: {e}")
             return []
@@ -111,7 +108,7 @@ class YahooFantasyAPI:
             # Get game info
             game_info = game_data[0]
             season = game_info.get('season', '')
-            game_key = game_info.get('game_key', '')
+            _ = game_info.get('game_key', '')
             
             print(f"\n  Checking {season} season...")
             

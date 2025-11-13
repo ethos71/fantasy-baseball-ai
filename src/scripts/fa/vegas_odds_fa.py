@@ -42,10 +42,8 @@ API: https://the-odds-api.com/
 """
 
 import pandas as pd
-import numpy as np
 from pathlib import Path
 from datetime import datetime, timedelta
-import json
 import os
 
 
@@ -134,7 +132,7 @@ class VegasOddsAnalyzer:
         
         Formula: Team Total = (O/U / 2) + adjustment based on moneyline edge
         """
-        base_total = over_under / 2.0
+        _ = over_under / 2.0
         
         # Convert moneyline to win probability
         team_prob = self.moneyline_to_probability(moneyline_team)

@@ -10,11 +10,10 @@ import pandas as pd
 import numpy as np
 import requests
 from datetime import datetime
-from typing import Dict, List, Tuple
+from typing import Dict, Tuple
 import time
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-import pickle
 import os
 
 
@@ -254,8 +253,8 @@ class MLBWeatherPredictor:
         print(f"💨 Wind Speed Range: {df['wind_speed_kmh'].min():.1f} - {df['wind_speed_kmh'].max():.1f} km/h")
         
         # Wind statistics
-        print(f"\n💨 WIND ANALYSIS:")
-        print(f"   Average Wind Speed: {df['wind_speed_kmh'].mean():.1f} km/h")
+        print("\n💨 WIND ANALYSIS:")
+        print("   Average Wind Speed: {df['wind_speed_kmh'].mean():.1f} km/h")
         print(f"   Max Wind Gusts: {df['wind_gusts_kmh'].max():.1f} km/h")
         
         # Most common wind directions
@@ -263,7 +262,7 @@ class MLBWeatherPredictor:
         print(f"   Most Common Wind Direction: {wind_dir_counts.index[0]} ({wind_dir_counts.values[0]} stadiums)")
         
         # Windiest stadiums
-        print(f"\n🌪️  Windiest Stadiums:")
+        print("\n🌪️  Windiest Stadiums:")
         windiest = df.nlargest(3, 'wind_speed_kmh')
         for _, row in windiest.iterrows():
             wind_desc = f"{row['wind_speed_kmh']:.1f} km/h {row['wind_direction_cardinal']}"

@@ -7,7 +7,6 @@ It supports fetching schedules, game data, team rosters, player information, and
 """
 
 import requests
-import json
 import pandas as pd
 from datetime import datetime
 from typing import Optional, Dict, List, Any
@@ -383,12 +382,12 @@ def main():
     print("=" * 70)
     print("DATA COLLECTION COMPLETE!")
     print("=" * 70)
-    print(f"\nGenerated Files:")
-    print(f"  - mlb_all_teams.csv")
-    print(f"  - mlb_{{year}}_schedule.csv (4 files)")
-    print(f"  - mlb_all_players_{{year}}.csv (4 files)")
-    print(f"  - mlb_all_players_complete.csv (consolidated)")
-    print(f"\nTotal: {len(all_players)} player-season records across {len(years)} years")
+    print("\nGenerated Files:")
+    print("  - mlb_all_teams.csv")
+    print("  - mlb_{{year}}_schedule.csv (4 files)")
+    print("  - mlb_all_players_{{year}}.csv (4 files)")
+    print("  - mlb_all_players_complete.csv (consolidated)")
+    print("\nTotal: {len(all_players)} player-season records across {len(years)} years")
     print("=" * 70)
 
 

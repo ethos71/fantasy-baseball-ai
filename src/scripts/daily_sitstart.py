@@ -17,15 +17,13 @@ Usage:
     python src/scripts/daily_sitstart.py --skip-waiver      # Skip waiver wire suggestions
 """
 
-import os
 import sys
 import pandas as pd
-import numpy as np
 from pathlib import Path
 from datetime import datetime, timedelta
 import subprocess
 import argparse
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, Optional
 import json
 
 # Add src to path
@@ -119,7 +117,7 @@ class DailySitStartManager:
         )
         
         # Fetch Yahoo roster
-        yahoo_success = self.run_script(
+        _ = self.run_script(
             "src/scripts/scrape/yahoo_scrape.py",
             "Yahoo Roster Fetch",
             check_success=False
@@ -333,7 +331,7 @@ class DailySitStartManager:
             
             return None
             
-        except Exception as e:
+        except Exception:
             return None
     
     def _load_weights(self) -> Dict:
@@ -505,7 +503,7 @@ class DailySitStartManager:
             # For demonstration, we'll analyze all players and filter
             
             # Load all FA outputs to create sample FA pool
-            fa_scores_list = []
+            _ = []
             
             # Try to load some FA outputs (this is a placeholder)
             # In production, this would come from Yahoo's available players list

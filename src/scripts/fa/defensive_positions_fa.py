@@ -129,7 +129,7 @@ class DefensivePositionsFactorAnalyzer:
         for _, game in games_df.iterrows():
             game_date = game['game_date']
             opponent = game.get('opponent', 'UNK')
-            is_home = game.get('is_home', True)
+            _ = game.get('is_home', True)
             
             # Get opponent's defensive rating
             team_def_rating = self.get_team_defensive_rating(opponent)

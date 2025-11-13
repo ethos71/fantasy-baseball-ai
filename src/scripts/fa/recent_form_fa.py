@@ -361,7 +361,7 @@ def main():
     output_file = data_dir / f"recent_form_analysis_{timestamp}.csv"
     form_df.to_csv(output_file, index=False)
     
-    print(f"✓ Analysis complete")
+    print("✓ Analysis complete")
     print(f"📁 Saved to: {output_file.name}\n")
     
     print("="*80)

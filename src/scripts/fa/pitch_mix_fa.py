@@ -20,7 +20,6 @@ Output:
 """
 
 import pandas as pd
-import numpy as np
 from pathlib import Path
 
 
@@ -213,7 +212,7 @@ class PitchMixAnalyzer:
         elif score > 0.5:
             return f"Moderate advantage - {primary_pitch} should work well"
         elif score > -0.5:
-            return f"Neutral matchup - balanced pitch mix"
+            return "Neutral matchup - balanced pitch mix"
         elif score > -1.0:
             return f"Slight disadvantage - opponent hits {primary_pitch} well"
         else:
@@ -224,13 +223,13 @@ class PitchMixAnalyzer:
         if score > 1.0:
             return f"Favorable matchup - pitcher throws {best_pitch} frequently"
         elif score > 0.5:
-            return f"Good opportunity - should see favorable pitch types"
+            return "Good opportunity - should see favorable pitch types"
         elif score > -0.5:
-            return f"Average matchup - typical pitch mix expected"
+            return "Average matchup - typical pitch mix expected"
         elif score > -1.0:
             return f"Challenging matchup - limited exposure to {best_pitch}"
         else:
-            return f"Difficult matchup - facing mostly troublesome pitch types"
+            return "Difficult matchup - facing mostly troublesome pitch types"
 
 
     def analyze_roster(self, roster_df, schedule_df, players_df=None):

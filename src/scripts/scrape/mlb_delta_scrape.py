@@ -15,9 +15,8 @@ Usage:
 import pandas as pd
 import requests
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-import os
 
 
 class MLBDeltaScraper:
@@ -133,7 +132,7 @@ class MLBDeltaScraper:
             new_games = self.fetch_schedule_delta(year, latest_date)
             
             if len(new_games) == 0:
-                print(f"   ✓ No new games since last update")
+                print("   ✓ No new games since last update")
                 continue
             
             # Load existing and append
@@ -159,10 +158,10 @@ class MLBDeltaScraper:
         filepath = self.data_dir / f"mlb_all_players_{self.current_year}.csv"
         
         if not filepath.exists():
-            print(f"⚠️  No existing roster data - run full scrape first")
+            print("⚠️  No existing roster data - run full scrape first")
             return False
         
-        print(f"Fetching current rosters for all 30 teams...")
+        print("Fetching current rosters for all 30 teams...")
         
         # Get all teams
         teams_file = self.data_dir / "mlb_all_teams.csv"
