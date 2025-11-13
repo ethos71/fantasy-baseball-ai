@@ -94,7 +94,11 @@ class ParkFactorsAnalyzer:
                     'runs_factor': runs_f,
                     'hr_factor': hr_f,
                     'hits_factor': hits_f,
-                    'park_score': park_score
+                    'score': park_score
                 })
         
         return pd.DataFrame(results)
+    
+    def analyze_roster(self, roster_df, schedule_df, teams_df):
+        """Wrapper for analyze to match interface"""
+        return self.analyze(schedule_df, roster_df)

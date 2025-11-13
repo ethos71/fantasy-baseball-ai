@@ -163,41 +163,95 @@ class VegasOddsAnalyzer:
             # Favorite: -150 = 150/250 = 0.60 (60%)
             return abs(moneyline) / (abs(moneyline) + 100.0)
     
-    def get_vegas_odds(self, team, game_date, opponent):
+    def get_vegas_odds(self, team, game_date, opponent, schedule_df):
         """
         Get Vegas odds for a specific game
         
-        In production, this would call The Odds API
-        For now, returns simulated/sample data
+        Uses team performance data to approximate Vegas odds since we don't have
+        real-time betting data.
         
-        TODO: Implement actual Odds API integration
+        TODO: Integrate with The Odds API for real odds
         URL: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds/
         """
-        # Sample data structure
-        # In real implementation, fetch from The Odds API
+        # Load game logs to calculate team strength
+        year = game_date.year
+        game_log_file = self.data_dir / f'mlb_game_logs_{year}.csv'
         
-        # Determine if home/away and simulate odds
-        is_home = np.random.choice([True, False])
-        
-        # Simulate realistic odds
-        over_under = np.random.uniform(7.5, 10.5)
-        
-        # Simulate moneylines (correlated with strength)
-        if is_home:
-            team_ml = np.random.randint(-180, 150)
-            opp_ml = -team_ml + np.random.randint(-30, 30)
-        else:
-            team_ml = np.random.randint(-150, 180)
-            opp_ml = -team_ml + np.random.randint(-30, 30)
-        
-        return {
-            'over_under': round(over_under, 1),
-            'team_moneyline': team_ml,
-            'opponent_moneyline': opp_ml,
-            'run_line': -1.5 if team_ml < 0 else 1.5,
-            'is_home': is_home,
-            'available': True
-        }
+        if not game_log_file.exists():
+            return None
+            
+        try:
+            # Load game logs
+            game_logs = pd.read_csv(game_log_file)
+            game_logs['game_date'] = pd.to_datetime(game_logs['game_date'])
+            
+            # Get recent team performance (last 30 days)
+            cutoff = game_date - timedelta(days=30)
+            recent_games = game_logs[
+                (game_logs['game_date'] >= cutoff) &
+                (game_logs['game_date'] < game_date)
+            ]
+            
+            # Calculate team run scoring rates
+            team_games = recent_games.groupby(['game_pk', 'game_date']).agg({
+                'R': 'sum',
+                'is_win': 'first'
+            }).reset_index()
+            
+            # Approximate team strength (runs per game)
+            if len(team_games) > 0:
+                avg_runs = team_games['R'].mean()
+                win_pct = team_games['is_win'].mean()
+            else:
+                avg_runs = 4.5  # League average
+                win_pct = 0.500
+            
+            # Determine if home/away from schedule
+            game_row = schedule_df[
+                (schedule_df['game_date'] == game_date) &
+                ((schedule_df['home_team'] == team) | (schedule_df['away_team'] == team))
+            ]
+            
+            if len(game_row) > 0:
+                is_home = (game_row.iloc[0]['home_team'] == team)
+            else:
+                is_home = True  # Default
+            
+            # Estimate over/under based on team offensive strength
+            # MLB average O/U is ~8.5-9.0 runs
+            base_ou = 8.5
+            over_under = base_ou + (avg_runs - 4.5) * 1.5  # Adjust for team strength
+            over_under = max(7.5, min(11.0, over_under))  # Reasonable bounds
+            
+            # Estimate moneyline from win percentage
+            # Home teams get ~3-5% boost
+            if is_home:
+                win_pct += 0.04
+            
+            # Convert win% to moneyline
+            if win_pct >= 0.55:
+                team_ml = -int((win_pct / (1 - win_pct)) * 100)
+                opp_ml = int(((1 - win_pct) / win_pct) * 100)
+            elif win_pct <= 0.45:
+                opp_win = 1 - win_pct
+                team_ml = int(((1 - win_pct) / win_pct) * 100)
+                opp_ml = -int((opp_win / (1 - opp_win)) * 100)
+            else:
+                # Pick'em
+                team_ml = -110
+                opp_ml = -110
+            
+            return {
+                'over_under': round(over_under, 1),
+                'team_moneyline': team_ml,
+                'opponent_moneyline': opp_ml,
+                'run_line': -1.5 if team_ml < 0 else 1.5,
+                'is_home': is_home,
+                'available': True
+            }
+        except Exception as e:
+            print(f"Error calculating Vegas odds for {team}: {e}")
+            return None
     
     def analyze_roster(self, roster_df, schedule_df, players_df, as_of_date=None):
         """
@@ -277,7 +331,7 @@ class VegasOddsAnalyzer:
             opponent = game['away_team'] if game['home_team'] == player_team else game['home_team']
             
             # Get Vegas odds
-            odds = self.get_vegas_odds(player_team, as_of_date, opponent)
+            odds = self.get_vegas_odds(player_team, as_of_date, opponent, schedule_df)
             
             if odds and odds['available']:
                 # Calculate implied team total

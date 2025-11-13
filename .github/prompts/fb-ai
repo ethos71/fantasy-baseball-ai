@@ -5,6 +5,15 @@ fb-ai - Fantasy Baseball AI Quick Command
 A simple command to run sit/start analysis 30 minutes before game time.
 This is a shortcut wrapper around daily_sitstart.py with smart defaults.
 
+ALWAYS FETCHES LATEST ROSTER FROM YAHOO:
+  • Every run automatically pulls your current roster from Yahoo Fantasy
+  • Uses OAuth credentials from oauth2.json
+  • Fetches rosters for both your leagues:
+    - "I Like BIG Bunts" (Monster Island)
+    - "Pure Uncut Adam West" (Gotham City Baseball)
+  • Automatically detects and uses the current MLB season
+  • Historical roster data saved as: yahoo_fantasy_rosters_YYYYMMDD_HHMMSS.csv
+
 Usage:
     fb-ai                    # Run analysis for today (auto-detects mode)
     fb-ai --date 2025-09-29  # Run for specific date
@@ -219,6 +228,13 @@ fb-ai - Fantasy Baseball AI Quick Command
 
 Run sit/start analysis 30 minutes before game time.
 
+🔄 AUTOMATIC ROSTER FETCHING:
+    Every run automatically pulls your latest roster from Yahoo Fantasy!
+    • Fetches both leagues: "I Like BIG Bunts" & "Pure Uncut Adam West"
+    • Uses current season rosters
+    • Saves historical snapshots: yahoo_fantasy_rosters_YYYYMMDD_HHMMSS.csv
+    • OAuth credentials from: oauth2.json
+
 USAGE:
     fb-ai                    Run analysis for today (auto mode)
     fb-ai --date 2025-09-29  Run for specific date
@@ -235,7 +251,12 @@ AUTO MODE:
 WORKFLOW:
     1. Run 'fb-ai --when' in the morning to see game times
     2. Run 'fb-ai' 30 minutes before first game
-    3. Review recommendations and set your lineup
+    3. Script automatically:
+       - Fetches your latest roster from Yahoo
+       - Updates MLB data and weather
+       - Runs all 20 factor analyses
+       - Generates personalized recommendations
+    4. Review recommendations and set your lineup
 
 EXAMPLES:
     # Morning: Check when games start

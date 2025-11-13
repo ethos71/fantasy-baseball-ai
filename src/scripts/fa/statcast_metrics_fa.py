@@ -127,31 +127,103 @@ class StatcastMetricsAnalyzer:
     
     def get_player_statcast_data(self, player_name, player_id, as_of_date):
         """
-        Get Statcast data for a player
+        Get Statcast data for a player from game logs
         
-        In production, this would query Baseball Savant or MLB's Statcast API
-        For now, returns simulated/sample data
+        Uses recent performance stats to approximate Statcast metrics
         """
-        # TODO: Implement actual Statcast data fetching from Baseball Savant
-        # URL pattern: https://baseballsavant.mlb.com/statcast_search
+        # Load game logs for the season
+        year = as_of_date.year
+        game_log_file = self.data_dir / f'mlb_game_logs_{year}.csv'
         
-        # Sample data structure for now
-        # In real implementation, fetch from API or scraped data
-        return {
-            'avg_exit_velocity': 90.0,  # mph
-            'max_exit_velocity': 112.0,
-            'barrel_rate': 8.0,  # percentage
-            'hard_hit_rate': 42.0,  # percentage
-            'sweet_spot_rate': 35.0,  # percentage
-            'xba': 0.260,
-            'xslg': 0.450,
-            'xwoba': 0.340,
-            'actual_ba': 0.255,
-            'actual_slg': 0.435,
-            'actual_woba': 0.330,
-            'launch_angle': 12.0,
-            'batted_ball_count': 100
-        }
+        if not game_log_file.exists():
+            return None
+            
+        try:
+            game_logs = pd.read_csv(game_log_file)
+            game_logs['game_date'] = pd.to_datetime(game_logs['game_date'])
+            
+            # If player_id not provided, try to find by name
+            if player_id is None or pd.isna(player_id):
+                # Try exact name match first
+                name_matches = game_logs[game_logs['player_name'] == player_name]
+                if len(name_matches) == 0:
+                    # Try partial match
+                    name_matches = game_logs[game_logs['player_name'].str.contains(player_name, case=False, na=False)]
+                
+                if len(name_matches) > 0:
+                    player_id = name_matches.iloc[0]['player_id']
+                else:
+                    return None
+            
+            # Filter for this player's recent games (last 30 days)
+            cutoff_date = as_of_date - timedelta(days=30)
+            player_logs = game_logs[
+                (game_logs['player_id'] == player_id) & 
+                (game_logs['game_date'] <= as_of_date) &
+                (game_logs['game_date'] >= cutoff_date)
+            ]
+            
+            if len(player_logs) == 0:
+                return None
+            
+            # Calculate approximations from available stats
+            total_ab = player_logs['AB'].sum()
+            if total_ab < 10:  # Need minimum sample
+                return None
+                
+            total_h = player_logs['H'].sum()
+            total_hr = player_logs['HR'].sum()
+            total_2b = player_logs['2B'].sum()
+            total_3b = player_logs['3B'].sum()
+            
+            # Calculate SLG components
+            singles = total_h - total_2b - total_3b - total_hr
+            total_bases = singles + (2 * total_2b) + (3 * total_3b) + (4 * total_hr)
+            
+            actual_ba = total_h / total_ab if total_ab > 0 else 0
+            actual_slg = total_bases / total_ab if total_ab > 0 else 0
+            
+            # Approximate quality metrics based on power output
+            # HR rate correlates with exit velocity and barrel rate
+            hr_rate = total_hr / total_ab if total_ab > 0 else 0
+            extra_base_rate = (total_2b + total_3b + total_hr) / total_ab if total_ab > 0 else 0
+            
+            # Estimate exit velocity from power (HR rate)
+            # Elite: ~95+ mph (8%+ HR rate), Average: ~88 mph (2-3% HR rate)
+            avg_exit_velocity = 85.0 + (hr_rate * 200)  # Scales roughly with power
+            avg_exit_velocity = min(95.0, max(82.0, avg_exit_velocity))
+            
+            # Estimate barrel rate from HR + extra bases
+            barrel_rate = (hr_rate * 100) + (extra_base_rate * 20)  # HR strongly correlate with barrels
+            barrel_rate = min(20.0, max(2.0, barrel_rate))
+            
+            # Estimate hard hit rate from extra base hits
+            hard_hit_rate = 30.0 + (extra_base_rate * 60)
+            hard_hit_rate = min(55.0, max(25.0, hard_hit_rate))
+            
+            # For expected stats, use recent trend (simplified)
+            # If player is hitting well, assume meeting expectations
+            xba = actual_ba * 1.02  # Slight expected boost
+            xslg = actual_slg * 1.02
+            
+            return {
+                'avg_exit_velocity': round(avg_exit_velocity, 1),
+                'max_exit_velocity': round(min(115.0, avg_exit_velocity + 22.0), 1),
+                'barrel_rate': round(barrel_rate, 1),
+                'hard_hit_rate': round(hard_hit_rate, 1),
+                'sweet_spot_rate': round((hard_hit_rate + barrel_rate) / 2, 1),
+                'xba': round(xba, 3),
+                'xslg': round(xslg, 3),
+                'xwoba': round((xba + xslg) / 2, 3),
+                'actual_ba': round(actual_ba, 3),
+                'actual_slg': round(actual_slg, 3),
+                'actual_woba': round((actual_ba + actual_slg) / 2, 3),
+                'launch_angle': 12.0,  # Default
+                'batted_ball_count': int(total_ab)
+            }
+        except Exception as e:
+            print(f"Error loading statcast data for {player_name}: {e}")
+            return None
     
     def analyze_roster(self, roster_df, schedule_df, players_df, as_of_date=None):
         """

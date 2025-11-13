@@ -1,0 +1,366 @@
+#!/usr/bin/env python3
+"""
+Waiver Wire Recommendations Module
+
+Analyzes free agents and provides strategic pickup suggestions based on:
+1. Upcoming matchups and schedules (next 7 days)
+2. All 20 factor analyses for available players
+3. Comparison to current roster's weakest players
+4. Specific situations (e.g., Coors Field advantage, platoon opportunities)
+
+Output:
+- Top 10 waiver wire pickups for the week
+- Specific drop/add suggestions
+- Situational pickups (e.g., home games at Coors)
+- Expected performance improvement
+"""
+
+import pandas as pd
+import numpy as np
+from pathlib import Path
+from datetime import datetime, timedelta
+from typing import Dict, List, Tuple, Optional
+
+
+class WaiverWireAnalyzer:
+    """Analyzes waiver wire opportunities and provides pickup recommendations"""
+    
+    def __init__(self, data_dir: Path):
+        self.data_dir = Path(data_dir)
+    
+    def load_free_agents(self) -> pd.DataFrame:
+        """
+        Load available free agents from Yahoo or MLB data
+        
+        For now, returns sample data.
+        TODO: Integrate with Yahoo API to get actual free agents
+        """
+        # In production, this would query Yahoo's available players
+        # For now, return empty DataFrame that can be populated
+        return pd.DataFrame()
+    
+    def analyze_upcoming_schedule(self, player_name: str, team: str, 
+                                   schedule_df: pd.DataFrame, 
+                                   days_ahead: int = 7) -> Dict:
+        """
+        Analyze player's upcoming schedule for the next N days
+        
+        Returns dict with:
+        - games_count: Number of games
+        - home_games: Number of home games
+        - away_games: Number of away games
+        - favorable_parks: Games at hitter-friendly parks
+        - favorable_matchups: Games vs weak pitching
+        - is_coors: Has games at Coors Field
+        """
+        cutoff_date = datetime.now() + timedelta(days=days_ahead)
+        
+        # Get team's upcoming games
+        upcoming = schedule_df[
+            (schedule_df['game_date'] <= cutoff_date) &
+            ((schedule_df['home_team'] == team) | (schedule_df['away_team'] == team))
+        ]
+        
+        home_games = upcoming[upcoming['home_team'] == team]
+        away_games = upcoming[upcoming['away_team'] == team]
+        
+        # Check for Coors Field games (COL home games)
+        coors_games = 0
+        if team == 'COL':
+            coors_games = len(home_games)
+        else:
+            coors_games = len(away_games[away_games['home_team'] == 'COL'])
+        
+        # Hitter-friendly parks
+        hitter_parks = ['COL', 'CIN', 'TEX', 'CHC', 'BAL', 'ARI']
+        favorable_parks = 0
+        for _, game in upcoming.iterrows():
+            park_team = game['home_team']
+            if park_team in hitter_parks:
+                favorable_parks += 1
+        
+        return {
+            'games_count': len(upcoming),
+            'home_games': len(home_games),
+            'away_games': len(away_games),
+            'favorable_parks': favorable_parks,
+            'is_coors': coors_games > 0,
+            'coors_games': coors_games,
+        }
+    
+    def calculate_waiver_score(self, player_fa_scores: Dict, 
+                               schedule_analysis: Dict,
+                               roster_player_scores: Dict = None) -> float:
+        """
+        Calculate overall waiver wire priority score
+        
+        Combines:
+        - Factor analysis scores (all 20 factors)
+        - Upcoming schedule favorability
+        - Improvement over current roster player (if replacing)
+        
+        Returns score from 0-100
+        """
+        # Base score from factor analyses (0-50 points)
+        # Average all factor scores and normalize
+        factor_scores = []
+        for factor, score in player_fa_scores.items():
+            if factor.endswith('_score'):
+                factor_scores.append(score)
+        
+        if factor_scores:
+            avg_factor = np.mean(factor_scores)
+            # Convert from -2/+2 scale to 0-50 scale
+            factor_points = ((avg_factor + 2) / 4) * 50
+        else:
+            factor_points = 25  # Neutral if no data
+        
+        # Schedule favorability (0-30 points)
+        schedule_points = 0
+        if schedule_analysis['games_count'] > 0:
+            # More games = better
+            games_bonus = min(schedule_analysis['games_count'] * 2, 10)
+            schedule_points += games_bonus
+            
+            # Coors games are huge (Mickey Moniak scenario)
+            if schedule_analysis['coors_games'] > 0:
+                schedule_points += schedule_analysis['coors_games'] * 8
+            
+            # Other favorable parks
+            favorable_ratio = schedule_analysis['favorable_parks'] / schedule_analysis['games_count']
+            schedule_points += favorable_ratio * 10
+        
+        schedule_points = min(schedule_points, 30)
+        
+        # Improvement over roster player (0-20 points)
+        improvement_points = 0
+        if roster_player_scores:
+            roster_avg = np.mean([s for k, s in roster_player_scores.items() if k.endswith('_score')])
+            player_avg = np.mean(factor_scores) if factor_scores else 0
+            
+            improvement = player_avg - roster_avg
+            # Scale improvement: +1.0 improvement = +20 points
+            improvement_points = max(0, min(improvement * 10, 20))
+        
+        total_score = factor_points + schedule_points + improvement_points
+        return round(total_score, 1)
+    
+    def find_best_waiver_pickups(self, roster_df: pd.DataFrame, 
+                                  schedule_df: pd.DataFrame,
+                                  fa_scores_df: pd.DataFrame,
+                                  roster_scores: Dict,
+                                  top_n: int = 10) -> pd.DataFrame:
+        """
+        Find the best waiver wire pickups
+        
+        Args:
+            roster_df: Current roster
+            schedule_df: Upcoming schedule
+            fa_scores_df: Factor analysis scores for free agents
+            roster_scores: Factor scores for current roster
+            top_n: Number of recommendations to return
+        
+        Returns:
+            DataFrame with top waiver wire recommendations
+        """
+        recommendations = []
+        
+        for _, fa_player in fa_scores_df.iterrows():
+            player_name = fa_player.get('player_name', 'Unknown')
+            team = fa_player.get('team', None)
+            
+            if not team:
+                continue
+            
+            # Analyze upcoming schedule
+            schedule_analysis = self.analyze_upcoming_schedule(
+                player_name, team, schedule_df, days_ahead=7
+            )
+            
+            # Get this player's factor scores
+            fa_player_scores = fa_player.to_dict()
+            
+            # Find weakest roster player at same position (if available)
+            # For now, compare to roster average
+            roster_avg_scores = {}
+            if roster_scores:
+                # Calculate average roster scores
+                all_scores = []
+                for player, scores in roster_scores.items():
+                    all_scores.append([s for k, s in scores.items() if k.endswith('_score')])
+                
+                if all_scores:
+                    roster_avg_scores = {'avg_score': np.mean(all_scores)}
+            
+            # Calculate waiver priority score
+            waiver_score = self.calculate_waiver_score(
+                fa_player_scores,
+                schedule_analysis,
+                roster_avg_scores
+            )
+            
+            # Build recommendation
+            rec = {
+                'player_name': player_name,
+                'team': team,
+                'waiver_score': waiver_score,
+                'upcoming_games': schedule_analysis['games_count'],
+                'home_games': schedule_analysis['home_games'],
+                'coors_games': schedule_analysis['coors_games'],
+                'favorable_parks': schedule_analysis['favorable_parks'],
+                'avg_factor_score': np.mean([s for k, s in fa_player_scores.items() 
+                                            if k.endswith('_score')]) if any(k.endswith('_score') 
+                                            for k in fa_player_scores.keys()) else 0,
+            }
+            
+            # Add reason for pickup
+            reasons = []
+            if schedule_analysis['coors_games'] > 0:
+                reasons.append(f"{schedule_analysis['coors_games']} games at Coors Field 🏔️")
+            if schedule_analysis['favorable_parks'] >= 3:
+                reasons.append(f"{schedule_analysis['favorable_parks']} games at hitter-friendly parks")
+            if schedule_analysis['games_count'] >= 6:
+                reasons.append(f"{schedule_analysis['games_count']} games this week (high volume)")
+            
+            rec['reasons'] = ' | '.join(reasons) if reasons else 'Strong factor analysis scores'
+            
+            recommendations.append(rec)
+        
+        # Sort by waiver score
+        df = pd.DataFrame(recommendations)
+        if len(df) > 0:
+            df = df.sort_values('waiver_score', ascending=False).head(top_n)
+        
+        return df
+    
+    def suggest_drop_candidates(self, roster_df: pd.DataFrame,
+                                roster_scores: Dict) -> pd.DataFrame:
+        """
+        Suggest which roster players could be dropped
+        
+        Identifies:
+        - Weakest performers this week
+        - Players with unfavorable upcoming schedules
+        - Bench players with low upside
+        
+        Returns:
+            DataFrame with drop candidates ranked
+        """
+        drop_candidates = []
+        
+        for player_name, scores in roster_scores.items():
+            # Calculate average score
+            factor_scores = [s for k, s in scores.items() if k.endswith('_score')]
+            if not factor_scores:
+                continue
+            
+            avg_score = np.mean(factor_scores)
+            
+            # Get recommendation
+            if avg_score >= 1.5:
+                drop_priority = 'KEEP - Strong performer'
+            elif avg_score >= 0.5:
+                drop_priority = 'KEEP - Above average'
+            elif avg_score >= -0.5:
+                drop_priority = 'HOLD - Monitor'
+            elif avg_score >= -1.5:
+                drop_priority = 'CONSIDER - Below average'
+            else:
+                drop_priority = 'DROP CANDIDATE - Poor matchup'
+            
+            drop_candidates.append({
+                'player_name': player_name,
+                'avg_score': round(avg_score, 2),
+                'drop_priority': drop_priority,
+                'dropability_score': round(-avg_score * 10 + 50, 1),  # 0-100, higher = easier drop
+            })
+        
+        df = pd.DataFrame(drop_candidates)
+        if len(df) > 0:
+            df = df.sort_values('dropability_score', ascending=False)
+        
+        return df
+    
+    def generate_waiver_report(self, roster_df: pd.DataFrame,
+                               schedule_df: pd.DataFrame,
+                               fa_scores_df: pd.DataFrame,
+                               roster_scores: Dict) -> str:
+        """
+        Generate comprehensive waiver wire report
+        
+        Returns formatted string report
+        """
+        report = []
+        report.append("=" * 80)
+        report.append("WAIVER WIRE RECOMMENDATIONS")
+        report.append("=" * 80)
+        report.append("")
+        
+        # Get best pickups
+        pickups = self.find_best_waiver_pickups(
+            roster_df, schedule_df, fa_scores_df, roster_scores, top_n=10
+        )
+        
+        if len(pickups) > 0:
+            report.append("🎯 TOP WAIVER WIRE TARGETS (Next 7 Days)")
+            report.append("-" * 80)
+            
+            for i, row in pickups.iterrows():
+                report.append(f"\n{i+1}. {row['player_name']} ({row['team']}) - Score: {row['waiver_score']}")
+                report.append(f"   📅 {row['upcoming_games']} games | "
+                            f"🏠 {row['home_games']} home | "
+                            f"⚡ Avg Score: {row['avg_factor_score']:.2f}")
+                report.append(f"   💡 {row['reasons']}")
+        else:
+            report.append("No free agent data available")
+        
+        report.append("")
+        report.append("=" * 80)
+        report.append("DROP CANDIDATES FROM YOUR ROSTER")
+        report.append("=" * 80)
+        report.append("")
+        
+        # Get drop candidates
+        drops = self.suggest_drop_candidates(roster_df, roster_scores)
+        
+        if len(drops) > 0:
+            weak_performers = drops[drops['drop_priority'].str.contains('DROP|CONSIDER')]
+            
+            if len(weak_performers) > 0:
+                report.append("⚠️  WEAKEST PERFORMERS THIS WEEK:")
+                report.append("-" * 80)
+                
+                for i, row in weak_performers.head(5).iterrows():
+                    report.append(f"{row['player_name']:<25} Score: {row['avg_score']:>6.2f} | "
+                                f"{row['drop_priority']}")
+            else:
+                report.append("✅ No clear drop candidates - all players performing adequately")
+        
+        report.append("")
+        report.append("=" * 80)
+        report.append("STRATEGIC PICKUP SUGGESTIONS")
+        report.append("=" * 80)
+        report.append("")
+        
+        # Highlight special situations
+        if len(pickups) > 0:
+            coors_players = pickups[pickups['coors_games'] > 0]
+            if len(coors_players) > 0:
+                report.append("🏔️  COORS FIELD ADVANTAGE PLAYS:")
+                report.append("-" * 80)
+                for _, row in coors_players.head(3).iterrows():
+                    report.append(f"• {row['player_name']} ({row['team']}) - "
+                                f"{row['coors_games']} games at Coors this week")
+                report.append("")
+        
+        return "\n".join(report)
+
+
+if __name__ == '__main__':
+    # Test the analyzer
+    data_dir = Path(__file__).parent.parent.parent / 'data'
+    analyzer = WaiverWireAnalyzer(data_dir)
+    
+    print("Waiver Wire Analyzer loaded successfully!")
+    print("\nThis module will be integrated into daily_sitstart.py")
+    print("to provide strategic pickup/drop suggestions.")

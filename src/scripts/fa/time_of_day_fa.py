@@ -287,13 +287,17 @@ class TimeOfDayAnalyzer:
     def get_time_quality_rating(self, advantage_score):
         """Get quality rating for time of day advantage"""
         if advantage_score > 7:
-            return "Excellent"
+                    return "Excellent"
         elif advantage_score > 5:
             return "Good"
         elif advantage_score > 3:
             return "Fair"
         else:
             return "Poor"
+    
+    def analyze_roster(self, roster_df, schedule_df, players_df):
+        """Wrapper for analyze to match interface"""
+        return self.analyze(schedule_df, players_df, roster_df)
 
 
 def analyze_time_of_day(data_dir='data'):

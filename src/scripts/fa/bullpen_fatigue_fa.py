@@ -138,13 +138,13 @@ class BullpenFatigueAnalyzer:
             
             # Get roster players for this game
             game_roster = roster_df[
-                (roster_df['team'] == home_team) | 
-                (roster_df['team'] == away_team)
+                (roster_df.get('mlb_team', roster_df.get('team', '')) == home_team) | 
+                (roster_df.get('mlb_team', roster_df.get('team', '')) == away_team)
             ]
             
             for _, player in game_roster.iterrows():
                 player_name = player['player_name']
-                player_team = player['team']
+                player_team = player.get('mlb_team', player.get('team', ''))
                 
                 # Determine opposing team (whose bullpen we're analyzing)
                 opponent = away_team if player_team == home_team else home_team

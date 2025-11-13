@@ -42,7 +42,7 @@ class YahooFantasyAPI:
     
     def __init__(self):
         self.oauth = None
-        self.project_root = Path(__file__).parent.parent.parent
+        self.project_root = Path(__file__).parent.parent.parent.parent
         self.data_dir = self.project_root / "data"
         self.oauth_file = self.project_root / "oauth2.json"
         
@@ -86,27 +86,133 @@ class YahooFantasyAPI:
         return self.oauth.session.get(url, params={'format': 'json'}).json()
     
     def get_teams(self):
-        """Get user's teams"""
+        """Get user's teams for the current/most recent MLB season"""
         self.print_header("Finding Your Teams")
-        data = self.request("users;use_login=1/games;game_keys=mlb/teams")
+        
+        # Get all leagues
+        try:
+            data = self.request(f"users;use_login=1/games;game_codes=mlb/leagues")
+        except Exception as e:
+            print(f"⚠️  Error fetching teams: {e}")
+            return []
         
         teams = []
         games = data['fantasy_content']['users']['0']['user'][1]['games']
         
-        for key in games:
-            if key == 'count': continue
-            for item in games[key]['game']:
-                if isinstance(item, dict) and 'teams' in item:
-                    for i in range(int(item['teams']['count'])):
-                        team = item['teams'][str(i)]['team'][0]
-                        info = {
-                            'key': team[0]['team_key'],
-                            'name': team[2]['name']
-                        }
-                        teams.append(info)
-                        print(f"  ✓ {info['name']}")
+        # Look for the most recent season (highest game key)
+        game_keys = [k for k in games.keys() if k != 'count']
+        
+        # Process games in reverse order (most recent first)
+        for key in sorted(game_keys, reverse=True):
+            game_data = games[key]['game']
+            if not isinstance(game_data, list):
+                continue
+                
+            # Get game info
+            game_info = game_data[0]
+            season = game_info.get('season', '')
+            game_key = game_info.get('game_key', '')
+            
+            print(f"\n  Checking {season} season...")
+            
+            # Look for leagues in this game
+            for item in game_data:
+                if isinstance(item, dict) and 'leagues' in item:
+                    league_count = int(item['leagues'].get('count', 0))
+                    
+                    for i in range(league_count):
+                        if str(i) not in item['leagues']:
+                            continue
+                            
+                        league_list = item['leagues'][str(i)]['league']
+                        
+                        # League data is a list with a single dict containing all fields
+                        if not league_list or not isinstance(league_list, list):
+                            continue
+                        
+                        league_data = league_list[0]  # First item has all the data
+                        
+                        # Extract league info directly from the dict
+                        league_key = league_data.get('league_key')
+                        league_name = league_data.get('name')
+                        
+                        if league_key:
+                            # Get user's team in this league
+                            team_info = self._get_user_team_in_league(league_key, league_name, season)
+                            if team_info:
+                                teams.append(team_info)
+            
+            # If we found teams, stop (use most recent season)
+            if teams:
+                break
         
         return teams
+    
+    def _get_user_guid(self):
+        """Get the current user's GUID"""
+        if not hasattr(self, 'user_guid'):
+            try:
+                data = self.request("users;use_login=1")
+                self.user_guid = data['fantasy_content']['users']['0']['user'][0]['guid']
+            except Exception as e:
+                print(f"⚠️  Error getting user GUID: {e}")
+                self.user_guid = None
+        return self.user_guid
+    
+    def _get_user_team_in_league(self, league_key, league_name, season):
+        """Get the user's team within a specific league"""
+        try:
+            user_guid = self._get_user_guid()
+            if not user_guid:
+                return None
+                
+            data = self.request(f"league/{league_key}/teams")
+            teams_data = data['fantasy_content']['league'][1]['teams']
+            
+            # Find the team owned by the user (check manager GUID)
+            team_count = int(teams_data.get('count', 0))
+            
+            for i in range(team_count):
+                if str(i) not in teams_data:
+                    continue
+                    
+                team = teams_data[str(i)]['team'][0]
+                
+                # Extract team info
+                team_key = None
+                team_name = None
+                is_owned = False
+                
+                for t_item in team:
+                    if isinstance(t_item, dict):
+                        if 'team_key' in t_item:
+                            team_key = t_item['team_key']
+                        if 'name' in t_item:
+                            team_name = t_item['name']
+                        if 'managers' in t_item:
+                            # Check if any manager has the user's GUID
+                            for manager_item in t_item['managers']:
+                                if isinstance(manager_item, dict) and 'manager' in manager_item:
+                                    manager_guid = manager_item['manager'].get('guid', '')
+                                    if manager_guid == user_guid:
+                                        is_owned = True
+                                        break
+                
+                if is_owned and team_key and team_name:
+                    print(f"    ✓ {team_name} (in {league_name})")
+                    return {
+                        'key': team_key,
+                        'name': team_name,
+                        'league': league_name,
+                        'season': season
+                    }
+            
+        except Exception as e:
+            print(f"    ⚠️  Error fetching team from {league_name}: {e}")
+            import traceback
+            traceback.print_exc()
+        
+        return None
     
     def get_roster(self, team_key, team_name):
         """Get team roster"""
@@ -154,17 +260,20 @@ class YahooFantasyAPI:
         if not self.setup_oauth():
             return False
         
-        # Get all teams
+        # Get all user's teams
         all_teams = self.get_teams()
         
-        # Fetch target teams
-        self.print_header("Fetching Target Teams")
+        if not all_teams:
+            print("\n⚠️  No teams found!")
+            return False
+        
+        # Fetch rosters from all teams
+        self.print_header(f"Fetching Rosters from {len(all_teams)} Team(s)")
         all_rosters = []
         
         for team in all_teams:
-            if team['name'] in self.TARGET_TEAMS:
-                roster = self.get_roster(team['key'], team['name'])
-                all_rosters.extend(roster)
+            roster = self.get_roster(team['key'], team['name'])
+            all_rosters.extend(roster)
         
         # Export
         if all_rosters:
@@ -176,10 +285,11 @@ class YahooFantasyAPI:
             
             print(f"\n✅ Exported {len(all_rosters)} players to:")
             print(f"   {filepath}")
-            for team in self.TARGET_TEAMS:
-                count = len(df[df['fantasy_team'] == team])
-                if count > 0:
-                    print(f"   {team}: {count} players")
+            
+            # Show count by team
+            for team_name in df['fantasy_team'].unique():
+                count = len(df[df['fantasy_team'] == team_name])
+                print(f"   {team_name}: {count} players")
         
         return True
 

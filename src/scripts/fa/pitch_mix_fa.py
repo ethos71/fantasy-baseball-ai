@@ -231,3 +231,16 @@ class PitchMixAnalyzer:
             return f"Challenging matchup - limited exposure to {best_pitch}"
         else:
             return f"Difficult matchup - facing mostly troublesome pitch types"
+
+
+    def analyze_roster(self, roster_df, schedule_df, players_df=None):
+        """Wrapper for analyze to match interface"""
+        return self.analyze(schedule_df, players_df, roster_df)
+    
+    def _load_gamelogs(self):
+        """Helper to load game logs if needed"""
+        game_logs_file = self.data_dir / "mlb_game_logs_2024.csv"
+        if game_logs_file.exists():
+            import pandas as pd
+            return pd.read_csv(game_logs_file)
+        return pd.DataFrame()

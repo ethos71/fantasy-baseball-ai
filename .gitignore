@@ -17,3 +17,11 @@ __pycache__/
 **/*.pyo
 **/*.pyd
 src/scripts/__pycache__/
+
+# Data directory (analysis outputs, rosters, recommendations)
+data/
+*.csv
+
+# Backup files
+*.bak
+*_OLD.md

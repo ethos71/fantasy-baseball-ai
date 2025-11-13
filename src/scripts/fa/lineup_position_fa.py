@@ -245,6 +245,16 @@ class LineupPositionAnalyzer:
             return "Fair"
         else:
             return "Poor"
+    
+    def analyze_roster(self, roster_df, schedule_df):
+        """Wrapper for analyze to match interface"""
+        # Load MLB data
+        mlb_file = self.data_dir / "mlb_all_players_complete.csv"
+        if mlb_file.exists():
+            mlb_df = pd.read_csv(mlb_file)
+        else:
+            mlb_df = pd.DataFrame()
+        return self.analyze(schedule_df, mlb_df, roster_df)
 
 
 def analyze_lineup_position(data_dir='data'):

@@ -73,3 +73,16 @@ class MatchupFactorAnalyzer:
                     })
         
         return pd.DataFrame(results)
+
+
+    def analyze_roster(self, roster_df, schedule_df, players_df=None):
+        """Wrapper for analyze to match interface"""
+        return self.analyze(schedule_df, self._load_gamelogs(), roster_df)
+    
+    def _load_gamelogs(self):
+        """Helper to load game logs if needed"""
+        game_logs_file = self.data_dir / "mlb_game_logs_2024.csv"
+        if game_logs_file.exists():
+            import pandas as pd
+            return pd.read_csv(game_logs_file)
+        return pd.DataFrame()

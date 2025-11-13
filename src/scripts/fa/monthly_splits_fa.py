@@ -74,13 +74,13 @@ class MonthlySplitsAnalyzer:
         slg = total_bases / total_ab if total_ab > 0 else 0.0
         
         return {
-            'games': len(month_games),
-            'avg': round(avg, 3),
-            'obp': round(obp, 3),
-            'slg': round(slg, 3),
-            'ops': round(obp + slg, 3),
-            'hr': int(total_hr),
-            'rbi': int(total_rbi)
+            'games': len(month_games) if len(month_games) > 0 else 0,
+            'avg': round(avg, 3) if len(month_games) > 0 else 0.0,
+            'obp': round(obp, 3) if len(month_games) > 0 else 0.0,
+            'slg': round(slg, 3) if len(month_games) > 0 else 0.0,
+            'ops': round(obp + slg, 3) if len(month_games) > 0 else 0.0,
+            'hr': int(total_hr) if len(month_games) > 0 else 0,
+            'rbi': int(total_rbi) if len(month_games) > 0 else 0
         }
     
     def analyze_player_monthly_profile(self, player_name, player_games):
@@ -116,7 +116,9 @@ class MonthlySplitsAnalyzer:
         
         # Calculate current month advantage
         current_month = datetime.now().month
-        current_stats = monthly_stats.get(current_month, {'games': 0, 'ops': 0.700})
+        current_stats = monthly_stats.get(current_month, {
+            'games': 0, 'avg': 0.0, 'obp': 0.0, 'slg': 0.0, 'ops': 0.700, 'hr': 0, 'rbi': 0
+        })
         
         if current_stats['games'] >= 10:
             # Compare to season average
@@ -130,16 +132,16 @@ class MonthlySplitsAnalyzer:
         
         return {
             'player_name': player_name,
-            'season_avg': season_stats['avg'],
-            'season_ops': season_stats['ops'],
-            'best_month': self.MONTHS[best_month[0]],
-            'best_month_ops': best_month[1]['ops'],
-            'worst_month': self.MONTHS[worst_month[0]],
-            'worst_month_ops': worst_month[1]['ops'],
-            'current_month': self.MONTHS[current_month],
-            'current_month_avg': current_stats['avg'],
-            'current_month_ops': current_stats['ops'],
-            'current_month_games': current_stats['games'],
+            'season_avg': season_stats.get('avg', 0.0),
+            'season_ops': season_stats.get('ops', 0.0),
+            'best_month': self.MONTHS.get(best_month[0], 'Unknown'),
+            'best_month_ops': best_month[1].get('ops', 0.0),
+            'worst_month': self.MONTHS.get(worst_month[0], 'Unknown'),
+            'worst_month_ops': worst_month[1].get('ops', 0.0),
+            'current_month': self.MONTHS.get(current_month, 'Unknown'),
+            'current_month_avg': current_stats.get('avg', 0.0),
+            'current_month_ops': current_stats.get('ops', 0.0),
+            'current_month_games': current_stats.get('games', 0),
             'month_score': round(month_score, 2),
             'monthly_pattern': self.classify_monthly_pattern(monthly_stats)
         }

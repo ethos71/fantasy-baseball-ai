@@ -186,10 +186,20 @@ class DefensivePositionsFactorAnalyzer:
                     'team_def_rating': team_def_rating,
                     'pos_def_quality': pos_def_quality,
                     'shift_tendency': shift_tendency,
-                    'defensive_impact_score': final_score,
+                    'score': final_score,
                     'def_quality': def_quality,
                     'position_note': pos_note,
                     'opportunity_mult': opportunity_mult
                 })
         
         return pd.DataFrame(results)
+    
+    def analyze_roster(self, roster_df, schedule_df, teams_df):
+        """Wrapper for analyze to match interface"""
+        # Load game logs
+        game_logs_file = self.data_dir / "mlb_game_logs_2024.csv"
+        if game_logs_file.exists():
+            game_logs_df = pd.read_csv(game_logs_file)
+        else:
+            game_logs_df = pd.DataFrame()
+        return self.analyze(schedule_df, game_logs_df, roster_df)
