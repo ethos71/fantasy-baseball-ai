@@ -14,6 +14,12 @@ ALWAYS FETCHES LATEST ROSTER FROM YAHOO:
   • Automatically detects and uses the current MLB season
   • Historical roster data saved as: yahoo_fantasy_rosters_YYYYMMDD_HHMMSS.csv
 
+CODE ORGANIZATION:
+  • All new Python scripts must go in src/scripts/
+  • Streamlit components must go in src/scripts/streamlit_components/
+  • Factor analysis modules must go in src/scripts/fa/
+  • Data scraping scripts must go in src/scripts/scrape/
+
 Usage:
     fb-ai                    # Run analysis for today (auto-detects mode)
     fb-ai --date 2025-09-29  # Run for specific date
