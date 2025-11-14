@@ -426,17 +426,19 @@ class DailySitStartManager:
         return total_score
     
     def _get_recommendation(self, score: float) -> str:
-        """Convert score to recommendation"""
-        if score >= 1.5:
-            return "🌟 VERY FAVORABLE - STRONG START"
-        elif score >= 0.5:
-            return "✅ FAVORABLE - START"
-        elif score >= -0.5:
-            return "⚖️  NEUTRAL - CONSIDER MATCHUP"
-        elif score >= -1.5:
-            return "⚠️  UNFAVORABLE - CONSIDER BENCHING"
+        """Convert score to recommendation based on realistic score distribution"""
+        # Adjusted thresholds based on actual score distribution (-0.25 to +0.25 typical range)
+        # Using percentile-based cutoffs for more meaningful recommendations
+        if score >= 0.15:
+            return "🌟 STRONG START - Top tier matchup"
+        elif score >= 0.05:
+            return "✅ FAVORABLE - Good matchup"
+        elif score >= -0.05:
+            return "⚖️  NEUTRAL - Average matchup"
+        elif score >= -0.15:
+            return "⚠️  UNFAVORABLE - Poor matchup"
         else:
-            return "🚫 VERY UNFAVORABLE - BENCH"
+            return "🚫 BENCH - Very poor matchup"
     
     def display_recommendations(self, recommendations: Dict):
         """Display sit/start recommendations"""

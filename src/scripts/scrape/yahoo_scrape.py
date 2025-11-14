@@ -225,26 +225,34 @@ class YahooFantasyAPI:
             
             for item in p_data:
                 if isinstance(item, dict):
-                    if 'name' in item:
+                    if 'player_key' in item:
+                        player['player_key'] = item['player_key']
+                    elif 'name' in item:
                         player['name'] = item['name']['full']
                     elif 'eligible_positions' in item:
                         pos = item['eligible_positions']
                         player['positions'] = ', '.join([pos[str(j)]['position'] 
                                                         for j in range(len(pos)) if str(j) in pos])
+                    elif 'display_position' in item:
+                        # Yahoo uses display_position for the actual roster position
+                        player['position'] = item['display_position']
                     elif 'selected_position' in item:
-                        player['position'] = item['selected_position'][1]['position']
+                        # Backup: selected_position shows where they're currently slotted
+                        if not player.get('position'):
+                            player['position'] = item['selected_position'][1]['position']
                     elif 'editorial_team_abbr' in item:
                         player['mlb_team'] = item['editorial_team_abbr']
             
             players.append({
                 'fantasy_team': team_name,
                 'player_name': player.get('name', ''),
+                'player_key': player.get('player_key', ''),
                 'mlb_team': player.get('mlb_team', ''),
                 'position': player.get('position', ''),
                 'eligible_positions': player.get('positions', ''),
                 'scraped_at': datetime.now().isoformat()
             })
-            print(f"  ✓ {player.get('name')} - {player.get('mlb_team')} ({player.get('position')})")
+            print(f"  ✓ {player.get('name')} - {player.get('mlb_team')} (Pos: {player.get('position', 'N/A')}, Eligible: {player.get('positions', 'N/A')})")
         
         return players
     
