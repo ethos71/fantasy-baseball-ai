@@ -127,7 +127,6 @@ def check_and_run_daily_waiver():
                     except subprocess.CalledProcessError as e:
                         st.error(f"❌ Waiver wire analysis failed: {e}")
 
-check_and_run_daily_waiver()
 
 # Title
 st.title("⚾ Fantasy Baseball AI - Sit/Start Analysis")
@@ -176,6 +175,9 @@ if roster_data is not None and 'fantasy_team' in roster_data.columns:
     # Waiver Wire Button - full width under other buttons
     if st.sidebar.button("🔍 Waiver Wire", help="Analyze top free agents", use_container_width=True, key="btn_waiver"):
         st.sidebar.info("Running waiver wire analysis...")
+    
+    # Check if daily waiver wire analysis needs to run
+    check_and_run_daily_waiver()
 
 else:
     st.error("❌ No roster data found! Please ensure Yahoo roster data is available.")
