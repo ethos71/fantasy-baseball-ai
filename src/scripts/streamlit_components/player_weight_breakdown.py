@@ -8,6 +8,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import glob
+from .config import section_header_with_help
 
 
 def render_player_weight_breakdown(df: pd.DataFrame):
@@ -17,8 +18,57 @@ def render_player_weight_breakdown(df: pd.DataFrame):
     Args:
         df: DataFrame with player data including factor scores and weights
     """
-    st.markdown('<div class="section-header-container"><h2>⚖️ Player Weight Breakdown</h2></div>', unsafe_allow_html=True)
-    st.markdown("View individual factor weights for roster players and top waiver wire prospects")
+    section_header_with_help(
+        "⚖️ Player Weight Breakdown",
+        """
+### What is Player Weight Breakdown?
+
+View individual factor weights for roster players and top waiver wire prospects. This section allows you to drill down into exactly how each of the 20 factors contributes to a player's final sit/start recommendation.
+
+### Factor Score
+
+A **factor score** represents how favorable a specific matchup factor is for a player on a particular day.
+- **Range:** Typically -1.0 to +2.0 (normalized scale)
+- **Meaning:** 
+  - Positive scores (>0) = Favorable conditions
+  - Negative scores (<0) = Unfavorable conditions
+  - Zero (0) = Neutral/average conditions
+- **Example:** A wind factor score of +2.0 means strong wind blowing out (very favorable for hitters)
+
+### Factor Weight
+
+A **factor weight** represents how much importance/influence a specific factor has in the final recommendation.
+- **Range:** 0.0 to 1.0 (percentage)
+- **Purpose:** Determines how much each factor score contributes to the final decision
+- **Calibrated:** Weights are optimized based on historical performance data for each player
+- **Example:** If the wind factor has a weight of 0.15 (15%), it contributes 15% to the final score
+
+### How They Work Together
+
+**Final Score = Σ (Factor Score × Factor Weight)**
+
+For each player, we:
+1. Calculate 20 different factor scores (wind, umpire, park, etc.)
+2. Multiply each score by its weight
+3. Sum all weighted scores to get the final recommendation score
+
+### Example Calculation
+
+**Aaron Judge on a windy day:**
+- Wind Score: +2.0, Weight: 0.15 → Contribution: +0.30
+- Umpire Score: +0.7, Weight: 0.08 → Contribution: +0.056
+- Park Score: -0.5, Weight: 0.12 → Contribution: -0.06
+- *... (17 more factors)*
+- **Final Score: +0.24 → 🌟 STRONG START**
+
+### Using This Tool
+
+1. **Select a Player:** Choose from your roster or top waiver prospects
+2. **View Factor Weights:** See which factors matter most for this player
+3. **View Factor Scores:** See today's conditions for each factor
+4. **Weighted Contribution:** See the final impact (Score × Weight)
+"""
+    )
     
     # Create tabs for roster vs waiver wire
     tab1, tab2 = st.tabs(["📊 Roster Players", "🌟 Top 10 Waiver Wire"])
@@ -28,50 +78,11 @@ def render_player_weight_breakdown(df: pd.DataFrame):
     
     with tab2:
         _render_waiver_wire_tab()
-    
-    st.markdown("---")
 
 
 def _render_roster_players_tab(df):
     """Render roster players factor weight analysis"""
-    # Header with help icon
-    col_header, col_help = st.columns([10, 1])
-    with col_header:
-        st.markdown("#### Roster Players - Factor Weight Analysis")
-    with col_help:
-        with st.popover("ℹ️"):
-            st.markdown("""
-            ### Factor Score
-            A **factor score** represents how favorable a specific matchup factor is for a player on a particular day.
-            - **Range:** Typically -1.0 to +2.0 (normalized scale)
-            - **Meaning:** 
-              - Positive scores (>0) = Favorable conditions
-              - Negative scores (<0) = Unfavorable conditions
-              - Zero (0) = Neutral/average conditions
-            - **Example:** A wind factor score of +2.0 means strong wind blowing out (very favorable for hitters)
-            
-            ### Factor Weight
-            A **factor weight** represents how much importance/influence a specific factor has in the final recommendation.
-            - **Range:** 0.0 to 1.0 (percentage)
-            - **Purpose:** Determines how much each factor score contributes to the final decision
-            - **Calibrated:** Weights are optimized based on historical performance data
-            - **Example:** If the wind factor has a weight of 0.15 (15%), it contributes 15% to the final score
-            
-            ### How They Work Together
-            **Final Score = Σ (Factor Score × Factor Weight)**
-            
-            For each player, we:
-            1. Calculate 20 different factor scores (wind, umpire, park, etc.)
-            2. Multiply each score by its weight
-            3. Sum all weighted scores to get the final recommendation score
-            
-            **Example Calculation:**
-            - Wind Score: +2.0, Weight: 0.15 → Contribution: +0.30
-            - Umpire Score: +0.7, Weight: 0.08 → Contribution: +0.056
-            - Park Score: -0.5, Weight: 0.12 → Contribution: -0.06
-            - *... (17 more factors)*
-            - **Final Score: Sum of all contributions → Sit/Start recommendation**
-            """)
+    st.markdown("#### Roster Players - Factor Weight Analysis")
     
     # Get all weight columns
     weight_cols = [col for col in df.columns if col.endswith('_weight')]
@@ -129,47 +140,8 @@ def _render_roster_players_tab(df):
                 fig_scores.update_layout(showlegend=False, xaxis_tickangle=-45)
                 st.plotly_chart(fig_scores, use_container_width=True)
             
-            # Show contribution breakdown with help icon
-            col_contrib, col_help_contrib = st.columns([10, 1])
-            with col_contrib:
-                st.markdown("**Weighted Contribution to Final Score**")
-            with col_help_contrib:
-                with st.popover("ℹ️"):
-                    st.markdown("""
-                    ### Understanding Contributions
-                    
-                    This table shows how each factor contributes to the player's final score.
-                    
-                    **Contribution Formula:**
-                    ```
-                    Contribution = Factor Score × Factor Weight
-                    ```
-                    
-                    **Column Meanings:**
-                    - **Factor:** The name of the analysis factor
-                    - **Weight:** How important this factor is (0-100%)
-                    - **Score:** The raw factor score for this matchup
-                    - **Contribution:** The weighted impact on final score
-                    
-                    **Interpreting the Table:**
-                    - **Positive Contributions (Green):** Help the player's ranking
-                    - **Negative Contributions (Red):** Hurt the player's ranking
-                    - **Largest Contributions:** Main drivers of recommendation
-                    
-                    **Example:**
-                    ```
-                    Factor: Wind
-                    Weight: 15.0%
-                    Score: +2.0 (strong wind blowing out)
-                    Contribution: +0.30 (2.0 × 0.15)
-                    → Wind is a major positive factor!
-                    ```
-                    
-                    **Strategy:**
-                    - Look for multiple positive contributions = confident start
-                    - One big negative can override several positives
-                    - Sum of all contributions = Final Score
-                    """)
+            # Show contribution breakdown
+            st.markdown("**Weighted Contribution to Final Score**")
             
             contributions = {factor: score * player_weights.get(factor, 0) 
                            for factor, score in player_scores.items()}

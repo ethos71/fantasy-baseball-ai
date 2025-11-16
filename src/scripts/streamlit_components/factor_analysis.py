@@ -7,6 +7,7 @@ Displays factor weights and scores analysis with visualizations.
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from .config import section_header_with_help
 
 
 def render_factor_analysis(df: pd.DataFrame):
@@ -16,78 +17,76 @@ def render_factor_analysis(df: pd.DataFrame):
     Args:
         df: DataFrame with player data including factor scores and weights
     """
-    col_header, col_help = st.columns([0.95, 0.05])
-    with col_header:
-        st.markdown('<div class="section-header-container"><h2>🔍 Factor Analysis</h2></div>', unsafe_allow_html=True)
-    with col_help:
-        with st.popover("ℹ️"):
-            st.markdown("""
-    ### Factor Analysis Legend
-        
-        **What Each Factor Means and Its Typical Impact:**
-        
-        **High Impact Factors (10-20%):**
-        - **Vegas (15-20%):** Betting lines - O/U totals, implied runs, win probability
-        - **Statcast (10-15%):** Advanced metrics - exit velocity, barrel rate, hard-hit %, xBA, xSLG
-        
-        **Medium-High Impact (8-12%):**
-        - **Matchup (8-12%):** Historical performance vs specific pitcher/team
-        - **Bullpen (8-12%):** Opponent bullpen strength and fatigue levels
-        - **Platoon (8-12%):** L/R handedness matchup advantages
-        
-        **Medium Impact (5-8%):**
-        - **Home/Away (5-8%):** Home field advantage and home/road splits
-        - **Injury (5-8%):** Player health status, DTD, recently returned from IL
-        - **Park (5-8%):** Ballpark factors (hitter/pitcher friendly dimensions)
-        - **Recent Form (5-8%):** Last 7/14/30 day performance trends
-        - **Wind (5-8%):** Wind speed/direction (out = hitter boost, in = pitcher boost)
-        
-        **Lower Impact (3-5%):**
-        - **Rest (3-5%):** Days off since last game (fresher = better)
-        - **Temperature (3-5%):** Warmer weather helps offense (ball travels farther)
-        - **Lineup (3-5%):** Batting order position (1-3 = more ABs)
-        - **Umpire (3-5%):** Umpire strike zone tendencies
-        - **Pitch Mix (3-5%):** Pitcher's arsenal vs batter's strengths
-        
-        **Minimal Impact (1-3%):**
-        - **Time (1-3%):** Day vs night game performance splits
-        - **Humidity (1-3%):** Humidity and elevation effects on ball flight
-        - **Defense (1-3%):** Defensive positioning shifts, opponent defense quality
-        - **Monthly (1-3%):** Performance by month (Apr/May/Jun/Jul/Aug/Sep splits)
-        - **Momentum (1-3%):** Team win/loss streaks and recent performance
-        
-        ---
-        
-        ### How to Interpret Scores:
-        
-        **Final Score Ranges:**
-        - **+0.15+:** 🌟 Strong Start - Elite matchup, must start
-        - **+0.05 to +0.15:** ✅ Favorable - Strong start candidate
-        - **-0.05 to +0.05:** ⚖️ Neutral - Consider other factors
-        - **-0.15 to -0.05:** ⚠️ Unfavorable - Bench candidate
-        - **Below -0.15:** 🚫 Bench - Terrible matchup, sit if possible
-        
-        **Individual Factor Scores:**
-        - **Positive:** Favorable conditions for this factor
-        - **Negative:** Unfavorable conditions for this factor
-        - **Near zero:** Neutral or not applicable
-        
-        ---
-        
-        ### Weight Optimization:
-        
-        Weights are **auto-tuned** based on historical performance data:
-        - Calibrated using past game results
-        - Optimized for your specific players
-        - Updated when you run "⚖️ Calibrate Weights"
-        - Reflects what actually predicts success for your roster
-        
-        ### Tips:
-        - Focus on high-weight factors first
-        - Multiple positive factors = stronger confidence
-        - One negative high-weight factor can sink a recommendation
-        - Weights vary by player type (power hitters vs speed, starters vs relievers)
-        """)
+    section_header_with_help(
+        "🔍 Factor Analysis",
+        """
+### Factor Analysis Legend
+    
+**What Each Factor Means and Its Typical Impact:**
+    
+**High Impact Factors (10-20%):**
+- **Vegas (15-20%):** Betting lines - O/U totals, implied runs, win probability. Uses sportsbook data to gauge offensive expectations.
+- **Statcast (10-15%):** Advanced metrics - exit velocity, barrel rate, hard-hit %, xBA, xSLG. MLB's tracking data for batted ball quality.
+    
+**Medium-High Impact (8-12%):**
+- **Matchup (8-12%):** Historical performance vs specific pitcher/team. How has player performed against this opponent?
+- **Bullpen (8-12%):** Opponent bullpen strength and fatigue levels. Weak/tired bullpen = more late-inning opportunities.
+- **Platoon (8-12%):** L/R handedness matchup advantages. Righty vs lefty splits, same-handed matchups.
+    
+**Medium Impact (5-8%):**
+- **Home/Away (5-8%):** Home field advantage and home/road splits. Players often perform better at home.
+- **Injury (5-8%):** Player health status, DTD, recently returned from IL. Nagging injuries reduce performance.
+- **Park (5-8%):** Ballpark factors (hitter/pitcher friendly dimensions). Coors Field vs Oracle Park extremes.
+- **Recent Form (5-8%):** Last 7/14/30 day performance trends. Hot streaks and slumps matter.
+- **Wind (5-8%):** Wind speed/direction (out = hitter boost, in = pitcher boost). 10+ mph out helps homers.
+    
+**Lower Impact (3-5%):**
+- **Rest (3-5%):** Days off since last game (fresher = better). Fatigue from consecutive games.
+- **Temperature (3-5%):** Warmer weather helps offense (ball travels farther). 80°F+ optimal for hitters.
+- **Lineup (3-5%):** Batting order position (1-3 = more ABs). Leadoff/2-hole get most plate appearances.
+- **Umpire (3-5%):** Umpire strike zone tendencies. Some umps favor pitchers (tight zone) or hitters (wide zone).
+- **Pitch Mix (3-5%):** Pitcher's arsenal vs batter's strengths. Breaking ball pitcher vs fastball hitter.
+    
+**Minimal Impact (1-3%):**
+- **Time (1-3%):** Day vs night game performance splits. Some players see better in day games.
+- **Humidity (1-3%):** Humidity and elevation effects on ball flight. High altitude = ball travels farther.
+- **Defense (1-3%):** Defensive positioning shifts, opponent defense quality. Bad defense = more hits.
+- **Monthly (1-3%):** Performance by month (Apr/May/Jun/Jul/Aug/Sep splits). Some players start slow.
+- **Momentum (1-3%):** Team win/loss streaks and recent performance. Team chemistry and confidence.
+    
+---
+    
+### How to Interpret Scores:
+    
+**Final Score Ranges:**
+- **+0.15+:** 🌟 Strong Start - Elite matchup, must start
+- **+0.05 to +0.15:** ✅ Favorable - Strong start candidate
+- **-0.05 to +0.05:** ⚖️ Neutral - Consider other factors
+- **-0.15 to -0.05:** ⚠️ Unfavorable - Bench candidate
+- **Below -0.15:** 🚫 Bench - Terrible matchup, sit if possible
+    
+**Individual Factor Scores:**
+- **Positive:** Favorable conditions for this factor
+- **Negative:** Unfavorable conditions for this factor
+- **Near zero:** Neutral or not applicable
+    
+---
+    
+### Weight Optimization:
+    
+Weights are **auto-tuned** based on historical performance data:
+- Calibrated using past game results
+- Optimized for your specific players
+- Updated when you run "⚖️ Calibrate Weights"
+- Reflects what actually predicts success for your roster
+    
+### Tips:
+- Focus on high-weight factors first
+- Multiple positive factors = stronger confidence
+- One negative high-weight factor can sink a recommendation
+- Weights vary by player type (power hitters vs speed, starters vs relievers)
+"""
+    )
     
     # Get all factor columns (those ending with _score and _weight)
     score_cols = [col for col in df.columns if col.endswith('_score') and col != 'final_score']

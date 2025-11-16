@@ -7,18 +7,93 @@ Displays top available free agents with analysis.
 import streamlit as st
 import pandas as pd
 import glob
+from .config import section_header_with_help
 
 
 def render_waiver_wire():
     """
     Render waiver wire prospects section
     """
-    col_header, col_help = st.columns([0.95, 0.05])
-    with col_header:
-        st.markdown('<div class="section-header-container"><h2>🔍 Waiver Wire Prospects</h2></div>', unsafe_allow_html=True)
-    with col_help:
-        with st.popover("ℹ️"):
-            _render_help_content()
+    section_header_with_help(
+        "🔍 Waiver Wire Prospects",
+        """
+### Waiver Wire Analysis
+
+Discover the **best available free agents** based on upcoming matchups and performance trends. This analysis helps you find hidden gems before your league-mates do!
+
+### What This Shows
+
+**Top Available Players:**
+- Best free agents based on next 7 days of matchups
+- Sorted by average projected score
+- Includes recent performance stats
+- Position eligibility and ownership %
+
+### How It Works
+
+1. **Pulls Free Agents:** Fetches top available players from Yahoo
+2. **Analyzes Matchups:** Runs sit/start analysis on upcoming games
+3. **Averages Scores:** Calculates 7-day average score
+4. **Ranks Players:** Sorts by highest average matchup quality
+
+### Key Metrics
+
+**Avg Score:** Average sit/start score over next 7 days
+- Higher = better upcoming matchups
+- +0.15+ = elite matchup week
+- -0.15+ = avoid, poor matchup week
+
+**Position:** Eligible positions (C, 1B, 2B, SS, 3B, OF, SP, RP)
+
+**Own%:** League-wide ownership percentage
+- <5% = deep sleeper
+- 5-25% = solid pickup opportunity  
+- 25-50% = popular waiver target
+- >50% = probably shouldn't be available
+
+**Recent Stats:** Last 7/14/30 day performance
+- Helps identify hot streaks
+- Context for matchup scores
+
+### Strategy Tips
+
+**Buy Low on Hot Matchups:**
+- Low ownership + high avg score = great pickup
+- Player might be cold but has favorable schedule
+
+**Stream Starting Pitchers:**
+- SPs with +0.10+ scores are streamable
+- Check their next start specifically
+
+**Stash for Playoffs:**
+- Look at matchups beyond 7 days
+- Some players have elite playoff schedules
+
+**Beat the Wire:**
+- Run analysis early in week
+- Grab players before others notice
+
+### When to Use
+
+**Weekly:** Check Sunday night before waivers clear
+**Injuries:** When your player goes on IL
+**Slumps:** When your starter is struggling
+**Streaming:** For daily matchup exploitation
+
+### Example
+
+```
+Player: Jorge Polanco
+Position: 2B, SS
+Avg Score: +0.18 (next 7 days)
+Own%: 12%
+Last 7d: .320 AVG, 2 HR, 8 RBI
+
+Analysis: Hot hitter + favorable schedule!
+Action: Strong waiver claim priority
+```
+"""
+    )
     
     # Load waiver wire data
     waiver_files = sorted(glob.glob('data/waiver_wire_*.csv'), reverse=True)
@@ -36,84 +111,6 @@ def render_waiver_wire():
     else:
         st.info("🔍 No waiver wire data found. Click the **'Waiver Wire'** button in the sidebar to analyze available free agents.")
 
-
-def _render_help_content():
-    """Render help popover content"""
-    st.markdown("""
-### What This Section Shows
-
-This displays the **top available free agents** based on the same 20-factor analysis used for your roster.
-
-### How Waiver Wire Analysis Works
-
-**Data Source:**
-- Fetches top 100 available players from Yahoo Fantasy
-- Filters to players not on any team in your league
-- Runs same factor analysis as your roster
-
-**Scoring:**
-- Same 20 factors applied as your roster players
-- Weighted scores based on player type (hitter/pitcher)
-- Accounts for upcoming matchups and schedules
-
-**Recommendations:**
-- Players are ranked by final score (best to worst)
-- Shows top 20 pickup targets by default
-- Filter by position using the dropdown
-
-### When to Use This
-
-**Weekly Pickups:**
-- Check before each matchup week starts
-- Target high-scoring prospects for good matchups
-- Stream pitchers for favorable schedules
-
-**Injury Replacements:**
-- Quick comparison of available players
-- Find best available at specific position
-- Prioritize players with upcoming favorable runs
-
-**Strategic Adds:**
-- Grab players before hot streaks
-- Target players facing weak opponents
-- Block opponents from good pickups
-
-### How to Read Results
-
-**Score Column:**
-- Higher score = Better pickup target
-- Scores > 0.15 = Strong pickup candidates
-- Scores < 0 = Proceed with caution
-
-**Recommendation Icons:**
-- 🌟 = Elite pickup opportunity
-- ✅ = Solid add for right matchup
-- ⚖️ = Neutral, consider need/matchup
-- ⚠️ = Risky, only if desperate
-- 🚫 = Avoid unless specific need
-
-### Real-World Example
-```
-Top Waiver Target:
-Player: Luis Robert Jr. (OF)
-Score: +0.32
-🌟 STRONG PICKUP
-
-Why?
-- Upcoming series vs weak pitching
-- Hot streak last 7 days (.385 AVG)
-- Favorable park factors next week
-- Multiple counting stats contributor
-→ High-value add!
-```
-
-### Tips
-- Run waiver analysis before weekly pickups
-- Compare to your bench players (might be better to hold)
-- Consider multi-game series for streaming
-- Check player injury status before adding
-- Use for DFS value plays
-        """)
 
 
 def _render_waiver_table(waiver_df):
