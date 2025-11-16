@@ -76,6 +76,26 @@ def log_command_to_file(args):
 {'='*80}
 Timestamp: {timestamp}
 Command: {command}
+
+GITHUB COPILOT CLI INSTRUCTIONS:
+When you think we have hit a major milestone and I have confirmed everything 
+is working, then git add, commit, and push the current code with a descriptive 
+commit message summarizing the milestone achieved.
+
+Milestones include:
+- Major feature completion (new factor analysis, new dashboard section)
+- Significant refactoring (modularization, architecture improvements)
+- Bug fixes that resolve critical issues
+- Performance improvements
+- Integration of new data sources
+- Completion of multi-step workflow improvements
+
+Before committing, ensure:
+✓ All tests pass (if applicable)
+✓ Code is working as expected
+✓ User has confirmed everything is functional
+✓ Commit message is descriptive and explains the milestone
+
 {'='*80}
 """
     
