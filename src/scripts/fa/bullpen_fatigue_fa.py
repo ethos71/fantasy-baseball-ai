@@ -96,6 +96,10 @@ class BullpenFatigueAnalyzer:
         """Get bullpen usage stats for last 7 days"""
         start_date = game_date - timedelta(days=self.lookback_days)
         
+        # Check if required columns exist
+        if len(game_logs_df) == 0 or 'team' not in game_logs_df.columns:
+            return None
+        
         # Find all relief pitcher appearances for this team
         recent_relief = game_logs_df[
             (game_logs_df['team'] == team) &

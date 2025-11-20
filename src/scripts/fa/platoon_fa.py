@@ -85,6 +85,11 @@ class PlatoonFactorAnalyzer:
         """Analyze platoon advantages"""
         results = []
         
+        # Convert dates once
+        games_df['game_date'] = pd.to_datetime(games_df['game_date'])
+        if len(game_logs_df) > 0:
+            game_logs_df['game_date'] = pd.to_datetime(game_logs_df['game_date'])
+        
         for _, game in games_df.iterrows():
             game_date = game['game_date']
             opponent = game.get('opponent', '')
@@ -94,7 +99,7 @@ class PlatoonFactorAnalyzer:
                 position = player.get('position', '')
                 
                 # Skip pitchers
-                if position in ['SP', 'RP', 'P']:
+                if position in ['SP', 'RP', 'P', 'Pitcher']:
                     continue
                 
                 bats, throws = self.get_player_handedness(player_name)
