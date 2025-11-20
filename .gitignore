@@ -28,3 +28,6 @@ data/
 
 # Log files
 *.log
+
+# Process ID files
+*.pid
