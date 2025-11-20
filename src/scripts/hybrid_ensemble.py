@@ -86,18 +86,14 @@ class HybridEnsemblePredictor:
         Returns:
             Feature matrix and feature names
         """
-        # Base features: all 20 factor scores
-        factor_cols = [
-            'wind_score', 'matchup_score', 'home_away_score', 'rest_day_score',
-            'injury_score', 'umpire_score', 'platoon_score', 'temperature_score',
-            'pitch_mix_score', 'park_factors_score', 'lineup_position_score',
-            'time_of_day_score', 'defensive_positions_score', 'recent_form_score',
-            'bullpen_fatigue_score', 'humidity_elevation_score', 'monthly_splits_score',
-            'team_momentum_score', 'statcast_metrics_score', 'vegas_odds_score'
-        ]
+        # Find all score columns dynamically
+        score_cols = [c for c in player_data.columns if c.endswith('_score')]
         
-        # Derived features (interactions)
-        features = player_data[factor_cols].copy()
+        if not score_cols:
+            raise ValueError("No score columns found in data")
+        
+        # Use available score columns
+        features = player_data[score_cols].copy()
         
         # Add interaction features
         features['park_platoon'] = player_data['park_factors_score'] * player_data['platoon_score']
