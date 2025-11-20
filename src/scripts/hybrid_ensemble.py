@@ -86,25 +86,30 @@ class HybridEnsemblePredictor:
         Returns:
             Feature matrix and feature names
         """
-        # Find all score columns dynamically
-        score_cols = [c for c in player_data.columns if c.endswith('_score')]
+        # Expected base features (all score columns used in training)
+        expected_features = [
+            'lineup_position_score', 'time_of_day_score', 'home_away_score',
+            'recent_form_score', 'wind_score', 'umpire_score', 'bullpen_fatigue_score',
+            'monthly_splits_score', 'platoon_score', 'humidity_and_elevation_score',
+            'team_momentum_score', 'vegas_odds_score', 'park_factors_score',
+            'pitch_mix_score', 'statcast_metrics_score', 'defensive_positions_score',
+            'rest_day_score', 'temperature_score', 'matchup_score'
+        ]
         
-        if not score_cols:
-            raise ValueError("No score columns found in data")
+        # Initialize features DataFrame with all expected features
+        features = pd.DataFrame(index=player_data.index)
         
-        # Use available score columns
-        features = player_data[score_cols].copy()
+        # Add each expected feature (use 0.0 if missing)
+        for feature in expected_features:
+            if feature in player_data.columns:
+                features[feature] = player_data[feature]
+            else:
+                features[feature] = 0.0
         
-        # Add interaction features (only if base columns exist)
-        if 'park_factors_score' in player_data.columns and 'platoon_score' in player_data.columns:
-            features['park_platoon'] = player_data['park_factors_score'] * player_data['platoon_score']
-        if 'matchup_score' in player_data.columns and 'recent_form_score' in player_data.columns:
-            features['matchup_recent'] = player_data['matchup_score'] * player_data['recent_form_score']
-        if 'vegas_odds_score' in player_data.columns and 'park_factors_score' in player_data.columns:
-            features['vegas_park'] = player_data['vegas_odds_score'] * player_data['park_factors_score']
-        
-        # Note: Do NOT add categorical features here - they cause mismatch errors
-        # The model was trained without categorical features (team, position)
+        # Add interaction features
+        features['park_platoon'] = features['park_factors_score'] * features['platoon_score']
+        features['matchup_recent'] = features['matchup_score'] * features['recent_form_score']
+        features['vegas_park'] = features['vegas_odds_score'] * features['park_factors_score']
         
         feature_names = features.columns.tolist()
         return features, feature_names
