@@ -37,8 +37,37 @@ def load_ensemble_predictions(player_data):
         
         predictor.load_models(models_dir)
         
+        # Map column names from sitstart format to training format
+        column_mapping = {
+            'defense_score': 'defensive_positions_score',
+            'humidity_score': 'humidity_and_elevation_score',
+            'momentum_score': 'team_momentum_score',
+            'monthly_score': 'monthly_splits_score',
+            'park_score': 'park_factors_score',
+            'rest_score': 'rest_day_score',
+            'statcast_score': 'statcast_metrics_score',
+            'vegas_score': 'vegas_odds_score',
+        }
+        
+        # Create a copy for prediction
+        pred_data = player_data.copy()
+        
+        # Rename columns to match training data
+        for old_name, new_name in column_mapping.items():
+            if old_name in pred_data.columns:
+                pred_data[new_name] = pred_data[old_name]
+        
+        # Add missing columns with neutral values if needed
+        required_cols = [
+            'bullpen_fatigue_score', 'defensive_positions_score', 
+            'lineup_position_score', 'time_of_day_score'
+        ]
+        for col in required_cols:
+            if col not in pred_data.columns:
+                pred_data[col] = 0.0  # Neutral score
+        
         # Generate predictions
-        predictions = predictor.predict_ensemble(player_data)
+        predictions = predictor.predict_ensemble(pred_data)
         
         # Merge predictions with original data
         if 'player_name' in player_data.columns:
@@ -54,7 +83,7 @@ def load_ensemble_predictions(player_data):
         return result
         
     except Exception as e:
-        st.error(f"Error loading ensemble predictions: {e}")
+        st.warning(f"⚠️ Ensemble predictions unavailable: {str(e)}")
         return player_data
 
 
