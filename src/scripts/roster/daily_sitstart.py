@@ -27,10 +27,10 @@ from typing import Dict, Optional
 import json
 
 # Add src to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 # Import waiver wire analyzer
-from scripts.waiver_wire import WaiverWireAnalyzer
+from scripts.waiver.waiver_wire import WaiverWireAnalyzer
 
 
 class DailySitStartManager:
@@ -135,7 +135,7 @@ class DailySitStartManager:
         self.print_header("STEP 2: Run All Factor Analyses (20 Factors)")
         
         # Run the consolidated FA runner script with target date
-        script_path = self.project_root / "src" / "scripts" / "run_all_fa.py"
+        script_path = self.project_root / "src" / "scripts" / "fa" / "run_all_fa.py"
         target_date_str = self.target_date.strftime("%Y-%m-%d")
         
         # First run: All players (for waiver wire)
@@ -197,7 +197,7 @@ class DailySitStartManager:
         print("This may take several minutes depending on roster size...\n")
         
         # Check if backtest script exists
-        backtest_script = self.scripts_dir / "backtest_weights.py"
+        backtest_script = self.scripts_dir / "weight" / "backtest_weights.py"
         if not backtest_script.exists():
             print("⚠️  Backtest script not found - skipping weight tuning")
             print("    Using default weights for recommendations")
@@ -583,7 +583,7 @@ class DailySitStartManager:
             
             if fa_scores_df.empty:
                 print("  ⚠️  No all-player analysis found!")
-                print("  💡 Run: python src/scripts/run_all_fa.py --all-players")
+                print("  💡 Run: python src/scripts/fa/run_all_fa.py --all-players")
                 print("\n  Showing drop candidates from current roster only...\n")
             else:
                 print(f"  ✓ Loaded {len(fa_scores_df)} free agents")
@@ -765,8 +765,8 @@ Run 30 minutes before game time for optimal decisions.
     
     args = parser.parse_args()
     
-    # Get project root
-    project_root = Path(__file__).parent.parent.parent
+    # Get project root (daily_sitstart.py -> roster -> scripts -> src -> project_root)
+    project_root = Path(__file__).parent.parent.parent.parent
     
     # Create manager
     manager = DailySitStartManager(project_root, args.date)
