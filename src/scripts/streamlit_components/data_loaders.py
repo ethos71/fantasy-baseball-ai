@@ -98,9 +98,14 @@ def load_recommendations_data(filepath, team_filter):
         )
         
         # Fill NaN with Hitter (assume hitter if unknown)
-        df['player_type'].fillna('Hitter', inplace=True)
-        # Clean up position column and abbreviate with Yahoo position for SP/RP distinction
-        df['position'].fillna('Unknown', inplace=True)
+        df['player_type'] = df['player_type'].fillna('Hitter')
+        
+        # Clean up position column - use Yahoo position as fallback if MLB position is missing
+        df['position'] = df.apply(
+            lambda row: row['yahoo_pos'] if (pd.isna(row['position']) or row['position'] == '') else row['position'],
+            axis=1
+        )
+        df['position'] = df['position'].fillna('Unknown')
         df['position'] = df.apply(lambda row: abbreviate_position(row['position'], row['player_name'], row['yahoo_pos']), axis=1)
         # Add player_key for Yahoo links
         df['player_key'] = df['player_name'].map(yahoo_player_keys).fillna('')
